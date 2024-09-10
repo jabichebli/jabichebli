@@ -1,5 +1,5 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/944e2796-5f57-424f-a2aa-37e038ec4126" alt="image"/></p>
-![image](https://github.com/user-attachments/assets/9c1cb10f-1e92-45f8-b48a-8053c56fde19)
+<p align="center"><img src="https://github.com/user-attachments/assets/9c1cb10f-1e92-45f8-b48a-8053c56fde19" alt="image"/></p>
 
 
 <h1 align="center"> Hi, I'm Jason 👋 and Welcome to my Github! 🚀</h1>
