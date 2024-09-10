@@ -1,4 +1,5 @@
-<p align="center"><img src="https://github.com/user-attachments/assets/f05a3950-351c-4e3c-9164-3bfed0e7c80f" alt="image"/></p>
+<p align="center"><img src="https://github.com/user-attachments/assets/e37e8fcc-fee4-48c9-b3e1-fee789cf10df" alt="image"/></p>
+
 <h1 align="center"> 🚀 Welcome! 🚀</h1>
 <h3 align="center">I dabble in a bit of code.... 😉</h3>
 
