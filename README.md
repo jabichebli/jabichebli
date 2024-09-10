@@ -1,14 +1,13 @@
-![image](![image](https://github.com/user-attachments/assets/8be623d4-a29e-4f1f-8806-309d5f5e89c9))
 <h1 align="center"> 🚀 Welcome! 🚀</h1>
 <h3 align="center">I dabble in a bit of code.... 😉</h3>
 
-- 🔭 I’m currently working on **visualising earthquake activity**
+- 🔭 I’m currently working on **visualising earthquake activity, creating my portfolio website and making a library database**
 
 - 🌱 I’m currently learning **Bootstrap, VegaLite, NoSQL**
 
 - 👨‍💻 All of my projects are available at [https://jasonabichebli.weebly.com/](https://jasonabichebli.weebly.com/)
 
-- 💬 Ask me about **cool stuff**
+- 💬 Ask me about **what I like more, software or hardware!**
 
 - ⚡ Fun fact **I was born in South Africa but learnt German as a first language :)**
 
