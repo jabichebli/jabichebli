@@ -1,5 +1,5 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/944e2796-5f57-424f-a2aa-37e038ec4126" alt="image"/></p>
-<h1 align="center"> 🚀 Welcome! 🚀</h1>
+<h1 align="center"> Hi 👋, I'm Jason and Welcome to my Github! 🚀</h1>
 <h3 align="center">I dabble in a bit of code.... 😉</h3>
 
 - 🔭 I’m currently working on **visualising earthquake activity, creating my portfolio website and making a library database**
