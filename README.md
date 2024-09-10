@@ -1,5 +1,6 @@
-<h1 align="center">Hi 👋, I'm Jason</h1>
-<h3 align="center">A passionate problem solver from Australia</h3>
+
+<h1 align="center"> 🚀 Welcome! 🚀</h1>
+<h3 align="center">I dabble in a bit of code.... 😉</h3>
 
 - 🔭 I’m currently working on **visualising earthquake activity**
 
