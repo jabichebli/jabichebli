@@ -3,8 +3,6 @@
 <h1 align="center"> Hi, I'm Jason 👋 and Welcome to my Github! 🚀</h1>
 <h3 align="center">I dabble in a bit of code.... 😉</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=jabichebli&label=Profile%20views&color=0e75b6&style=flat" alt="jabichebli" /> </p>
-
 - 🔭 I’m currently working on **visualising earthquake activity, creating my portfolio website and making a library database**
 
 - 🌱 I’m currently learning **Bootstrap, VegaLite, NoSQL**
@@ -14,6 +12,7 @@
 - 💬 Ask me about **what I like more, software or hardware!**
 
 - ⚡ Fun fact **I was born in South Africa but learnt German as a first language :)**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/jason-abi-chebli" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/jason-abi-chebli" height="30" width="40" /></a>
