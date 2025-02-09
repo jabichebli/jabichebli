@@ -4,6 +4,32 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
+/* For the drop downs */
+
+document.querySelectorAll(".select-menu").forEach(menu => {
+    const selectBtn = menu.querySelector(".select-btn");
+
+    selectBtn.addEventListener("click", () => {
+        menu.classList.toggle("active");
+    });
+});
+
+/* For the Main Menu */
+
+document.addEventListener("DOMContentLoaded", function () {
+    let links = document.querySelectorAll("#menu a");
+    let currentPage = window.location.pathname.split("/").pop(); // Get current page filename
+
+    links.forEach(link => {
+        if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active"); // Add 'active' class to the current page
+        } else {
+            link.classList.remove("active"); // Remove from others
+        }
+    });
+});
+
 (function($) {
 
 	var $window = $(window),

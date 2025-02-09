@@ -1,37 +1,172 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
-/* Style for the Navigation Menu */
+
+/* HERO IMAGE */
+#hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px; /* Adjust height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    color: white;
+	width: 71.5%;
+	margin-left: 27%;
+	margin-top: 2%;
+}
+
+/* Text Styling */
+#hero .hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* ABOUT PAGE */
+.container {
+	display: flex;
+	align-items: center;
+	gap: 20px; /* Space between image and text */
+}
+
+.image-container img {
+	width: 250px; /* Adjust as needed */
+	height: auto;
+	border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+.text-container {
+	flex: 1; /* Allows text to take remaining space */
+}
+
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.image-container img {
+		width: 150px;
+	}
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #E3F2FD;
+    padding: 40px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dropdown-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.select-menu {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.select-btn {
+    display: flex;
+    height: 55px;
+    background: #fff;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.select-btn i {
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.select-menu.active .select-btn i.fa-chevron-down {
+    transform: rotate(-180deg);
+}
+
+.select-menu .options {
+    display: none;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+.select-menu.active .options {
+    display: block;
+}
+
+.options li {
+    padding: 8px 10px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+.select-btn i:first-child {
+    margin-right: 10px;
+}
+
+/* NAIVATION BAR */
+
+/* Navigation Menu */
 #menu {
     list-style: none;
     padding: 0;
-    margin: 10px 0;
     text-align: center; /* Center items */
 }
 
-#menu li {
-    margin: 10px 0; /* Adds spacing between buttons */
-}
-
-/* Button Style */
+/* Default style for menu links */
 #menu a {
     display: block;
-    width: 200px; /* Fixed width for uniform buttons */
-    padding: 12px;
-    background: transparent; /* Dark background */
-    color: white;
+    width: 100%;
+    background: transparent;
+    color: black;
     text-decoration: none;
     font-size: 16px;
-    border-radius: 8px;
-    transition: 0.3s;
+    transition: background 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* When a menu item is active */
+#menu a.active {
+    background: white;
+    color: #000; 
     font-weight: bold;
 }
 
-#menu a:hover {
-    background: #f39c12; /* Highlight color */
-    color: white;
-    transform: scale(1.05); /* Slightly enlarges the button */
+/* Fix: Ensure hover works even if the link is active */
+#menu a:hover, 
+#menu a.active:hover {
+    background: #f39c12; /* Change hover color */
+    color: white; /* Change text color */
 }
+
 
 /* Responsive Design */
 @media screen and (max-width: 600px) {
