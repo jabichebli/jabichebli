@@ -4,6 +4,53 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Reviews */
+document.addEventListener("DOMContentLoaded", function () {
+    let currentIndex = 0;
+    const reviews = document.querySelectorAll('.review');
+    const indicators = document.querySelectorAll('.indicator');
+    const totalReviews = reviews.length;
+    let autoSlideInterval;
+
+    function updateReview() {
+        reviews.forEach((review, index) => {
+            review.style.display = index === currentIndex ? "block" : "none";
+        });
+
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === currentIndex);
+        });
+    }
+
+    function changeReview(direction) {
+        currentIndex = (currentIndex + direction + totalReviews) % totalReviews;
+        updateReview();
+        resetAutoSlide();
+    }
+
+    function goToReview(index) {
+        currentIndex = index;
+        updateReview();
+        resetAutoSlide();
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        autoSlideInterval = setInterval(() => changeReview(1), 8000);
+    }
+
+    // Initialize slider
+    updateReview();
+    autoSlideInterval = setInterval(() => changeReview(1), 8000);
+
+    // Attach event listeners
+    document.querySelector(".prev").addEventListener("click", () => changeReview(-1));
+    document.querySelector(".next").addEventListener("click", () => changeReview(1));
+    indicators.forEach((indicator, index) => {
+        indicator.addEventListener("click", () => goToReview(index));
+    });
+});
+
 
 /* For the drop downs */
 
