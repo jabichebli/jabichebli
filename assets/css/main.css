@@ -658,7 +658,7 @@ input, select, textarea {
 
 		.row {
 			margin-top: 0;
-			margin-left: -2.5em;
+			margin-left: 0em;
 		}
 
 			.row > * {
@@ -2900,16 +2900,16 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
+		margin-left: 32%;
 		max-width: 54em;
-		padding: 4em 4em 4em 4em;
-		width: calc(100% - 35%);
+		padding: 4em 0em 0em 4em;
+		width: calc(100% - 25%);
 	}
 
 		#main > section {
 			border-top: solid 2px #efefef;
-			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+			margin: 2em 0 0 0;
+			padding: 2em 0 1em 0;
 		}
 
 			#main > section:first-child {
