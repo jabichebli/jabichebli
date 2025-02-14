@@ -1,6 +1,69 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+
+/* Text and Images next to each other*/
+/* Flex container for the summary section */
+.summary-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px; /* Increase spacing between text and images */
+    flex-wrap: wrap;
+}
+
+/* Style for the text section */
+.summary-text {
+    flex: 2; /* Give more space to text */
+    min-width: 400px; /* Increase minimum width */
+    text-align: justify;
+}
+
+/* Style for the media section (images + video) */
+.summary-media {
+    flex: 1; /* Reduce width allocation for media */
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Make images responsive */
+.summary-media img {
+    width: 100%;
+    max-width: 250px; /* Reduce max width to prevent excessive spacing */
+	border-radius: 2px;
+}
+
+/* Make images responsive */
+.summary-media img {
+    width: 100%;
+    max-width: 300px;
+}
+
+/* YOUTUBE VIDEO */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+    margin-top: 5px; /* Reduce excess margin */
+	border-radius: 2px;
+}
+
+/* Ensure iframe takes full space */
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 /* POP UP */ 
 	/* Popup background (overlay) */
 	.popup-overlay {
@@ -56,7 +119,7 @@
     color: #333;
     background: none;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 16px;
     border-radius: 50%; /* Circular button */
     transition: background-color 0.3s ease;
 }
@@ -72,12 +135,14 @@
 	}
 
 
+
+	
 /* Navigation buttons */
 .popup-nav {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #ddd;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -96,12 +161,31 @@
 }
 
 .popup-nav:hover {
-    background-color: rgba(0, 0, 0, 0.9); /* Darker on hover */
+    background-color: #333; /* Darker on hover */
 }
 
 .popup-nav i {
     font-size: 20px; /* Icon size */
 }
+
+/* Skill bubbles */
+.skill-bubble {
+    display: inline-block;
+    background-color: #2E86C1; /* Tesla Blue */
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px;
+    cursor: default;
+    transition: transform 0.2s ease-in-out;
+}
+
+.skill-bubble:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 /* HERO IMAGE */
@@ -248,7 +332,7 @@ h2 {
 }
 
 .dropdown-container {
-    max-width: 600px;
+    max-width: 80%;
     margin: auto;
 }
 
@@ -474,7 +558,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {

@@ -139,6 +139,69 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+
+// function openPopup(index) {
+//     const item = $(".work-item").eq(index);
+//     const title = item.find("a").data("title");
+//     const skills = item.find("a").data("skills");
+//     const description = item.find("a").data("description");
+//     const images = item.find("a").data("images");
+//     const links = item.find("a").data("links");
+
+//     // Generate Skill Bubbles
+//     const skillBubbles = skills.split(",").map(skill => {
+//         let category = "design";
+//         if (skill.toLowerCase().includes("data")) category = "analysis";
+//         if (skill.toLowerCase().includes("prototype")) category = "prototype";
+//         return `<span class="skill-bubble ${category}">${skill.trim()}</span>`;
+//     }).join("");
+
+//     let popupContent = `
+//         <h2>${title}</h2>
+
+//         <div class="dropdown">
+//             <div class="dropdown-title">Skills</div>
+//             <div class="dropdown-content skill-bubbles">${skillBubbles}</div>
+//         </div>
+
+//         <div class="dropdown">
+//             <div class="dropdown-title">Brief</div>
+//             <div class="dropdown-content"><p>${description}</p></div>
+//         </div>
+//     `;
+
+//     if (images) {
+//         popupContent += `
+//             <div class="dropdown">
+//                 <div class="dropdown-title">Solution</div>
+//                 <div class="dropdown-content">
+//                     ${images.split(",").map(image => `<img src="${image}" style="width:100%; margin-top:10px;">`).join("")}
+//                 </div>
+//             </div>
+//         `;
+//     }
+
+//     if (links) {
+//         popupContent += `
+//             <div class="dropdown">
+//                 <div class="dropdown-title">Links</div>
+//                 <div class="dropdown-content">
+//                     <a href="${links}" target="_blank">${links}</a>
+//                 </div>
+//             </div>
+//         `;
+//     }
+
+//     $(".popup-content").html(popupContent);
+//     $(".popup-overlay, .popup-container").fadeIn();
+// }
+
+// // Toggle dropdowns
+// $(document).on("click", ".dropdown-title", function () {
+//     $(this).next(".dropdown-content").slideToggle();
+// });
+
+
 /* For the Pop-up */
 $(document).ready(function () {
     let currentIndex = 0; // Track the index of the current item
@@ -146,57 +209,101 @@ $(document).ready(function () {
     // Function to open the popup and update the content
     function openPopup(index) {
         const item = $(".work-item").eq(index); // Get the clicked item
-        const title = item.find("a").data("title");
-        const skills = item.find("a").data("skills");
-        const description = item.find("a").data("description");
-        const images = item.find("a").data("images");
-        const videos = item.find("a").data("videos");
-        const documents = item.find("a").data("documents");
-        const links = item.find("a").data("links");
 
         // Build the popup content dynamically
         let popupContent = `
-            <h2>${title}</h2>
-            <p><strong>Skills:</strong> ${skills}</p>
-            <p><strong>Description:</strong> ${description}</p>
-        `;
-
-        // Add images if available
-        if (images) {
-            popupContent += `
-                <div class="images">
-                    ${images.split(",").map(image => `<img src="${image}" alt="${title}" style="width:40%; margin-bottom:10px;">`).join("")}
+        <h2>Tesla | Mechanical Design Engineer Intern</h2>
+        <div class="dropdown-container">
+    
+            <!-- Skills -->
+            <div class="select-menu">
+                <div class="select-btn">
+                    <i class="fa-solid fa-lightbulb" style="color: #F4D03F;"></i>
+                    <span class="sBtn-text">Skills</span>
+                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
-            `;
-        }
-
-        // Add video if available
-        if (videos) {
-            popupContent += `
-                <div class="video">
-                    <iframe width="100%" height="315" src="${videos}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="options" style="text-align: center;">
+                    <span class="skill-bubble design">Mechanical Design</span>
+                    <span class="skill-bubble analysis">CATIA</span>
+                    <span class="skill-bubble prototype">Prototyping</span>
+                    <span class="skill-bubble prototype">Thermal Systems</span>
+                    <span class="skill-bubble prototype">Cross-functional Collaboration</span>
+                    <span class="skill-bubble prototype">Manufacturing Optimization</span>
+                    <span class="skill-bubble prototype">Test Planning</span>
+                    <span class="skill-bubble prototype">First-Principles Engineering</span>
+                    <span class="skill-bubble prototype">Data Analysis</span>
+                </p>
+            </div>
+    
+            <!-- Brief or Job Description -->
+            <div class="select-menu">
+                <div class="select-btn">
+                    <i class="fa-solid fa-file-alt" style="color: #28B463;"></i>
+                    <span class="sBtn-text">Job Description</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>    
+                <div class="options">
+                      <div class="pdf-container">
+                          <iframe src="documents/mechanical/Tesla/Job_Description.pdf" width="100%" height="600px"></iframe>
+                      </div>
                 </div>
-            `;
-        }
-
-        // Add documents if available
-        if (documents) {
-            popupContent += `
-                <div class="documents">
-                    <p><strong>Documents:</strong></p>
-                    ${documents.split(",").map(doc => `<a href="${doc}" target="_blank" class="document-link">${doc}</a>`).join("<br>")}
+            </div>
+    
+            <!-- Solution or Summary -->
+            <div class="select-menu">
+                <div class="select-btn">
+                    <i class="fa-solid fa-align-left" style="color: #E67E22;"></i>
+                    <span class="sBtn-text">Summary</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>    
+                <div class="options">
+                    <div class="summary-container">
+                        
+                        <!-- Left: Text Content -->
+                        <div class="summary-text">
+                            <p>
+                                Tesla, one of the leading electric vehicle companies, has a mission to accelerate the world's transition to sustainable energy.<br><br>
+                                After undergoing a highly competitive global application process, Jason was fortunate to secure a Mechanical Design Engineering internship within Tesla's Thermal Team. Based in Silicon Valley, Jason's role focuses on spearheading the design, testing, and prototyping of mechanical components and systems for current and future Tesla vehicles and product programs.<br><br>
+                                Applying his strong first-principles engineering, Jason ensures that his CATIA designs are not only robust but also efficient. He meticulously balances cost and mass optimization, always striving for excellence.<br><br>
+                                Despite officially being an 'intern,' Jason's projects and commitments mirror those of a full-time employee due to the lean team structure. As such, Jason serves as a lead designer for certain thermal components in two future vehicles, involved in every step from concept inception to global manufacturing scale.
+                            </p>
+                        </div>
+    
+                        <!-- Right: Images & Video -->
+                        <div class="summary-media">
+                            <img src="images/mechanical/Tesla/Tesla_Factory.jpg" alt="Tesla Factory">
+                            <img src="images/mechanical/Tesla/Tesla_Fremont.jpg" alt="Tesla Fremont Factory">
+                            
+                            <!-- Embedded YouTube Video -->
+                            <div class="video-container">
+                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/Qfj4urMF8CU" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+    
+                    </div>
                 </div>
-            `;
-        }
-
-        // Add links if available
-        if (links) {
-            popupContent += `
-                <div class="links">
-                    <p><strong>Project Link:</strong> <a href="${links}" target="_blank">${links}</a></p>
+            </div>
+    
+            <!-- Links -->
+            <div class="select-menu">
+                <div class="select-btn">
+                    <i class="fa-solid fa-link" style="color: #9B59B6;"></i>
+                    <span class="sBtn-text">Links and Resources</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>    
+                <div class="options">
+                      <a href="https://www.tesla.com/" target="_blank" style="display: block; margin-bottom: 10px;">
+                          <i class="fa-solid fa-globe"></i> Tesla Website
+                      </a>
+                      <a href="https://www.linkedin.com/posts/jason-abi-chebli_tesla-mechanicaldesignengineer-intern-activity-7212982421015650305-DI19?utm_source=share&utm_medium=member_desktop" target="_blank" style="display: block; margin-bottom: 10px;">
+                          <i class="fa-brands fa-linkedin"></i> LinkedIn Post
+                      </a>
                 </div>
-            `;
-        }
+            </div>
+    
+        </div>
+    `;
+    
 
         // Inject the content into the popup
         $(".popup-content").html(popupContent);
@@ -206,6 +313,11 @@ $(document).ready(function () {
 
         // Add the class to blur the background
         $("body").addClass("popup-open");
+
+		// Add event listener so drop downs can be toggled
+		$(".select-btn").off("click").on("click", function () {
+			$(this).parent().toggleClass("active");
+		});
     }
 
     // Open the popup when an item is clicked
@@ -239,6 +351,108 @@ $(document).ready(function () {
         openPopup(currentIndex);
     });
 });
+
+
+// /* For the Pop-up */
+// $(document).ready(function () {
+//     let currentIndex = 0; // Track the index of the current item
+
+//     // Function to open the popup and update the content
+//     function openPopup(index) {
+//         const item = $(".work-item").eq(index); // Get the clicked item
+//         const title = item.find("a").data("title");
+//         const skills = item.find("a").data("skills");
+//         const description = item.find("a").data("description");
+//         const images = item.find("a").data("images");
+//         const videos = item.find("a").data("videos");
+//         const documents = item.find("a").data("documents");
+//         const links = item.find("a").data("links");
+
+//         // Build the popup content dynamically
+//         let popupContent = `
+//             <h2>${title}</h2>
+//             <p><strong>Skills:</strong> ${skills}</p>
+//             <p><strong>Description:</strong> ${description}</p>
+//         `;
+
+//         // Add images if available
+//         if (images) {
+//             popupContent += `
+//                 <div class="images">
+//                     ${images.split(",").map(image => `<img src="${image}" alt="${title}" style="width:40%; margin-bottom:10px;">`).join("")}
+//                 </div>
+//             `;
+//         }
+
+//         // Add video if available
+//         if (videos) {
+//             popupContent += `
+//                 <div class="video">
+//                     <iframe width="100%" height="315" src="${videos}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+//                 </div>
+//             `;
+//         }
+
+//         // Add documents if available
+//         if (documents) {
+//             popupContent += `
+//                 <div class="documents">
+//                     <p><strong>Documents:</strong></p>
+//                     ${documents.split(",").map(doc => `<a href="${doc}" target="_blank" class="document-link">${doc}</a>`).join("<br>")}
+//                 </div>
+//             `;
+//         }
+
+//         // Add links if available
+//         if (links) {
+//             popupContent += `
+//                 <div class="links">
+//                     <p><strong>Project Link:</strong> <a href="${links}" target="_blank">${links}</a></p>
+//                 </div>
+//             `;
+//         }
+
+//         // Inject the content into the popup
+//         $(".popup-content").html(popupContent);
+
+//         // Show the popup and overlay
+//         $(".popup-overlay, .popup-container").fadeIn();
+
+//         // Add the class to blur the background
+//         $("body").addClass("popup-open");
+//     }
+
+//     // Open the popup when an item is clicked
+//     $(".work-item a").on("click", function (e) {
+//         e.preventDefault();
+//         currentIndex = $(this).closest(".work-item").index(); // Get the index of the clicked item
+//         openPopup(currentIndex);
+//     });
+
+//     // Close the popup when the close button is clicked
+//     $(".popup-close").on("click", function () {
+//         $(".popup-overlay, .popup-container").fadeOut();
+//         $("body").removeClass("popup-open");
+//     });
+
+//     // Close the popup when the overlay is clicked
+//     $(".popup-overlay").on("click", function () {
+//         $(".popup-overlay, .popup-container").fadeOut();
+//         $("body").removeClass("popup-open");
+//     });
+
+//     // Left navigation button (previous item)
+//     $(".popup-nav.left").on("click", function () {
+//         currentIndex = (currentIndex === 0) ? $(".work-item").length - 1 : currentIndex - 1;
+//         openPopup(currentIndex);
+//     });
+
+//     // Right navigation button (next item)
+//     $(".popup-nav.right").on("click", function () {
+//         currentIndex = (currentIndex === $(".work-item").length - 1) ? 0 : currentIndex + 1;
+//         openPopup(currentIndex);
+//     });
+// });
 
 /*
 	Strata by HTML5 UP
