@@ -202,155 +202,262 @@ document.addEventListener("DOMContentLoaded", function () {
 // });
 
 
-/* For the Pop-up */
+
 $(document).ready(function () {
-    let currentIndex = 0; // Track the index of the current item
+  let currentIndex = 0; // Track the index of the current item
+  let projectsData = []; // Store projects data from JSON
 
-    // Function to open the popup and update the content
-    function openPopup(index) {
-        const item = $(".work-item").eq(index); // Get the clicked item
+  // Fetch JSON data once when the page loads
+  fetch("JSON/mechanicalTest.JSON")
+      .then(response => response.json())
+      .then(data => {
+          projectsData = data.projects; // Store projects globally
+      })
+      .catch(error => console.error("Error loading JSON:", error));
 
-        // Build the popup content dynamically
-        let popupContent = `
-        <h2>Tesla | Mechanical Design Engineer Intern</h2>
-        <div class="dropdown-container">
-    
-            <!-- Skills -->
-            <div class="select-menu">
-                <div class="select-btn">
-                    <i class="fa-solid fa-lightbulb" style="color: #F4D03F;"></i>
-                    <span class="sBtn-text">Skills</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <p class="options" style="text-align: center;">
-                    <span class="skill-bubble design">Mechanical Design</span>
-                    <span class="skill-bubble analysis">CATIA</span>
-                    <span class="skill-bubble prototype">Prototyping</span>
-                    <span class="skill-bubble prototype">Thermal Systems</span>
-                    <span class="skill-bubble prototype">Cross-functional Collaboration</span>
-                    <span class="skill-bubble prototype">Manufacturing Optimization</span>
-                    <span class="skill-bubble prototype">Test Planning</span>
-                    <span class="skill-bubble prototype">First-Principles Engineering</span>
-                    <span class="skill-bubble prototype">Data Analysis</span>
-                </p>
-            </div>
-    
-            <!-- Brief or Job Description -->
-            <div class="select-menu">
-                <div class="select-btn">
-                    <i class="fa-solid fa-file-alt" style="color: #28B463;"></i>
-                    <span class="sBtn-text">Job Description</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>    
-                <div class="options">
-                      <div class="pdf-container">
-                          <iframe src="documents/mechanical/Tesla/Job_Description.pdf" width="100%" height="600px"></iframe>
-                      </div>
-                </div>
-            </div>
-    
-            <!-- Solution or Summary -->
-            <div class="select-menu">
-                <div class="select-btn">
-                    <i class="fa-solid fa-align-left" style="color: #E67E22;"></i>
-                    <span class="sBtn-text">Summary</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>    
-                <div class="options">
-                    <div class="summary-container">
-                        
-                        <!-- Left: Text Content -->
-                        <div class="summary-text">
-                            <p>
-                                Tesla, one of the leading electric vehicle companies, has a mission to accelerate the world's transition to sustainable energy.<br><br>
-                                After undergoing a highly competitive global application process, Jason was fortunate to secure a Mechanical Design Engineering internship within Tesla's Thermal Team. Based in Silicon Valley, Jason's role focuses on spearheading the design, testing, and prototyping of mechanical components and systems for current and future Tesla vehicles and product programs.<br><br>
-                                Applying his strong first-principles engineering, Jason ensures that his CATIA designs are not only robust but also efficient. He meticulously balances cost and mass optimization, always striving for excellence.<br><br>
-                                Despite officially being an 'intern,' Jason's projects and commitments mirror those of a full-time employee due to the lean team structure. As such, Jason serves as a lead designer for certain thermal components in two future vehicles, involved in every step from concept inception to global manufacturing scale.
-                            </p>
-                        </div>
-    
-                        <!-- Right: Images & Video -->
-                        <div class="summary-media">
-                            <img src="images/mechanical/Tesla/Tesla_Factory.jpg" alt="Tesla Factory">
-                            <img src="images/mechanical/Tesla/Tesla_Fremont.jpg" alt="Tesla Fremont Factory">
-                            
-                            <!-- Embedded YouTube Video -->
-                            <div class="video-container">
-                                <iframe width="100%" height="200" src="https://www.youtube.com/embed/Qfj4urMF8CU" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Links -->
-            <div class="select-menu">
-                <div class="select-btn">
-                    <i class="fa-solid fa-link" style="color: #9B59B6;"></i>
-                    <span class="sBtn-text">Links and Resources</span>
-                    <i class="fa-solid fa-chevron-down"></i>
-                </div>    
-                <div class="options">
-                      <a href="https://www.tesla.com/" target="_blank" style="display: block; margin-bottom: 10px;">
-                          <i class="fa-solid fa-globe"></i> Tesla Website
-                      </a>
-                      <a href="https://www.linkedin.com/posts/jason-abi-chebli_tesla-mechanicaldesignengineer-intern-activity-7212982421015650305-DI19?utm_source=share&utm_medium=member_desktop" target="_blank" style="display: block; margin-bottom: 10px;">
-                          <i class="fa-brands fa-linkedin"></i> LinkedIn Post
-                      </a>
-                </div>
-            </div>
-    
-        </div>
-    `;
-    
+  // Function to open the popup and update the content
+  function openPopup(index) {
+      if (!projectsData.length) {
+          console.error("No projects loaded yet.");
+          return;
+      }
 
-        // Inject the content into the popup
-        $(".popup-content").html(popupContent);
+      const project = projectsData[index]; // Get the project based on index
 
-        // Show the popup and overlay
-        $(".popup-overlay, .popup-container").fadeIn();
+      let popupContent = `
+          <h2>${project.title}</h2>
+          <div class="dropdown-container">
+      `;
 
-        // Add the class to blur the background
-        $("body").addClass("popup-open");
+      project.dropdowns.forEach(dropdown => {
+          popupContent += `
+              <div class="select-menu">
+                  <div class="select-btn">
+                      <i class="${dropdown.icon}" style="color: ${dropdown.iconColor};"></i>
+                      <span class="sBtn-text">${dropdown.title}</span>
+                      <i class="fa-solid fa-chevron-down"></i>
+                  </div>
+                  <div class="options">
+          `;
 
-		// Add event listener so drop downs can be toggled
-		$(".select-btn").off("click").on("click", function () {
-			$(this).parent().toggleClass("active");
-		});
-    }
+          if (dropdown.items) {
+              dropdown.items.forEach(item => {
+                  if (item.name) {
+                      // Handle Skills
+                      popupContent += `<span class="skill-bubble">${item.name}</span>`;
+                  } else if (item.text) {
+                      // Handle HTML content (Job Description, Summary, Links, etc.)
+                      popupContent += item.text;
+                  }
+              });
+          }
 
-    // Open the popup when an item is clicked
-    $(".work-item a").on("click", function (e) {
-        e.preventDefault();
-        currentIndex = $(this).closest(".work-item").index(); // Get the index of the clicked item
-        openPopup(currentIndex);
-    });
+          popupContent += `
+                  </div>
+              </div>
+          `;
+      });
 
-    // Close the popup when the close button is clicked
-    $(".popup-close").on("click", function () {
-        $(".popup-overlay, .popup-container").fadeOut();
-        $("body").removeClass("popup-open");
-    });
+      popupContent += `</div>`;
 
-    // Close the popup when the overlay is clicked
-    $(".popup-overlay").on("click", function () {
-        $(".popup-overlay, .popup-container").fadeOut();
-        $("body").removeClass("popup-open");
-    });
+      // Inject the content into the popup
+      $(".popup-content").html(popupContent);
 
-    // Left navigation button (previous item)
-    $(".popup-nav.left").on("click", function () {
-        currentIndex = (currentIndex === 0) ? $(".work-item").length - 1 : currentIndex - 1;
-        openPopup(currentIndex);
-    });
+      // Show the popup and overlay
+      $(".popup-overlay, .popup-container").fadeIn();
+      $("body").addClass("popup-open");
 
-    // Right navigation button (next item)
-    $(".popup-nav.right").on("click", function () {
-        currentIndex = (currentIndex === $(".work-item").length - 1) ? 0 : currentIndex + 1;
-        openPopup(currentIndex);
-    });
+      // Enable dropdown toggling
+      $(".select-btn").off("click").on("click", function () {
+          $(this).parent().toggleClass("active");
+      });
+  }
+
+  // Open the popup when an item is clicked
+  $(".work-item a").on("click", function (e) {
+      e.preventDefault();
+      currentIndex = $(this).closest(".work-item").index(); // Get index of clicked item
+      openPopup(currentIndex);
+  });
+
+  // Close the popup when the close button is clicked
+  $(".popup-close").on("click", function () {
+      $(".popup-overlay, .popup-container").fadeOut();
+      $("body").removeClass("popup-open");
+  });
+
+  // Close the popup when the overlay is clicked
+  $(".popup-overlay").on("click", function () {
+      $(".popup-overlay, .popup-container").fadeOut();
+      $("body").removeClass("popup-open");
+  });
+
+  // Left navigation button (previous item)
+  $(".popup-nav.left").on("click", function () {
+      currentIndex = (currentIndex === 0) ? $(".work-item").length - 1 : currentIndex - 1;
+      openPopup(currentIndex);
+  });
+
+  // Right navigation button (next item)
+  $(".popup-nav.right").on("click", function () {
+      currentIndex = (currentIndex === $(".work-item").length - 1) ? 0 : currentIndex + 1;
+      openPopup(currentIndex);
+  });
 });
+
+
+
+
+
+// /* For the Pop-up */
+// $(document).ready(function () {
+//     let currentIndex = 0; // Track the index of the current item
+
+//     // Function to open the popup and update the content
+//     function openPopup(index) {
+//         const item = $(".work-item").eq(index); // Get the clicked item
+
+//         // Build the popup content dynamically
+//         let popupContent = `
+//         <h2>Tesla | Mechanical Design Engineer Intern</h2>
+//         <div class="dropdown-container">
+    
+//             <!-- Skills -->
+//             <div class="select-menu">
+//                 <div class="select-btn">
+//                     <i class="fa-solid fa-lightbulb" style="color: #F4D03F;"></i>
+//                     <span class="sBtn-text">Skills</span>
+//                     <i class="fa-solid fa-chevron-down"></i>
+//                 </div>
+//                 <p class="options" style="text-align: center;">
+//                     <span class="skill-bubble design">Mechanical Design</span>
+//                     <span class="skill-bubble analysis">CATIA</span>
+//                     <span class="skill-bubble prototype">Prototyping</span>
+//                     <span class="skill-bubble prototype">Thermal Systems</span>
+//                     <span class="skill-bubble prototype">Cross-functional Collaboration</span>
+//                     <span class="skill-bubble prototype">Manufacturing Optimization</span>
+//                     <span class="skill-bubble prototype">Test Planning</span>
+//                     <span class="skill-bubble prototype">First-Principles Engineering</span>
+//                     <span class="skill-bubble prototype">Data Analysis</span>
+//                 </p>
+//             </div>
+    
+//             <!-- Brief or Job Description -->
+//             <div class="select-menu">
+//                 <div class="select-btn">
+//                     <i class="fa-solid fa-file-alt" style="color: #28B463;"></i>
+//                     <span class="sBtn-text">Job Description</span>
+//                     <i class="fa-solid fa-chevron-down"></i>
+//                 </div>    
+//                 <div class="options">
+//                       <div class="pdf-container">
+//                           <iframe src="documents/mechanical/Tesla/Job_Description.pdf" width="100%" height="600px"></iframe>
+//                       </div>
+//                 </div>
+//             </div>
+    
+//             <!-- Solution or Summary -->
+//             <div class="select-menu">
+//                 <div class="select-btn">
+//                     <i class="fa-solid fa-align-left" style="color: #E67E22;"></i>
+//                     <span class="sBtn-text">Summary</span>
+//                     <i class="fa-solid fa-chevron-down"></i>
+//                 </div>    
+//                 <div class="options">
+//                     <div class="summary-container">
+                        
+//                         <!-- Left: Text Content -->
+//                         <div class="summary-text">
+//                             <p>
+//                                 Tesla, one of the leading electric vehicle companies, has a mission to accelerate the world's transition to sustainable energy.<br><br>
+//                                 After undergoing a highly competitive global application process, Jason was fortunate to secure a Mechanical Design Engineering internship within Tesla's Thermal Team. Based in Silicon Valley, Jason's role focuses on spearheading the design, testing, and prototyping of mechanical components and systems for current and future Tesla vehicles and product programs.<br><br>
+//                                 Applying his strong first-principles engineering, Jason ensures that his CATIA designs are not only robust but also efficient. He meticulously balances cost and mass optimization, always striving for excellence.<br><br>
+//                                 Despite officially being an 'intern,' Jason's projects and commitments mirror those of a full-time employee due to the lean team structure. As such, Jason serves as a lead designer for certain thermal components in two future vehicles, involved in every step from concept inception to global manufacturing scale.
+//                             </p>
+//                         </div>
+    
+//                         <!-- Right: Images & Video -->
+//                         <div class="summary-media">
+//                             <img src="images/mechanical/Tesla/Tesla_Factory.jpg" alt="Tesla Factory">
+//                             <img src="images/mechanical/Tesla/Tesla_Fremont.jpg" alt="Tesla Fremont Factory">
+                            
+//                             <!-- Embedded YouTube Video -->
+//                             <div class="video-container">
+//                                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/Qfj4urMF8CU" frameborder="0" allowfullscreen></iframe>
+//                             </div>
+//                         </div>
+    
+//                     </div>
+//                 </div>
+//             </div>
+    
+//             <!-- Links -->
+//             <div class="select-menu">
+//                 <div class="select-btn">
+//                     <i class="fa-solid fa-link" style="color: #9B59B6;"></i>
+//                     <span class="sBtn-text">Links and Resources</span>
+//                     <i class="fa-solid fa-chevron-down"></i>
+//                 </div>    
+//                 <div class="options">
+//                       <a href="https://www.tesla.com/" target="_blank" style="display: block; margin-bottom: 10px;">
+//                           <i class="fa-solid fa-globe"></i> Tesla Website
+//                       </a>
+//                       <a href="https://www.linkedin.com/posts/jason-abi-chebli_tesla-mechanicaldesignengineer-intern-activity-7212982421015650305-DI19?utm_source=share&utm_medium=member_desktop" target="_blank" style="display: block; margin-bottom: 10px;">
+//                           <i class="fa-brands fa-linkedin"></i> LinkedIn Post
+//                       </a>
+//                 </div>
+//             </div>
+    
+//         </div>
+//     `;
+    
+
+//         // Inject the content into the popup
+//         $(".popup-content").html(popupContent);
+
+//         // Show the popup and overlay
+//         $(".popup-overlay, .popup-container").fadeIn();
+
+//         // Add the class to blur the background
+//         $("body").addClass("popup-open");
+
+// 		// Add event listener so drop downs can be toggled
+// 		$(".select-btn").off("click").on("click", function () {
+// 			$(this).parent().toggleClass("active");
+// 		});
+//     }
+
+//     // Open the popup when an item is clicked
+//     $(".work-item a").on("click", function (e) {
+//         e.preventDefault();
+//         currentIndex = $(this).closest(".work-item").index(); // Get the index of the clicked item
+//         openPopup(currentIndex);
+//     });
+
+//     // Close the popup when the close button is clicked
+//     $(".popup-close").on("click", function () {
+//         $(".popup-overlay, .popup-container").fadeOut();
+//         $("body").removeClass("popup-open");
+//     });
+
+//     // Close the popup when the overlay is clicked
+//     $(".popup-overlay").on("click", function () {
+//         $(".popup-overlay, .popup-container").fadeOut();
+//         $("body").removeClass("popup-open");
+//     });
+
+//     // Left navigation button (previous item)
+//     $(".popup-nav.left").on("click", function () {
+//         currentIndex = (currentIndex === 0) ? $(".work-item").length - 1 : currentIndex - 1;
+//         openPopup(currentIndex);
+//     });
+
+//     // Right navigation button (next item)
+//     $(".popup-nav.right").on("click", function () {
+//         currentIndex = (currentIndex === $(".work-item").length - 1) ? 0 : currentIndex + 1;
+//         openPopup(currentIndex);
+//     });
+// });
 
 
 // /* For the Pop-up */
