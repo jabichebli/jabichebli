@@ -11,6 +11,9 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- Font Awesome for Icons -->
+	
 </head>
 
 <body class="is-preload">
@@ -217,23 +220,24 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
-	    <!-- Popup Overlay and Popup Container -->
-		<div class="popup-overlay"></div>
-		<div class="popup-container">
-			<span class="popup-close">&times;</span>
-			<div class="popup-content">
-				<!-- Content will be injected here by JS -->
-			</div>
-	
-				<!-- Navigation Buttons -->
-				<button class="popup-nav left" onclick="changePopupContent(-1)">
-					<i class="fas fa-chevron-left"></i> <!-- Left Arrow -->
-				</button>
-				<button class="popup-nav right" onclick="changePopupContent(1)">
-					<i class="fas fa-chevron-right"></i> <!-- Right Arrow -->
-				</button>
-	
+	<!-- Popup Overlay and Popup Container -->
+	<div class="popup-overlay"></div>
+	<div class="popup-container">
+		<span class="popup-close">
+			<i class="fas fa-times"></i> <!-- Font Awesome close icon -->
+		</span>
+		<div class="popup-content">
+			<!-- Content will be injected here by JS -->
 		</div>
 
+			<!-- Navigation Buttons -->
+			<button class="popup-nav left" onclick="changePopupContent(-1)">
+				<i class="fas fa-chevron-left"></i> <!-- Left Arrow -->
+			</button>
+			<button class="popup-nav right" onclick="changePopupContent(1)">
+				<i class="fas fa-chevron-right"></i> <!-- Right Arrow -->
+			</button>
+
+	</div>
 	</body>
 </html>

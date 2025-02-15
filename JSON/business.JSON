@@ -1,0 +1,302 @@
+{
+    "projects": [
+        {
+            "title": "StartMate Student Fellowship 2025",
+            "dropdowns": [
+              {
+                "title": "Skills",
+                "icon": "fa-solid fa-lightbulb",
+                "iconColor": "#F4D03F",
+                "items": [
+                  { "name": "Startup Fundamentals", "color": "#FF5733" },
+                  { "name": "Idea Generation", "color": "#33FF57" },
+                  { "name": "Customer Engagement", "color": "#3357FF" },
+                  { "name": "Product Development", "color": "#F4D03F" },
+                  { "name": "Pitching to Investors", "color": "#9B59B6" },
+                  { "name": "Networking", "color": "#33FF57" },
+                  { "name": "Team Collaboration", "color": "#3357FF" }
+                ]
+              },
+              {
+                "title": "Job Description",
+                "icon": "fa-solid fa-file-alt",
+                "iconColor": "#28B463",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "title": "Summary",
+                "icon": "fa-solid fa-align-left",
+                "iconColor": "#E67E22",
+                "items": [
+                  {
+                    "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I am honored to have been selected for the Startmate Student Fellowship Program, a prestigious startup bootcamp. Over two weeks, I delved deep into the startup ecosystem, collaborating with a diverse group of driven students from across Australia and New Zealand. Together, we generated and validated business ideas, engaged directly with potential customers, and developed prototype products. The program provided invaluable mentorship from industry leaders and culminated in pitching our startup concepts to top investors. This experience has equipped me with a comprehensive understanding of startup dynamics and has fueled my passion for entrepreneurship.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/StartMate/Culture_Amp.jpg\" alt=\"Culture Amp\">\n    <img src=\"images/business/StartMate/Culture_Amp_Speakers.jpg\" alt=\"Culture Amp Speakers\">\n    <img src=\"images/business/StartMate/StartMate_Notion.png\" alt=\"StartMate Fellowship Notion Page\">\n  </div>\n</div>"
+                  }
+                ]
+              },
+              {
+                "title": "Links and Resources",
+                "icon": "fa-solid fa-link",
+                "iconColor": "#9B59B6",
+                "items": [
+                  {
+                    "text": "<a href=\"https://www.startmate.com/program/student-fellowship\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> StartMate Student Fellowship Program\n</a>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SunAware",
+            "dropdowns": [
+              {
+                "title": "Skills",
+                "icon": "fa-solid fa-lightbulb",
+                "iconColor": "#F4D03F",
+                "items": [
+                  { "name": "Startup Development", "color": "#FF5733" },
+                  { "name": "Product Management", "color": "#33FF57" },
+                  { "name": "Hardware Prototyping", "color": "#3357FF" },
+                  { "name": "Market Research", "color": "#F4D03F" },
+                  { "name": "Pitching to Investors", "color": "#9B59B6" },
+                  { "name": "Team Leadership", "color": "#33FF57" },
+                  { "name": "Rapid Prototyping", "color": "#3357FF" },
+                  { "name": "Design Thinking", "color": "#F4D03F" }
+                ]
+              },
+              {
+                "title": "Job Description",
+                "icon": "fa-solid fa-file-alt",
+                "iconColor": "#28B463",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "title": "Summary",
+                "icon": "fa-solid fa-align-left",
+                "iconColor": "#E67E22",
+                "items": [
+                  {
+                    "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      As Co-founder and CTO of SunAware, I led the development of an innovative solution to track and raise awareness about sun exposure, addressing the critical issue of skin cancer risk. Our startup was selected for an intensive Berkeley Extension accelerator program, where we transformed our idea into a validated business model.<br><br>\n      Through rapid prototyping, customer validation, and strategic mentorship, we developed a prototype and refined our market entry strategy. The experience culminated in a high-stakes pitch to Silicon Valley investors, pushing us to navigate the complexities of startup growth within an accelerated two-week timeline.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/SunAware/Pitch_Day.jpg\" alt=\"SunAware Pitch Day\">\n    <img src=\"images/business/SunAware/SunAware_Band.png\" alt=\"SunAware Band\">\n  </div>\n</div>"
+                  }
+                ]
+              },
+              {
+                "title": "Links and Resources",
+                "icon": "fa-solid fa-link",
+                "iconColor": "#9B59B6",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "UBS | Investment Banking Challenge Participant",
+            "dropdowns": [
+              {
+                "title": "Skills",
+                "icon": "fa-solid fa-lightbulb",
+                "iconColor": "#F4D03F",
+                "items": [
+                  { "name": "Financial Modeling", "color": "#FF5733" },
+                  { "name": "Valuation (DCF & LBO)", "color": "#33FF57" },
+                  { "name": "Mergers & Acquisitions", "color": "#3357FF" },
+                  { "name": "Market Research", "color": "#F4D03F" },
+                  { "name": "Strategic Thinking", "color": "#9B59B6" },
+                  { "name": "Presentation & Pitching", "color": "#33FF57" },
+                  { "name": "Private Equity", "color": "#3357FF" },
+                  { "name": "Investment Banking", "color": "#F4D03F" },
+                  { "name": "Team Collaboration", "color": "#9B59B6" }
+                ]
+              },
+              {
+                "title": "Job Description",
+                "icon": "fa-solid fa-file-alt",
+                "iconColor": "#28B463",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "title": "Summary",
+                "icon": "fa-solid fa-align-left",
+                "iconColor": "#E67E22",
+                "items": [
+                  {
+                    "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Selected as one of the top participants from over 550 applicants, I had the privilege of joining the highly competitive 2023 UBS Investment Banking (IB) Development Challenge. This program provided an immersive experience into the world of investment banking, led by UBS—one of the world’s top financial institutions.<br><br>\n      Throughout the challenge, I:  <ul>\n        <li>Engaged in intensive workshops, networking panels, and hands-on case studies to develop key industry skills.</li>\n        <li>Worked in a high-performing team to craft an acquisition strategy for a private equity client, conducting financial modeling (DCF & LBO) and market research.</li>\n        <li>Developed and presented a professional pitch deck to senior UBS bankers in Sydney, defending our recommendations in a rigorous Q&A session.</li>\n      </ul><br>\n      This experience refined my analytical and strategic thinking skills while offering firsthand exposure to the fast-paced world of investment banking.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/UBS/UBS_Office.jpg\" alt=\"UBS Office\">\n    <img src=\"images/business/UBS/UBS_Team_Photo.jpg\" alt=\"UBS Team Photo\">\n  </div>\n</div>"
+                  }
+                ]
+              },
+              {
+                "title": "Links and Resources",
+                "icon": "fa-solid fa-link",
+                "iconColor": "#9B59B6",
+                "items": [
+                  {
+                    "text": "<a href=\"documents/business/UBS/UBS IB Challenge Group 3.pdf\" target=\"_blank\">UBS IB Challenge Report - Group 3 (PDF)</a>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Monash Business School Industry & Alumni Mentoring Program | Mentee",
+            "dropdowns": [
+              {
+                "title": "Skills",
+                "icon": "fa-solid fa-lightbulb",
+                "iconColor": "#F4D03F",
+                "items": [
+                  { "name": "Business Strategy", "color": "#FF5733" },
+                  { "name": "Leadership", "color": "#33FF57" },
+                  { "name": "Professional Networking", "color": "#3357FF" },
+                  { "name": "Communication", "color": "#F4D03F" },
+                  { "name": "Career Development", "color": "#9B59B6" },
+                  { "name": "Mentorship", "color": "#33FF57" },
+                  { "name": "Industry Insights", "color": "#3357FF" },
+                  { "name": "Personal Growth", "color": "#F4D03F" }
+                ]
+              },
+              {
+                "title": "Job Description",
+                "icon": "fa-solid fa-file-alt",
+                "iconColor": "#28B463",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "title": "Summary",
+                "icon": "fa-solid fa-align-left",
+                "iconColor": "#E67E22",
+                "items": [
+                  {
+                    "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      The Industry & Alumni Mentoring Program is Monash Business School's flagship leadership initiative, connecting students with experienced professionals for career guidance and industry insights.<br><br>\n      In 2022, I was selected for this highly regarded program and paired with a mentor who had over 30 years of experience running private and ASX-listed businesses. Through <strong>weekly mentoring sessions over three months</strong>, I gained invaluable insights into business strategy, leadership, and professional growth.<br><br>\n      My experience included: <ul>\n        <li>Engaging in <strong>one-on-one mentoring</strong> to refine my career trajectory and business acumen.</li>\n        <li>Participating in <strong>personal development workshops</strong> to strengthen my leadership, networking, and communication skills.</li>\n        <li>Expanding my industry network by connecting with alumni and professionals across various sectors.</li>\n      </ul><br>\n      This program provided a strong foundation for professional success, equipping me with the tools to navigate complex business environments and career progression.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Mentor_Program/Participation_Certificate.png\" alt=\"Participation Certificate\">\n  </div>\n</div>"
+                  }
+                ]
+              },
+              {
+                "title": "Links and Resources",
+                "icon": "fa-solid fa-link",
+                "iconColor": "#9B59B6",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Private Academic Tutor and DW Tuition | Academic Tutor",
+            "dropdowns": [
+              {
+                "title": "Skills",
+                "icon": "fa-solid fa-lightbulb",
+                "iconColor": "#F4D03F",
+                "items": [
+                  { "name": "Tutoring", "color": "#FF5733" },
+                  { "name": "Lesson Planning", "color": "#33FF57" },
+                  { "name": "Communication", "color": "#3357FF" },
+                  { "name": "Academic Coaching", "color": "#F4D03F" },
+                  { "name": "Time Management", "color": "#9B59B6" },
+                  { "name": "Student Motivation", "color": "#33FF57" }
+                ]
+              },
+              {
+                "title": "Job Description",
+                "icon": "fa-solid fa-file-alt",
+                "iconColor": "#28B463",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "title": "Summary",
+                "icon": "fa-solid fa-align-left",
+                "iconColor": "#E67E22",
+                "items": [
+                  {
+                    "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      As both a private academic tutor and through DW Tuition, Jason worked with students of varying ages and skill levels, ranging from primary school to high school. This role required adaptability, clear communication, and the ability to engage students to help them reach their academic goals. Jason tutored students individually and in group settings, particularly focusing on exam preparation, study strategies, and personalized learning plans. His approach was always focused on motivating students, helping them build confidence, and achieving their academic potential.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Tutoring/DW_Tuition_Logo.jpg\" alt=\"DW Tuition Logo\">\n  </div>\n</div>"
+                  }
+                ]
+              },
+              {
+                "title": "Links and Resources",
+                "icon": "fa-solid fa-link",
+                "iconColor": "#9B59B6",
+                "items": [
+                  {
+                    "text": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSff2JJ_UuDOAdNJq0IMT2ZvrdkDqbEk5ZUn3XlHJs9_jGQD6w/viewform?usp=sf_link\" target=\"_blank\">Tuition Form</a>, <a href=\"https://www.dwtuition.com.au/\" target=\"_blank\">DW Tuition Website</a>"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "The Bicycle Corporation Pty. Ltd. | Employee",
+            "dropdowns": [
+              {
+                "title": "Skills",
+                "icon": "fa-solid fa-lightbulb",
+                "iconColor": "#F4D03F",
+                "items": [
+                  { "name": "Warehouse Operations", "color": "#FF5733" },
+                  { "name": "Order Picking", "color": "#33FF57" },
+                  { "name": "Packing", "color": "#3357FF" },
+                  { "name": "Data Entry", "color": "#F4D03F" },
+                  { "name": "Teamwork", "color": "#9B59B6" },
+                  { "name": "Communication", "color": "#33FF57" },
+                  { "name": "Organizational Skills", "color": "#9B59B6" },
+                  { "name": "Reliability", "color": "#E67E22" }
+                ]
+              },
+              {
+                "title": "Job Description",
+                "icon": "fa-solid fa-file-alt",
+                "iconColor": "#28B463",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "title": "Summary",
+                "icon": "fa-solid fa-align-left",
+                "iconColor": "#E67E22",
+                "items": [
+                  {
+                    "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      During his time at The Bicycle Corporation, Jason was responsible for unloading shipping containers, picking and packing orders, and ensuring timely and accurate shipping. His role required strong organizational skills and attention to detail, as supervisors relied on him to correctly pick orders and pack them for customers. Jason's work demonstrated his reliability and accountability, as mistakes in order fulfillment could lead to financial losses and damage customer relationships. His ability to coordinate with the team and report on progress ensured smooth operations within the warehouse.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/BikeCorp/BikeCorp.png\" alt=\"The Bicycle Corporation\" />\n  </div>\n</div>"
+                  }
+                ]
+              },
+              {
+                "title": "Links and Resources",
+                "icon": "fa-solid fa-link",
+                "iconColor": "#9B59B6",
+                "items": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }                                                           
+    ]
+}

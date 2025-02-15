@@ -206,9 +206,15 @@ document.addEventListener("DOMContentLoaded", function () {
 $(document).ready(function () {
   let currentIndex = 0; // Track the index of the current item
   let projectsData = []; // Store projects data from JSON
+  
+    // Get the current page filename (e.g., "mechanical.html", "software.html")
+    let pageName = window.location.pathname.split("/").pop().split(".")[0]; // Extracts "mechanical", "software", etc.
+    
+    // Construct the JSON file path dynamically
+    let jsonFilePath = `JSON/${pageName}.JSON`;
 
-  // Fetch JSON data once when the page loads
-  fetch("JSON/mechanicalTest.JSON")
+    // Fetch JSON data once when the page loads
+    fetch(jsonFilePath)
       .then(response => response.json())
       .then(data => {
           projectsData = data.projects; // Store projects globally
