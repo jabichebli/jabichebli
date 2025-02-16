@@ -168,7 +168,6 @@
 /* Skill bubbles */
 .skill-bubble {
     display: inline-block;
-    background-color: #2E86C1; /* Tesla Blue */
     color: white;
     font-size: 14px;
     padding: 5px 10px;
@@ -361,6 +360,7 @@ h2 {
     transform: rotate(-180deg);
 }
 
+/* Default styling for dropdown options */
 .select-menu .options {
     display: none;
     background: #fff;
@@ -369,13 +369,33 @@ h2 {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
+/* Show options when the menu is active */
 .select-menu.active .options {
     display: block;
 }
 
+/* Skills-specific styles */
+.select-menu .skills {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+	background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Show skills when the menu is active */
+.select-menu.active .skills {
+    display: flex;
+}
+
+
 .options li {
     padding: 8px 10px;
-    list-style: none;
+    list-style: disc;
+	margin-left: 20px; /* Adds space to align the bullets properly */
     border-radius: 5px;
 }
 

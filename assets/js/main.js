@@ -139,74 +139,10 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-
-// function openPopup(index) {
-//     const item = $(".work-item").eq(index);
-//     const title = item.find("a").data("title");
-//     const skills = item.find("a").data("skills");
-//     const description = item.find("a").data("description");
-//     const images = item.find("a").data("images");
-//     const links = item.find("a").data("links");
-
-//     // Generate Skill Bubbles
-//     const skillBubbles = skills.split(",").map(skill => {
-//         let category = "design";
-//         if (skill.toLowerCase().includes("data")) category = "analysis";
-//         if (skill.toLowerCase().includes("prototype")) category = "prototype";
-//         return `<span class="skill-bubble ${category}">${skill.trim()}</span>`;
-//     }).join("");
-
-//     let popupContent = `
-//         <h2>${title}</h2>
-
-//         <div class="dropdown">
-//             <div class="dropdown-title">Skills</div>
-//             <div class="dropdown-content skill-bubbles">${skillBubbles}</div>
-//         </div>
-
-//         <div class="dropdown">
-//             <div class="dropdown-title">Brief</div>
-//             <div class="dropdown-content"><p>${description}</p></div>
-//         </div>
-//     `;
-
-//     if (images) {
-//         popupContent += `
-//             <div class="dropdown">
-//                 <div class="dropdown-title">Solution</div>
-//                 <div class="dropdown-content">
-//                     ${images.split(",").map(image => `<img src="${image}" style="width:100%; margin-top:10px;">`).join("")}
-//                 </div>
-//             </div>
-//         `;
-//     }
-
-//     if (links) {
-//         popupContent += `
-//             <div class="dropdown">
-//                 <div class="dropdown-title">Links</div>
-//                 <div class="dropdown-content">
-//                     <a href="${links}" target="_blank">${links}</a>
-//                 </div>
-//             </div>
-//         `;
-//     }
-
-//     $(".popup-content").html(popupContent);
-//     $(".popup-overlay, .popup-container").fadeIn();
-// }
-
-// // Toggle dropdowns
-// $(document).on("click", ".dropdown-title", function () {
-//     $(this).next(".dropdown-content").slideToggle();
-// });
-
-
-
 $(document).ready(function () {
   let currentIndex = 0; // Track the index of the current item
   let projectsData = []; // Store projects data from JSON
-  
+
     // Get the current page filename (e.g., "mechanical.html", "software.html")
     let pageName = window.location.pathname.split("/").pop().split(".")[0]; // Extracts "mechanical", "software", etc.
     
@@ -237,20 +173,27 @@ $(document).ready(function () {
 
       project.dropdowns.forEach(dropdown => {
           popupContent += `
-              <div class="select-menu">
+                <div class="select-menu">
                   <div class="select-btn">
                       <i class="${dropdown.icon}" style="color: ${dropdown.iconColor};"></i>
                       <span class="sBtn-text">${dropdown.title}</span>
                       <i class="fa-solid fa-chevron-down"></i>
                   </div>
-                  <div class="options">
+                  <div class="${dropdown.title.toLowerCase().includes('skills') ? 'skills' : 'options'}">
           `;
 
           if (dropdown.items) {
               dropdown.items.forEach(item => {
                   if (item.name) {
+
+                      // #8B0000 (Red) --> Mechanical 
+                      // #006400 (Green) --> Project Management/Team Skills
+                      // #00008B (Blue) --> Business Analytics/Software Skills
+                      // #FF7300 (Orange) --> Electrical Skills
+                      // #4B0082 (Purple) --> Programming Skills
+
                       // Handle Skills
-                      popupContent += `<span class="skill-bubble">${item.name}</span>`;
+                      popupContent += `<span class="skill-bubble" style = "background-color: ${item.color};">${item.name}</span>`;
                   } else if (item.text) {
                       // Handle HTML content (Job Description, Summary, Links, etc.)
                       popupContent += item.text;
@@ -310,8 +253,6 @@ $(document).ready(function () {
       openPopup(currentIndex);
   });
 });
-
-
 
 
 
