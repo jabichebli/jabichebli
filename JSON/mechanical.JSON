@@ -332,14 +332,14 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Mechatronics Engineering", "color": "#FF5733" },
-            { "name": "Prototype Design", "color": "#33FF57" },
-            { "name": "3D Printing", "color": "#3357FF" },
-            { "name": "Laser Cutting", "color": "#F4D03F" },
-            { "name": "Engineering Design", "color": "#9B59B6" },
-            { "name": "Team Leadership", "color": "#33FF57" },
-            { "name": "Problem Solving", "color": "#3357FF" },
-            { "name": "Project Management", "color": "#F4D03F" }
+            { "name": "Mechatronics Engineering", "color": "#8B0000" },
+            { "name": "Prototype Design", "color": "#8B0000" },
+            { "name": "3D Printing", "color": "#8B0000" },
+            { "name": "Laser Cutting", "color": "#8B0000" },
+            { "name": "Engineering Design", "color": "#8B0000" },
+            { "name": "Team Leadership", "color": "#006400" },
+            { "name": "Problem Solving", "color": "#006400" },
+            { "name": "Project Management", "color": "#006400" }
           ]
         },
         {
@@ -382,12 +382,12 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Mechanical Design", "color": "#FF5733" },
-            { "name": "FEA", "color": "#33FF57" },
-            { "name": "Load Calculations", "color": "#3357FF" },
-            { "name": "CAD Modeling", "color": "#F4D03F" },
-            { "name": "Motor Selection", "color": "#9B59B6" },
-            { "name": "Prototype Design", "color": "#33FF57" }
+            { "name": "Mechanical Design", "color": "#8B0000" },
+            { "name": "FEA", "color": "#8B0000" },
+            { "name": "Load Calculations", "color": "#8B0000" },
+            { "name": "CAD Modeling", "color": "#8B0000" },
+            { "name": "Motor Selection", "color": "#8B0000" },
+            { "name": "Prototype Design", "color": "#8B0000" }
           ]
         },
         {
