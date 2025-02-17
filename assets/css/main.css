@@ -41,6 +41,21 @@
     max-width: 300px;
 }
 
+/* Custom class for images in rows, ensuring they fit properly */
+.summary-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+	justify-content: center;
+}
+
+/* Make sure images in the custom row are appropriately sized */
+.summary-row img {
+    max-width: 47%; /* Match the width of the images in summary-media */
+    border-radius: 2px;
+}
+
+
 /* YOUTUBE VIDEO */
 .video-container {
     position: relative;
@@ -393,10 +408,11 @@ h2 {
 
 
 .options li {
-    padding: 8px 10px;
     list-style: disc;
-	margin-left: 20px; /* Adds space to align the bullets properly */
+	margin-left: 15px; /* Adds space to align the bullets properly */
+	margin-right: 15px;
     border-radius: 5px;
+	text-align: justify;
 }
 
 .select-btn i:first-child {
