@@ -449,7 +449,7 @@ h2 {
 /* Fix: Ensure hover works even if the link is active */
 #menu a:hover, 
 #menu a.active:hover {
-    background: #f39c12; /* Change hover color */
+    background: #49bf9d; /* Change hover color */
     color: white; /* Change text color */
 }
 
@@ -2227,6 +2227,7 @@ input, select, textarea {
 
 	header p {
 		color: #b2b2b2;
+		text-align: center;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2516,7 +2517,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0.1;
 			position: absolute;
 			top: 0;
 			width: 100%;
