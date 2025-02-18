@@ -161,7 +161,7 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>The goal of this project was to increase the flowrate performance of the Modix 3D Printer by at least 20%. As the Lead Engineering and Thermal Mechanical Engineer, I managed a team of five engineers, overseeing project scope, timelines, and the collaborative design process.<br><br>My team's first task was to evaluate the performance of the current hotend, the E3D V6, using thermal benchmarking methods such as hand calculations, ANSYS simulations, and physical testing with a heat gun. Based on these findings, we moved forward with designing our own hotend, focusing on improving thermal efficiency and overall flowrate.<br><br>I contributed to solution generation and the final design, ensuring the hotend met the performance requirements. I also managed material selection and sourcing, and performed extensive thermal analysis on the final design.<br><br>The project culminated in machining the final hotend on an Okuma 5-axis CNC, and the results were impressive: physical testing showed a 127% increase in flowrate, with the new hotend achieving a flowrate of 166mm³/s, well above the target. CFD simulations of the fan ducts also looked promising, further validating the design.<br><br>This experience allowed me to develop my leadership skills, perform in-depth thermal and fluid analysis, and deliver a high-performance design that exceeded expectations.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Hotend_Project/Manufactured_Hotend.png\" alt=\"Manufactured Hotend\"><img src=\"images/mechanical/Hotend_Project/Load_Cases.png\" alt=\"Load Cases\"><img src=\"images/mechanical/Hotend_Project/Thermal_Analysis.png\" alt=\"Thermal Analysis\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging.png\" alt=\"Thermal Imaging\"></div><div class=\"summary-plots\" style=\"display:flex;justify-content:center;gap:15px;margin-top:20px;\"><img src=\"images/mechanical/Hotend_Project/Heat_Break_Performance_Plot.png\" alt=\"Heat Break Performance Plot\" style=\"width:45%;max-width:400px;\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging_Plot.png\" alt=\"Thermal Imaging Plot\" style=\"width:45%;max-width:400px;\"></div></div>"
+              "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>The goal of this project was to increase the flowrate performance of the Modix 3D Printer by at least 20%. As the Lead Engineering and Thermal Mechanical Engineer, I managed a team of five engineers, overseeing project scope, timelines, and the collaborative design process.<br><br>My team's first task was to evaluate the performance of the current hotend, the E3D V6, using thermal benchmarking methods such as hand calculations, ANSYS simulations, and physical testing with a heat gun. Based on these findings, we moved forward with designing our own hotend, focusing on improving thermal efficiency and overall flowrate.<br><br>I contributed to solution generation and the final design, ensuring the hotend met the performance requirements. I also managed material selection and sourcing, and performed extensive thermal analysis on the final design.<br><br>The project culminated in machining the final hotend on an Okuma 5-axis CNC, and the results were impressive: physical testing showed a 127% increase in flowrate, with the new hotend achieving a flowrate of 166mm³/s, well above the target. CFD simulations of the fan ducts also looked promising, further validating the design.<br><br>This experience allowed me to develop my leadership skills, perform in-depth thermal and fluid analysis, and deliver a high-performance design that exceeded expectations.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Hotend_Project/Manufactured_Hotend.png\" alt=\"Manufactured Hotend\"><img src=\"images/mechanical/Hotend_Project/Load_Cases.png\" alt=\"Load Cases\"><img src=\"images/mechanical/Hotend_Project/Thermal_Analysis.png\" alt=\"Thermal Analysis\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging.png\" alt=\"Thermal Imaging\"></div><div class=\"summary-row\"><img src=\"images/mechanical/Hotend_Project/Heat_Break_Performance_Plot.png\" alt=\"Heat Break Performance Plot\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging_Plot.png\" alt=\"Thermal Imaging Plot\" ></div></div>"
             }
           ]
         },
@@ -307,9 +307,10 @@
             { "name": "Prototyping", "color": "#8B0000" },
             { "name": "Lunar Excavation Mechanisms", "color": "#8B0000" },
             { "name": "Thermal Insulation Testing", "color": "#8B0000" },
-            { "name": "NASA Collaboration", "color": "#8B0000" },
-            { "name": "CAD Design", "color": "#8B0000" },
-            { "name": "Problem Solving", "color": "#8B0000" }
+            { "name": "SolidWorks", "color": "#8B0000" },
+            { "name": "Problem Solving", "color": "#8B0000" },
+            { "name": "Team Leadership", "color": "#006400" },
+            { "name": "Project Management", "color": "#006400" }
           ]
         },
         {
@@ -321,12 +322,33 @@
               "text": "<div class=\"summary-container\">\n  <!-- Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Immediately following the University Rover Challenge (URC) in Utah in 2022, I flew to Florida for a remarkable opportunity with the Nova Rover team. At NASA's Swampworks facility, we had the privilege of performing tests on exploration mission solutions similar to those NASA uses for their own projects.<br><br>\n      During this time, I led the design and manufacturing of the scraper mechanism used for lunar regolith excavation, as well as a thermal insulation testing rig. These systems were put to the test at the NASA facility, which was an unforgettable experience.<br><br>\n      This hands-on collaboration with NASA allowed me to apply my skills in real-world testing environments, pushing the limits of our designs and gaining invaluable insights into space exploration technologies.\n    </p>\n  </div>\n\n  <!-- Images Section -->\n   <div class=\"summary-row\">\n      <img src=\"images/mechanical/NASA/Thermal_CAD.png\" alt=\"Thermal CAD\">\n      <img src=\"images/mechanical/NASA/Scraper_CAD.png\" alt=\"Scraper CAD\">\n    </div>\n    <div class=\"summary-row\">\n      <img src=\"images/mechanical/NASA/NASA_Thermal.png\" alt=\"Thermal Testing\">\n      <img src=\"images/mechanical/NASA/NASA_Scraper.png\" alt=\"NASA Scraper\">\n    </div>\n  \n</div>"
             }
           ]
-        }        
+        },
+        {
+          "title": "Links and Resources",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"documents/mechanical/NASA/Regolith_Insulation_Potential_Proposal.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Regolith Insulation Potential Proposal (PDF)\n</a>\n<a href=\"documents/mechanical/NASA/Regolith_Extraction_Proposal.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Regolith Extraction Proposal (PDF)\n</a>\n<a href=\"documents/mechanical/NASA/Different_Scraper_Design_Iterations.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Different Scraper Design Iterations (PDF)\n</a>"
+            }
+          ]
+        }
+                
       ]
     },
     {
-      "title": "WARMAN | Mechatronics Engineer",
+      "title": "WARMAN | Lead Mechatronics Engineer",
       "dropdowns": [
+        {
+          "title": "TL;DR",
+          "icon": "fa-solid fa-info-circle",
+          "iconColor": "#000000",
+          "items": [
+            {
+              "text": "<div class='text-container'><ul><li>Led a four-person team tasked with designing and building a prototype to address a specified engineering challenge of delivering a payload over across a gorge.</li><li>Successfully managed all phases of the project lifecycle, from initial design to final submission. Demonstrated adept project management skills including expense reconciliation, timeline development using Gantt Chart and Trello, and continuous reflection on progress and design changes. Showcased a proactive approach to learning and adaptation throughout.</li><li>Demonstrated creativity and innovation in the problem-solving process, generating solutions and ideas through detailed hand-drawn drawings.</li></ul></div>"
+            }
+          ]
+        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -343,12 +365,12 @@
           ]
         },
         {
-          "title": "Job Description",
+          "title": "Challenge Description",
           "icon": "fa-solid fa-file-alt",
           "iconColor": "#28B463",
           "items": [
             {
-              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/WARMAN/Job_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/WARMAN/WARMAN_Rules.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
             }
           ]
         },
@@ -358,7 +380,7 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I led a team of four engineering students on a project for the 2022 Warman Competition, which challenges teams to design and build a prototype that solves a specific engineering problem. The objective in 2022 was to create a scaled prototype capable of transporting a package over a chasm to the designated delivery region in the fastest time possible while meeting our team's personal learning goals.<br><br>\n      Our project involved three key stages:<br><br>\n      - **Preliminary Design Submission**: We defined the problem, brainstormed creative solutions, created isometric drawings, and selected the final design.<br><br>\n      - **Build Submission**: We built the prototype using a mix of purchased materials, 3D-printed parts, and laser-cut components. The focus here was on rapid prototyping and testing.<br><br>\n      - **Final Design Submission**: We reflected on the changes made from start to finish, evaluated the project management process, reconciled expenses, and created engineering drawings for the final design.<br><br>\n      Leading this project taught me valuable lessons in teamwork, problem-solving, and prototyping, while also providing practical experience in project management and design iteration.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/WARMAN/Warman_collection.png\" alt=\"Warman Prototype Collection\">\n    <img src=\"images/mechanical/WARMAN/Warman_deposition.png\" alt=\"Warman Prototype Deposition\">\n    <img src=\"images/mechanical/WARMAN/Warman_v1.png\" alt=\"Warman Prototype Version 1\">\n    <img src=\"images/mechanical/WARMAN/Warman_v2.png\" alt=\"Warman Prototype Version 2\">\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\"> <!-- Left: Text Content --> <div class=\"summary-text\"> <p> I led a team of four engineering students on a project for the 2022 Warman Competition, which challenges teams to design and build a prototype that solves a specific engineering problem. The objective in 2022 was to create a scaled prototype capable of transporting a package over a chasm to the designated delivery region in the fastest time possible while meeting our team's personal learning goals. </p> <p>Our project involved three key stages:</p> <ul> <li><strong>Preliminary Design Submission:</strong> We defined the problem, brainstormed creative solutions, created isometric drawings, and selected the final design.</li> <li><strong>Build Submission:</strong> We built the prototype using a mix of purchased materials, 3D-printed parts, and laser-cut components. The focus here was on rapid prototyping and testing.</li> <li><strong>Final Design Submission:</strong> We reflected on the changes made from start to finish, evaluated the project management process, reconciled expenses, and created engineering drawings for the final design.</li> </ul> <p> Leading this project taught me valuable lessons in teamwork, problem-solving, and prototyping, while also providing practical experience in project management and design iteration. </p> </div> <!-- Right: First Two Images in a Column Next to Text --> <div class=\"summary-media\"> <img src=\"images/mechanical/WARMAN/Warman_v1.png\" alt=\"Warman Prototype Version 1\"> <img src=\"images/mechanical/WARMAN/Warman_v2.png\" alt=\"Warman Prototype Version 2\"> </div> <!-- Below: Next Two Images in a Single Row --> <div class=\"summary-row\"> <img src=\"images/mechanical/WARMAN/Warman_collection.png\" alt=\"Warman Prototype Collection\" style=\"width: 45%; margin: 5px;\"> <img src=\"images/mechanical/WARMAN/Warman_deposition.png\" alt=\"Warman Prototype Deposition\" style=\"width: 45%; margin: 5px;\"> </div> </div>"
             }
           ]
         },
@@ -368,15 +390,25 @@
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"https://www.warman.com/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Warman Competition Website\n</a>"
+              "text": "<a href=\"documents/mechanical/WARMAN/Preliminary_Design_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> WARMAN Preliminary Design Report (PDF)\n</a>\n<a href=\"documents/mechanical/WARMAN/Inital_CAD.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> WARMAN Initial CAD Files (ZIP)\n</a>\n<a href=\"documents/mechanical/WARMAN/Final_Design_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> WARMAN Final Design Report (PDF)\n</a>\n<a href=\"documents/mechanical/WARMAN/Final_CAD.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> WARMAN Final CAD Files (ZIP)\n</a>"
             }
           ]
-        }
+        }        
       ]
     },
     {
       "title": "Hoisting Platform | Mechanical Design Engineer",
       "dropdowns": [
+        {
+          "title": "TL;DR",
+          "icon": "fa-solid fa-info-circle",
+          "iconColor": "#000000",
+          "items": [
+            {
+              "text": "<div class='text-container'><ul><li>Led a team of four engineers to design a system for transporting an engineer up a wind turbine, focusing on the hoisting platform, motor, materials, and load calculations.</li><li>Conducted Finite Element Analysis (FEA) and designed shafts, pinions, and racks with a safety factor of 3.</li><li>Gained experience in mechanical design, load analysis, FEA, and project management, culminating in a 93-page report documenting the system's proof of concept.</li></ul></div>"
+            }
+          ]
+        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -385,18 +417,20 @@
             { "name": "Mechanical Design", "color": "#8B0000" },
             { "name": "FEA", "color": "#8B0000" },
             { "name": "Load Calculations", "color": "#8B0000" },
-            { "name": "CAD Modeling", "color": "#8B0000" },
+            { "name": "SolidWorks", "color": "#8B0000" },
             { "name": "Motor Selection", "color": "#8B0000" },
-            { "name": "Prototype Design", "color": "#8B0000" }
+            { "name": "Prototype Design", "color": "#8B0000" },
+            { "name": "Team Leadership", "color": "#006400" },
+            { "name": "Project Management", "color": "#006400" }
           ]
         },
         {
-          "title": "Job Description",
+          "title": "Task Description",
           "icon": "fa-solid fa-file-alt",
           "iconColor": "#28B463",
           "items": [
             {
-              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Hoisting_Platform/Job_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Hoisting_Platform/Hoisting_Platform_Brief.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
             }
           ]
         },
@@ -406,17 +440,17 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I led a team of four engineers to design a system that would transport an engineer from the base of a wind turbine to the top. In the preliminary design phase, I was responsible for designing the hoisting platform that would safely lift the engineer, contributing to motor selection, material selection, and general load calculations. We compiled our considerations into a comprehensive report.<br><br>\n      During the final design stage, my team and I conducted Finite Element Analysis (FEA) and designed the necessary shafts, pinions, and racks capable of supporting the engineer and the platform with a safety factor of at least 3. This culminated in the completion of a 93-page report detailing the system's proof of concept.<br><br>\n      This project provided me with invaluable hands-on experience in mechanical design, load analysis, and the practical application of FEA, while also refining my skills in team collaboration and project management.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Lift.jpg\" alt=\"Hoisting Platform Lift\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform.JPG\" alt=\"Hoisting Platform\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Back_View.jpg\" alt=\"Hoisting Platform Back View\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Section_View.jpg\" alt=\"Hoisting Platform Section View\">\n    <img src=\"images/mechanical/Hoisting_Platform/Safety_Harness.JPG\" alt=\"Safety Harness\">\n    <img src=\"images/mechanical/Hoisting_Platform/Scissor_Lift.JPG\" alt=\"Scissor Lift\">\n    <img src=\"images/mechanical/Hoisting_Platform/Driving_Gear_Stress.png\" alt=\"Driving Gear Stress\">\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\" style=\"display: flex; flex-wrap: wrap;\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I led a team of four engineers to design a system that would transport an engineer from the base of a wind turbine to the top. In the preliminary design phase, I was responsible for designing the hoisting platform that would safely lift the engineer, contributing to motor selection, material selection, and general load calculations. We compiled our considerations into a comprehensive report.<br><br>\n      During the final design stage, my team and I conducted Finite Element Analysis (FEA) and designed the necessary shafts, pinions, and racks capable of supporting the engineer and the platform with a safety factor of at least 3. This culminated in the completion of a 93-page report detailing the system's proof of concept.<br><br>\n      This project provided me with invaluable hands-on experience in mechanical design, load analysis, and the practical application of FEA, while also refining my skills in team collaboration and project management.\n    </p>\n  </div>\n\n  <!-- Right: First Two Images in a Column Next to Text -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform.JPG\" alt=\"Hoisting Platform\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Back_View.jpg\" alt=\"Hoisting Platform Back View\">\n  </div>\n\n  <!-- Below: Next Four Images in Two Rows -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Section_View.jpg\" alt=\"Hoisting Platform Section View\" style=\"width: 45%; margin: 5px;\">\n      <img src=\"images/mechanical/Hoisting_Platform/Safety_Harness.JPG\" alt=\"Safety Harness\" style=\"width: 45%; margin: 5px;\">\n    </div>\n    <div class=\"summary-row\">\n      <img src=\"images/mechanical/Hoisting_Platform/Scissor_Lift.JPG\" alt=\"Scissor Lift\" style=\"width: 45%; margin: 5px;\">\n      <img src=\"images/mechanical/Hoisting_Platform/Driving_Gear_Stress.png\" alt=\"Driving Gear Stress\" style=\"width: 45%; margin: 5px;\">\n  </div>\n</div>"
             }
           ]
-        },
+        },        
         {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"https://www.windpowerengineering.com/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Wind Power Engineering Website\n</a>"
+              "text": "<a href=\"documents/mechanical/Hoisting_Platform/Preliminary_Concept.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Hoisting Platform Preliminary Concept (PDF)\n</a>\n<a href=\"documents/mechanical/Hoisting_Platform/Final_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Hoisting Platform Final Report (PDF)\n</a>\n<a href=\"documents/mechanical/Hoisting_Platform/Final_CAD.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> Hoisting Platform Final CAD Files (ZIP)\n</a>"
             }
           ]
         }
