@@ -61,19 +61,26 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Robotic Arm Control", "color": "#FF5733" },
-            { "name": "Real-Time Motion Tracking", "color": "#33FF57" },
-            { "name": "Software Development", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Implemented a remote control system for a Kuka robotic arm using real-time motion tracking."
-            }
+            { "name": "C#", "color": "#00008B" },
+            { "name": "Python", "color": "#00008B" },
+            { "name": "Unity", "color": "#00008B" },
+            { "name": "Raspberry Pi Model 4 B", "color": "#00008B" },
+            { "name": "Jetson Xiaver", "color": "#00008B" },
+            { "name": "Digital Twinning", "color": "#00008B" },
+            { "name": "Real-Time Simulation", "color": "#00008B" },
+            { "name": "URDF Models", "color": "#00008B" },
+            { "name": "3D VR Integration (Meta Quest 2/3)", "color": "#00008B" },
+            { "name": "Camera Stream Integration", "color": "#00008B" },
+            { "name": "Server Communication", "color": "#00008B" },
+            { "name": "Robotics Control", "color": "#00008B" },
+            { "name": "CAD (Part Design and Assembly)", "color": "#8B0000" },
+            { "name": "3D Printing", "color": "#8B0000" },
+            { "name": "Prototyping and Design", "color": "#8B0000" },
+            { "name": "Soldering and Crimping", "color": "#FF7300" },
+            { "name": "Project Management", "color": "#006400" },
+            { "name": "Communication", "color": "#006400" },
+            { "name": "Team Leadership", "color": "#006400" }
+
           ]
         },
         {
@@ -95,26 +102,22 @@
       ]
     },
     {
-      "title": "Digital Twinning Lab in Unity | Software Engineer",
+      "title": "Autonomous Driving | ML Engineer",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Digital Twinning", "color": "#FF5733" },
-            { "name": "Unity", "color": "#33FF57" },
-            { "name": "Real-Time Simulation", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Built a real-time digital twin simulation of robotic systems in Unity for visualization and testing."
-            }
+            {"name": "Convolutional Neural Network (CNN)", "color": "#00008B"},
+            { "name": "Deep Learning", "color": "#00008B" },
+            { "name": "Data Augmentation", "color": "#00008B" },
+            { "name": "Autonomous Navigation", "color": "#00008B" },
+            { "name": "Data Collection and Labelling", "color": "#00008B" },
+            { "name": "Colour Thresholding", "color": "#00008B" },
+            { "name": "Penguin Pi Robot", "color": "#00008B" },
+            { "name": "Reinforcement Learning", "color": "#00008B" },
+            { "name": "Robot Control Systems", "color": "#00008B" }
           ]
         },
         {
@@ -123,39 +126,40 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Built a real-time digital twin simulation of robotic systems in Unity for visualization and testing.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Digital_Twin/Digital_Twin.png\" alt=\"Digital Twinning Unity\" />\n  </div>\n</div>"
+                "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>I developed a convolutional neural network (CNN) to predict vehicle steering for autonomous driving, enabling my robot to navigate both urban and rural roads. The model processed RGB camera images to generate real-time steering commands, incorporated stop sign detection, and dynamically adjusted speed based on road conditions. After extensive data collection, training, and deployment on a Raspberry Pi-controlled robot, I secured 1st place in the Need4Speed Challenge at RVSS 2025, demonstrating exceptional performance in autonomous navigation and real-world adaptability.</p></div><div class=\"summary-media\"><img src=\"images/software/Autonomous_Driving_ML/Autonomous_Driving.jpg\" alt=\"Autonomous Driving\" /></div></div><div class=\"summary-row\"><img src=\"images/software/Autonomous_Driving_ML/Team_Photo.jpg\" alt=\"Team Winning Photo\" /><img src=\"images/software/Autonomous_Driving_ML/Competition_Day.jpg\" alt=\"Competition Photo\" /></div><div class=\"summary-video\"><div class=\"video-container\"><iframe width=\"100%\" height=\"200\" src=\"https://www.youtube.com/embed/Ji1zX4laue0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div></div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
-        }
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/autonomousDriving.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/autonomousDriving/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_computervision-ai-robotics-activity-7297954286041186304-cDN6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post\n</a>"
+            }
+          ]
+        }        
       ]
     },
     {
-      "title": "Autonomous Driving CNN | Software Engineer",
+      "title": "Digital Twin Lab in Unity | Software Engineer",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "CNN", "color": "#FF5733" },
-            { "name": "Autonomous Driving", "color": "#33FF57" },
-            { "name": "Machine Learning", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Developed a convolutional neural network (CNN) to predict vehicle steering for autonomous driving."
-            }
+            { "name": "Digital Twinning", "color": "#00008B" },
+            { "name": "Unity", "color": "#00008B" },
+            { "name": "C#", "color": "#00008B" },
+            { "name": "Real-Time Simulation", "color": "#00008B" },
+            { "name": "CAD (Part Design and Assembly)", "color": "#00008B" },
+            { "name": "URDF Models", "color": "#00008B" },
+            { "name": "3D VR Integration (Meta Quest 2/3)", "color": "#00008B" },
+            { "name": "Camera Stream Integration", "color": "#00008B" },
+            { "name": "Server Communication", "color": "#00008B" },
+            { "name": "Robotics Control", "color": "#00008B" }
           ]
         },
         {
@@ -164,15 +168,19 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Developed a convolutional neural network (CNN) to predict vehicle steering for autonomous driving.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Autonomous_Driving_ML/Autonomous_Driving.jpg\" alt=\"Autonomous Driving CNN\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>I helped lead the transition of the Monash Smart Manufacturing Lab digital twin from Python to Unity, enhancing its control and immersiveness by integrating 3D VR. My role involved adding, designing (CAD) and assembling parts, importing URDF models, and setting up the hierarchy for the virtual environment. Additionally, I assisted in adding camera streams and establishing two-way communication with the server, enabling users to interact with and control the robots within the digital twin.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Digital_Twin/Digital_Twin.png\" alt=\"Digital Twinning Unity\" />\n  </div>\n</div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
+          "items": [
+            {
+              "text": "<a href=\"https://www.monash.edu/monash-innovation-labs/facilities/mil-shared-facilities/monash-smart-manufacturing\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> Monash Smart Manufacturing\n</a>"
+            }
+          ]
         }
       ]
     },
@@ -233,7 +241,6 @@
             { "name": "Team Leadership", "color": "#006400" },
             { "name": "Project Management", "color": "#006400" },
             { "name": "Communication", "color": "#006400" }
-
           ]
         },
         {
@@ -415,161 +422,161 @@
         }
       ]
     },
-      {
-        "title": "Organisation Web App | Full Stack Engineer",
-        "dropdowns": [
-          {
-            "title": "Skills",
-            "icon": "fa-solid fa-lightbulb",
-            "iconColor": "#F4D03F",
-            "items": [
-              { "name": "HTML", "color": "#00008B" },
-              { "name": "CSS", "color": "#00008B" },
-              { "name": "JavaScript", "color": "#00008B" },
-              { "name": "UI/UX Design", "color": "#00008B" },
-              { "name": "Database Management", "color": "#00008B" },
-              { "name": "Quality Assurance", "color": "#00008B" },
-              { "name": "Trello (Kanban Board)", "color": "#006400" },
-              { "name": "Project Management", "color": "#006400" },
-              { "name": "Communication", "color": "#006400" }
-            ]
-          },
-          {
-            "title": "Summary",
-            "icon": "fa-solid fa-align-left",
-            "iconColor": "#E67E22",
-            "items": [
-              {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface.<br><br>\n    </p>\n  </div>\n</div>\n  <!--Images -->\n <div class=\"summary-row\">\n    <img src=\"images/software/Organisation_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Organisation_Web_App/Weekly_Planner.png\" alt=\"Weekly Planner\">\n  </div>  <div class=\"summary-row\">\n  <img src=\"images/software/Organisation_Web_App/Upcoming_Tasks.png\" alt=\"Upcoming Tasks\">\n    <img src=\"images/software/Organisation_Web_App/Adding_Task.png\" alt=\"Adding Task\">\n \n</div>"
-              }
-            ]
-          },
-          {
-            "title": "Links",
-            "icon": "fa-solid fa-link",
-            "iconColor": "#9B59B6",
-            "items": [
-              {
-                "text": "<a href=\"https://github.com/jabichebli/weeklyPlanner.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/weeklyPlanner\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Domestic Travel Co. Web App | Lead Full Stack Engineer",
-        "dropdowns": [
-          {
-            "title": "Skills",
-            "icon": "fa-solid fa-lightbulb",
-            "iconColor": "#F4D03F",
-            "items": [
-              { "name": "HTML", "color": "#00008B" },
-              { "name": "CSS", "color": "#00008B" },
-              { "name": "JavaScript", "color": "#00008B" },
-              { "name": "UI/UX Design", "color": "#00008B" },
-              { "name": "APIs", "color": "#00008B" },
-              { "name": "Database Management", "color": "#00008B" },
-              { "name": "Quality Assurance", "color": "#00008B" },
-              { "name": "Trello (Kanban Board)", "color": "#006400" },
-              { "name": "Team Leadership", "color": "#006400" },
-              { "name": "Project Management", "color": "#006400" },
-              { "name": "Communication", "color": "#006400" }
-            ]
-          },
-          {
-            "title": "Summary",
-            "icon": "fa-solid fa-align-left",
-            "iconColor": "#E67E22",
-            "items": [
-              {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I developed a travel planning application aimed at students, designed to help users plan and manage domestic flight trips. I led a team of software engineers and worked on multiple front-end elements, including user accounts, trip planning, and data retrieval via APIs.<br><br>\n    </p>\n  </div>\n</div>\n  <!-- Images -->\n  <div class=\"summary-row\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Search.png\" alt=\"Search\">\n  </div> <div class=\"summary-row\">\n  <img src=\"images/software/Domestic_Travel_Web_App/Saved_Trips.png\" alt=\"Saved Trips\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Detailed_Trip_Summary.png\" alt=\"Detailed Trip Summary\">\n </div> <div class=\"summary-row\">\n   <img src=\"images/software/Domestic_Travel_Web_App/Create_Account.png\" alt=\"Create Account\">\n  </div>\n"
-              }
-            ]
-          },
-          {
-            "title": "Links",
-            "icon": "fa-solid fa-link",
-            "iconColor": "#9B59B6",
-            "items": [
-              {
-                "text": "<a href=\"documents/software/Domestic_Travel_Web_App/PMP.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> PMP Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Requirements_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Requirements Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Design_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Design Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Test_Plan_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Test Plan Document (PDF)\n</a>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Nao Robot Monash University | Software Analytics and Programming Intern",
-        "dropdowns": [
-          {
-            "title": "Skills",
-            "icon": "fa-solid fa-lightbulb",
-            "iconColor": "#F4D03F",
-            "items": [
-              { "name": "Java", "color": "#00008B" },
-              { "name": "C#", "color": "#00008B" },
-              { "name": "Human-Robot Interaction (HRI)", "color": "#00008B" },
-              { "name": "Project Management", "color": "#006400" },
-              { "name": "Communication", "color": "#006400" }
-            ]
-          },
-          {
-            "title": "Summary",
-            "icon": "fa-solid fa-align-left",
-            "iconColor": "#E67E22",
-            "items": [
-              {
-                "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>\n      I assisted in the development of immersive analytics at Monash University for a fortnight in 2017. I worked on programming the Nao humanoid robot to enable it to interact vocally with those passing by, perform special tricks such as pushups and dance moves, and provide aid to the IT team I collaborated with.<br><br>\n    </p>\n  </div>\n</div>\n\n<div class=\"summary-video\" style=\"display: flex; justify-content: space-between;\">\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Pushup.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Sprinkler_Dance.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Robot_Dance.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n</div>"
-              }
-            ]
-          },
-          {
-            "title": "Links",
-            "icon": "fa-solid fa-link",
-            "iconColor": "#9B59B6",
-            "items": [
-              {
-                "text": "<a href=\"https://aldebaran.com/nao6/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Nao Robot Official Website\n</a>"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Garbage Shooter | Game Developer",
-        "dropdowns": [
-          {
-            "title": "Skills",
-            "icon": "fa-solid fa-lightbulb",
-            "iconColor": "#F4D03F",
-            "items": [
-              { "name": "Visual Basic", "color": "#00008B" },
-              { "name": "Game Design", "color": "#00008B" },
-              { "name": "Project Management", "color": "#006400" }
-            ]
-          },
-          {
-            "title": "Summary",
-            "icon": "fa-solid fa-align-left",
-            "iconColor": "#E67E22",
-            "items": [
-              {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I created an interactive game designed to simulate space waste management, raising awareness about environmental issues related to human waste in space. This project aimed to engage users in a fun way while educating them on the importance of proper space waste management.<br><br> The game works by having the user control a spaceship, moving it left and right using the arrow keys, and shooting lasers to destroy incoming space debris with the space bar. As the user progresses, the debris moves faster and in greater quantities. They earn points for every piece of debris destroyed.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\" style=\"display: flex; justify-content: center; align-items: center; overflow: hidden; width: 100%; height: auto;\">\n    <img src=\"images/software/Garbage_Shooter/Garbage_Shooter.png\" alt=\"Garbage Shooter Game\" style=\"transform: rotate(90deg) translate(0px, -50px); max-width: 100%; padding-top: 100px; \">\n  </div>\n</div>"
-              }
-            ]
-          },
-          {
-            "title": "Links",
-            "icon": "fa-solid fa-link",
-            "iconColor": "#9B59B6",
-            "items": [
-              {
-                "text": "<a href=\"https://github.com/jabichebli/garbageShooterGame.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n"
-              }
-            ]
-          }
-        ]
-      }
+    {
+      "title": "Organisation Web App | Full Stack Engineer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "HTML", "color": "#00008B" },
+            { "name": "CSS", "color": "#00008B" },
+            { "name": "JavaScript", "color": "#00008B" },
+            { "name": "UI/UX Design", "color": "#00008B" },
+            { "name": "Database Management", "color": "#00008B" },
+            { "name": "Quality Assurance", "color": "#00008B" },
+            { "name": "Trello (Kanban Board)", "color": "#006400" },
+            { "name": "Project Management", "color": "#006400" },
+            { "name": "Communication", "color": "#006400" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface.<br><br>\n    </p>\n  </div>\n</div>\n  <!--Images -->\n <div class=\"summary-row\">\n    <img src=\"images/software/Organisation_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Organisation_Web_App/Weekly_Planner.png\" alt=\"Weekly Planner\">\n  </div>  <div class=\"summary-row\">\n  <img src=\"images/software/Organisation_Web_App/Upcoming_Tasks.png\" alt=\"Upcoming Tasks\">\n    <img src=\"images/software/Organisation_Web_App/Adding_Task.png\" alt=\"Adding Task\">\n \n</div>"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/weeklyPlanner.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/weeklyPlanner\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Domestic Travel Co. Web App | Lead Full Stack Engineer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "HTML", "color": "#00008B" },
+            { "name": "CSS", "color": "#00008B" },
+            { "name": "JavaScript", "color": "#00008B" },
+            { "name": "UI/UX Design", "color": "#00008B" },
+            { "name": "APIs", "color": "#00008B" },
+            { "name": "Database Management", "color": "#00008B" },
+            { "name": "Quality Assurance", "color": "#00008B" },
+            { "name": "Trello (Kanban Board)", "color": "#006400" },
+            { "name": "Team Leadership", "color": "#006400" },
+            { "name": "Project Management", "color": "#006400" },
+            { "name": "Communication", "color": "#006400" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I developed a travel planning application aimed at students, designed to help users plan and manage domestic flight trips. I led a team of software engineers and worked on multiple front-end elements, including user accounts, trip planning, and data retrieval via APIs.<br><br>\n    </p>\n  </div>\n</div>\n  <!-- Images -->\n  <div class=\"summary-row\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Search.png\" alt=\"Search\">\n  </div> <div class=\"summary-row\">\n  <img src=\"images/software/Domestic_Travel_Web_App/Saved_Trips.png\" alt=\"Saved Trips\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Detailed_Trip_Summary.png\" alt=\"Detailed Trip Summary\">\n </div> <div class=\"summary-row\">\n   <img src=\"images/software/Domestic_Travel_Web_App/Create_Account.png\" alt=\"Create Account\">\n  </div>\n"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"documents/software/Domestic_Travel_Web_App/PMP.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> PMP Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Requirements_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Requirements Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Design_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Design Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Test_Plan_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Test Plan Document (PDF)\n</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nao Robot Monash University | Software Analytics and Programming Intern",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Java", "color": "#00008B" },
+            { "name": "C#", "color": "#00008B" },
+            { "name": "Human-Robot Interaction (HRI)", "color": "#00008B" },
+            { "name": "Project Management", "color": "#006400" },
+            { "name": "Communication", "color": "#006400" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>\n      I assisted in the development of immersive analytics at Monash University for a fortnight in 2017. I worked on programming the Nao humanoid robot to enable it to interact vocally with those passing by, perform special tricks such as pushups and dance moves, and provide aid to the IT team I collaborated with.<br><br>\n    </p>\n  </div>\n</div>\n\n<div class=\"summary-video\" style=\"display: flex; justify-content: space-between;\">\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Pushup.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Sprinkler_Dance.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Robot_Dance.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n</div>"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://aldebaran.com/nao6/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Nao Robot Official Website\n</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Garbage Shooter | Game Developer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Visual Basic", "color": "#00008B" },
+            { "name": "Game Design", "color": "#00008B" },
+            { "name": "Project Management", "color": "#006400" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I created an interactive game designed to simulate space waste management, raising awareness about environmental issues related to human waste in space. This project aimed to engage users in a fun way while educating them on the importance of proper space waste management.<br><br> The game works by having the user control a spaceship, moving it left and right using the arrow keys, and shooting lasers to destroy incoming space debris with the space bar. As the user progresses, the debris moves faster and in greater quantities. They earn points for every piece of debris destroyed.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\" style=\"display: flex; justify-content: center; align-items: center; overflow: hidden; width: 100%; height: auto;\">\n    <img src=\"images/software/Garbage_Shooter/Garbage_Shooter.png\" alt=\"Garbage Shooter Game\" style=\"transform: rotate(90deg) translate(0px, -50px); max-width: 100%; padding-top: 100px; \">\n  </div>\n</div>"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/garbageShooterGame.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

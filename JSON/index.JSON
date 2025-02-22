@@ -1,0 +1,191 @@
+{
+  "projects": [
+    {
+      "title": "Mind Control Operation of Kuka Robotic Arm | ML Engineer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Kuka Robotic Arm", "color": "#00008B" },
+            { "name": "EEG Headset", "color": "#00008B" },
+            { "name": "Machine Learning", "color": "#00008B" },
+            { "name": "Python", "color": "#00008B" },
+            { "name": "Java", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Teleoperation of Kuka Robotic Arm | Software Engineer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "C#", "color": "#00008B" },
+            { "name": "Python", "color": "#00008B" },
+            { "name": "Unity", "color": "#00008B" },
+            { "name": "Raspberry Pi Model 4 B", "color": "#00008B" },
+            { "name": "Jetson Xiaver", "color": "#00008B" },
+            { "name": "Digital Twinning", "color": "#00008B" },
+            { "name": "Real-Time Simulation", "color": "#00008B" },
+            { "name": "URDF Models", "color": "#00008B" },
+            {
+              "name": "3D VR Integration (Meta Quest 2/3)",
+              "color": "#00008B"
+            },
+            { "name": "Camera Stream Integration", "color": "#00008B" },
+            { "name": "Server Communication", "color": "#00008B" },
+            { "name": "Robotics Control", "color": "#00008B" },
+            { "name": "CAD (Part Design and Assembly)", "color": "#8B0000" },
+            { "name": "3D Printing", "color": "#8B0000" },
+            { "name": "Prototyping and Design", "color": "#8B0000" },
+            { "name": "Soldering and Crimping", "color": "#FF7300" },
+            { "name": "Project Management", "color": "#006400" },
+            { "name": "Communication", "color": "#006400" },
+            { "name": "Team Leadership", "color": "#006400" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Implemented a remote control system for a Kuka robotic arm using real-time motion tracking.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Teleoperation/Teleoperation.jpg\" alt=\"Teleoperation Kuka Robotic Arm\" />\n  </div>\n</div>"
+            }
+          ]
+        },
+        {
+          "title": "Links and Resources",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": []
+        }
+      ]
+    },
+    {
+      "title": "Autonomous Driving | ML Engineer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            {
+              "name": "Convolutional Neural Network (CNN)",
+              "color": "#00008B"
+            },
+            { "name": "Deep Learning", "color": "#00008B" },
+            { "name": "Data Augmentation", "color": "#00008B" },
+            { "name": "Autonomous Navigation", "color": "#00008B" },
+            { "name": "Data Collection and Labelling", "color": "#00008B" },
+            { "name": "Colour Thresholding", "color": "#00008B" },
+            { "name": "Penguin Pi Robot", "color": "#00008B" },
+            { "name": "Reinforcement Learning", "color": "#00008B" },
+            { "name": "Robot Control Systems", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>I developed a convolutional neural network (CNN) to predict vehicle steering for autonomous driving, enabling my robot to navigate both urban and rural roads. The model processed RGB camera images to generate real-time steering commands, incorporated stop sign detection, and dynamically adjusted speed based on road conditions. After extensive data collection, training, and deployment on a Raspberry Pi-controlled robot, I secured 1st place in the Need4Speed Challenge at RVSS 2025, demonstrating exceptional performance in autonomous navigation and real-world adaptability.</p></div><div class=\"summary-media\"><img src=\"images/software/Autonomous_Driving_ML/Autonomous_Driving.jpg\" alt=\"Autonomous Driving\" /></div></div><div class=\"summary-row\"><img src=\"images/software/Autonomous_Driving_ML/Team_Photo.jpg\" alt=\"Team Winning Photo\" /><img src=\"images/software/Autonomous_Driving_ML/Competition_Day.jpg\" alt=\"Competition Photo\" /></div><div class=\"summary-video\"><div class=\"video-container\"><iframe width=\"100%\" height=\"200\" src=\"https://www.youtube.com/embed/Ji1zX4laue0\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div></div>"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/autonomousDriving.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/autonomousDriving/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_computervision-ai-robotics-activity-7297954286041186304-cDN6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post\n</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Tesla | Mechanical Design Engineer Intern",
+      "dropdowns": [
+        {
+          "title": "TL;DR",
+          "icon": "fa-solid fa-info-circle",
+          "iconColor": "#000000",
+          "items": [
+            {
+              "text": "<div class='text-container'><ul><li>Led design and development of seven thermal coolant components for CyberCab and other vehicles.</li><li>Managed RFQs, DFM reviews, and approved $160,000 in tooling for $1M+ annual components.</li><li>Optimized thermal designs using first-principles engineering, saving $100,000+ annually.</li><li>Directed investigations on automation, NVH, and insulation, performing eight tests and analyzing data.</li></ul></div>"
+            }
+          ]
+        },
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Mechanical Design", "color": "#8B0000" },
+            { "name": "First-Principles Analysis", "color": "#8B0000" },
+            { "name": "CATIA V5 and 3DExplorer", "color": "#8B0000" },
+            { "name": "Design for Manufacturing (DFM)", "color": "#8B0000" },
+            { "name": "Material Selection", "color": "#8B0000" },
+            { "name": "Automation Design", "color": "#8B0000" },
+            { "name": "Prototyping", "color": "#8B0000" },
+            { "name": "Testing & Troubleshooting", "color": "#8B0000" },
+            { "name": "2D Drawings (GD&T)", "color": "#8B0000" },
+            { "name": "Request for Quote (RFQ) Process", "color": "#006400" },
+            { "name": "Cost Optimization", "color": "#006400" },
+            { "name": "Cross-functional Collaboration", "color": "#006400" },
+            { "name": "New Product Integration", "color": "#006400" },
+            { "name": "Validation & Data Analysis", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Job Description",
+          "icon": "fa-solid fa-file-alt",
+          "iconColor": "#28B463",
+          "items": [
+            {
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Tesla/Job_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
+            }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>I had the incredible opportunity to work as a <strong>Mechanical Design Engineer</strong> in the Bay Area, USA, as part of the <strong>Thermal Team</strong>, which is known for owning one of the best-engineered vehicle thermal systems in the world.<br><br>As a key member of the thermal team, I was responsible for seven thermal coolant hose bundles spanning two future vehicles (CyberCab and Cybertruck RWD). I led various investigations, from material selection to automation design. My role involved the full iterative process of design, prototyping, and testing, gaining hands-on experience in <strong>designing for manufacturing (DFM)</strong> and automation.<br><br>One of my significant contributions was leading the <strong>RFQ (Request for Quote)</strong> process for one of the future vehicles. This included coordinating ongoing meetings with multiple suppliers to ensure the design was ready for mass production. My efforts culminated in giving the go-ahead for over $160k in tools, which helped the company save over $100k annually, all while the components were projected to cost over $1 million a year.<br><br>What stood out most during my time at Tesla was the company's unique flat organizational structure. Despite the global challenges faced by large tech companies, Tesla operates with a lean, trusting approach that places significant ownership in its employees. This allowed me to accomplish and grow in ways I never expected, and I'm incredibly grateful for the opportunity.<br><br>Applying the knowledge I gained at Monash University, including Solid Mechanics, Dynamics, Thermal, Materials, and Tolerancing, was instrumental in my day-to-day work. I also expanded my knowledge with new topics like NVH (Noise, Vibration, and Harshness) and durability, which were critical in ensuring the success of my projects.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Tesla/Tesla_Factory.jpg\" alt=\"Tesla Factory\"><img src=\"images/mechanical/Tesla/Tesla_Cars.jpg\" alt=\"Tesla Cars\"><img src=\"images/mechanical/Tesla/Tesla_Fremont.jpg\" alt=\"Tesla Fremont Factory\"><div class=\"video-container\"><iframe width=\"100%\" height=\"200\" src=\"https://www.youtube.com/embed/Qfj4urMF8CU\" frameborder=\"0\" allowfullscreen></iframe></div></div></div>"
+            }
+          ]
+        },
+        {
+          "title": "Links and Resources",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://www.tesla.com/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Tesla Website\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_tesla-mechanicaldesignengineer-intern-activity-7212982421015650305-DI19?utm_source=share&utm_medium=member_desktop\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post\n</a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
