@@ -43,10 +43,7 @@
             { "name": "Digital Twinning", "color": "#00008B" },
             { "name": "Real-Time Simulation", "color": "#00008B" },
             { "name": "URDF Models", "color": "#00008B" },
-            {
-              "name": "3D VR Integration (Meta Quest 2/3)",
-              "color": "#00008B"
-            },
+            { "name": "3D VR Integration (Meta Quest 2/3)", "color": "#00008B" },
             { "name": "Camera Stream Integration", "color": "#00008B" },
             { "name": "Server Communication", "color": "#00008B" },
             { "name": "Robotics Control", "color": "#00008B" },
@@ -57,6 +54,7 @@
             { "name": "Project Management", "color": "#006400" },
             { "name": "Communication", "color": "#006400" },
             { "name": "Team Leadership", "color": "#006400" }
+
           ]
         },
         {
@@ -65,16 +63,20 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Implemented a remote control system for a Kuka robotic arm using real-time motion tracking.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Teleoperation/Teleoperation.jpg\" alt=\"Teleoperation Kuka Robotic Arm\" />\n  </div>\n</div>"
+                "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>I led a team of three in developing an integrated virtual reality system designed to enhance user control and precision in teleoperating robotic arms. This system, implemented in the Monash Smart Manufacturing Hub's Digital Twin Lab, enables intuitive real-time manipulation of a KUKA robotic arm using VR hand-tracking and an advanced two-finger haptic feedback glove. Working every day for three months over the summer, we achieved significant milestones.<br><br></p>\n\n    <h3>Haptic Glove</h3>\n    <p>I designed and tested seven iterations of the glove, sourced components, created the electrical schematic, soldered and crimped connections, and wrote Python scripts on a Raspberry Pi Model 4B to enable two-way communication with the robotic arm gripper. Additionally, I designed the housing for the Raspberry Pi. The haptic glove now functions seamlessly upon power-up.<br><br></p>\n\n <div class=\"summary-row\"><img src=\"images/software/Teleoperation/Glove_v7.jpeg\" alt=\"Haptic Gloves v7\" style = \"height: 300px; \"/><img src=\"images/software/Teleoperation/Glove_BreadBoard.jpg\" alt=\"Glove Bread Board\" style = \"height: 300px; \"/><img src=\"images/software/Teleoperation/Glove_VeroBoard.jpg\" alt=\"Glove Vero Board\" style = \"height: 300px; \"/><img src=\"images/software/Teleoperation/Glove_Final.jpeg\" alt=\"Glove Final\" style = \"height: 300px; \"/></div> <br><br>  <h3>Robotic Arm</h3>\n    <p>I wrote the KUKA Sunrise Java code that allows the robotic arm and end effector to receive values from the server, enabling real-time control. This required an in-depth understanding of OPC UA to create new variables, as well as extensive research into KUKA Sunrise and Robotiq Gripper 2F-140 documentation. Ultimately, I successfully integrated the gripper with both the KUKA robotic arm and the server.<br><br></p>\n\n    <h3>VR & Hand Tracking</h3>\n    <p>I developed the virtual lab environment that users interact with in VR. Additionally, I wrote C# scripts that track the user's hand, calculate movement differences, and transmit the data to the server for the robotic arm to mimic. I also wrote scripts for mapping gripper movement in Unity and learned how to integrate different robotic frames. Furthermore, I co-wrote the locomotion scripts that allow users to navigate the lab and authored the view-changer script, which lets users switch between different perspectives.<br><br></p>\n\n <div class=\"summary-row\"><img src=\"images/software/Teleoperation/HandTracking.jpg\" alt=\"Haptic Tracking\" style = \"height: 300px; \"/>   <video height=\"300px\" controls>\n      <source src=\"images/software/Teleoperation/HandTracking.mp4\" type=\"video/mp4\">\n      </video></div><br><br>   <h3>Camera Streams</h3>\n    <p>I sourced and implemented a Zed Camera, RealSense Camera, and LogiCamera, integrating them with a Xavier Jetson to enhance teleoperation by making control more immersive and intuitive.<br><br></p>\n\n  <div class=\"summary-row\"><img src=\"images/software/Teleoperation/RealSenseCamera.jpg\" alt=\"RealSense Camera\" style = \"height: 300px; \"/>  </div><br><br>   <h3>Software Development</h3>\n    <p>My contributions extended to software development, where I wrote the code that connects the KUKA robotic arm to the server, implemented OPC UA for industrial communication, and developed the Unity-based control system for the gripper. Additionally, I engineered the hand-tracking system, calculated movement differences, and transmitted them to the server while integrating all camera streams for a seamless operator experience.<br><br></p>\n\n    <h3>Administration</h3>\n    <p>I formed and led the team, holding weekly meetings with our supervisor and bi-weekly meetings with the team. I also wrote all the necessary documentation to obtain ethics approval, including the Explanatory Statement, Consent Form, Interview Topics, and Survey Questions - ensuring we could conduct testing with participants. Additionally, I authored and secured approval for two detailed risk assessments, one for the project as a whole and another specifically for the full-body haptic suit, assuming the role of Risk Owner. I conducted extensive academic research in this field, developed a six-month project timeline (Gantt Chart), and contributed significantly to the project report. <br><br></p> <div class=\"summary-row\"><img src=\"images/software/Teleoperation/Ethics_Approval.jpg\" alt=\"Ethics Approval\" style = \"height: 300px; \"/> <img src=\"images/software/Teleoperation/Risk_Assessment.jpg\" alt=\"General Risk Assessment\" style = \"height: 300px; \"/> <img src=\"images/software/Teleoperation/Risk_Assessment_2.jpg\" alt=\"Tesla Suit Risk Assessment\" style = \"height: 300px; \"/> </div><br><br>  <p> Ultimately, this project was highly rewarding. By reducing cognitive strain and improving operational accuracy, we laid the groundwork for future advancements in haptic-enhanced teleoperation.</p>\n\n  <div style=\"text-align: center;\">\n    <video height=\"425px\" controls>\n      <source src=\"images/software/Teleoperation/Teleoperating.mp4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  </div>\n </div>"
             }
           ]
-        },
+        },        
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
-        }
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/teleoperation.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n<a href=\"https://jabichebli.github.io/teleoperation/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n<a href=\"documents/software/Teleoperation/Project_Proposal.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Project Proposal\n</a>\n<a href=\"documents/software/Teleoperation/Progress_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Progress Report\n</a>\n<a href=\"https://teslasuit.io/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Teslasuit Website\n</a>\n<a href=\"https://www.kuka.com/en-au/products/robotics-systems/industrial-robots/lbr-iiwa\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-robot\"></i> KUKA LBR iiwa\n</a>"
+            }
+          ]
+        }               
       ]
     },
     {
