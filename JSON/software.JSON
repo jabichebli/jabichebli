@@ -1,26 +1,17 @@
 {
   "projects": [
     {
-      "title": "Mind Control Operation of Kuka Robotic Arm | Software Engineer",
+      "title": "Gift Finder | Full Stack Engineer",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Brain-Computer Interfaces (BCI)", "color": "#FF5733" },
-            { "name": "Robotic Arm Control", "color": "#33FF57" },
-            { "name": "Software Development", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Developed a system to control a Kuka robotic arm using brain-computer interfaces (BCI)."
-            }
+            { "name": "Flutter", "color": "#00008B" },
+            { "name": "Mobile App Development", "color": "#00008B" },
+            { "name": "UI/UX Design", "color": "#00008B" },
+            { "name": "Database Management", "color": "#00008B" }
           ]
         },
         {
@@ -29,15 +20,36 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Developed a system to control a Kuka robotic arm using brain-computer interfaces (BCI).</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Mind_Control/Mind_Control.png\" alt=\"Mind Control BCI\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>"
             }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Mind Control Operation of Kuka Robotic Arm | ML Engineer",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Kuka Robotic Arm", "color": "#00008B" },
+            { "name": "EEG Headset", "color": "#00008B" },
+            { "name": "Machine Learning", "color": "#00008B" },
+            { "name": "Python", "color": "#00008B" },
+            { "name": "Java", "color": "#00008B" }
           ]
         },
         {
-          "title": "Links and Resources",
-          "icon": "fa-solid fa-link",
-          "iconColor": "#9B59B6",
-          "items": []
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>"
+            }
+          ]
         }
       ]
     },
@@ -165,26 +177,21 @@
       ]
     },
     {
-      "title": "Gift Finder | Software Engineer",
+      "title": "Olympics Database | Data Engineer",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Web Development", "color": "#FF5733" },
-            { "name": "Machine Learning", "color": "#33FF57" },
-            { "name": "Recommendation System", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Created a web-based application that suggests gifts based on user preferences and machine learning."
-            }
+            { "name": "Database Design", "color": "#00008B" },
+            { "name": "SQL", "color": "#00008B" },
+            { "name": "PL/SQL", "color": "#00008B" },
+            { "name": "MongoDB", "color": "#00008B" },
+            { "name": "Relational Database", "color": "#00008B" },
+            { "name": "Non-Relational Database", "color": "#00008B" },
+            { "name": "SQL Query Optimization", "color": "#00008B" },
+            { "name": "DML and Transaction Management", "color": "#00008B" }
           ]
         },
         {
@@ -193,39 +200,40 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Created a web-based application that suggests gifts based on user preferences and machine learning.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Gift_Finder/Gift_Finder.png\" alt=\"Gift Finder App\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p> I developed a robust database system for Paris Arrow Transit (PAT) to manage transportation logistics for events like the Olympics. I worked across both relational and non-relational databases, leveraging SQL, PL/SQL, and MongoDB to build a flexible and efficient system. My work involved not only creating and populating the database to meet specified requirements but also implementing advanced features such as sequence management and data integrity enforcement through triggers and stored procedures. I restructured the schema to accommodate new business rules, including managing official roles and handling complaints about drivers' behavior. The system was designed to automatically suspend drivers based on accumulated demerit points and ensure that all trip-related data adhered to business logic. Additionally, I integrated MongoDB to handle driver-trip data in JSON format, adding another layer of scalability to the project. Throughout, I ensured that the database was efficient, scalable, and aligned with future needs.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Olympics_Database/Olympic_Logical.png\" alt=\"Olympics Database\" />\n  </div>\n</div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/olympicsDatabase.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/olympicsDatabase/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
+            }
+          ]
         }
       ]
     },
     {
-      "title": "Olympics Database | Software Engineer",
+      "title": "Library Data | Data Engineer",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Database Design", "color": "#FF5733" },
-            { "name": "SQL", "color": "#33FF57" },
-            { "name": "Data Analytics", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Designed and implemented a relational database system to track Olympic athletes and events."
-            }
+            { "name": "Database Design", "color": "#00008B" },
+            { "name": "SQL", "color": "#00008B" },
+            { "name": "Oracle RDBMS", "color": "#00008B" },
+            { "name": "Conceptual Model", "color": "#00008B" },
+            { "name": "Logical Model", "color": "#00008B" },
+            { "name": "Normalization", "color": "#00008B" },
+            { "name": "Team Leadership", "color": "#006400" },
+            { "name": "Project Management", "color": "#006400" },
+            { "name": "Communication", "color": "#006400" }
+
           ]
         },
         {
@@ -234,56 +242,19 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Designed and implemented a relational database system to track Olympic athletes and events.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Olympics_Database/Olympic_Logical.png\" alt=\"Olympics Database\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>I designed a comprehensive database system for the ReadMore Community Library (RCL), which serves Local Government Agencies (LGAs). The database manages information related to LGAs, their branches, and the managers overseeing them. It ensures efficient data storage and retrieval while maintaining data integrity through normalization. By creating detailed conceptual and logical models, and implementing them into a functional database schema, I streamlined RCL's operations. I learnt the importance of well-structured databases in managing large-scale organizational data.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Library_Database/Logical_Model.png\" alt=\"Library Database\" />\n  </div>\n</div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
-        }
-      ]
-    },
-    {
-      "title": "Library Database | Software Engineer",
-      "dropdowns": [
-        {
-          "title": "Skills",
-          "icon": "fa-solid fa-lightbulb",
-          "iconColor": "#F4D03F",
-          "items": [
-            { "name": "Database Design", "color": "#FF5733" },
-            { "name": "SQL", "color": "#33FF57" },
-            { "name": "Data Analytics", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
           "items": [
             {
-              "text": "Developed a library management system for book lending, user authentication, and data analytics."
+              "text": "<a href=\"https://github.com/jabichebli/libraryDatabase.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/libraryDatabase/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
             }
           ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Developed a library management system for book lending, user authentication, and data analytics.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Library_Database/Logical_Model.png\" alt=\"Library Database\" />\n  </div>\n</div>"
-            }
-          ]
-        },
-        {
-          "title": "Links and Resources",
-          "icon": "fa-solid fa-link",
-          "iconColor": "#9B59B6",
-          "items": []
         }
       ]
     },
@@ -295,19 +266,14 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Data Analysis", "color": "#FF5733" },
-            { "name": "Python", "color": "#33FF57" },
-            { "name": "SQL", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Analyzed seismic data to identify patterns in earthquake frequency and magnitude in Australia."
-            }
+            { "name": "HTML", "color": "#00008B" },
+            { "name": "CSS", "color": "#00008B" },
+            { "name": "VegaLite", "color": "#00008B" },
+            { "name": "Statistical Analysis", "color": "#00008B" },
+            { "name": "Complex Data Visualization", "color": "#00008B" },
+            { "name": "Data Wrangling", "color": "#00008B" },
+            { "name": "Data Analysis", "color": "#00008B" },
+            { "name": "Regression Analysis", "color": "#00008B" }
           ]
         },
         {
@@ -316,15 +282,19 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Analyzed seismic data to identify patterns in earthquake frequency and magnitude in Australia.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Australian_Earthquakes_Analysis/Australian_Earthquakes.png\" alt=\"Australian Earthquakes Analysis\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>I  explored seismic activity across Australia from 2008 to 2024, highlighting key events, trends, and their impacts. By analyzing earthquake data, I identified regions with higher seismic activity, such as Western Australia, and examined the relationship between earthquake magnitude, depth, and resulting damage. The analysis emphasizes the importance of understanding earthquake risks for informed infrastructure planning, particularly in regions near active tectonic boundaries. This project showcases data visualization techniques and provides valuable insights into Australia's lesser-known earthquake activity.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Australian_Earthquakes_Analysis/Australian_Earthquakes.png\" alt=\"Australian Earthquakes Analysis\" />\n  </div>\n</div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/australianEarthquakesAnalysis.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/australianEarthquakesAnalysis/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
+            }
+          ]
         }
       ]
     },
@@ -336,19 +306,12 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Data Analysis", "color": "#FF5733" },
-            { "name": "Statistical Analysis", "color": "#33FF57" },
-            { "name": "Python", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Performed statistical analysis on Australian Olympic athletes' performance over the years."
-            }
+            { "name": "Tableau", "color": "#00008B" },
+            { "name": "Statistical Analysis", "color": "#00008B" },
+            { "name": "Complex Data Visualization", "color": "#00008B" },
+            { "name": "Data Wrangling", "color": "#00008B" },
+            { "name": "Data Analysis", "color": "#00008B" },
+            { "name": "Regression Analysis", "color": "#00008B" }
           ]
         },
         {
@@ -357,15 +320,60 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Performed statistical analysis on Australian Olympic athletes' performance over the years.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Australian_Athletes_Analysis/Australian_Athletes.png\" alt=\"Australian Athletes Analysis\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Developed an interactive visualization that explores Australia's Olympic performance from 1900 to 2024. Built using Tableau, this dashboard provides a comprehensive analysis of athlete participation, medal counts, and trends across different Olympic events. Users can explore historical data to uncover patterns in Australia's sporting success, compare performances across decades, and analyze the impact of various factors on medal achievements. With dynamic charts, filters, and insights, this tool serves as a valuable resource for sports analysts, historians, and enthusiasts looking to understand Australia's Olympic legacy in a visually engaging way.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Australian_Athletes_Analysis/Australian_Athletes.png\" alt=\"Australian Athletes Analysis\" />\n  </div>\n</div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/aussieAthletesAnalysis.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/aussieAthletesAnalysis/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Starbucks Coffee Analysis | Data Analyst",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "R Studio", "color": "#00008B" },
+            { "name": "Data Wrangling", "color": "#00008B" },
+            { "name": "Data Analysis", "color": "#00008B" },
+            { "name": "Regression Analysis", "color": "#00008B" },
+            { "name": "Linear Regression Modeling", "color": "#00008B" },
+            { "name": "Data Visualization", "color": "#00008B" },
+            { "name": "Bubble Chart", "color": "#00008B" },
+            { "name": "Q-Q Plot", "color": "#00008B" },
+            { "name": "Residual Plot", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Summary",
+          "icon": "fa-solid fa-align-left",
+          "iconColor": "#E67E22",
+          "items": [
+            {
+              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I explored Starbucks' coffee offerings, analyzing caffeine content and health factors. Using R Studio, I gathered and cleaned raw data, performed regression analysis, and created user-friendly reports to answer key questions on coffee healthiness and customization impacts.<br><br>\n    </p>\n  </div>\n</div>\n  <!-- Images -->\n  <div class=\"summary-row\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Introduction.png\" alt=\"Starbucks Coffee Analysis Introduction\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Wrangling_Q1.png\" alt=\"Data Wrangling Q1\">\n   </div> <div class=\"summary-row\">\n  <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Q1.png\" alt=\"Data Analysis Q1\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Wrangling_Q2.png\" alt=\"Data Wrangling Q2\">\n   </div> <div class=\"summary-row\">\n  <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Q2.png\" alt=\"Data Analysis Q2\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Plot1.png\" alt=\"Data Analysis Plot1\">\n   </div> <div class=\"summary-row\">\n  <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Plot2.png\" alt=\"Data Analysis Plot2\">\n </div>"
+            }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/starbucksAnalysis.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/starbucksAnalysis/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
+            }
+          ]
         }
       ]
     },
@@ -377,19 +385,12 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Data Analysis", "color": "#FF5733" },
-            { "name": "Python", "color": "#33FF57" },
-            { "name": "SQL", "color": "#3357FF" }
-          ]
-        },
-        {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "Investigated crime trends using Python and SQL, providing insights into urban safety policies."
-            }
+            { "name": "R Studios", "color": "#00008B" },
+            { "name": "Data Wrangling", "color": "#00008B" },
+            { "name": "Data Analysis", "color": "#00008B" },
+            { "name": "Time Series Plot", "color": "#00008B" },
+            { "name": "Histograms", "color": "#00008B" },
+            { "name": "Data Visualization", "color": "#00008B" }
           ]
         },
         {
@@ -398,40 +399,39 @@
           "iconColor": "#E67E22",
           "items": [
             {
-              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Investigated crime trends using Python and SQL, providing insights into urban safety policies.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Crime_Analysis/Crime_Analysis.png\" alt=\"Crime Analysis\" />\n  </div>\n</div>"
+              "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>Conducted an in-depth crime data analysis using R Studios, exploring crime trends, correlations, and predictive factors. Leveraged statistical methods and data visualizations to identify patterns across different crime types and locations. This analysis provides valuable insights for policymakers, law enforcement, and researchers to enhance urban safety strategies.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"images/software/Crime_Analysis/Crime_Analysis.png\" alt=\"Crime Analysis\" />\n  </div>\n</div>"
             }
           ]
         },
         {
-          "title": "Links and Resources",
+          "title": "Links",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
-          "items": []
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/crimeAnalysis.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/crimeAnalysis/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
+            }
+          ]
         }
       ]
     },
-    {
-        "title": "Starbucks Coffee Analysis | Data Analyst",
+      {
+        "title": "Organisation Web App | Full Stack Engineer",
         "dropdowns": [
           {
             "title": "Skills",
             "icon": "fa-solid fa-lightbulb",
             "iconColor": "#F4D03F",
             "items": [
-              { "name": "Data Analysis", "color": "#FF5733" },
-              { "name": "R Studio", "color": "#33FF57" },
-              { "name": "Data Wrangling", "color": "#3357FF" },
-              { "name": "Regression Analysis", "color": "#F4D03F" }
-            ]
-          },
-          {
-            "title": "Job Description",
-            "icon": "fa-solid fa-file-alt",
-            "iconColor": "#28B463",
-            "items": [
-              {
-                "text": "<div class=\"pdf-container\">\n  <iframe src=\"\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-              }
+              { "name": "HTML", "color": "#00008B" },
+              { "name": "CSS", "color": "#00008B" },
+              { "name": "JavaScript", "color": "#00008B" },
+              { "name": "UI/UX Design", "color": "#00008B" },
+              { "name": "Database Management", "color": "#00008B" },
+              { "name": "Quality Assurance", "color": "#00008B" },
+              { "name": "Trello (Kanban Board)", "color": "#006400" },
+              { "name": "Project Management", "color": "#006400" },
+              { "name": "Communication", "color": "#006400" }
             ]
           },
           {
@@ -440,45 +440,41 @@
             "iconColor": "#E67E22",
             "items": [
               {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason explored Starbucks' coffee offerings, analyzing caffeine content and health factors. Using R Studio, he gathered and cleaned raw data, performed regression analysis, and created user-friendly reports to answer key questions on coffee healthiness and customization impacts.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Introduction.png\" alt=\"Starbucks Coffee Analysis Introduction\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Wrangling_Q1.png\" alt=\"Data Wrangling Q1\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Q1.png\" alt=\"Data Analysis Q1\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Wrangling_Q2.png\" alt=\"Data Wrangling Q2\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Q2.png\" alt=\"Data Analysis Q2\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Plot1.png\" alt=\"Data Analysis Plot1\">\n    <img src=\"images/software/Starbucks_Coffee_Analysis/Data_Analysis_Plot2.png\" alt=\"Data Analysis Plot2\">\n  </div>\n</div>"
+                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface.<br><br>\n    </p>\n  </div>\n</div>\n  <!--Images -->\n <div class=\"summary-row\">\n    <img src=\"images/software/Organisation_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Organisation_Web_App/Weekly_Planner.png\" alt=\"Weekly Planner\">\n  </div>  <div class=\"summary-row\">\n  <img src=\"images/software/Organisation_Web_App/Upcoming_Tasks.png\" alt=\"Upcoming Tasks\">\n    <img src=\"images/software/Organisation_Web_App/Adding_Task.png\" alt=\"Adding Task\">\n \n</div>"
               }
             ]
           },
           {
-            "title": "Links and Resources",
+            "title": "Links",
             "icon": "fa-solid fa-link",
             "iconColor": "#9B59B6",
             "items": [
               {
-                "text": ""
+                "text": "<a href=\"https://github.com/jabichebli/weeklyPlanner.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n <a href=\"https://jabichebli.github.io/weeklyPlanner\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>\n"
               }
             ]
           }
         ]
       },
       {
-        "title": "Organisation Web App | Software Engineer",
+        "title": "Domestic Travel Co. Web App | Lead Full Stack Engineer",
         "dropdowns": [
           {
             "title": "Skills",
             "icon": "fa-solid fa-lightbulb",
             "iconColor": "#F4D03F",
             "items": [
-              { "name": "HTML", "color": "#FF5733" },
-              { "name": "CSS", "color": "#33FF57" },
-              { "name": "JavaScript", "color": "#3357FF" },
-              { "name": "Web Development", "color": "#F4D03F" },
-              { "name": "UI/UX Design", "color": "#9B59B6" }
-            ]
-          },
-          {
-            "title": "Job Description",
-            "icon": "fa-solid fa-file-alt",
-            "iconColor": "#28B463",
-            "items": [
-              {
-                "text": "<div class=\"pdf-container\">\n  <iframe src=\"\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-              }
+              { "name": "HTML", "color": "#00008B" },
+              { "name": "CSS", "color": "#00008B" },
+              { "name": "JavaScript", "color": "#00008B" },
+              { "name": "UI/UX Design", "color": "#00008B" },
+              { "name": "APIs", "color": "#00008B" },
+              { "name": "Database Management", "color": "#00008B" },
+              { "name": "Quality Assurance", "color": "#00008B" },
+              { "name": "Trello (Kanban Board)", "color": "#006400" },
+              { "name": "Team Leadership", "color": "#006400" },
+              { "name": "Project Management", "color": "#006400" },
+              { "name": "Communication", "color": "#006400" }
             ]
           },
           {
@@ -487,64 +483,17 @@
             "iconColor": "#E67E22",
             "items": [
               {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/software/Organisation_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Organisation_Web_App/Weekly_Planner.png\" alt=\"Weekly Planner\">\n    <img src=\"images/software/Organisation_Web_App/Upcoming_Tasks.png\" alt=\"Upcoming Tasks\">\n    <img src=\"images/software/Organisation_Web_App/Adding_Task.png\" alt=\"Adding Task\">\n  </div>\n</div>"
+                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I developed a travel planning application aimed at students, designed to help users plan and manage domestic flight trips. I led a team of software engineers and worked on multiple front-end elements, including user accounts, trip planning, and data retrieval via APIs.<br><br>\n    </p>\n  </div>\n</div>\n  <!-- Images -->\n  <div class=\"summary-row\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Search.png\" alt=\"Search\">\n  </div> <div class=\"summary-row\">\n  <img src=\"images/software/Domestic_Travel_Web_App/Saved_Trips.png\" alt=\"Saved Trips\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Detailed_Trip_Summary.png\" alt=\"Detailed Trip Summary\">\n </div> <div class=\"summary-row\">\n   <img src=\"images/software/Domestic_Travel_Web_App/Create_Account.png\" alt=\"Create Account\">\n  </div>\n"
               }
             ]
           },
           {
-            "title": "Links and Resources",
+            "title": "Links",
             "icon": "fa-solid fa-link",
             "iconColor": "#9B59B6",
             "items": [
               {
-                "text": ""
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Domestic Travel Co. Web App | Software Engineer",
-        "dropdowns": [
-          {
-            "title": "Skills",
-            "icon": "fa-solid fa-lightbulb",
-            "iconColor": "#F4D03F",
-            "items": [
-              { "name": "HTML", "color": "#FF5733" },
-              { "name": "CSS", "color": "#33FF57" },
-              { "name": "JavaScript", "color": "#3357FF" },
-              { "name": "UI/UX Design", "color": "#F4D03F" },
-              { "name": "APIs", "color": "#9B59B6" }
-            ]
-          },
-          {
-            "title": "Job Description",
-            "icon": "fa-solid fa-file-alt",
-            "iconColor": "#28B463",
-            "items": [
-              {
-                "text": "<div class=\"pdf-container\">\n  <iframe src=\"\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-              }
-            ]
-          },
-          {
-            "title": "Summary",
-            "icon": "fa-solid fa-align-left",
-            "iconColor": "#E67E22",
-            "items": [
-              {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason developed a travel planning application aimed at students, designed to help users plan and manage domestic flight trips. He led a team of software engineers and worked on multiple front-end elements, including user accounts, trip planning, and data retrieval via APIs.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Search.png\" alt=\"Search\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Saved_Trips.png\" alt=\"Saved Trips\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Detailed_Trip_Summary.png\" alt=\"Detailed Trip Summary\">\n    <img src=\"images/software/Domestic_Travel_Web_App/Create_Account.png\" alt=\"Create Account\">\n  </div>\n</div>"
-              }
-            ]
-          },
-          {
-            "title": "Links and Resources",
-            "icon": "fa-solid fa-link",
-            "iconColor": "#9B59B6",
-            "items": [
-              {
-                "text": ""
+                "text": "<a href=\"documents/software/Domestic_Travel_Web_App/PMP.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> PMP Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Requirements_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Requirements Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Design_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Design Document (PDF)\n</a>\n<a href=\"documents/software/Domestic_Travel_Web_App/Test_Plan_Document.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Test Plan Document (PDF)\n</a>"
               }
             ]
           }
@@ -557,16 +506,12 @@
             "title": "Skills",
             "icon": "fa-solid fa-lightbulb",
             "iconColor": "#F4D03F",
-            "items": []
-          },
-          {
-            "title": "Job Description",
-            "icon": "fa-solid fa-file-alt",
-            "iconColor": "#28B463",
             "items": [
-              {
-                "text": "<div class=\"pdf-container\">\n  <iframe src=\"\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-              }
+              { "name": "Java", "color": "#00008B" },
+              { "name": "C#", "color": "#00008B" },
+              { "name": "Human-Robot Interaction (HRI)", "color": "#00008B" },
+              { "name": "Project Management", "color": "#006400" },
+              { "name": "Communication", "color": "#006400" }
             ]
           },
           {
@@ -575,39 +520,33 @@
             "iconColor": "#E67E22",
             "items": [
               {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason assisted in the development of immersive analytics at Monash University for a fortnight in 2017. He worked on programming the Nao humanoid robot to enable it to interact vocally with those passing by, perform special tricks such as pushups and dance moves, and provide aid to the IT team Jason collaborated with.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/software/Nao_Robot/nao.jpg\" alt=\"Nao Robot\">\n    <img src=\"images/software/Nao_Robot/Nao_Dancing.png\" alt=\"Nao Dancing\">\n  </div>\n</div>"
+                "text": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>\n      I assisted in the development of immersive analytics at Monash University for a fortnight in 2017. I worked on programming the Nao humanoid robot to enable it to interact vocally with those passing by, perform special tricks such as pushups and dance moves, and provide aid to the IT team I collaborated with.<br><br>\n    </p>\n  </div>\n</div>\n\n<div class=\"summary-video\" style=\"display: flex; justify-content: space-between;\">\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Pushup.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Sprinkler_Dance.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  <div class=\"video-container\">\n    <video width=\"240px\" height=\"425px\" controls>\n      <source src=\"images/software/Nao_Robot/Robot_Dance.MP4\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n</div>"
               }
             ]
           },
           {
-            "title": "Links and Resources",
+            "title": "Links",
             "icon": "fa-solid fa-link",
             "iconColor": "#9B59B6",
             "items": [
               {
-                "text": ""
+                "text": "<a href=\"https://aldebaran.com/nao6/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> Nao Robot Official Website\n</a>"
               }
             ]
           }
         ]
       },
       {
-        "title": "Garbage Shooter | Software Analytics and Programming Intern",
+        "title": "Garbage Shooter | Game Developer",
         "dropdowns": [
           {
             "title": "Skills",
             "icon": "fa-solid fa-lightbulb",
             "iconColor": "#F4D03F",
-            "items": []
-          },
-          {
-            "title": "Job Description",
-            "icon": "fa-solid fa-file-alt",
-            "iconColor": "#28B463",
             "items": [
-              {
-                "text": "<div class=\"pdf-container\">\n  <iframe src=\"\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-              }
+              { "name": "Visual Basic", "color": "#00008B" },
+              { "name": "Game Design", "color": "#00008B" },
+              { "name": "Project Management", "color": "#006400" }
             ]
           },
           {
@@ -616,17 +555,17 @@
             "iconColor": "#E67E22",
             "items": [
               {
-                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Jason created an interactive game designed to simulate waste sorting, raising awareness about environmental issues. This project aimed to engage users in a fun way while educating them on the importance of proper waste management.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/software/Garbage_Shooter/Garbage_Shooter.png\" alt=\"Garbage Shooter Game\">\n  </div>\n</div>"
+                "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I created an interactive game designed to simulate space waste management, raising awareness about environmental issues related to human waste in space. This project aimed to engage users in a fun way while educating them on the importance of proper space waste management.<br><br> The game works by having the user control a spaceship, moving it left and right using the arrow keys, and shooting lasers to destroy incoming space debris with the space bar. As the user progresses, the debris moves faster and in greater quantities. They earn points for every piece of debris destroyed.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\" style=\"display: flex; justify-content: center; align-items: center; overflow: hidden; width: 100%; height: auto;\">\n    <img src=\"images/software/Garbage_Shooter/Garbage_Shooter.png\" alt=\"Garbage Shooter Game\" style=\"transform: rotate(90deg) translate(0px, -50px); max-width: 100%; padding-top: 100px; \">\n  </div>\n</div>"
               }
             ]
           },
           {
-            "title": "Links and Resources",
+            "title": "Links",
             "icon": "fa-solid fa-link",
             "iconColor": "#9B59B6",
             "items": [
               {
-                "text": ""
+                "text": "<a href=\"https://github.com/jabichebli/garbageShooterGame.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n"
               }
             ]
           }
