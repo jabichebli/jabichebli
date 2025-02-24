@@ -3,11 +3,11 @@
 <h1 align="center"> Hi, I'm Jason 👋 and Welcome to my Github! 🚀</h1>
 <h3 align="center">I dabble in a bit of code.... 😉</h3>
 
-- 🔭 I’m currently working on **visualising earthquake activity, creating my portfolio website and making a library database**
+- 🔭 I’m currently working on **mind control operation** and an **AI-integrated mobile app**
 
-- 🌱 I’m currently learning **Bootstrap, VegaLite, NoSQL**
+- 🌱 I’m currently learning **Flutter**
 
-- 👨‍💻 All of my projects are available at [https://jasonabichebli.weebly.com/](https://jasonabichebli.weebly.com/)
+- 👨‍💻 All of my projects are available [here](https://jabichebli.github.io/jabichebli/)
 
 - 💬 Ask me about **what I like more, software or hardware!**
 
