@@ -1,15 +1,20 @@
+/*
+	Name: Jason Abi Chebli
+	Last Editted: 25-Feb-2025	
+	Credit to HTML5 UP for laying some foundations.
+*/
+
+/*--------Imports--------*/
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
-/*Coming Soon Bubble */
-
+/*--------Coming Soon Bubble--------*/
 .coming-soon-bubble {
 	position: absolute;
 	top: 10px;
 	right: 10px;
 	background-color: maroon;
-	/* Tomato color for visibility */
 	color: white;
 	padding: 5px 10px;
 	border-radius: 5px;
@@ -17,59 +22,41 @@
 	font-size: 14px;
 	text-align: center;
 	z-index: 10;
-	/* Ensures it stays on top */
 }
 
 .work-item {
 	position: relative;
-	/* Ensures the bubble is positioned relative to the work-item */
 }
 
-/* Text and Images next to each other*/
-/* Flex container for the summary section */
+/*--------Project Specific Containers--------*/
 .summary-container {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
 	gap: 20px;
-	/* Increase spacing between text and images */
 	flex-wrap: wrap;
 }
 
-/* Style for the text section */
 .summary-text {
 	flex: 2;
-	/* Give more space to text */
 	min-width: 400px;
-	/* Increase minimum width */
 	text-align: justify;
 }
 
-/* Style for the media section (images + video) */
 .summary-media {
 	flex: 1;
-	/* Reduce width allocation for media */
 	min-width: 250px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 }
 
-/* Make images responsive */
-.summary-media img {
-	width: 100%;
-	max-width: 250px;
-	/* Reduce max width to prevent excessive spacing */
-	border-radius: 2px;
-}
-
-/* Make images responsive */
 .summary-media img {
 	width: 100%;
 	max-width: 300px;
+	border-radius: 2px;
 }
 
-/* Custom class for images in rows, ensuring they fit properly */
 .summary-row {
 	display: flex;
 	gap: 10px;
@@ -77,29 +64,22 @@
 	justify-content: center;
 }
 
-/* Make sure images in the custom row are appropriately sized */
 .summary-row img {
 	max-width: 47%;
-	/* Match the width of the images in summary-media */
 	border-radius: 2px;
 }
 
-
-/* YOUTUBE VIDEO */
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
-	/* 16:9 Aspect Ratio */
 	height: 0;
 	overflow: hidden;
 	max-width: 100%;
 	background: #000;
 	margin-top: 5px;
-	/* Reduce excess margin */
 	border-radius: 2px;
 }
 
-/* Ensure iframe takes full space */
 .video-container iframe {
 	position: absolute;
 	top: 0;
@@ -110,11 +90,10 @@
 
 
 
-/* POP UP */
-/* Popup background (overlay) */
+
+/*-------- Project Pop Up --------*/
 .popup-overlay {
 	display: none;
-	/* Hidden by default */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -124,28 +103,22 @@
 	z-index: 9999;
 }
 
-/* Popup container */
 .popup-container {
 	display: none;
-	/* Hidden by default */
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	background-color: white;
 	border-radius: 10px;
-	/* Curved edges */
 	padding: 20px;
 	width: 80%;
 	height: 90%;
-	/* Prevent overflow */
 	overflow: hidden;
-	/* Hide overflow on the container */
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 	z-index: 10000;
 }
 
-/* Popup content */
 .popup-content {
 	position: fixed;
 	top: 50%;
@@ -156,12 +129,10 @@
 	padding: 5px;
 	width: 90%;
 	box-sizing: border-box;
-	/* Ensures padding doesn't affect width */
 	z-index: 10000;
 }
 
 
-/* Close button style */
 .popup-close {
 	position: absolute;
 	top: 10px;
@@ -173,22 +144,17 @@
 	border: none;
 	padding: 10px 16px;
 	border-radius: 50%;
-	/* Circular button */
 	transition: background-color 0.3s ease;
 }
 
 .popup-close:hover {
 	background-color: #ddd;
-	/* Highlight button on hover */
 }
 
-
-/* To blur the background */
 body.popup-open {
 	overflow: hidden;
 }
 
-/* Navigation buttons */
 .popup-nav {
 	position: absolute;
 	top: 50%;
@@ -205,25 +171,21 @@ body.popup-open {
 
 .popup-nav.left {
 	left: 10px;
-	/* Position to the left */
 }
 
 .popup-nav.right {
 	right: 10px;
-	/* Position to the right */
 }
 
 .popup-nav:hover {
 	background-color: #333;
-	/* Darker on hover */
 }
 
 .popup-nav i {
 	font-size: 20px;
-	/* Icon size */
 }
 
-/* Skill bubbles */
+/*--------Skill bubbles--------*/
 .skill-bubble {
 	display: inline-block;
 	color: white;
@@ -239,7 +201,7 @@ body.popup-open {
 	transform: scale(1.1);
 }
 
-/* HERO IMAGE */
+/*--------Hero (Page) Image--------*/
 #hero {
 	background-size: cover;
 	background-position: center;
@@ -255,7 +217,6 @@ body.popup-open {
 	border-radius: 5px;
 }
 
-/* Text Styling */
 #hero .hero-content {
 	position: relative;
 	z-index: 1;
@@ -267,9 +228,7 @@ body.popup-open {
 	letter-spacing: 2px;
 }
 
-/* ABOUT PAGE */
-
-/* Review */
+/*--------Reviews (Home Page)--------*/
 #review-slider {
 	position: relative;
 	max-width: 750px;
@@ -338,26 +297,22 @@ body.popup-open {
 }
 
 
-/* NAVIGATION BAR*/
+/*--------NAVIGATION BAR--------*/
 
 .container {
 	display: flex;
 	align-items: center;
 	gap: 20px;
-	/* Space between image and text */
 }
 
 .image-container img {
 	width: 250px;
-	/* Adjust as needed */
 	height: auto;
 	border-radius: 10px;
-	/* Optional: Adds rounded corners */
 }
 
 .text-container {
 	flex: 1;
-	/* Allows text to take remaining space */
 }
 
 @media (max-width: 768px) {
@@ -421,7 +376,6 @@ h2 {
 	transform: rotate(-180deg);
 }
 
-/* Default styling for dropdown options */
 .select-menu .options {
 	display: none;
 	background: #fff;
@@ -430,12 +384,10 @@ h2 {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Show options when the menu is active */
 .select-menu.active .options {
 	display: block;
 }
 
-/* Skills-specific styles */
 .select-menu .skills {
 	display: none;
 	flex-wrap: wrap;
@@ -447,7 +399,6 @@ h2 {
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Show skills when the menu is active */
 .select-menu.active .skills {
 	display: flex;
 }
@@ -456,7 +407,6 @@ h2 {
 .options li {
 	list-style: disc;
 	margin-left: 15px;
-	/* Adds space to align the bullets properly */
 	margin-right: 15px;
 	border-radius: 5px;
 	text-align: justify;
@@ -466,17 +416,14 @@ h2 {
 	margin-right: 10px;
 }
 
-/* NAIVATION BAR */
+/*--------NAIVATION MENU BAR--------*/
 
-/* Navigation Menu */
 #menu {
 	list-style: none;
 	padding: 0;
 	text-align: center;
-	/* Center items */
 }
 
-/* Default style for menu links */
 #menu a {
 	display: block;
 	width: 100%;
@@ -485,39 +432,25 @@ h2 {
 	text-decoration: none;
 	font-size: 16px;
 	transition: background 0.3s, color 0.3s;
-	/* Smooth transition */
 }
 
-/* When a menu item is active */
 #menu a.active {
 	background: white;
 	color: #000;
 	font-weight: bold;
 }
 
-/* Fix: Ensure hover works even if the link is active */
 #menu a:hover,
 #menu a.active:hover {
 	background: #49bf9d;
-	/* Change hover color */
 	color: white;
-	/* Change text color */
 }
 
-
-/* Responsive Design */
 @media screen and (max-width: 600px) {
 	#menu a {
 		width: 90%;
-		/* Make buttons take full width on small screens */
 	}
 }
-
-/*
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html,
 body,
@@ -2086,7 +2019,7 @@ pre code {
 	}
 
 	.row>* {
-		padding: 0 0 0 1.5em;
+		padding: 0 0 0 3em;
 	}
 
 	.row.gtr-uniform {
@@ -2331,7 +2264,7 @@ pre code {
 	}
 
 	.row>* {
-		padding: 0 0 0 1.5em;
+		padding: 0 0 0 3em;
 	}
 
 	.row.gtr-uniform {
@@ -3914,12 +3847,12 @@ body.is-touch .poptrox-popup .closer {
 	  }
 	  
 	  #menu-toggle i {
-		transition: transform 0.3s ease-in-out; /* Smooth transition */
+		transition: transform 0.3s ease-in-out;
 		transform: rotate(0deg);
 	  }
 	  
 	  #menu-toggle.rotated i {
-		transform: rotate(180deg); /* Rotates the hamburger */
+		transform: rotate(180deg);
 	  }
 	  
 	  #mobile-title {
@@ -3927,11 +3860,10 @@ body.is-touch .poptrox-popup .closer {
 	  }
 	  
 	  #mobile-title.hidden {
-		opacity: 0; /* Hides the mobile title */
+		opacity: 0; 
 	  }
 	  
 
-    /* Hide the mobile menu by default */
     #mobile-nav {
         display: none;
         position: fixed;
@@ -3961,7 +3893,6 @@ body.is-touch .poptrox-popup .closer {
         text-decoration: none;
     }
 
-    /* When active, display the mobile menu */
     #mobile-nav.active {
         display: block;
     }
@@ -4011,13 +3942,12 @@ body.is-touch .poptrox-popup .closer {
 		border-top: 0;
 	}
 
-	/* OTHER*/
 	.options {
-		max-width: 100%; /* Prevents overflow beyond the parent container */
+		max-width: 100%; 
 		padding: 20px;
-		margin: 0 auto; /* Centers the content if necessary */
+		margin: 0 auto; 
 		box-sizing: border-box;
-		overflow: hidden; /* Ensures content doesn't leak outside */
+		overflow: hidden;
 	}
 	
 	.summary-container {
@@ -4029,20 +3959,20 @@ body.is-touch .poptrox-popup .closer {
 	
 	.summary-row {
 		display: flex;
-		flex-wrap: wrap; /* Ensures images/videos wrap properly */
+		flex-wrap: wrap;
 		justify-content: center;
-		gap: 10px; /* Adds spacing between images */
+		gap: 10px; 
 	}
 	
 	.summary-row img,
 	.summary-row video {
 		max-width: 100%;
-		height: auto; /* Maintains aspect ratio */
+		height: auto; 
 		object-fit: contain;
 	}
 	
 	.summary-text {
-		text-align: center; /* Centers text inside */
+		text-align: center; 
 		min-width: 100%;
 	}
 	
