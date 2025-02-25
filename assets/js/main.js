@@ -228,3 +228,31 @@ $(document).ready(function () {
   });
 })(jQuery); // Execute the function immediately with jQuery.
 
+/*----------- Google Analytics -----------*/ 
+document.addEventListener('DOMContentLoaded', function() {
+  // Ensure gtag is available
+  if (typeof gtag !== 'function') {
+      console.error("Google Analytics gtag function not found. Make sure the tracking script is loaded.");
+      return;
+  }
+
+  // Track link clicks
+  document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function() {
+          gtag('event', 'click', {
+              'event_category': 'link_click',
+              'event_label': this.href
+          });
+      });
+  });
+
+  // Track downloads
+  document.querySelectorAll('a.download').forEach(link => {
+      link.addEventListener('click', function() {
+          gtag('event', 'download', {
+              'event_category': 'file_download',
+              'event_label': this.href
+          });
+      });
+  });
+});
