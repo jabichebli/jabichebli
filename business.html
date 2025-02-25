@@ -10,9 +10,11 @@
 	<title>Jason Abi Chebli</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- Stylesheets -->
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap"
-		rel="stylesheet"> <!-- Google Fonts -->
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap">
+	<!-- Google Fonts -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 	<!-- Font Awesome for Icons -->
 
@@ -20,15 +22,18 @@
 
 <body class="is-preload">
 
+	<!-- Navigation Bar for Large Screen -->
 	<section id="header">
+		<!-- Avatar + Image -->
 		<header>
 			<span class="image avatar"><img src="images/avatar.jpg" alt=""></span>
 			<h1><strong>Jason Abi Chebli</strong></h1>
 			<p>Full-time problem solver</p>
 		</header>
+		<!-- Navigation Menu -->
 		<nav id="nav">
 			<ul id="menu">
-				<li><a href="index.html" class="scrolly active"
+				<li><a href="index.html" class="scrolly"
 						style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Home</a></li>
 				<li><a href="about.html" class="scrolly"
 						style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">About</a></li>
@@ -36,98 +41,172 @@
 						style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Mechanical & Robotics Portfolio</a></li>
 				<li><a href="software.html" class="scrolly"
 						style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Software Portfolio</a></li>
-				<li><a href="business.html" class="scrolly"
+				<li><a href="business.html" class="scrolly active"
 						style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Business & Entrepreneurship Portfolio</a>
 				</li>
 				<li><a href="contact.html" class="scrolly"
 						style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Contact</a></li>
 			</ul>
 		</nav>
+
+		
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/jason-abi-chebli/" class="icon brands fa-linkedin"><span
+								class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/jabichebli" class="icon brands fa-github"><span
+								class="label">Github</span></a></li>
+					<li><a href="contact.html" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Jason Abi Chebli, 2025</li>
+				</ul>
+			</div>
+		</footer>
 	</section>
 
-	<!-- Hero Banner -->
-	<section id="hero" style="background-image: url('images/business/business_main.jpg');">
-		<div class="hero-content">
-		</div>
+	<!-- Navigation Bar for Smaller Screens -->
+	<section id="mobile-header">
+		<button id="menu-toggle" aria-label="Toggle menu">
+			<i class="fas fa-bars"></i>
+		</button>
+		<p id="mobile-title">Jason Abi Chebli</p>
 	</section>
 
-	<!-- Main -->
-	<div id="main">
-		<!-- One -->
-		<section id="one">
-			<h2>Business & Entrepreneurship Portfolio</h2>
-			<p>I have gained diverse experiences in business, entrepreneurship, and leadership, from guiding first-year
-				students at Monash University to co-founding SunAware and pitching to investors in Silicon Valley. My
-				involvement in the StartMate Fellowship, UBS Investment Banking Challenge, and Monash's Mentoring
-				Program has strengthened my business acumen and leadership skills. These opportunities have provided
-				hands-on experience in startup development, strategic problem-solving, and team collaboration, fueling
-				my passion for innovation and business growth.
-				<br><br>
-			</p>
-			<div class="row">
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/Teaching_Associate/Monash_University.png" alt="Monash University" />
-					</a>
-					<h3>Monash University | Teaching Associate</h3>
-					<p>Lead teaching associate, guiding first-year students through statics, material properties,
-						structural analysis, and practical design using 3D printing, SolidWorks, and Cura Slicer.</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/StartMate/StartMate_Notion.png"
-							alt="StartMate Fellowship Notion Page" />
-					</a>
-					<h3>StartMate Student Fellowship 2025</h3>
-					<p>Participated in the Startmate Student Fellowship, gaining hands-on startup experience and
-						mentorship from industry leaders.</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/SunAware/Pitch_Day.jpg" alt="SunAware Pitch Day" />
-					</a>
-					<h3>SunAware | Co-Founder</h3>
-					<p>Co-founded SunAware, a startup focused on sun exposure awareness, and pitched to Silicon Valley
-						investors at Berkeley Extension.</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/UBS/UBS.png" alt="UBS Investment Banking Challenge" />
-					</a>
-					<h3>UBS | Investment Banking Challenge Participant</h3>
-					<p>Selected as a top participant in the UBS Investment Banking Challenge, collaborating with a team
-						to develop an acquisition solution and presenting findings to UBS executives.</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/Mentor_Program/Participation_Certificate_Snip.png"
-							alt="Monash Business School Mentoring Program Certificate" />
-					</a>
-					<h3>Industry & Alumni Mentoring Program | Mentee</h3>
-					<p>Selected for Monash Business School's Industry & Alumni Mentoring Program, gaining insights into
-						business strategy, leadership, and career progression through one-on-one mentoring and
-						workshops.</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/Tutoring/Tuition_Form.png" alt="" />
-					</a>
-					<h3>Private Tutor and DW Tuition | Academic Tutor</h3>
-					<p>Worked as a private academic tutor and through DW Tuition, planning and delivering lessons,
-						managing finances, and fostering a motivating environment to help students achieve their
-						academic goals.</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="#" class="image fit thumb">
-						<img src="images/business/BikeCorp/BikeCorp.png" alt="" />
-					</a>
-					<h3>The Bicycle Corporation Pty. Ltd. | Employee</h3>
-					<p>Gained hands-on experience in warehouse operations, including unloading containers, picking,
-						packing, and working independently and as part of a team.</p>
-				</article>
+	<!-- Mobile Navigation Menu (Initially Hidden) -->
+	<nav id="mobile-nav">
+		<!-- Avatar + Image -->
+		<header>
+			<span class="image avatar" alt
+				style="display: flex; justify-content: center; padding: 1.5em 0em 1.5em 0em;"><img
+					src="images/avatar.jpg" style="width: 35%;" alt=""></span>
+			<p style="margin-bottom: 0em; font-size: large; font-family: 'Poppins', sans-serif; color: white;">Jason Abi
+				Chebli</p>
+			<p>Full-time problem solver</p>
+		</header>
+		<br>
+
+		<ul id="menu">
+			<li><a href="index.html" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Home</a>
+			</li>
+			<li><a href="about.html" class="scrolly"
+					style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">About</a>
+			</li>
+			<li><a href="mechanical.html" class="scrolly"
+					style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Mechanical & Robotics Portfolio</a></li>
+			<li><a href="software.html" class="scrolly" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Software
+					Portfolio</a></li>
+			<li><a href="business.html" class="scrolly active" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Business
+					& Entrepreneurship Portfolio</a>
+			</li>
+			<li><a href="contact.html" class="scrolly"
+					style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Contact</a></li>
+		</ul>
+		<br><br><br><br>
+
+
+		<ul class="copyright">
+			<li>&copy; Jason Abi Chebli, 2025</li>
+		</ul>
+	</nav>
+
+
+	<div id="body">
+		<!-- Hero Banner Section -->
+		<section id="hero" style="background-image: url('images/business/business_main.jpg');">
+			<div class="hero-content">
+				<h1 style="color: white;"></h1>
 			</div>
 		</section>
 
+
+		<!-- Main -->
+		<div id="main">
+			<!-- One -->
+			<section id="one">
+				<h2>Business & Entrepreneurship Portfolio</h2>
+				<p>I have gained diverse experiences in business, entrepreneurship, and leadership, from guiding
+					first-year
+					students at Monash University to co-founding SunAware and pitching to investors in Silicon Valley.
+					My
+					involvement in the StartMate Fellowship, UBS Investment Banking Challenge, and Monash's Mentoring
+					Program has strengthened my business acumen and leadership skills. These opportunities have provided
+					hands-on experience in startup development, strategic problem-solving, and team collaboration,
+					fueling
+					my passion for innovation and business growth.
+					<br><br>
+				</p>
+				<div class="row">
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/Teaching_Associate/Monash_University.png"
+								alt="Monash University" />
+						</a>
+						<h3>Monash University | Teaching Associate</h3>
+						<p>Lead teaching associate, guiding first-year students through statics, material properties,
+							structural analysis, and practical design using 3D printing, SolidWorks, and Cura Slicer.
+						</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/StartMate/StartMate_Notion.png"
+								alt="StartMate Fellowship Notion Page" />
+						</a>
+						<h3>StartMate Student Fellowship 2025</h3>
+						<p>Participated in the Startmate Student Fellowship, gaining hands-on startup experience and
+							mentorship from industry leaders.</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/SunAware/Pitch_Day.jpg" alt="SunAware Pitch Day" />
+						</a>
+						<h3>SunAware | Co-Founder</h3>
+						<p>Co-founded SunAware, a startup focused on sun exposure awareness, and pitched to Silicon
+							Valley
+							investors at Berkeley Extension.</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/UBS/UBS.png" alt="UBS Investment Banking Challenge" />
+						</a>
+						<h3>UBS | Investment Banking Challenge Participant</h3>
+						<p>Selected as a top participant in the UBS Investment Banking Challenge, collaborating with a
+							team
+							to develop an acquisition solution and presenting findings to UBS executives.</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/Mentor_Program/Participation_Certificate_Snip.png"
+								alt="Monash Business School Mentoring Program Certificate" />
+						</a>
+						<h3>Industry & Alumni Mentoring Program | Mentee</h3>
+						<p>Selected for Monash Business School's Industry & Alumni Mentoring Program, gaining insights
+							into
+							business strategy, leadership, and career progression through one-on-one mentoring and
+							workshops.</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/Tutoring/Tuition_Form.png" alt="" />
+						</a>
+						<h3>Private Tutor and DW Tuition | Academic Tutor</h3>
+						<p>Worked as a private academic tutor and through DW Tuition, planning and delivering lessons,
+							managing finances, and fostering a motivating environment to help students achieve their
+							academic goals.</p>
+					</article>
+					<article class="col-6 col-12-xsmall work-item">
+						<a href="#" class="image fit thumb">
+							<img src="images/business/BikeCorp/BikeCorp.png" alt="" />
+						</a>
+						<h3>The Bicycle Corporation Pty. Ltd. | Employee</h3>
+						<p>Gained hands-on experience in warehouse operations, including unloading containers, picking,
+							packing, and working independently and as part of a team.</p>
+					</article>
+				</div>
+			</section>
+		</div>
 	</div>
 
 
@@ -162,7 +241,7 @@
 	</div>
 
 	<!-- Footer -->
-	<footer id="footer">
+	<footer id="mobile-footer">
 		<div class="inner">
 			<ul class="icons">
 				<li><a href="https://www.linkedin.com/in/jason-abi-chebli/" class="icon brands fa-linkedin"><span
