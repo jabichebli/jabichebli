@@ -3915,6 +3915,7 @@ body.is-touch .poptrox-popup .closer {
 	  
 	  #menu-toggle i {
 		transition: transform 0.3s ease-in-out; /* Smooth transition */
+		transform: rotate(0deg);
 	  }
 	  
 	  #menu-toggle.rotated i {

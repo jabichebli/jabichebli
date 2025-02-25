@@ -213,3 +213,18 @@ $(document).ready(function () {
     openPopup(currentIndex); // Open the next project
   });
 });
+
+
+(function ($) {
+  // Cache the window and body elements.
+  var $window = $(window),
+      $body = $("body");
+
+  // Remove the "is-preload" class after page load to trigger animations.
+  $window.on("load", function () {
+    window.setTimeout(function () {
+      $body.removeClass("is-preload");
+    }, 100); // Delay for smooth transition.
+  });
+})(jQuery); // Execute the function immediately with jQuery.
+
