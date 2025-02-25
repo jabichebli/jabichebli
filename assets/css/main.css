@@ -260,13 +260,18 @@ body.popup-open {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: #ddd;
 	color: white;
 	border: none;
-	padding: 10px;
-	border-radius: 20%;
+	padding: 8px 15px;
+	border-radius: 50%;
 	font-size: 18px;
 }
+
+.nav-button:hover {
+	background-color: #333;
+}
+
 
 .prev {
 	left: 10px;
