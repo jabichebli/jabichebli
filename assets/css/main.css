@@ -3940,6 +3940,7 @@ body.is-touch .poptrox-popup .closer {
 		-ms-flex-grow: 1;
 		flex-grow: 1;
 		padding: 1.5em 1.5em;
+		overflow-y: auto;
 	}
 	
 	#mobile-nav ul {
