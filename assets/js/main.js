@@ -5,6 +5,23 @@
 */
 
 document.addEventListener("DOMContentLoaded", function () {
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileNav = document.getElementById("mobile-nav");
+  const mobileTitle = document.getElementById("mobile-title");
+
+  menuToggle.addEventListener("click", function () {
+    mobileNav.classList.toggle("active");
+
+    // Check if the menu is active, then hide or show the title accordingly
+    if (mobileNav.classList.contains("active")) {
+      mobileTitle.style.display = "none";
+    } else {
+      mobileTitle.style.display = "block"; // or "inline" if it's inline text
+    }
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
   /* Reviews */
   let currentIndex = 0;
   const reviews = document.querySelectorAll(".review");
@@ -143,118 +160,125 @@ $(document).ready(function () {
   let currentIndex = 0; // Track the index of the current item
   let projectsData = []; // Store projects data from JSON
 
-    // Get the current page filename (e.g., "mechanical.html", "software.html")
-    let pageName = window.location.pathname.split("/").pop().split(".")[0]; // Extracts "mechanical", "software", etc.
-    
-    // Construct the JSON file path dynamically
-    let jsonFilePath = `JSON/${pageName}.JSON`;
+  // Get the current page filename (e.g., "mechanical.html", "software.html")
+  let pageName = window.location.pathname.split("/").pop().split(".")[0]; // Extracts "mechanical", "software", etc.
 
-    // Fetch JSON data once when the page loads
-    fetch(jsonFilePath)
-      .then(response => response.json())
-      .then(data => {
-          projectsData = data.projects; // Store projects globally
-      })
-      .catch(error => console.error("Error loading JSON:", error));
+  // Construct the JSON file path dynamically
+  let jsonFilePath = `JSON/${pageName}.JSON`;
+
+  // Fetch JSON data once when the page loads
+  fetch(jsonFilePath)
+    .then((response) => response.json())
+    .then((data) => {
+      projectsData = data.projects; // Store projects globally
+    })
+    .catch((error) => console.error("Error loading JSON:", error));
 
   // Function to open the popup and update the content
   function openPopup(index) {
-      if (!projectsData.length) {
-          console.error("No projects loaded yet.");
-          return;
-      }
+    if (!projectsData.length) {
+      console.error("No projects loaded yet.");
+      return;
+    }
 
-      const project = projectsData[index]; // Get the project based on index
+    const project = projectsData[index]; // Get the project based on index
 
-      let popupContent = `
+    let popupContent = `
           <h2>${project.title}</h2>
           <div class="dropdown-container">
       `;
 
-      project.dropdowns.forEach(dropdown => {
-          popupContent += `
+    project.dropdowns.forEach((dropdown) => {
+      popupContent += `
                 <div class="select-menu">
                   <div class="select-btn">
-                      <i class="${dropdown.icon}" style="color: ${dropdown.iconColor};"></i>
+                      <i class="${dropdown.icon}" style="color: ${
+        dropdown.iconColor
+      };"></i>
                       <span class="sBtn-text">${dropdown.title}</span>
                       <i class="fa-solid fa-chevron-down"></i>
                   </div>
-                  <div class="${dropdown.title.toLowerCase().includes('skills') ? 'skills' : 'options'}">
+                  <div class="${
+                    dropdown.title.toLowerCase().includes("skills")
+                      ? "skills"
+                      : "options"
+                  }">
           `;
 
-          if (dropdown.items) {
-              dropdown.items.forEach(item => {
-                  if (item.name) {
+      if (dropdown.items) {
+        dropdown.items.forEach((item) => {
+          if (item.name) {
+            // #8B0000 (Red) --> Mechanical
+            // #006400 (Green) --> Project Management/Team Skills
+            // #00008B (Blue) --> Business Analytics/Software Skills
+            // #FF7300 (Orange) --> Electrical Skills
+            // #4B0082 (Purple) --> Programming Skills
 
-                      // #8B0000 (Red) --> Mechanical 
-                      // #006400 (Green) --> Project Management/Team Skills
-                      // #00008B (Blue) --> Business Analytics/Software Skills
-                      // #FF7300 (Orange) --> Electrical Skills
-                      // #4B0082 (Purple) --> Programming Skills
-
-                      // Handle Skills
-                      popupContent += `<span class="skill-bubble" style = "background-color: ${item.color};">${item.name}</span>`;
-                  } else if (item.text) {
-                      // Handle HTML content (Job Description, Summary, Links, etc.)
-                      popupContent += item.text;
-                  }
-              });
+            // Handle Skills
+            popupContent += `<span class="skill-bubble" style = "background-color: ${item.color};">${item.name}</span>`;
+          } else if (item.text) {
+            // Handle HTML content (Job Description, Summary, Links, etc.)
+            popupContent += item.text;
           }
+        });
+      }
 
-          popupContent += `
+      popupContent += `
                   </div>
               </div>
           `;
-      });
+    });
 
-      popupContent += `</div>`;
+    popupContent += `</div>`;
 
-      // Inject the content into the popup
-      $(".popup-content").html(popupContent);
+    // Inject the content into the popup
+    $(".popup-content").html(popupContent);
 
-      // Show the popup and overlay
-      $(".popup-overlay, .popup-container").fadeIn();
-      $("body").addClass("popup-open");
+    // Show the popup and overlay
+    $(".popup-overlay, .popup-container").fadeIn();
+    $("body").addClass("popup-open");
 
-      // Enable dropdown toggling
-      $(".select-btn").off("click").on("click", function () {
-          $(this).parent().toggleClass("active");
+    // Enable dropdown toggling
+    $(".select-btn")
+      .off("click")
+      .on("click", function () {
+        $(this).parent().toggleClass("active");
       });
   }
 
   // Open the popup when an item is clicked
   $(".work-item a").on("click", function (e) {
-      e.preventDefault();
-      currentIndex = $(this).closest(".work-item").index(); // Get index of clicked item
-      openPopup(currentIndex);
+    e.preventDefault();
+    currentIndex = $(this).closest(".work-item").index(); // Get index of clicked item
+    openPopup(currentIndex);
   });
 
   // Close the popup when the close button is clicked
   $(".popup-close").on("click", function () {
-      $(".popup-overlay, .popup-container").fadeOut();
-      $("body").removeClass("popup-open");
+    $(".popup-overlay, .popup-container").fadeOut();
+    $("body").removeClass("popup-open");
   });
 
   // Close the popup when the overlay is clicked
   $(".popup-overlay").on("click", function () {
-      $(".popup-overlay, .popup-container").fadeOut();
-      $("body").removeClass("popup-open");
+    $(".popup-overlay, .popup-container").fadeOut();
+    $("body").removeClass("popup-open");
   });
 
   // Left navigation button (previous item)
   $(".popup-nav.left").on("click", function () {
-      currentIndex = (currentIndex === 0) ? $(".work-item").length - 1 : currentIndex - 1;
-      openPopup(currentIndex);
+    currentIndex =
+      currentIndex === 0 ? $(".work-item").length - 1 : currentIndex - 1;
+    openPopup(currentIndex);
   });
 
   // Right navigation button (next item)
   $(".popup-nav.right").on("click", function () {
-      currentIndex = (currentIndex === $(".work-item").length - 1) ? 0 : currentIndex + 1;
-      openPopup(currentIndex);
+    currentIndex =
+      currentIndex === $(".work-item").length - 1 ? 0 : currentIndex + 1;
+    openPopup(currentIndex);
   });
 });
-
-
 
 // /* For the Pop-up */
 // $(document).ready(function () {
@@ -268,7 +292,7 @@ $(document).ready(function () {
 //         let popupContent = `
 //         <h2>Tesla | Mechanical Design Engineer Intern</h2>
 //         <div class="dropdown-container">
-    
+
 //             <!-- Skills -->
 //             <div class="select-menu">
 //                 <div class="select-btn">
@@ -288,31 +312,31 @@ $(document).ready(function () {
 //                     <span class="skill-bubble prototype">Data Analysis</span>
 //                 </p>
 //             </div>
-    
+
 //             <!-- Brief or Job Description -->
 //             <div class="select-menu">
 //                 <div class="select-btn">
 //                     <i class="fa-solid fa-file-alt" style="color: #28B463;"></i>
 //                     <span class="sBtn-text">Job Description</span>
 //                     <i class="fa-solid fa-chevron-down"></i>
-//                 </div>    
+//                 </div>
 //                 <div class="options">
 //                       <div class="pdf-container">
 //                           <iframe src="documents/mechanical/Tesla/Job_Description.pdf" width="100%" height="600px"></iframe>
 //                       </div>
 //                 </div>
 //             </div>
-    
+
 //             <!-- Solution or Summary -->
 //             <div class="select-menu">
 //                 <div class="select-btn">
 //                     <i class="fa-solid fa-align-left" style="color: #E67E22;"></i>
 //                     <span class="sBtn-text">Summary</span>
 //                     <i class="fa-solid fa-chevron-down"></i>
-//                 </div>    
+//                 </div>
 //                 <div class="options">
 //                     <div class="summary-container">
-                        
+
 //                         <!-- Left: Text Content -->
 //                         <div class="summary-text">
 //                             <p>
@@ -322,29 +346,29 @@ $(document).ready(function () {
 //                                 Despite officially being an 'intern,' Jason's projects and commitments mirror those of a full-time employee due to the lean team structure. As such, Jason serves as a lead designer for certain thermal components in two future vehicles, involved in every step from concept inception to global manufacturing scale.
 //                             </p>
 //                         </div>
-    
+
 //                         <!-- Right: Images & Video -->
 //                         <div class="summary-media">
 //                             <img src="images/mechanical/Tesla/Tesla_Factory.jpg" alt="Tesla Factory">
 //                             <img src="images/mechanical/Tesla/Tesla_Fremont.jpg" alt="Tesla Fremont Factory">
-                            
+
 //                             <!-- Embedded YouTube Video -->
 //                             <div class="video-container">
 //                                 <iframe width="100%" height="200" src="https://www.youtube.com/embed/Qfj4urMF8CU" frameborder="0" allowfullscreen></iframe>
 //                             </div>
 //                         </div>
-    
+
 //                     </div>
 //                 </div>
 //             </div>
-    
+
 //             <!-- Links -->
 //             <div class="select-menu">
 //                 <div class="select-btn">
 //                     <i class="fa-solid fa-link" style="color: #9B59B6;"></i>
 //                     <span class="sBtn-text">Links and Resources</span>
 //                     <i class="fa-solid fa-chevron-down"></i>
-//                 </div>    
+//                 </div>
 //                 <div class="options">
 //                       <a href="https://www.tesla.com/" target="_blank" style="display: block; margin-bottom: 10px;">
 //                           <i class="fa-solid fa-globe"></i> Tesla Website
@@ -354,10 +378,9 @@ $(document).ready(function () {
 //                       </a>
 //                 </div>
 //             </div>
-    
+
 //         </div>
 //     `;
-    
 
 //         // Inject the content into the popup
 //         $(".popup-content").html(popupContent);
@@ -405,7 +428,6 @@ $(document).ready(function () {
 //         openPopup(currentIndex);
 //     });
 // });
-
 
 // /* For the Pop-up */
 // $(document).ready(function () {
