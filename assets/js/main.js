@@ -10,16 +10,21 @@ document.addEventListener("DOMContentLoaded", function () {
   const mobileTitle = document.getElementById("mobile-title");
 
   menuToggle.addEventListener("click", function () {
+    // Toggle mobile menu visibility
     mobileNav.classList.toggle("active");
 
-    // Check if the menu is active, then hide or show the title accordingly
+    // Toggle the rotation of the hamburger
+    menuToggle.classList.toggle("rotated");
+
+    // Hide/show the mobile title
     if (mobileNav.classList.contains("active")) {
-      mobileTitle.style.display = "none";
+      mobileTitle.classList.add("hidden");
     } else {
-      mobileTitle.style.display = "block"; // or "inline" if it's inline text
+      mobileTitle.classList.remove("hidden");
     }
   });
 });
+
 
 document.addEventListener("DOMContentLoaded", function () {
   /* Reviews */

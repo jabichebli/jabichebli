@@ -3751,6 +3751,14 @@ body.is-touch .poptrox-popup .closer {
 		display: none;
 	}
 
+	h2{
+		padding: 0 2em;
+	}
+
+	a{
+		font-size: 10px;
+	}
+
 	/* List */
 
 	ul.icons li .icon {
@@ -3864,13 +3872,32 @@ body.is-touch .poptrox-popup .closer {
 
 
     /* Style the hamburger button */
-    #menu-toggle {
-        font-size: 2rem;
+
+	#menu-toggle {
+		cursor: pointer;
+		display: inline-block;
+		font-size: 2rem;
         background: none;
         border: none;
         color: white;
-        cursor: pointer;
-    }
+	  }
+	  
+	  #menu-toggle i {
+		transition: transform 0.3s ease-in-out; /* Smooth transition */
+	  }
+	  
+	  #menu-toggle.rotated i {
+		transform: rotate(180deg); /* Rotates the hamburger */
+	  }
+	  
+	  #mobile-title {
+		transition: opacity 0.3s ease-in-out;
+	  }
+	  
+	  #mobile-title.hidden {
+		opacity: 0; /* Hides the mobile title */
+	  }
+	  
 
     /* Hide the mobile menu by default */
     #mobile-nav {
@@ -3938,6 +3965,7 @@ body.is-touch .poptrox-popup .closer {
 		padding: 0.85em 0;
 		text-decoration: none;
 		width: 100%;
+		font-size: 15px;
 	}
 	
 	#mobile-nav ul li a.active {
@@ -3948,6 +3976,46 @@ body.is-touch .poptrox-popup .closer {
 	
 	#mobile-nav ul li:first-child {
 		border-top: 0;
+	}
+
+	/* OTHER*/
+	.options {
+		max-width: 100%; /* Prevents overflow beyond the parent container */
+		padding: 20px;
+		margin: 0 auto; /* Centers the content if necessary */
+		box-sizing: border-box;
+		overflow: hidden; /* Ensures content doesn't leak outside */
+	}
+	
+	.summary-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.summary-row {
+		display: flex;
+		flex-wrap: wrap; /* Ensures images/videos wrap properly */
+		justify-content: center;
+		gap: 10px; /* Adds spacing between images */
+	}
+	
+	.summary-row img,
+	.summary-row video {
+		max-width: 100%;
+		height: auto; /* Maintains aspect ratio */
+		object-fit: contain;
+	}
+	
+	.summary-text {
+		text-align: center; /* Centers text inside */
+		min-width: 100%;
+	}
+	
+	.video-container iframe {
+		max-width: 100%;
+		height: auto;
 	}
 	
 
