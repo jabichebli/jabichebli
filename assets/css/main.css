@@ -3629,6 +3629,11 @@ body.is-touch .poptrox-popup .closer {
 	opacity: 1.0 !important;
 }
 
+/* Hide the mobile header and menu by default */
+#mobile-header, #mobile-nav, #mobile-footer {
+	display: none;
+}
+
 /* XLarge */
 
 @media screen and (max-width: 1800px) {
