@@ -1,0 +1,791 @@
+{
+  "name": "Jason Abi Chebli",
+  "title": "Full-time problem solver",
+  "biography": {
+    "education": {
+      "degree": "Bachelor of Engineering (Honours) and Bachelor of Commerce",
+      "graduation_date": "June 2025",
+      "university": "Monash University",
+      "study_abroad": "Innovation and Entrepreneurship intensive study program at UC Berkeley, July 2023"
+    },
+    "background": {
+      "birthplace": "Pretoria, South Africa",
+      "heritage": "Lebanese"
+    },
+    "languages": [
+      { "language": "English", "proficiency": "fluent" },
+      { "language": "Italian", "proficiency": "proficient" },
+      { "language": "Arabic", "proficiency": "limited proficiency" },
+      { "language": "German", "proficiency": "elementary proficiency" },
+      { "language": "French", "proficiency": "elementary proficiency" }
+    ],
+    "academic_performance": {
+      "WAM": 85.792,
+      "GPA": 3.848,
+      "date": "25th February 2025"
+    }
+  },
+  "achievements": {
+    "university": [
+      "Engineering Dean's Honour List 2022 Academic Year",
+      "Engineering Dean's Honour List 2021 Academic Year",
+      "Engineering Dean's Honour List 2020 Academic Year",
+      "Marketing Top Student List 2021 Academic Year",
+      "100% on the CSWA - Mechanical Design certification test (2022)"
+    ],
+    "high_school": [
+      "ATAR: 98.80 (2019)",
+      "Leadership Award (2014, 2016, 2019)",
+      "Academic Excellence Award (2015, 2017, 2018, 2019)",
+      "Conspicuous Effort Award (2016)",
+      "Academic Distinction in English Language (2018, 2019)",
+      "Academic Distinction in Software Development (2018)",
+      "5-day Italian Language Course Certificate (2016)",
+      "High Distinction in Italy Poetry Competition (2016)"
+    ],
+    "primary_school": [
+      "The Aston Shield: Good Citizenship Award (2013) by Alan Tudge MP"
+    ],
+    "outside_academia": [
+      "Swimming: Non-stop 1km (2011), 3km (2012)",
+      "Table Tennis: Best Team Man Award (2015), ACC 2015 Winners",
+      "Tennis: Team Award (2013, 2015, 2016)",
+      "Soccer: Team Award (2010-2013), U/12 2013 Winners",
+      "Piano: Grade 4 Certificate (2018)"
+    ]
+  },
+  "volunteering": [
+    {
+      "role": "Monash Business School Student Ambassador",
+      "year": 2024,
+      "description": "I had the privilege of representing Monash Business School at Open Day 2024. I ran the Business Analytics stall at Monash University's largest campus. I connected with hundreds of prospective students, sharing insights about the field. I helped prospective students navigate their academic and career futures."
+    },
+    {
+      "role": "Undergraduate Student Representative, Department Education Committee (M+AE)",
+      "year": 2023,
+      "description": "I was nominated and chosen as the Undergraduate Representative on the Department Education Committee (M+AE) at Monash University in June 2023. I advocate for the interests and perspectives of undergraduate students in M+AE units. I attend committee meetings and actively contribute to discussions on learning and teaching matters. I serve as a vital link between students and the Committee, ensuring their voices are heard. I raise topics of concern or interest to help enhance the educational experience. I am committed to fostering an environment that prioritizes student engagement and addresses educational needs."
+    },
+    {
+      "role": "TOM Makeathon Participant",
+      "year": 2022,
+      "description": "I participated in a TOM Makeathon to help Joan, creating assistive technology solutions for people living with disabilities. This is an experience I will forever cherish."
+    },
+    {
+      "role": "Scouts",
+      "start_year": 2009,
+      "end_year": 2019,
+      "description": "I actively volunteered in Scouts, helping raise funds and spending weekends planting trees. I also played an active role in organizing his Venture unit's annual formal, raising money for charities such as BeyondBlue and Autism Australia."
+    },
+    {
+      "role": "Rosies",
+      "year": 2019,
+      "description": "I volunteered at Rosies in Year 12, operating a tea & coffee van offering support and companionship to the homeless in Melbourne CBD."
+    },
+    {
+      "role": "Glenallen School",
+      "year": 2019,
+      "description": "I volunteered at Glenallen School, assisting students and staff, particularly in preparing for an event by creating brochures with student artworks."
+    },
+    {
+      "role": "Fundraiser for Adoption Center",
+      "year": 2019,
+      "description": "I organized a doughnut stall with friends to raise money for an orphanage in China as part of my high school's Mission Action Day."
+    },
+    {
+      "role": "Australian Red Cross Door Knocking",
+      "year": 2019,
+      "description": "I participated in door knocking with a friend to raise money for the Australian Red Cross in Mulgrave."
+    }
+  ],
+  "hobbies": [
+    "Adventurous outdoor activities (mountain biking, cross country skiing and downhill skiing, hiking, rafting, rock climbing, high ropes course).",
+    "Sports (tennis, swimming, golf, table tennis, soccer).",
+    "Finance and investing.",
+    "Piano.",
+    "Learning foreign languages and exploring different cultures."
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jason-abi-chebli/",
+    "github": "https://github.com/jabichebli"
+  },
+  "reviews": [
+    {
+      "reviewer": "Nicholas Roche",
+      "company": "Tesla",
+      "role": "Manager",
+      "review": "Jason was a valuable member of our team over his 5 months as an intern at Tesla. He consistently went above and beyond what was expected of him as an engineer, taking on additional roles working with suppliers to make sure we got parts on time and for the right time. He consistently took initiative and developed interesting designs with useful feedback. He was also a very pleasant presence in the office every day, with lots of energy and enthusiasm in all of his work."
+    },
+    {
+      "reviewer": "Zackary Bernholtz",
+      "company": "Tesla",
+      "role": "Staff Technical Program Manager",
+      "review": "Jason is a first principles based engineer who dives into the details to determine the best solution to novel design problems. He works well cross-functionally with design, supply chain, manufacturing and quality organizations where he presents data in a concise manner to bring his designs to production."
+    },
+    {
+      "reviewer": "Anonymous Student",
+      "source": "ENG1011, SETU",
+      "rating": 5,
+      "review": "Jason is very knowledgeable and proficient at explaining complex topics as well as being friendly and approachable. He is an exemplary TA and greatly contributed to my enjoyment of the unit."
+    },
+    {
+      "reviewer": "Anonymous Student",
+      "source": "ENG1011, SETU",
+      "rating": 5,
+      "review": "Jason was quick to help us with everything and was constantly reassuring us and giving us constructive and positive feedback not just as a team, but individually as well."
+    },
+    {
+      "reviewer": "Anonymous Student",
+      "source": "ENG1011, SETU",
+      "rating": 5,
+      "review": "Great!! Was really helpful and guided us through every assessment."
+    },
+    {
+      "reviewer": "ELO2",
+      "company": "Space Consortium",
+      "rating": 5,
+      "review": "Jason is one of the winners of ELO2 Big Dipper Lunar Regolith Acquisition - Phase 1. His team delivered great work!"
+    },
+    {
+      "reviewer": "Niel Watson",
+      "company": "BikeCorp",
+      "role": "Manager",
+      "review": "Jason worked for myself over a 2 year period at The Bicycle Corporation as a warehouse employee. I found him to be honest, reliable and a worker prepared to turn his hand to whatever was asked of him. He showed great initiative to undertake tasks without prompting. I wouldn't hesitate to recommend Jason."
+    },
+    {
+      "reviewer": "Monique Lautee",
+      "company": "TOM: Melbourne",
+      "role": "Organiser",
+      "review": "Love the enthusiasm and skills you brought to the program Jason Abi Chebli! Great to have you part of the TOM community and grateful for all your hard work to support Team Joan."
+    },
+    {
+      "reviewer": "Ashlyn Mamachan",
+      "role": "Former Student",
+      "review": "Jason was by far the best tutor I've ever had. He is very organised and clear in his teaching. Having him as my tutor definitely improved my maths results. He helped me excel in my maths and as a result I was accepted into my school's accelerated maths program. Jason is very passionate and dedicated in his teaching because he would always make sure I understand the concept before moving on. As well as helping me understand math concepts, he is also very engaging in his teaching. Jason would be a wonderful asset to the workplace because of his passion, organisation and teaching skills. Employers should definitely hire Jason; they won't regret it."
+    },
+    {
+      "reviewer": "Quentin Lam",
+      "role": "Former Student",
+      "review": "Amazing tutor. Really easy-going and is a very friendly person, allowing one to feel in a comfortable environment when around Jason. When tutoring, he always wants you to fully understand a concept, he provides excellent and clear notes and will always go beyond expectations to assist his students. Personally, enjoyed my experiences with Jason and would always be open to his tutoring services in the future."
+    },
+    {
+      "reviewer": "Anonymous",
+      "role": "Former Student",
+      "review": "Jason is a great tutor. He has helped me tremendously with my English language skills. His resources and notes are easy to understand key learning areas. He has additional resources that teachers don't have and are helpful in providing more depth and information on writing AC's and essays. Jason makes the lesson fun, engaging while personalising to a way that helped me understand. He is organised and helped me stay on track from stressing for exams and sacs beforehand."
+    },
+    {
+      "reviewer": "Damien D'Cunha",
+      "role": "Former Student",
+      "review": "Jason was very helpful and taught me more than I needed to know. Very good at explaining concepts and improving my work."
+    }
+  ],
+  "portfolios": {
+    "mechanical": {
+      "projects": [
+        {
+          "title": "Tesla | Mechanical Design Engineer Intern",
+          "skills": [
+            "Mechanical Design",
+            "First-Principles Analysis",
+            "CATIA V5 and 3DExplorer",
+            "Design for Manufacturing (DFM)",
+            "Material Selection",
+            "Automation Design",
+            "Prototyping",
+            "Testing & Troubleshooting",
+            "2D Drawings (GD&T)",
+            "Request for Quote (RFQ) Process",
+            "Cost Optimization",
+            "Cross-functional Collaboration",
+            "New Product Integration",
+            "Validation & Data Analysis"
+          ],
+          "content": "Led design and development of seven thermal coolant components for CyberCab and other vehicles.Managed RFQs, DFM reviews, and approved $160,000 in tooling for $1M+ annual components.Optimized thermal designs using first-principles engineering, saving $100,000+ annually.Directed investigations on automation, NVH, and insulation, performing eight tests and analyzing data.  I had the incredible opportunity to work as a Mechanical Design Engineer in the Bay Area, USA, as part of the Thermal Team, which is known for owning one of the best-engineered vehicle thermal systems in the world.As a key member of the thermal team, I was responsible for seven thermal coolant hose bundles spanning two future vehicles (CyberCab and Cybertruck RWD). I led various investigations, from material selection to automation design. My role involved the full iterative process of design, prototyping, and testing, gaining hands-on experience in designing for manufacturing (DFM) and automation.One of my significant contributions was leading the RFQ (Request for Quote) process for one of the future vehicles. This included coordinating ongoing meetings with multiple suppliers to ensure the design was ready for mass production. My efforts culminated in giving the go-ahead for over $160k in tools, which helped the company save over $100k annually, all while the components were projected to cost over $1 million a year.What stood out most during my time at Tesla was the company's unique flat organizational structure. Despite the global challenges faced by large tech companies, Tesla operates with a lean, trusting approach that places significant ownership in its employees. This allowed me to accomplish and grow in ways I never expected, and I'm incredibly grateful for the opportunity.Applying the knowledge I gained at Monash University, including Solid Mechanics, Dynamics, Thermal, Materials, and Tolerancing, was instrumental in my day-to-day work. I also expanded my knowledge with new topics like NVH (Noise, Vibration, and Harshness) and durability, which were critical in ensuring the success of my projects. Tesla Website    LinkedIn Post",
+          "links": {
+            "Tesla Website": "https://www.tesla.com/",
+            "LinkedIn Post": "https://www.linkedin.com/posts/jason-abi-chebli_tesla-mechanicaldesignengineer-intern-activity-7212982421015650305-DI19?utm_source=share&utm_medium=member_desktop"
+          }
+        },
+        {
+          "title": "Big Dipper Challenge (ELO2, NASA) | Lead Mechanical Design Engineer",
+          "skills": [
+            "Mechanical Design Engineering",
+            "Lunar Exploration",
+            "Design Thinking",
+            "Electromagnetic Systems",
+            "Prototyping",
+            "Innovation",
+            "Problem-Solving",
+            "SolidWorks",
+            "Team Leadership"
+          ],
+          "content": "Led a two-person team to 1st place ($2,100), designing an innovative excavation system by conducting in-depth research, refining project requirements, and creating a lightweight, space-efficient solution that reduced weight to 8.75% and volume to 11% of constraints, while delivering comprehensive engineering reports and a presentation video.  NASA's Artemis program aims to return astronauts to the moon after over 50 years. In collaboration with a global alliance, Australia has been invited to design a lunar rover for collecting regolith samples. ELO2, a leading consortium competing for the opportunity to develop the first Australian lunar rover, initiated the Big Dipper Lunar Regolith Acquisition Challenge to innovate (lunar) excavation methods which have not really changed over the past 200+ years. This challenge aimed to design an innovative Regolith Sample Acquisition Device that could be attached to an Australian-designed rover for collecting and depositing lunar regolith at an In-situ Resource Utilisation (ISRU) facility operated by NASA on the moon.       I formed and led a two-person team to take part in this exciting challenge. After meticulously breaking down the problem, considering all design aspects, conducting extensive research, and brainstorming countless solutions that met the project requirements, we finalized on one solution that we went on to further develop and refine, called - ROMEO. ROMEO leverages electromagnetics for lunar sample collection in low-gravity environments. Ultimately, we enjoyed the challenge and were humbled to have emerged as the 1st place winners in the national competition, marking a significant achievement in pushing the boundaries of lunar exploration.               Our Winning Solution:     ROMEO, which stands for Regolith Oxygen Magnetic Extraction Operative, is a groundbreaking lunar excavation solution set to revolutionize lunar regolith collection for oxygen extraction. By leveraging the magnetic properties of lunar regolith, which contains oxygen-rich, ferrous materials, ROMEO's magnetic extraction provides an additional filter for the regolith, ensuring unparalleled efficiency in later oxygen extraction.     In essence, ROMEO is a brushless motor-driven circular drum with six strategically positioned ferromagnetic solenoids, ensuring precise regolith attraction and collection. Linear rails, combined with a LIDAR sensor, provide consistent lowering of the system and incorporate feedback loops to maintain a reliable 1-5mm distance above the lunar surface during excavation. After just 5 revolutions, ROMEO's hopper will conservatively hold 219g of regolith, and a linear actuator trap door system can then be employed to deposit the regolith in a controlled manner.     This excavation mechanism seamlessly integrates with the Trailblazer rover, weighing a mere 1.75kg and occupying only approximately 11% of the available volume. Overall, ROMEO's unique design ensures lunar stability, marking a paradigm shift in regolith acquisition technology.     As ROMEO progresses through the active design phase at Technology Readiness Level 3, it emerges as a creative and efficient solution, blending electromagnetism and cutting-edge engineering to address the lunar regolith collection challenge with unparalleled ingenuity. ROMEO Concept Written Responses (PDF)    ROMEO CAD V11 (ZIP)    ELO Big Dipper Challenge (Freelancer)    ELO2 Big Dipper Challenge News    LinkedIn Post 1    LinkedIn Post 2",
+          "links": {
+            "ROMEO Concept Written Responses (PDF)": "documents/mechanical/Big_Dipper_Challenge/ROMEO_Concept_Written_Responses.pdf",
+            "ROMEO CAD V11 (ZIP)": "documents/mechanical/Big_Dipper_Challenge/ROMEO_CAD_V11.zip",
+            "ELO Big Dipper Challenge (Freelancer)": "https://www.freelancer.com/contest/ELO-Big-Dipper-Lunar-Regolith-Acquisition-Challenge-2323850/details",
+            "ELO2 Big Dipper Challenge News": "https://www.elo2.au/news-big-dipper-challenge",
+            "LinkedIn Post 1": "https://www.linkedin.com/feed/update/urn:li:activity:7152519817961295872/",
+            "LinkedIn Post 2": "https://www.linkedin.com/posts/elo2au_gdaymoon-elo2-space-activity-7155688150084784129-7by8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8"
+          }
+        },
+        {
+          "title": "3D Printer Hotend Challenge | Lead Mechanical Engineer",
+          "skills": [
+            "Thermal Analysis",
+            "3D Printing",
+            "Engineering Design",
+            "CFD",
+            "Thermal ANSYS",
+            "CNC Machining",
+            "Project Management",
+            "Team Leadership"
+          ],
+          "content": "Increased Modix 3D printer flowrate by 127%, reaching 166mm³/s.Benchmarked E3D V6 hotend using ANSYS simulations, hand calculations, and physical tests.Designed a new hotend to enhance thermal efficiency and flowrate. The goal of this project was to increase the flowrate performance of the Modix 3D Printer by at least 20%. As the Lead Engineering and Thermal Mechanical Engineer, I managed a team of five engineers, overseeing project scope, timelines, and the collaborative design process.My team's first task was to evaluate the performance of the current hotend, the E3D V6, using thermal benchmarking methods such as hand calculations, ANSYS simulations, and physical testing with a heat gun. Based on these findings, we moved forward with designing our own hotend, focusing on improving thermal efficiency and overall flowrate.I contributed to solution generation and the final design, ensuring the hotend met the performance requirements. I also managed material selection and sourcing, and performed extensive thermal analysis on the final design.The project culminated in machining the final hotend on an Okuma 5-axis CNC, and the results were impressive: physical testing showed a 127% increase in flowrate, with the new hotend achieving a flowrate of 166mm³/s, well above the target. CFD simulations of the fan ducts also looked promising, further validating the design.This experience allowed me to develop my leadership skills, perform in-depth thermal and fluid analysis, and deliver a high-performance design that exceeded expectations. Hotend Project Brief (PDF)    Hotend Concept Report Part 1 (PDF)    Hotend Concept Report Part 2 (PDF)    Hotend Final Design Presentation (PPT)    E3D V6 Thermal Calculations (XLSX)    Mosquito Thermal Calculations (XLSX)",
+          "links": {
+            "Hotend Project Brief (PDF)": "documents/mechanical/Hotend_Project/Project_Brief.pdf",
+            "Hotend Concept Report Part 1 (PDF)": "documents/mechanical/Hotend_Project/Concept_Report_pt1.pdf",
+            "Hotend Concept Report Part 2 (PDF)": "documents/mechanical/Hotend_Project/Concept_Report_pt2.pdf",
+            "Hotend Final Design Presentation (PPT)": "documents/mechanical/Hotend_Project/Final_Design_Presentation_Slide_Deck.pdf",
+            "E3D V6 Thermal Calculations (XLSX)": "documents/mechanical/Hotend_Project/E3D_V6_Thermal_Calculations.xlsx",
+            "Mosquito Thermal Calculations (XLSX)": "documents/mechanical/Hotend_Project/Mosquito_Thermal_Calculations.xlsx"
+          }
+        },
+        {
+          "title": "Engineering Innovation Challenge 2023 | Lead Mechatronics Engineer",
+          "skills": [
+            "Mechanical Engineering",
+            "R&D",
+            "Problem Solving",
+            "Prototype Development",
+            "Flood Mitigation",
+            "Engineering Design",
+            "Competition Strategy",
+            "Team Leadership",
+            "Public Speaking"
+          ],
+          "content": "Led a three-person team to 1st place ($10,000) in a global competition, surpassing 137 teams.Developed a 1:32 scale flood-proof road prototype through research, procurement, manufacturing, and testing.Delivered detailed reports and a compelling presentation on methodology and outcomes. In 2023, I assembled and led a dedicated team of three engineers to partake in the prestigious global competition, known as the Engineering Innovation Challenge (EIC), hosted in Singapore. The focal point of the 2023 challenge revolved around 'Engineering for Resilient City Living.' Over an intensive five-month period, my team and I directed unwavering attention to tackle the complex issue of flash flooding, culminating in the innovative concept of flood-proof roads.       With the submission of a comprehensive concept report, our remarkable journey did not end there, as we advanced to the highly competitive final round. For the final round, we secured crucial prototype funding, propelling us toward the realisation of a 1:32 small-scale proof of concept. Overall, our dedication to the challenge resulted in the creation of a prototype, a well-written final report, and an engaging 10-minute presentation to esteemed judges based in Singapore.       What makes our achievement truly exceptional is the fact that this marked our debut in the competition, and we triumphed over 137 teams from around the world, securing the coveted 1st place in the highest category. Our victory etched a significant milestone in EIC's 14-year history as the first international team to claim the top spot. The distinguished announcement came during the grand award ceremony on August 26th, with the Deputy Prime Minister of Singapore, Mr. Heng Swee Keat, bestowing us with this historic honor. Engineering Innovation Challenge Preliminary Report (PDF)    Engineering Innovation Challenge Final Report (PDF)    Engineering Innovation Challenge Final Presentation (PDF)    Engineering Innovation Challenge Declaration Form (PDF)    LinkedIn Acknowledgement on Engineering Innovation Challenge    Engineering Innovation Challenge Video (Jump to 1hr:07min)",
+          "links": {
+            "Engineering Innovation Challenge Preliminary Report (PDF)": "documents/mechanical/Engineering_Innovation_Challenge/Preliminary_Report.pdf",
+            "Engineering Innovation Challenge Final Report (PDF)": "documents/mechanical/Engineering_Innovation_Challenge/Final_Report.pdf",
+            "Engineering Innovation Challenge Final Presentation (PDF)": "documents/mechanical/Engineering_Innovation_Challenge/Final_Presentation.pdf",
+            "Engineering Innovation Challenge Declaration Form (PDF)": "documents/mechanical/Engineering_Innovation_Challenge/Declaration_Form.pdf",
+            "LinkedIn Acknowledgement on Engineering Innovation Challenge": "https://www.linkedin.com/feed/update/urn:li:activity:7103609993697927169?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8",
+            "Engineering Innovation Challenge Video (Jump to 1hr:07min)": "https://www.youtube.com/watch?v=gNisp_4oZSE"
+          }
+        },
+        {
+          "title": "Monash Nova Rover | Mechanical Engineer",
+          "skills": [
+            "Mechanical Engineering",
+            "CAD Design",
+            "Prototyping",
+            "3D Printing",
+            "Problem Solving",
+            "Rapid Prototyping",
+            "Manufacturing",
+            "Science Payloads",
+            "Rover Design",
+            "Excavation Mechanisms",
+            "Team Leadership",
+            "Competition Strategy",
+            "Mentorship"
+          ],
+          "content": "Led design, prototyping, and assembly of payload housings, science platform, and excavation mechanism, achieving efficient life detection and excavation of 54kg regolith in 20 minutes, securing 1st place in Australia and 2nd globally in 2022 and 2023.Designed a four-wheel suspension linkage, reducing rover weight by 33% and costs by 60%, with pivot steering, contributing to global competition success. I joined Monash Nova Rover in 2021, driven by my passion for space technology and a deep eagerness to learn. My contributions in the Science sub-team were pivotal, where I played a major role in the design, prototyping, and assembly of two science payload housings, including platform, PCB mount, tube gantry, battery mount, snoop, and more. I quickly became proficient in SolidWorks, Cura, and FDM 3D printing, while gaining hands-on experience with various fabrication tools.       Within days of joining, I was fully immersed in the team's projects, and our efforts paid off at the Australian Rover Challenge (ARC), where Nova Rover secured 1st place in Australia. Shortly after, we competed in the University Rover Challenge (URC) in Utah, focused on Mars exploration. Despite my short tenure on the team, I was honored to be one of the 23 members representing Nova Rover in Utah. We placed 2nd globally in 2022, missing 1st by only 8.42 points.                          In the following design cycle, I expanded my involvement beyond Science, contributing to the Chassis sub-team. The Chassis team transitioned from a six-wheel drive to a four-wheel drive system with pivot steering, while the Science team developed new excavation and Martian life detection mechanisms. I collaborated on designing the 4-wheel suspension system and the novel scraper excavation mechanism, applying my prior NASA prototyping experience.       Our efforts led to back-to-back successes, with Nova Rover securing 1st place in Australia and 2nd place in the world in 2023. Looking back, I am immensely proud of this journey and excited to see Nova Rover continue pushing boundaries in robotics and planetary exploration. Nova Rover Website    URC 2023 LinkedIn Update    ARC 2023 LinkedIn Update    Pink Rover Launch Night LinkedIn Update    ARC and URC 2022 LinkedIn Update    URC Official Website    Australian Rover Challenge Website",
+          "links": {
+            "Nova Rover Website": "https://www.novarover.space/",
+            "URC 2023 LinkedIn Update": "https://www.linkedin.com/posts/jason-abi-chebli_monashuniversity-spacetechnology-rover-activity-7071059918149074944-9Ou5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8",
+            "ARC 2023 LinkedIn Update": "https://www.linkedin.com/posts/jason-abi-chebli_engineering-spacetechnology-rover-activity-7048431075999563776-z5s4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8",
+            "Pink Rover Launch Night LinkedIn Update": "https://www.linkedin.com/posts/jason-abi-chebli_pinkrover-whypinkrover-stemdiversity-activity-7041934310005723137-yTWA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8",
+            "ARC and URC 2022 LinkedIn Update": "https://www.linkedin.com/posts/jason-abi-chebli_engineering-spaceexploration-activity-6951142021805805568-w3wG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8",
+            "URC Official Website": "https://urc.marssociety.org/",
+            "Australian Rover Challenge Website": "https://set.adelaide.edu.au/atcsr/australian-rover-challenge/"
+          }
+        },
+        {
+          "title": "Monash Nova Rover x NASA | Mechanical Engineer",
+          "skills": [
+            "Mechanical Engineering",
+            "Design",
+            "Manufacturing",
+            "Prototyping",
+            "Lunar Excavation Mechanisms",
+            "Thermal Insulation Testing",
+            "SolidWorks",
+            "Problem Solving",
+            "Team Leadership",
+            "Project Management"
+          ],
+          "content": "Led design, manufacturing, and testing of a lunar excavation mechanism and thermal insulation rig, tested at NASA's Swamp Works Granular Mechanics and Regolith Site.Conducted academic research and developed test-plan proposals, defining objectives, hardware configurations, resources, and timelines for precise execution and budget adherence. Immediately following the University Rover Challenge (URC) in Utah in 2022, I flew to Florida for a remarkable opportunity with the Nova Rover team. At NASA's Swampworks facility, we had the privilege of performing tests on exploration mission solutions similar to those NASA uses for their own projects.       During this time, I led the design and manufacturing of the scraper mechanism used for lunar regolith excavation, as well as a thermal insulation testing rig. These systems were put to the test at the NASA facility, which was an unforgettable experience.       This hands-on collaboration with NASA allowed me to apply my skills in real-world testing environments, pushing the limits of our designs and gaining invaluable insights into space exploration technologies. Regolith Insulation Potential Proposal (PDF)    Regolith Extraction Proposal (PDF)    Different Scraper Design Iterations (PDF)",
+          "links": {
+            "Regolith Insulation Potential Proposal (PDF)": "documents/mechanical/NASA/Regolith_Insulation_Potential_Proposal.pdf",
+            "Regolith Extraction Proposal (PDF)": "documents/mechanical/NASA/Regolith_Extraction_Proposal.pdf",
+            "Different Scraper Design Iterations (PDF)": "documents/mechanical/NASA/Different_Scraper_Design_Iterations.pdf"
+          }
+        },
+        {
+          "title": "WARMAN | Lead Mechatronics Engineer",
+          "skills": [
+            "Mechatronics Engineering",
+            "Prototype Design",
+            "3D Printing",
+            "Laser Cutting",
+            "Engineering Design",
+            "Team Leadership",
+            "Problem Solving",
+            "Project Management"
+          ],
+          "content": "Led a four-person team tasked with designing and building a prototype to address a specified engineering challenge of delivering a payload over across a gorge.Successfully managed all phases of the project lifecycle, from initial design to final submission. Demonstrated adept project management skills including expense reconciliation, timeline development using Gantt Chart and Trello, and continuous reflection on progress and design changes. Showcased a proactive approach to learning and adaptation throughout.Demonstrated creativity and innovation in the problem-solving process, generating solutions and ideas through detailed hand-drawn drawings.  I led a team of four engineering students on a project for the 2022 Warman Competition, which challenges teams to design and build a prototype that solves a specific engineering problem. The objective in 2022 was to create a scaled prototype capable of transporting a package over a chasm to the designated delivery region in the fastest time possible while meeting our team's personal learning goals.  Our project involved three key stages:  Preliminary Design Submission: We defined the problem, brainstormed creative solutions, created isometric drawings, and selected the final design. Build Submission: We built the prototype using a mix of purchased materials, 3D-printed parts, and laser-cut components. The focus here was on rapid prototyping and testing. Final Design Submission: We reflected on the changes made from start to finish, evaluated the project management process, reconciled expenses, and created engineering drawings for the final design.   Leading this project taught me valuable lessons in teamwork, problem-solving, and prototyping, while also providing practical experience in project management and design iteration. WARMAN Preliminary Design Report (PDF)    WARMAN Initial CAD Files (ZIP)    WARMAN Final Design Report (PDF)    WARMAN Final CAD Files (ZIP)",
+          "links": {
+            "WARMAN Preliminary Design Report (PDF)": "documents/mechanical/WARMAN/Preliminary_Design_Report.pdf",
+            "WARMAN Initial CAD Files (ZIP)": "documents/mechanical/WARMAN/Inital_CAD.zip",
+            "WARMAN Final Design Report (PDF)": "documents/mechanical/WARMAN/Final_Design_Report.pdf",
+            "WARMAN Final CAD Files (ZIP)": "documents/mechanical/WARMAN/Final_CAD.zip"
+          }
+        },
+        {
+          "title": "Hoisting Platform | Mechanical Design Engineer",
+          "skills": [
+            "Mechanical Design",
+            "FEA",
+            "Load Calculations",
+            "SolidWorks",
+            "Motor Selection",
+            "Prototype Design",
+            "Team Leadership",
+            "Project Management"
+          ],
+          "content": "Led a team of four engineers to design a system for transporting an engineer up a wind turbine, focusing on the hoisting platform, motor, materials, and load calculations.Conducted Finite Element Analysis (FEA) and designed shafts, pinions, and racks with a safety factor of 3.Gained experience in mechanical design, load analysis, FEA, and project management, culminating in a 93-page report documenting the system's proof of concept.  I led a team of four engineers to design a system that would transport an engineer from the base of a wind turbine to the top. In the preliminary design phase, I was responsible for designing the hoisting platform that would safely lift the engineer, contributing to motor selection, material selection, and general load calculations. We compiled our considerations into a comprehensive report.       During the final design stage, my team and I conducted Finite Element Analysis (FEA) and designed the necessary shafts, pinions, and racks capable of supporting the engineer and the platform with a safety factor of at least 3. This culminated in the completion of a 93-page report detailing the system's proof of concept.       This project provided me with invaluable hands-on experience in mechanical design, load analysis, and the practical application of FEA, while also refining my skills in team collaboration and project management. Hoisting Platform Preliminary Concept (PDF)    Hoisting Platform Final Report (PDF)    Hoisting Platform Final CAD Files (ZIP)",
+          "links": {
+            "Hoisting Platform Preliminary Concept (PDF)": "documents/mechanical/Hoisting_Platform/Preliminary_Concept.pdf",
+            "Hoisting Platform Final Report (PDF)": "documents/mechanical/Hoisting_Platform/Final_Report.pdf",
+            "Hoisting Platform Final CAD Files (ZIP)": "documents/mechanical/Hoisting_Platform/Final_CAD.zip"
+          }
+        },
+        {
+          "title": "TOM | Mechanical Engineer",
+          "skills": [
+            "Inclusive Design",
+            "Prototyping",
+            "SolidWorks",
+            "Manufacturing",
+            "Team Collaboration",
+            "Problem Solving"
+          ],
+          "content": "Contributed to a project at TOM Melbourne Makeathon to design a custom head support for a woman with Scoliosis and Parkinson's.Worked with a team to improve her posture and reduce health risks through a tailored wheelchair solution.Applied engineering skills to create a real-world impact and gained valuable insights into inclusive design. TOM (Tikkun Olam Makers) is a global movement that designs and creates affordable solutions for neglected challenges faced by people with disabilities, the elderly, and those living in poverty. In 2022, I had the privilege of joining the TOM Melbourne Makeathon, where my team and I worked on a project aimed at improving the life of Joan, a woman living with Scoliosis and Parkinson's.       Joan's condition causes her to lean excessively to the right without realizing it, which poses a major health risk. Our goal was to enhance her wheelchair to help correct her posture and reduce this risk.       With only 48 hours to design, prototype, and build a final solution, we worked tirelessly to meet the deadline. My role involved designing and building a head support that attaches to Joan's existing wheelchair headrest. I used a jigsaw to cut the support from aluminum, bent it for ergonomic comfort, sanded the edges to remove sharp points, and added padding for comfort. To finish, I sewed a cover for the headrest to make it aesthetically pleasing.       By the end of the weekend, our team successfully created four different systems that greatly improved Joan's posture. We also met again a few weeks later to make adjustments and ensure Joan could get the best use out of our design.       This experience was incredibly rewarding, as it allowed me to apply my engineering skills to make a real difference in someone's life. It also deepened my understanding of inclusive design, a lesson that will stay with me throughout my career. TOM Global    TOM Melbourne    LinkedIn Post on TOM",
+          "links": {
+            "TOM Global": "https://tomglobal.org/",
+            "TOM Melbourne": "https://www.tommelbourne.org/",
+            "LinkedIn Post on TOM": "https://www.linkedin.com/posts/jason-abi-chebli_tom-which-stands-for-tikkun-olam-makers-activity-6984487423229517824-0H4S?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8"
+          }
+        }
+      ]
+    },
+    "software": {
+      "projects": [
+        {
+          "title": "Gift Finder | Full Stack Engineer",
+          "skills": [
+            "Flutter",
+            "Mobile App Development",
+            "UI/UX Design",
+            "Database Management"
+          ],
+          "content": "You're going to have to wait...Coming Soon",
+          "links": {}
+        },
+        {
+          "title": "OpenCV Bin Picking Challenge | ML Engineer",
+          "skills": [
+            "Convolutional Neural Network (CNN)",
+            "Deep Learning",
+            "Data Augmentation",
+            "Pose Estimation",
+            "Reinforcement Learning"
+          ],
+          "content": "You're going to have to wait...Coming Soon",
+          "links": {}
+        },
+        {
+          "title": "Mind Control Operation of Kuka Robotic Arm | ML Engineer",
+          "skills": [
+            "Kuka Robotic Arm",
+            "EEG Headset",
+            "Machine Learning",
+            "Python",
+            "Java"
+          ],
+          "content": "You're going to have to wait...Coming Soon",
+          "links": {}
+        },
+        {
+          "title": "Teleoperation of Kuka Robotic Arm | Software Engineer",
+          "skills": [
+            "C#",
+            "Python",
+            "Unity",
+            "Raspberry Pi Model 4 B",
+            "Jetson Xiaver",
+            "Digital Twinning",
+            "Real-Time Simulation",
+            "URDF Models",
+            "3D VR Integration (Meta Quest 2/3)",
+            "Camera Stream Integration",
+            "Server Communication",
+            "Robotics Control",
+            "CAD (Part Design and Assembly)",
+            "3D Printing",
+            "Prototyping and Design",
+            "Soldering and Crimping",
+            "Project Management",
+            "Communication",
+            "Team Leadership"
+          ],
+          "content": "I led a team of three in developing an integrated virtual reality system designed to enhance user control and precision in teleoperating robotic arms. This system, implemented in the Monash Smart Manufacturing Hub's Digital Twin Lab, enables intuitive real-time manipulation of a KUKA robotic arm using VR hand-tracking and an advanced two-finger haptic feedback glove. Working every day for three months over the summer, we achieved significant milestones. Haptic Glove I designed and tested seven iterations of the glove, sourced components, created the electrical schematic, soldered and crimped connections, and wrote Python scripts on a Raspberry Pi Model 4B to enable two-way communication with the robotic arm gripper. Additionally, I designed the housing for the Raspberry Pi. The haptic glove now functions seamlessly upon power-up.   Robotic Arm I wrote the KUKA Sunrise Java code that allows the robotic arm and end effector to receive values from the server, enabling real-time control. This required an in-depth understanding of OPC UA to create new variables, as well as extensive research into KUKA Sunrise and Robotiq Gripper 2F-140 documentation. Ultimately, I successfully integrated the gripper with both the KUKA robotic arm and the server. VR & Hand Tracking I developed the virtual lab environment that users interact with in VR. Additionally, I wrote C# scripts that track the user's hand, calculate movement differences, and transmit the data to the server for the robotic arm to mimic. I also wrote scripts for mapping gripper movement in Unity and learned how to integrate different robotic frames. Furthermore, I co-wrote the locomotion scripts that allow users to navigate the lab and authored the view-changer script, which lets users switch between different perspectives.     Camera Streams I sourced and implemented a Zed Camera, RealSense Camera, and LogiCamera, integrating them with a Xavier Jetson to enhance teleoperation by making control more immersive and intuitive.   Software Development My contributions extended to software development, where I wrote the code that connects the KUKA robotic arm to the server, implemented OPC UA for industrial communication, and developed the Unity-based control system for the gripper. Additionally, I engineered the hand-tracking system, calculated movement differences, and transmitted them to the server while integrating all camera streams for a seamless operator experience. Administration I formed and led the team, holding weekly meetings with our supervisor and bi-weekly meetings with the team. I also wrote all the necessary documentation to obtain ethics approval, including the Explanatory Statement, Consent Form, Interview Topics, and Survey Questions - ensuring we could conduct testing with participants. Additionally, I authored and secured approval for two detailed risk assessments, one for the project as a whole and another specifically for the full-body haptic suit, assuming the role of Risk Owner. I conducted extensive academic research in this field, developed a six-month project timeline (Gantt Chart), and contributed significantly to the project report.       Ultimately, this project was highly rewarding. By reducing cognitive strain and improving operational accuracy, we laid the groundwork for future advancements in haptic-enhanced teleoperation. Github Repository    Github Page (Demo)    Project Proposal    Progress Report    Teslasuit Website    KUKA LBR iiwa",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/teleoperation.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/teleoperation/",
+            "Project Proposal": "documents/software/Teleoperation/Project_Proposal.pdf",
+            "Progress Report": "documents/software/Teleoperation/Progress_Report.pdf",
+            "Teslasuit Website": "https://teslasuit.io/",
+            "KUKA LBR iiwa": "https://www.kuka.com/en-au/products/robotics-systems/industrial-robots/lbr-iiwa"
+          }
+        },
+        {
+          "title": "Autonomous Driving | ML Engineer",
+          "skills": [
+            "Convolutional Neural Network (CNN)",
+            "Deep Learning",
+            "Data Augmentation",
+            "Autonomous Navigation",
+            "Data Collection and Labelling",
+            "Colour Thresholding",
+            "Penguin Pi Robot",
+            "Reinforcement Learning",
+            "Robot Control Systems"
+          ],
+          "content": "I developed a convolutional neural network (CNN) to predict vehicle steering for autonomous driving, enabling my robot to navigate both urban and rural roads. The model processed RGB camera images to generate real-time steering commands, incorporated stop sign detection, and dynamically adjusted speed based on road conditions. After extensive data collection, training, and deployment on a Raspberry Pi-controlled robot, I secured 1st place in the Need4Speed Challenge at RVSS 2025, demonstrating exceptional performance in autonomous navigation and real-world adaptability. Github Repository    Github Page (Demo)    LinkedIn Post",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/autonomousDriving.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/autonomousDriving/",
+            "LinkedIn Post": "https://www.linkedin.com/posts/jason-abi-chebli_computervision-ai-robotics-activity-7297954286041186304-cDN6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8"
+          }
+        },
+        {
+          "title": "Digital Twin Lab in Unity | Software Engineer",
+          "skills": [
+            "Digital Twinning",
+            "Unity",
+            "C#",
+            "Real-Time Simulation",
+            "CAD (Part Design and Assembly)",
+            "URDF Models",
+            "3D VR Integration (Meta Quest 2/3)",
+            "Camera Stream Integration",
+            "Server Communication",
+            "Robotics Control"
+          ],
+          "content": "I helped lead the transition of the Monash Smart Manufacturing Lab digital twin from Python to Unity, enhancing its control and immersiveness by integrating 3D VR. My role involved adding, designing (CAD) and assembling parts, importing URDF models, and setting up the hierarchy for the virtual environment. Additionally, I assisted in adding camera streams and establishing two-way communication with the server, enabling users to interact with and control the robots within the digital twin. Monash Smart Manufacturing",
+          "links": {
+            "Monash Smart Manufacturing": "https://www.monash.edu/monash-innovation-labs/facilities/mil-shared-facilities/monash-smart-manufacturing"
+          }
+        },
+        {
+          "title": "Olympics Database | Data Engineer",
+          "skills": [
+            "Database Design",
+            "SQL",
+            "PL/SQL",
+            "MongoDB",
+            "Relational Database",
+            "Non-Relational Database",
+            "SQL Query Optimization",
+            "DML and Transaction Management"
+          ],
+          "content": "I developed a robust database system for Paris Arrow Transit (PAT) to manage transportation logistics for events like the Olympics. I worked across both relational and non-relational databases, leveraging SQL, PL/SQL, and MongoDB to build a flexible and efficient system. My work involved not only creating and populating the database to meet specified requirements but also implementing advanced features such as sequence management and data integrity enforcement through triggers and stored procedures. I restructured the schema to accommodate new business rules, including managing official roles and handling complaints about drivers' behavior. The system was designed to automatically suspend drivers based on accumulated demerit points and ensure that all trip-related data adhered to business logic. Additionally, I integrated MongoDB to handle driver-trip data in JSON format, adding another layer of scalability to the project. Throughout, I ensured that the database was efficient, scalable, and aligned with future needs. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/olympicsDatabase.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/olympicsDatabase/"
+          }
+        },
+        {
+          "title": "Library Data | Data Engineer",
+          "skills": [
+            "Database Design",
+            "SQL",
+            "Oracle RDBMS",
+            "Conceptual Model",
+            "Logical Model",
+            "Normalization",
+            "Team Leadership",
+            "Project Management",
+            "Communication"
+          ],
+          "content": "I designed a comprehensive database system for the ReadMore Community Library (RCL), which serves Local Government Agencies (LGAs). The database manages information related to LGAs, their branches, and the managers overseeing them. It ensures efficient data storage and retrieval while maintaining data integrity through normalization. By creating detailed conceptual and logical models, and implementing them into a functional database schema, I streamlined RCL's operations. I learnt the importance of well-structured databases in managing large-scale organizational data. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/libraryDatabase.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/libraryDatabase/"
+          }
+        },
+        {
+          "title": "Australian Earthquakes Analysis | Data Analyst",
+          "skills": [
+            "HTML",
+            "CSS",
+            "VegaLite",
+            "Statistical Analysis",
+            "Complex Data Visualization",
+            "Data Wrangling",
+            "Data Analysis",
+            "Regression Analysis"
+          ],
+          "content": "I  explored seismic activity across Australia from 2008 to 2024, highlighting key events, trends, and their impacts. By analyzing earthquake data, I identified regions with higher seismic activity, such as Western Australia, and examined the relationship between earthquake magnitude, depth, and resulting damage. The analysis emphasizes the importance of understanding earthquake risks for informed infrastructure planning, particularly in regions near active tectonic boundaries. This project showcases data visualization techniques and provides valuable insights into Australia's lesser-known earthquake activity. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/australianEarthquakesAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/australianEarthquakesAnalysis/"
+          }
+        },
+        {
+          "title": "Australian Athletes Analysis | Data Analyst",
+          "skills": [
+            "Tableau",
+            "Statistical Analysis",
+            "Complex Data Visualization",
+            "Data Wrangling",
+            "Data Analysis",
+            "Regression Analysis"
+          ],
+          "content": "Developed an interactive visualization that explores Australia's Olympic performance from 1900 to 2024. Built using Tableau, this dashboard provides a comprehensive analysis of athlete participation, medal counts, and trends across different Olympic events. Users can explore historical data to uncover patterns in Australia's sporting success, compare performances across decades, and analyze the impact of various factors on medal achievements. With dynamic charts, filters, and insights, this tool serves as a valuable resource for sports analysts, historians, and enthusiasts looking to understand Australia's Olympic legacy in a visually engaging way. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/aussieAthletesAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/aussieAthletesAnalysis/"
+          }
+        },
+        {
+          "title": "Starbucks Coffee Analysis | Data Analyst",
+          "skills": [
+            "R Studio",
+            "Data Wrangling",
+            "Data Analysis",
+            "Regression Analysis",
+            "Linear Regression Modeling",
+            "Data Visualization",
+            "Bubble Chart",
+            "Q-Q Plot",
+            "Residual Plot"
+          ],
+          "content": "I explored Starbucks' coffee offerings, analyzing caffeine content and health factors. Using R Studio, I gathered and cleaned raw data, performed regression analysis, and created user-friendly reports to answer key questions on coffee healthiness and customization impacts. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/starbucksAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/starbucksAnalysis/"
+          }
+        },
+        {
+          "title": "Crime Analysis | Data Analyst",
+          "skills": [
+            "R Studios",
+            "Data Wrangling",
+            "Data Analysis",
+            "Time Series Plot",
+            "Histograms",
+            "Data Visualization"
+          ],
+          "content": "Conducted an in-depth crime data analysis using R Studios, exploring crime trends, correlations, and predictive factors. Leveraged statistical methods and data visualizations to identify patterns across different crime types and locations. This analysis provides valuable insights for policymakers, law enforcement, and researchers to enhance urban safety strategies. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/crimeAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/crimeAnalysis/"
+          }
+        },
+        {
+          "title": "Organisation Web App | Full Stack Engineer",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX Design",
+            "Database Management",
+            "Quality Assurance",
+            "Trello (Kanban Board)",
+            "Project Management",
+            "Communication"
+          ],
+          "content": "Jason built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface. Github Repository    Github Page (Demo)",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/weeklyPlanner.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/weeklyPlanner"
+          }
+        },
+        {
+          "title": "Domestic Travel Co. Web App | Lead Full Stack Engineer",
+          "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX Design",
+            "APIs",
+            "Database Management",
+            "Quality Assurance",
+            "Trello (Kanban Board)",
+            "Team Leadership",
+            "Project Management",
+            "Communication"
+          ],
+          "content": "I developed a travel planning application aimed at students, designed to help users plan and manage domestic flight trips. I led a team of software engineers and worked on multiple front-end elements, including user accounts, trip planning, and data retrieval via APIs. PMP Document (PDF)    Requirements Document (PDF)    Design Document (PDF)    Test Plan Document (PDF)",
+          "links": {
+            "PMP Document (PDF)": "documents/software/Domestic_Travel_Web_App/PMP.pdf",
+            "Requirements Document (PDF)": "documents/software/Domestic_Travel_Web_App/Requirements_Document.pdf",
+            "Design Document (PDF)": "documents/software/Domestic_Travel_Web_App/Design_Document.pdf",
+            "Test Plan Document (PDF)": "documents/software/Domestic_Travel_Web_App/Test_Plan_Document.pdf"
+          }
+        },
+        {
+          "title": "Nao Robot Monash University | Software Analytics and Programming Intern",
+          "skills": [
+            "Java",
+            "C#",
+            "Human-Robot Interaction (HRI)",
+            "Project Management",
+            "Communication"
+          ],
+          "content": "I assisted in the development of immersive analytics at Monash University for a fortnight in 2017. I worked on programming the Nao humanoid robot to enable it to interact vocally with those passing by, perform special tricks such as pushups and dance moves, and provide aid to the IT team I collaborated with.              Your browser does not support the video tag.                Your browser does not support the video tag.                Your browser does not support the video tag. Nao Robot Official Website",
+          "links": {
+            "Nao Robot Official Website": "https://aldebaran.com/nao6/"
+          }
+        },
+        {
+          "title": "Garbage Shooter | Game Developer",
+          "skills": ["Visual Basic", "Game Design", "Project Management"],
+          "content": "I created an interactive game designed to simulate space waste management, raising awareness about environmental issues related to human waste in space. This project aimed to engage users in a fun way while educating them on the importance of proper space waste management. The game works by having the user control a spaceship, moving it left and right using the arrow keys, and shooting lasers to destroy incoming space debris with the space bar. As the user progresses, the debris moves faster and in greater quantities. They earn points for every piece of debris destroyed. Github Repository",
+          "links": {
+            "Github Repository": "https://github.com/jabichebli/garbageShooterGame.git"
+          }
+        }
+      ]
+    },
+    "business": {
+      "projects": [
+        {
+          "title": "Monash University | Lead Teaching Associate",
+          "skills": [
+            "Strong Engineering Fundamentals",
+            "Statics and Structural Analysis",
+            "Material Properties",
+            "3D Printing (Prusa FDM)",
+            "SolidWorks",
+            "Cura Slicer",
+            "Communication",
+            "Teamwork and Collaboration",
+            "Leadership and Mentorship"
+          ],
+          "content": "Teach and guide first-year engineering students through statics, material properties, and structural analysis, while enhancing their technical, communication, and teamwork skills.Instruct students on using Prusa FDM printers, SolidWorks, and Cura Slicer, focusing on key printer settings for successful designs and projects. I am grateful to be a teaching associate for a fundamental first-year unit known as ENG1011: Engineering Methods. In this role, I guide students through the complexities of statics, material properties, and structural analysis. Together, we delve into designing, constructing, and testing structural components like beams, cantilevers, and truss sections. Through collaborative tasks, I help students not only develop technical skills but also enhance their communication and teamwork abilities, preparing them to tackle intricate engineering challenges across disciplines.       Additionally, I have the privilege of teaching and guiding students in using a Prusa FDM printer (i3 mk3), SolidWorks, and Cura Slicer. We rigorously emphasise and teach students the importance of different printer settings. Monash University ENG1011 Unit Handbook (2025)",
+          "links": {
+            "Monash University ENG1011 Unit Handbook (2025)": "https://handbook.monash.edu/2025/units/ENG1011?year=2025"
+          }
+        },
+        {
+          "title": "StartMate Student Fellowship 2025",
+          "skills": [
+            "Startup Fundamentals",
+            "Idea Generation",
+            "Customer Engagement",
+            "Product Development",
+            "Pitching to Investors",
+            "Networking",
+            "Team Collaboration"
+          ],
+          "content": "Participated in the Startmate Student Fellowship Program, a two-week startup bootcamp with students from Australia and New Zealand.Collaborated on generating business ideas, validating them with customers, and developing product prototypes.Gained valuable mentorship from industry leaders, deepening my understanding of startup dynamics and entrepreneurship. I am honored to have been selected for the Startmate Student Fellowship Program, a prestigious startup bootcamp. Over two weeks, I delved deep into the startup ecosystem, collaborating with a diverse group of driven students from across Australia and New Zealand. Together, we generated and validated business ideas, engaged directly with potential customers, and developed prototype products. The program provided invaluable mentorship from industry leaders and culminated in pitching our startup concepts to top investors. This experience has equipped me with a comprehensive understanding of startup dynamics and has fueled my passion for entrepreneurship. StartMate Student Fellowship Program",
+          "links": {
+            "StartMate Student Fellowship Program": "https://www.startmate.com/program/student-fellowship"
+          }
+        },
+        {
+          "title": "SunAware | Co-Founder",
+          "skills": [
+            "Startup Development",
+            "Product Management",
+            "Hardware Prototyping",
+            "Market Research",
+            "Pitching to Investors",
+            "Team Leadership",
+            "Rapid Prototyping",
+            "Design Thinking"
+          ],
+          "content": "Co-founder and CTO of SunAware, a startup that participated in an intensive Berkeley Extension program, accelerating its journey from ideation to pitching to Silicon Valley investors. As Co-founder and CTO of SunAware, I led the development of an innovative solution to track and raise awareness about sun exposure, addressing the critical issue of skin cancer risk. Our startup was selected for an intensive Berkeley Extension accelerator program, where we transformed our idea into a validated business model.       Through rapid prototyping, customer validation, and strategic mentorship, we developed a prototype and refined our market entry strategy. The experience culminated in a high-stakes pitch to Silicon Valley investors, pushing us to navigate the complexities of startup growth within an accelerated two-week timeline. UC Berkeley Silicon Valley Startup Journey LinkedIn Update    Monash University BEX3412 Unit Handbook    Silicon Valley Innovation and Entrepreneurship Program Syllabus (PDF)",
+          "links": {
+            "UC Berkeley Silicon Valley Startup Journey LinkedIn Update": "https://www.linkedin.com/posts/jason-abi-chebli_ucberkeley-siliconvalley-startupjourney-activity-7095049205416685570-zt0C?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8",
+            "Monash University BEX3412 Unit Handbook": "https://handbook.monash.edu/2022/units/BEX3412",
+            "Silicon Valley Innovation and Entrepreneurship Program Syllabus (PDF)": "http://cet.berkeley.edu/wp-content/uploads/Syllabus-Fall-2014-%E2%80%93-Silicon-Valley-Innovation-and-Entrepreneurship-Program.pdf"
+          }
+        },
+        {
+          "title": "UBS | Investment Banking Challenge Participant",
+          "skills": [
+            "Financial Modeling",
+            "Valuation (DCF & LBO)",
+            "Mergers & Acquisitions",
+            "Market Research",
+            "Strategic Thinking",
+            "Presentation & Pitching",
+            "Private Equity",
+            "Investment Banking",
+            "Team Collaboration"
+          ],
+          "content": "Selected as a top participant from 550+ applicants for a two-week intensive program, collaborating with a team to develop an acquisition solution for a private equity client, conducting research, data analysis, DCF and LBO valuations, and presenting findings to UBS executives in Sydney. Selected as one of the top participants from over 550 applicants, I had the privilege of joining the highly competitive 2023 UBS Investment Banking (IB) Development Challenge. This program provided an immersive experience into the world of investment banking, led by UBS-one of the world's top financial institutions.       Throughout the challenge, I:  Engaged in intensive workshops, networking panels, and hands-on case studies to develop key industry skills. Worked in a high-performing team to craft an acquisition strategy for a private equity client, conducting financial modeling (DCF & LBO) and market research. Developed and presented a professional pitch deck to senior UBS bankers in Sydney, defending our recommendations in a rigorous Q&A session.  This experience refined my analytical and strategic thinking skills while offering firsthand exposure to the fast-paced world of investment banking. USB Challenge Slide Deck (PDF)    UBS Investment Banking Challenge Official Website",
+          "links": {
+            "USB Challenge Slide Deck (PDF)": "documents/business/UBS/UBS IB Challenge Group 3.pdf",
+            "UBS Investment Banking Challenge Official Website": "https://www.ubs.com/microsites/ubs-investment-banking-challenge/en/welcome.html"
+          }
+        },
+        {
+          "title": "Monash Business School Industry & Alumni Mentoring Program | Mentee",
+          "skills": [
+            "Business Strategy",
+            "Leadership",
+            "Professional Networking",
+            "Communication",
+            "Career Development",
+            "Mentorship",
+            "Industry Insights",
+            "Personal Growth"
+          ],
+          "content": "Selected for Monash Business School's Industry & Alumni Mentoring Program, paired with a mentor with 30+ years of experience in private and ASX-listed businesses.Participated in one-on-one mentoring, personal development workshops, and expanded my industry network.Gained valuable insights into business strategy, leadership, and career progression, laying a strong foundation for professional success. The Industry & Alumni Mentoring Program is Monash Business School's flagship leadership initiative, connecting students with experienced professionals for career guidance and industry insights.       In 2022, I was selected for this highly regarded program and paired with a mentor who had over 30 years of experience running private and ASX-listed businesses. Through weekly mentoring sessions over three months, I gained invaluable insights into business strategy, leadership, and professional growth.       My experience included:  Engaging in one-on-one mentoring to refine my career trajectory and business acumen. Participating in personal development workshops to strengthen my leadership, networking, and communication skills. Expanding my industry network by connecting with alumni and professionals across various sectors.        This program provided a strong foundation for professional success, equipping me with the tools to navigate complex business environments and career progression. Mentor Program Participation Certificate (PNG)    Monash University Business and Industry Alumni Mentoring",
+          "links": {
+            "Mentor Program Participation Certificate (PNG)": "documents/business/Mentor_Program/Participation_Certificate.png",
+            "Monash University Business and Industry Alumni Mentoring": "https://www.monash.edu/about/mentoring/business-industry-alumni-mentoring"
+          }
+        },
+        {
+          "title": "Private Academic Tutor and DW Tuition | Academic Tutor",
+          "skills": [
+            "Tutoring",
+            "Lesson Planning",
+            "Communication",
+            "Academic Coaching",
+            "Time Management",
+            "Student Motivation"
+          ],
+          "content": "Planned and delivered weekly lessons, managed finances (invoices and payments), and provided actionable study plans, demonstrating strong organizational, financial, and leadership skills.Communicated complex ideas clearly with students, maintaining a friendly and energetic approach while ensuring transparency with my employer.Fostered a motivating environment for students, helping them achieve academic goals with effective study strategies and consistent support. As both a private academic tutor and through DW Tuition, I worked with students of varying ages and skill levels, ranging from primary school to high school. This role required adaptability, clear communication, and the ability to engage students to help them reach their academic goals. I tutored students individually and in group settings, particularly focusing on exam preparation, study strategies, and personalized learning plans. My approach was always focused on motivating students, helping them build confidence, and achieving their academic potential. Private Tuition Form    DW Tuition Website",
+          "links": {
+            "Private Tuition Form": "https://docs.google.com/forms/d/e/1FAIpQLSff2JJ_UuDOAdNJq0IMT2ZvrdkDqbEk5ZUn3XlHJs9_jGQD6w/viewform?usp=sf_link",
+            "DW Tuition Website": "https://www.dwtuition.com.au/"
+          }
+        },
+        {
+          "title": "The Bicycle Corporation Pty. Ltd. | Employee",
+          "skills": [
+            "Warehouse Operations",
+            "Order Picking",
+            "Packing",
+            "Data Entry",
+            "Teamwork",
+            "Communication",
+            "Organizational Skills"
+          ],
+          "content": "Gained valuable experience in various aspects of warehouse operations, including unloading shipping containers, warehouse picking, and packing.Developed a keen eye for detail and was able to work effectively both independently and as part of a team. During my time at The Bicycle Corporation, I was responsible for unloading shipping containers, picking and packing orders, and ensuring timely and accurate shipping. My role required strong organizational skills and attention to detail, as supervisors relied on me to correctly pick orders and pack them for customers. My work demonstrated reliability and accountability, as mistakes in order fulfillment could lead to financial losses and damage customer relationships. My ability to coordinate with the team and report on progress ensured smooth operations within the warehouse. BikeCorp Official Website",
+          "links": {
+            "BikeCorp Official Website": "https://www.bikecorp.com.au/"
+          }
+        }
+      ]
+    }
+  }
+}

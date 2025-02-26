@@ -1,0 +1,181 @@
+{
+  "name": "Jason Abi Chebli",
+  "title": "Full-time problem solver",
+  "biography": {
+    "education": {
+      "degree": "Bachelor of Engineering (Honours) and Bachelor of Commerce",
+      "graduation_date": "June 2025",
+      "university": "Monash University",
+      "study_abroad": "Innovation and Entrepreneurship intensive study program at UC Berkeley, July 2023"
+    },
+    "background": {
+      "birthplace": "Pretoria, South Africa",
+      "heritage": "Lebanese"
+    },
+    "languages": [
+      { "language": "English", "proficiency": "fluent" },
+      { "language": "Italian", "proficiency": "proficient" },
+      { "language": "Arabic", "proficiency": "limited proficiency" },
+      { "language": "German", "proficiency": "elementary proficiency" },
+      { "language": "French", "proficiency": "elementary proficiency" }
+    ],
+    "academic_performance": {
+      "WAM": 85.792,
+      "GPA": 3.848,
+      "date": "25th February 2025"
+    }
+  },
+  "achievements": {
+    "university": [
+      "Engineering Dean's Honour List 2022 Academic Year",
+      "Engineering Dean's Honour List 2021 Academic Year",
+      "Engineering Dean's Honour List 2020 Academic Year",
+      "Marketing Top Student List 2021 Academic Year",
+      "100% on the CSWA - Mechanical Design certification test (2022)"
+    ],
+    "high_school": [
+      "ATAR: 98.80 (2019)",
+      "Leadership Award (2014, 2016, 2019)",
+      "Academic Excellence Award (2015, 2017, 2018, 2019)",
+      "Conspicuous Effort Award (2016)",
+      "Academic Distinction in English Language (2018, 2019)",
+      "Academic Distinction in Software Development (2018)",
+      "5-day Italian Language Course Certificate (2016)",
+      "High Distinction in Italy Poetry Competition (2016)"
+    ],
+    "primary_school": [
+      "The Aston Shield: Good Citizenship Award (2013) by Alan Tudge MP"
+    ],
+    "outside_academia": [
+      "Swimming: Non-stop 1km (2011), 3km (2012)",
+      "Table Tennis: Best Team Man Award (2015), ACC 2015 Winners",
+      "Tennis: Team Award (2013, 2015, 2016)",
+      "Soccer: Team Award (2010-2013), U/12 2013 Winners",
+      "Piano: Grade 4 Certificate (2018)"
+    ]
+  },
+  "volunteering": [
+    {
+      "role": "Monash Business School Student Ambassador",
+      "year": 2024,
+      "description": "I had the privilege of representing Monash Business School at Open Day 2024. I ran the Business Analytics stall at Monash University's largest campus. I connected with hundreds of prospective students, sharing insights about the field. I helped prospective students navigate their academic and career futures."
+    },
+    {
+      "role": "Undergraduate Student Representative, Department Education Committee (M+AE)",
+      "year": 2023,
+      "description": "I was nominated and chosen as the Undergraduate Representative on the Department Education Committee (M+AE) at Monash University in June 2023. I advocate for the interests and perspectives of undergraduate students in M+AE units. I attend committee meetings and actively contribute to discussions on learning and teaching matters. I serve as a vital link between students and the Committee, ensuring their voices are heard. I raise topics of concern or interest to help enhance the educational experience. I am committed to fostering an environment that prioritizes student engagement and addresses educational needs."
+    },
+    {
+      "role": "TOM Makeathon Participant",
+      "year": 2022,
+      "description": "I participated in a TOM Makeathon to help Joan, creating assistive technology solutions for people living with disabilities. This is an experience I will forever cherish."
+    },
+    {
+      "role": "Scouts",
+      "start_year": 2009,
+      "end_year": 2019,
+      "description": "I actively volunteered in Scouts, helping raise funds and spending weekends planting trees. I also played an active role in organizing his Venture unit's annual formal, raising money for charities such as BeyondBlue and Autism Australia."
+    },
+    {
+      "role": "Rosies",
+      "year": 2019,
+      "description": "I volunteered at Rosies in Year 12, operating a tea & coffee van offering support and companionship to the homeless in Melbourne CBD."
+    },
+    {
+      "role": "Glenallen School",
+      "year": 2019,
+      "description": "I volunteered at Glenallen School, assisting students and staff, particularly in preparing for an event by creating brochures with student artworks."
+    },
+    {
+      "role": "Fundraiser for Adoption Center",
+      "year": 2019,
+      "description": "I organized a doughnut stall with friends to raise money for an orphanage in China as part of my high school's Mission Action Day."
+    },
+    {
+      "role": "Australian Red Cross Door Knocking",
+      "year": 2019,
+      "description": "I participated in door knocking with a friend to raise money for the Australian Red Cross in Mulgrave."
+    }
+  ],
+  "hobbies": [
+    "Adventurous outdoor activities (mountain biking, cross country skiing and downhill skiing, hiking, rafting, rock climbing, high ropes course).",
+    "Sports (tennis, swimming, golf, table tennis, soccer).",
+    "Finance and investing.",
+    "Piano.",
+    "Learning foreign languages and exploring different cultures."
+  ],
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/jason-abi-chebli/",
+    "github": "https://github.com/jabichebli"
+  },
+  "reviews": [
+    {
+      "reviewer": "Nicholas Roche",
+      "company": "Tesla",
+      "role": "Manager",
+      "review": "Jason was a valuable member of our team over his 5 months as an intern at Tesla. He consistently went above and beyond what was expected of him as an engineer, taking on additional roles working with suppliers to make sure we got parts on time and for the right time. He consistently took initiative and developed interesting designs with useful feedback. He was also a very pleasant presence in the office every day, with lots of energy and enthusiasm in all of his work."
+    },
+    {
+      "reviewer": "Zackary Bernholtz",
+      "company": "Tesla",
+      "role": "Staff Technical Program Manager",
+      "review": "Jason is a first principles based engineer who dives into the details to determine the best solution to novel design problems. He works well cross-functionally with design, supply chain, manufacturing and quality organizations where he presents data in a concise manner to bring his designs to production."
+    },
+    {
+      "reviewer": "Anonymous Student",
+      "source": "ENG1011, SETU",
+      "rating": 5,
+      "review": "Jason is very knowledgeable and proficient at explaining complex topics as well as being friendly and approachable. He is an exemplary TA and greatly contributed to my enjoyment of the unit."
+    },
+    {
+      "reviewer": "Anonymous Student",
+      "source": "ENG1011, SETU",
+      "rating": 5,
+      "review": "Jason was quick to help us with everything and was constantly reassuring us and giving us constructive and positive feedback not just as a team, but individually as well."
+    },
+    {
+      "reviewer": "Anonymous Student",
+      "source": "ENG1011, SETU",
+      "rating": 5,
+      "review": "Great!! Was really helpful and guided us through every assessment."
+    },
+    {
+      "reviewer": "ELO2",
+      "company": "Space Consortium",
+      "rating": 5,
+      "review": "Jason is one of the winners of ELO2 Big Dipper Lunar Regolith Acquisition - Phase 1. His team delivered great work!"
+    },
+    {
+      "reviewer": "Niel Watson",
+      "company": "BikeCorp",
+      "role": "Manager",
+      "review": "Jason worked for myself over a 2 year period at The Bicycle Corporation as a warehouse employee. I found him to be honest, reliable and a worker prepared to turn his hand to whatever was asked of him. He showed great initiative to undertake tasks without prompting. I wouldn't hesitate to recommend Jason."
+    },
+    {
+      "reviewer": "Monique Lautee",
+      "company": "TOM: Melbourne",
+      "role": "Organiser",
+      "review": "Love the enthusiasm and skills you brought to the program Jason Abi Chebli! Great to have you part of the TOM community and grateful for all your hard work to support Team Joan."
+    },
+    {
+      "reviewer": "Ashlyn Mamachan",
+      "role": "Former Student",
+      "review": "Jason was by far the best tutor I've ever had. He is very organised and clear in his teaching. Having him as my tutor definitely improved my maths results. He helped me excel in my maths and as a result I was accepted into my school's accelerated maths program. Jason is very passionate and dedicated in his teaching because he would always make sure I understand the concept before moving on. As well as helping me understand math concepts, he is also very engaging in his teaching. Jason would be a wonderful asset to the workplace because of his passion, organisation and teaching skills. Employers should definitely hire Jason; they won't regret it."
+    },
+    {
+      "reviewer": "Quentin Lam",
+      "role": "Former Student",
+      "review": "Amazing tutor. Really easy-going and is a very friendly person, allowing one to feel in a comfortable environment when around Jason. When tutoring, he always wants you to fully understand a concept, he provides excellent and clear notes and will always go beyond expectations to assist his students. Personally, enjoyed my experiences with Jason and would always be open to his tutoring services in the future."
+    },
+    {
+      "reviewer": "Anonymous",
+      "role": "Former Student",
+      "review": "Jason is a great tutor. He has helped me tremendously with my English language skills. His resources and notes are easy to understand key learning areas. He has additional resources that teachers don't have and are helpful in providing more depth and information on writing AC's and essays. Jason makes the lesson fun, engaging while personalising to a way that helped me understand. He is organised and helped me stay on track from stressing for exams and sacs beforehand."
+    },
+    {
+      "reviewer": "Damien D'Cunha",
+      "role": "Former Student",
+      "review": "Jason was very helpful and taught me more than I needed to know. Very good at explaining concepts and improving my work."
+    }
+  ]
+}

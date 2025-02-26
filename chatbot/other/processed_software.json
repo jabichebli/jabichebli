@@ -1,0 +1,283 @@
+[
+    {
+        "title": "Gift Finder | Full Stack Engineer",
+        "skills": [
+            "Flutter",
+            "Mobile App Development",
+            "UI/UX Design",
+            "Database Management"
+        ],
+        "content": "You're going to have to wait...Coming Soon",
+        "links": {}
+    },
+    {
+        "title": "OpenCV Bin Picking Challenge | ML Engineer",
+        "skills": [
+            "Convolutional Neural Network (CNN)",
+            "Deep Learning",
+            "Data Augmentation",
+            "Pose Estimation",
+            "Reinforcement Learning"
+        ],
+        "content": "You're going to have to wait...Coming Soon",
+        "links": {}
+    },
+    {
+        "title": "Mind Control Operation of Kuka Robotic Arm | ML Engineer",
+        "skills": [
+            "Kuka Robotic Arm",
+            "EEG Headset",
+            "Machine Learning",
+            "Python",
+            "Java"
+        ],
+        "content": "You're going to have to wait...Coming Soon",
+        "links": {}
+    },
+    {
+        "title": "Teleoperation of Kuka Robotic Arm | Software Engineer",
+        "skills": [
+            "C#",
+            "Python",
+            "Unity",
+            "Raspberry Pi Model 4 B",
+            "Jetson Xiaver",
+            "Digital Twinning",
+            "Real-Time Simulation",
+            "URDF Models",
+            "3D VR Integration (Meta Quest 2/3)",
+            "Camera Stream Integration",
+            "Server Communication",
+            "Robotics Control",
+            "CAD (Part Design and Assembly)",
+            "3D Printing",
+            "Prototyping and Design",
+            "Soldering and Crimping",
+            "Project Management",
+            "Communication",
+            "Team Leadership"
+        ],
+        "content": "I led a team of three in developing an integrated virtual reality system designed to enhance user control and precision in teleoperating robotic arms. This system, implemented in the Monash Smart Manufacturing Hub's Digital Twin Lab, enables intuitive real-time manipulation of a KUKA robotic arm using VR hand-tracking and an advanced two-finger haptic feedback glove. Working every day for three months over the summer, we achieved significant milestones. Haptic Glove I designed and tested seven iterations of the glove, sourced components, created the electrical schematic, soldered and crimped connections, and wrote Python scripts on a Raspberry Pi Model 4B to enable two-way communication with the robotic arm gripper. Additionally, I designed the housing for the Raspberry Pi. The haptic glove now functions seamlessly upon power-up.   Robotic Arm I wrote the KUKA Sunrise Java code that allows the robotic arm and end effector to receive values from the server, enabling real-time control. This required an in-depth understanding of OPC UA to create new variables, as well as extensive research into KUKA Sunrise and Robotiq Gripper 2F-140 documentation. Ultimately, I successfully integrated the gripper with both the KUKA robotic arm and the server. VR & Hand Tracking I developed the virtual lab environment that users interact with in VR. Additionally, I wrote C# scripts that track the user's hand, calculate movement differences, and transmit the data to the server for the robotic arm to mimic. I also wrote scripts for mapping gripper movement in Unity and learned how to integrate different robotic frames. Furthermore, I co-wrote the locomotion scripts that allow users to navigate the lab and authored the view-changer script, which lets users switch between different perspectives.     Camera Streams I sourced and implemented a Zed Camera, RealSense Camera, and LogiCamera, integrating them with a Xavier Jetson to enhance teleoperation by making control more immersive and intuitive.   Software Development My contributions extended to software development, where I wrote the code that connects the KUKA robotic arm to the server, implemented OPC UA for industrial communication, and developed the Unity-based control system for the gripper. Additionally, I engineered the hand-tracking system, calculated movement differences, and transmitted them to the server while integrating all camera streams for a seamless operator experience. Administration I formed and led the team, holding weekly meetings with our supervisor and bi-weekly meetings with the team. I also wrote all the necessary documentation to obtain ethics approval, including the Explanatory Statement, Consent Form, Interview Topics, and Survey Questions - ensuring we could conduct testing with participants. Additionally, I authored and secured approval for two detailed risk assessments, one for the project as a whole and another specifically for the full-body haptic suit, assuming the role of Risk Owner. I conducted extensive academic research in this field, developed a six-month project timeline (Gantt Chart), and contributed significantly to the project report.       Ultimately, this project was highly rewarding. By reducing cognitive strain and improving operational accuracy, we laid the groundwork for future advancements in haptic-enhanced teleoperation. Github Repository    Github Page (Demo)    Project Proposal    Progress Report    Teslasuit Website    KUKA LBR iiwa",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/teleoperation.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/teleoperation/",
+            "Project Proposal": "documents/software/Teleoperation/Project_Proposal.pdf",
+            "Progress Report": "documents/software/Teleoperation/Progress_Report.pdf",
+            "Teslasuit Website": "https://teslasuit.io/",
+            "KUKA LBR iiwa": "https://www.kuka.com/en-au/products/robotics-systems/industrial-robots/lbr-iiwa"
+        }
+    },
+    {
+        "title": "Autonomous Driving | ML Engineer",
+        "skills": [
+            "Convolutional Neural Network (CNN)",
+            "Deep Learning",
+            "Data Augmentation",
+            "Autonomous Navigation",
+            "Data Collection and Labelling",
+            "Colour Thresholding",
+            "Penguin Pi Robot",
+            "Reinforcement Learning",
+            "Robot Control Systems"
+        ],
+        "content": "I developed a convolutional neural network (CNN) to predict vehicle steering for autonomous driving, enabling my robot to navigate both urban and rural roads. The model processed RGB camera images to generate real-time steering commands, incorporated stop sign detection, and dynamically adjusted speed based on road conditions. After extensive data collection, training, and deployment on a Raspberry Pi-controlled robot, I secured 1st place in the Need4Speed Challenge at RVSS 2025, demonstrating exceptional performance in autonomous navigation and real-world adaptability. Github Repository    Github Page (Demo)    LinkedIn Post",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/autonomousDriving.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/autonomousDriving/",
+            "LinkedIn Post": "https://www.linkedin.com/posts/jason-abi-chebli_computervision-ai-robotics-activity-7297954286041186304-cDN6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8"
+        }
+    },
+    {
+        "title": "Digital Twin Lab in Unity | Software Engineer",
+        "skills": [
+            "Digital Twinning",
+            "Unity",
+            "C#",
+            "Real-Time Simulation",
+            "CAD (Part Design and Assembly)",
+            "URDF Models",
+            "3D VR Integration (Meta Quest 2/3)",
+            "Camera Stream Integration",
+            "Server Communication",
+            "Robotics Control"
+        ],
+        "content": "I helped lead the transition of the Monash Smart Manufacturing Lab digital twin from Python to Unity, enhancing its control and immersiveness by integrating 3D VR. My role involved adding, designing (CAD) and assembling parts, importing URDF models, and setting up the hierarchy for the virtual environment. Additionally, I assisted in adding camera streams and establishing two-way communication with the server, enabling users to interact with and control the robots within the digital twin. Monash Smart Manufacturing",
+        "links": {
+            "Monash Smart Manufacturing": "https://www.monash.edu/monash-innovation-labs/facilities/mil-shared-facilities/monash-smart-manufacturing"
+        }
+    },
+    {
+        "title": "Olympics Database | Data Engineer",
+        "skills": [
+            "Database Design",
+            "SQL",
+            "PL/SQL",
+            "MongoDB",
+            "Relational Database",
+            "Non-Relational Database",
+            "SQL Query Optimization",
+            "DML and Transaction Management"
+        ],
+        "content": "I developed a robust database system for Paris Arrow Transit (PAT) to manage transportation logistics for events like the Olympics. I worked across both relational and non-relational databases, leveraging SQL, PL/SQL, and MongoDB to build a flexible and efficient system. My work involved not only creating and populating the database to meet specified requirements but also implementing advanced features such as sequence management and data integrity enforcement through triggers and stored procedures. I restructured the schema to accommodate new business rules, including managing official roles and handling complaints about drivers' behavior. The system was designed to automatically suspend drivers based on accumulated demerit points and ensure that all trip-related data adhered to business logic. Additionally, I integrated MongoDB to handle driver-trip data in JSON format, adding another layer of scalability to the project. Throughout, I ensured that the database was efficient, scalable, and aligned with future needs. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/olympicsDatabase.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/olympicsDatabase/"
+        }
+    },
+    {
+        "title": "Library Data | Data Engineer",
+        "skills": [
+            "Database Design",
+            "SQL",
+            "Oracle RDBMS",
+            "Conceptual Model",
+            "Logical Model",
+            "Normalization",
+            "Team Leadership",
+            "Project Management",
+            "Communication"
+        ],
+        "content": "I designed a comprehensive database system for the ReadMore Community Library (RCL), which serves Local Government Agencies (LGAs). The database manages information related to LGAs, their branches, and the managers overseeing them. It ensures efficient data storage and retrieval while maintaining data integrity through normalization. By creating detailed conceptual and logical models, and implementing them into a functional database schema, I streamlined RCL's operations. I learnt the importance of well-structured databases in managing large-scale organizational data. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/libraryDatabase.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/libraryDatabase/"
+        }
+    },
+    {
+        "title": "Australian Earthquakes Analysis | Data Analyst",
+        "skills": [
+            "HTML",
+            "CSS",
+            "VegaLite",
+            "Statistical Analysis",
+            "Complex Data Visualization",
+            "Data Wrangling",
+            "Data Analysis",
+            "Regression Analysis"
+        ],
+        "content": "I  explored seismic activity across Australia from 2008 to 2024, highlighting key events, trends, and their impacts. By analyzing earthquake data, I identified regions with higher seismic activity, such as Western Australia, and examined the relationship between earthquake magnitude, depth, and resulting damage. The analysis emphasizes the importance of understanding earthquake risks for informed infrastructure planning, particularly in regions near active tectonic boundaries. This project showcases data visualization techniques and provides valuable insights into Australia's lesser-known earthquake activity. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/australianEarthquakesAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/australianEarthquakesAnalysis/"
+        }
+    },
+    {
+        "title": "Australian Athletes Analysis | Data Analyst",
+        "skills": [
+            "Tableau",
+            "Statistical Analysis",
+            "Complex Data Visualization",
+            "Data Wrangling",
+            "Data Analysis",
+            "Regression Analysis"
+        ],
+        "content": "Developed an interactive visualization that explores Australia's Olympic performance from 1900 to 2024. Built using Tableau, this dashboard provides a comprehensive analysis of athlete participation, medal counts, and trends across different Olympic events. Users can explore historical data to uncover patterns in Australia's sporting success, compare performances across decades, and analyze the impact of various factors on medal achievements. With dynamic charts, filters, and insights, this tool serves as a valuable resource for sports analysts, historians, and enthusiasts looking to understand Australia's Olympic legacy in a visually engaging way. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/aussieAthletesAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/aussieAthletesAnalysis/"
+        }
+    },
+    {
+        "title": "Starbucks Coffee Analysis | Data Analyst",
+        "skills": [
+            "R Studio",
+            "Data Wrangling",
+            "Data Analysis",
+            "Regression Analysis",
+            "Linear Regression Modeling",
+            "Data Visualization",
+            "Bubble Chart",
+            "Q-Q Plot",
+            "Residual Plot"
+        ],
+        "content": "I explored Starbucks' coffee offerings, analyzing caffeine content and health factors. Using R Studio, I gathered and cleaned raw data, performed regression analysis, and created user-friendly reports to answer key questions on coffee healthiness and customization impacts. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/starbucksAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/starbucksAnalysis/"
+        }
+    },
+    {
+        "title": "Crime Analysis | Data Analyst",
+        "skills": [
+            "R Studios",
+            "Data Wrangling",
+            "Data Analysis",
+            "Time Series Plot",
+            "Histograms",
+            "Data Visualization"
+        ],
+        "content": "Conducted an in-depth crime data analysis using R Studios, exploring crime trends, correlations, and predictive factors. Leveraged statistical methods and data visualizations to identify patterns across different crime types and locations. This analysis provides valuable insights for policymakers, law enforcement, and researchers to enhance urban safety strategies. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/crimeAnalysis.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/crimeAnalysis/"
+        }
+    },
+    {
+        "title": "Organisation Web App | Full Stack Engineer",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX Design",
+            "Database Management",
+            "Quality Assurance",
+            "Trello (Kanban Board)",
+            "Project Management",
+            "Communication"
+        ],
+        "content": "Jason built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface. Github Repository    Github Page (Demo)",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/weeklyPlanner.git",
+            "Github Page (Demo)": "https://jabichebli.github.io/weeklyPlanner"
+        }
+    },
+    {
+        "title": "Domestic Travel Co. Web App | Lead Full Stack Engineer",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "UI/UX Design",
+            "APIs",
+            "Database Management",
+            "Quality Assurance",
+            "Trello (Kanban Board)",
+            "Team Leadership",
+            "Project Management",
+            "Communication"
+        ],
+        "content": "I developed a travel planning application aimed at students, designed to help users plan and manage domestic flight trips. I led a team of software engineers and worked on multiple front-end elements, including user accounts, trip planning, and data retrieval via APIs. PMP Document (PDF)    Requirements Document (PDF)    Design Document (PDF)    Test Plan Document (PDF)",
+        "links": {
+            "PMP Document (PDF)": "documents/software/Domestic_Travel_Web_App/PMP.pdf",
+            "Requirements Document (PDF)": "documents/software/Domestic_Travel_Web_App/Requirements_Document.pdf",
+            "Design Document (PDF)": "documents/software/Domestic_Travel_Web_App/Design_Document.pdf",
+            "Test Plan Document (PDF)": "documents/software/Domestic_Travel_Web_App/Test_Plan_Document.pdf"
+        }
+    },
+    {
+        "title": "Nao Robot Monash University | Software Analytics and Programming Intern",
+        "skills": [
+            "Java",
+            "C#",
+            "Human-Robot Interaction (HRI)",
+            "Project Management",
+            "Communication"
+        ],
+        "content": "I assisted in the development of immersive analytics at Monash University for a fortnight in 2017. I worked on programming the Nao humanoid robot to enable it to interact vocally with those passing by, perform special tricks such as pushups and dance moves, and provide aid to the IT team I collaborated with.              Your browser does not support the video tag.                Your browser does not support the video tag.                Your browser does not support the video tag. Nao Robot Official Website",
+        "links": {
+            "Nao Robot Official Website": "https://aldebaran.com/nao6/"
+        }
+    },
+    {
+        "title": "Garbage Shooter | Game Developer",
+        "skills": [
+            "Visual Basic",
+            "Game Design",
+            "Project Management"
+        ],
+        "content": "I created an interactive game designed to simulate space waste management, raising awareness about environmental issues related to human waste in space. This project aimed to engage users in a fun way while educating them on the importance of proper space waste management. The game works by having the user control a spaceship, moving it left and right using the arrow keys, and shooting lasers to destroy incoming space debris with the space bar. As the user progresses, the debris moves faster and in greater quantities. They earn points for every piece of debris destroyed. Github Repository",
+        "links": {
+            "Github Repository": "https://github.com/jabichebli/garbageShooterGame.git"
+        }
+    }
+]
