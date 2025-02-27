@@ -139,7 +139,7 @@ $(document).ready(function () {
       `;
 
     if (project.tldr){
-      popupContent +=  `<div style = "background-color: #becad6; border: 2px dashed black; border-radius: 10px; padding: 1.5em 1.5em 1.5em 1.5em;" ><h4><strong>TL;DR</strong></h4>${project.tldr}</div>`;
+      popupContent +=  `<div style = "background-color: #eff4ff; border: 2px dashed #5f7f9b; border-radius: 10px; padding: 1.5em 1.5em 1.5em 1.5em;" ><h4><strong>TL;DR</strong></h4>${project.tldr}</div>`;
     }
 
     // SUMMARY

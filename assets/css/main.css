@@ -13,8 +13,10 @@ Colours:
 #616161  -- Headers
 
 
-#becad6 -- dark blue
-#dee4ea -- light blue
+#d6e2ff -- dark blue  (#becad6)
+#eff4ff -- light blue (#dee4ea)
+#F8FAFF -- DROPDOWN SUPER LIGHT BLUE
+
 
 */
 
@@ -392,7 +394,7 @@ h2 {
 .select-btn {
 	display: flex;
 	height: 55px;
-	background: #becad6;
+	background: #eff4ff;
 	padding: 15px;
 	font-size: 18px;
 	font-weight: 500;
@@ -413,7 +415,7 @@ h2 {
 
 .select-menu .options {
 	display: none;
-	background: #dee4ea;
+	background: #F8FAFF;
 	padding: 15px;
 	border-radius: 8px;
 }
@@ -427,7 +429,7 @@ h2 {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background: #dee4ea;
+	background: #F8FAFF;
 	padding: 15px;
 	border-radius: 8px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -3165,6 +3167,46 @@ input[type="button"]:disabled,
 /* Header*/
 
 #header {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: column;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -moz-align-items: -moz-flex-end;
+    -webkit-align-items: -webkit-flex-end;
+    -ms-align-items: -ms-flex-end;
+    align-items: flex-end;
+    -moz-justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -ms-justify-content: space-between;
+    justify-content: space-between;
+    background-color: #1f1815;
+    background-attachment: scroll, scroll;
+    background-image: url("images/overlay.png"), url("../../images/bg2.png");
+
+    /* Ensure overlay behaves as before */
+    background-position: top left, top left;
+    background-repeat: repeat, no-repeat;
+
+    /* Adjust second background image */
+    background-size: auto, 500% 100%; /* Stretch the cropped part */
+    background-position: top left, 0 0; /* Ensure it starts from the left */
+    background-repeat: repeat, no-repeat; /* Prevent tiling */
+
+    color: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    left: 0;
+    padding: 2em 2em;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    width: 25%;
+}
+
+/* #header {
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -3183,10 +3225,10 @@ input[type="button"]:disabled,
 	justify-content: space-between;
 	background-color: #1f1815;
 	background-attachment: scroll, scroll;
-	background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+	background-image: url("images/overlay.png"), url("../../images/bg2.png");
 	background-position: top left, top left;
 	background-repeat: repeat, no-repeat;
-	background-size: auto, 150%;
+	background-size: auto, 100%;
 	color: rgba(255, 255, 255, 0.5);
 	height: 100%;
 	left: 0;
@@ -3195,7 +3237,7 @@ input[type="button"]:disabled,
 	text-align: center;
 	top: 0;
 	width: 25%;
-}
+} */
 
 #header>* {
 	-moz-flex-shrink: 0;
