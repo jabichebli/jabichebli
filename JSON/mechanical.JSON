@@ -1,15 +1,19 @@
 {
   "projects": [
     {
-      "title": "Tesla | Mechanical Design Engineer Intern",
+      "name": "Tesla",
+      "title": "Mechanical Design Engineer Intern",
+      "tldr": "<div class='text-container'><ul><li>Led design and development of seven thermal coolant components for CyberCab and other vehicles.</li><li>Managed RFQs, DFM reviews, and approved $160,000 in tooling for $1M+ annual components.</li><li>Optimized thermal designs using first-principles engineering, saving $100,000+ annually.</li><li>Directed investigations on automation, NVH, and insulation, performing eight tests and analyzing data.</li></ul></div>",
+      "summary": "<div class=\"summary-container\"><div class=\"summary-text\"><p>I had the incredible opportunity to work as a <strong>Mechanical Design Engineer</strong> in the Bay Area, USA, as part of the <strong>Thermal Team</strong>, which is known for owning one of the best-engineered vehicle thermal systems in the world.<br><br>As a key member of the thermal team, I was responsible for seven thermal coolant hose bundles spanning two future vehicles (CyberCab and Cybertruck RWD). I led various investigations, from material selection to automation design. My role involved the full iterative process of design, prototyping, and testing, gaining hands-on experience in <strong>designing for manufacturing (DFM)</strong> and automation.<br><br>One of my significant contributions was leading the <strong>RFQ (Request for Quote)</strong> process for one of the future vehicles. This included coordinating ongoing meetings with multiple suppliers to ensure the design was ready for mass production. My efforts culminated in giving the go-ahead for over $160k in tools, which helped the company save over $100k annually, all while the components were projected to cost over $1 million a year.<br><br>What stood out most during my time at Tesla was the company's unique flat organizational structure. Despite the global challenges faced by large tech companies, Tesla operates with a lean, trusting approach that places significant ownership in its employees. This allowed me to accomplish and grow in ways I never expected, and I'm incredibly grateful for the opportunity.<br><br>Applying the knowledge I gained at Monash University, including Solid Mechanics, Dynamics, Thermal, Materials, and Tolerancing, was instrumental in my day-to-day work. I also expanded my knowledge with new topics like NVH (Noise, Vibration, and Harshness) and durability, which were critical in ensuring the success of my projects.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Tesla/Tesla_Factory.jpg\" alt=\"Tesla Factory\"><img src=\"images/mechanical/Tesla/Tesla_Cars.jpg\" alt=\"Tesla Cars\"><img src=\"images/mechanical/Tesla/Tesla_Fremont.jpg\" alt=\"Tesla Fremont Factory\"></div></div><div class=\"video-container\"><iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/Qfj4urMF8CU\" frameborder=\"0\" allowfullscreen></iframe></div>",
       "dropdowns": [
         {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
+          "name": "",
+          "title": "Job Description",
+          "icon": "fa-solid fa-file-alt",
+          "iconColor": "#28B463",
           "items": [
             {
-              "text": "<div class='text-container'><ul><li>Led design and development of seven thermal coolant components for CyberCab and other vehicles.</li><li>Managed RFQs, DFM reviews, and approved $160,000 in tooling for $1M+ annual components.</li><li>Optimized thermal designs using first-principles engineering, saving $100,000+ annually.</li><li>Directed investigations on automation, NVH, and insulation, performing eight tests and analyzing data.</li></ul></div>"
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Tesla/Job_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
             }
           ]
         },
@@ -35,26 +39,6 @@
           ]
         },
         {
-          "title": "Job Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Tesla/Job_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-            }
-          ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>I had the incredible opportunity to work as a <strong>Mechanical Design Engineer</strong> in the Bay Area, USA, as part of the <strong>Thermal Team</strong>, which is known for owning one of the best-engineered vehicle thermal systems in the world.<br><br>As a key member of the thermal team, I was responsible for seven thermal coolant hose bundles spanning two future vehicles (CyberCab and Cybertruck RWD). I led various investigations, from material selection to automation design. My role involved the full iterative process of design, prototyping, and testing, gaining hands-on experience in <strong>designing for manufacturing (DFM)</strong> and automation.<br><br>One of my significant contributions was leading the <strong>RFQ (Request for Quote)</strong> process for one of the future vehicles. This included coordinating ongoing meetings with multiple suppliers to ensure the design was ready for mass production. My efforts culminated in giving the go-ahead for over $160k in tools, which helped the company save over $100k annually, all while the components were projected to cost over $1 million a year.<br><br>What stood out most during my time at Tesla was the company's unique flat organizational structure. Despite the global challenges faced by large tech companies, Tesla operates with a lean, trusting approach that places significant ownership in its employees. This allowed me to accomplish and grow in ways I never expected, and I'm incredibly grateful for the opportunity.<br><br>Applying the knowledge I gained at Monash University, including Solid Mechanics, Dynamics, Thermal, Materials, and Tolerancing, was instrumental in my day-to-day work. I also expanded my knowledge with new topics like NVH (Noise, Vibration, and Harshness) and durability, which were critical in ensuring the success of my projects.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Tesla/Tesla_Factory.jpg\" alt=\"Tesla Factory\"><img src=\"images/mechanical/Tesla/Tesla_Cars.jpg\" alt=\"Tesla Cars\"><img src=\"images/mechanical/Tesla/Tesla_Fremont.jpg\" alt=\"Tesla Fremont Factory\"><div class=\"video-container\"><iframe width=\"100%\" height=\"200\" src=\"https://www.youtube.com/embed/Qfj4urMF8CU\" frameborder=\"0\" allowfullscreen></iframe></div></div></div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -67,15 +51,18 @@
       ]
     },
     {
-      "title": "Big Dipper Challenge (ELO2, NASA) | Lead Mechanical Design Engineer",
+      "name": "Big Dipper Challenge (ELO2, NASA)",
+      "title": "Lead Mechanical Design Engineer",
+      "tldr": "<div class='text-container'><ul><li>Led a two-person team to 1st place ($2,100), designing an innovative excavation system by conducting in-depth research, refining project requirements, and creating a lightweight, space-efficient solution that reduced weight to 8.75% and volume to 11% of constraints, while delivering comprehensive engineering reports and a presentation video.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Two Columns: Text + Images -->\n  <div class=\"summary-text\">\n    <p>\n      NASA's Artemis program aims to return astronauts to the moon after over 50 years. In collaboration with a global alliance, Australia has been invited to design a lunar rover for collecting regolith samples. ELO2, a leading consortium competing for the opportunity to develop the first Australian lunar rover, initiated the Big Dipper Lunar Regolith Acquisition Challenge to innovate (lunar) excavation methods which have not really changed over the past 200+ years. This challenge aimed to design an innovative Regolith Sample Acquisition Device that could be attached to an Australian-designed rover for collecting and depositing lunar regolith at an In-situ Resource Utilisation (ISRU) facility operated by NASA on the moon.<br><br>\n      I formed and led a two-person team to take part in this exciting challenge. After meticulously breaking down the problem, considering all design aspects, conducting extensive research, and brainstorming countless solutions that met the project requirements, we finalized on one solution that we went on to further develop and refine, called - ROMEO. ROMEO leverages electromagnetics for lunar sample collection in low-gravity environments. Ultimately, we enjoyed the challenge and were humbled to have emerged as the 1st place winners in the national competition, marking a significant achievement in pushing the boundaries of lunar exploration.\n    </p>\n  </div>\n\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Big_Dipper_Challenge/Big_Dipper_Award.jpg\" alt=\"Big Dipper Award\">\n  </div>\n</div>\n\n<!-- Single Column: Our Winning Solution -->\n<div class=\"summary-single-column\" style= \"display: flex; justify-content: center;\">\n <div class=\"summary-media\"> <img src=\"images/mechanical/Big_Dipper_Challenge/ROMEO_Exploded_View.png\" alt=\"ROMEO Exploded View\" style= \"max-width: 800px; width: 600px;\">\n</div>  </div><div class=\"summary-single-column\" style = 'text-align: justify;'>\n  <p>\n    <strong>Our Winning Solution:</strong><br>\n    ROMEO, which stands for Regolith Oxygen Magnetic Extraction Operative, is a groundbreaking lunar excavation solution set to revolutionize lunar regolith collection for oxygen extraction. By leveraging the magnetic properties of lunar regolith, which contains oxygen-rich, ferrous materials, ROMEO's magnetic extraction provides an additional filter for the regolith, ensuring unparalleled efficiency in later oxygen extraction.<br><br>\n    In essence, ROMEO is a brushless motor-driven circular drum with six strategically positioned ferromagnetic solenoids, ensuring precise regolith attraction and collection. Linear rails, combined with a LIDAR sensor, provide consistent lowering of the system and incorporate feedback loops to maintain a reliable 1-5mm distance above the lunar surface during excavation. After just 5 revolutions, ROMEO's hopper will conservatively hold 219g of regolith, and a linear actuator trap door system can then be employed to deposit the regolith in a controlled manner.<br><br>\n    This excavation mechanism seamlessly integrates with the Trailblazer rover, weighing a mere 1.75kg and occupying only approximately 11% of the available volume. Overall, ROMEO's unique design ensures lunar stability, marking a paradigm shift in regolith acquisition technology.<br><br>\n    As ROMEO progresses through the active design phase at Technology Readiness Level 3, it emerges as a creative and efficient solution, blending electromagnetism and cutting-edge engineering to address the lunar regolith collection challenge with unparalleled ingenuity.\n<br><br> </p>\n</div>\n\n<!-- Video on its Own Row -->\n<div class=\"summary-video\">\n  <div class=\"video-container\">\n    <iframe width=\"100%\" height=\"200\" src=\"https://www.youtube.com/embed/ge_Zm3iXU3M\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n</div>",
       "dropdowns": [
         {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
+          "title": "Challenge Description",
+          "icon": "fa-solid fa-file-alt",
+          "iconColor": "#28B463",
           "items": [
             {
-              "text": "<div class='text-container'><ul><li>Led a two-person team to 1st place ($2,100), designing an innovative excavation system by conducting in-depth research, refining project requirements, and creating a lightweight, space-efficient solution that reduced weight to 8.75% and volume to 11% of constraints, while delivering comprehensive engineering reports and a presentation video.</li></ul></div>"
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Big_Dipper_Challenge/Challenge_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
             }
           ]
         },
@@ -96,50 +83,23 @@
           ]
         },
         {
-          "title": "Challenge Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Big_Dipper_Challenge/Challenge_Description.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-            }
-          ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Two Columns: Text + Images -->\n  <div class=\"summary-text\">\n    <p>\n      NASA's Artemis program aims to return astronauts to the moon after over 50 years. In collaboration with a global alliance, Australia has been invited to design a lunar rover for collecting regolith samples. ELO2, a leading consortium competing for the opportunity to develop the first Australian lunar rover, initiated the Big Dipper Lunar Regolith Acquisition Challenge to innovate (lunar) excavation methods which have not really changed over the past 200+ years. This challenge aimed to design an innovative Regolith Sample Acquisition Device that could be attached to an Australian-designed rover for collecting and depositing lunar regolith at an In-situ Resource Utilisation (ISRU) facility operated by NASA on the moon.<br><br>\n      I formed and led a two-person team to take part in this exciting challenge. After meticulously breaking down the problem, considering all design aspects, conducting extensive research, and brainstorming countless solutions that met the project requirements, we finalized on one solution that we went on to further develop and refine, called - ROMEO. ROMEO leverages electromagnetics for lunar sample collection in low-gravity environments. Ultimately, we enjoyed the challenge and were humbled to have emerged as the 1st place winners in the national competition, marking a significant achievement in pushing the boundaries of lunar exploration.\n    </p>\n  </div>\n\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Big_Dipper_Challenge/Big_Dipper_Award.jpg\" alt=\"Big Dipper Award\">\n    <img src=\"images/mechanical/Big_Dipper_Challenge/ROMEO_Exploded_View.png\" alt=\"ROMEO Exploded View\">\n  </div>\n</div>\n\n<br><!-- Single Column: Our Winning Solution -->\n<div class=\"summary-single-column\" style = 'text-align: justify;'>\n  <p>\n    <strong>Our Winning Solution:</strong><br>\n    ROMEO, which stands for Regolith Oxygen Magnetic Extraction Operative, is a groundbreaking lunar excavation solution set to revolutionize lunar regolith collection for oxygen extraction. By leveraging the magnetic properties of lunar regolith, which contains oxygen-rich, ferrous materials, ROMEO's magnetic extraction provides an additional filter for the regolith, ensuring unparalleled efficiency in later oxygen extraction.<br><br>\n    In essence, ROMEO is a brushless motor-driven circular drum with six strategically positioned ferromagnetic solenoids, ensuring precise regolith attraction and collection. Linear rails, combined with a LIDAR sensor, provide consistent lowering of the system and incorporate feedback loops to maintain a reliable 1-5mm distance above the lunar surface during excavation. After just 5 revolutions, ROMEO's hopper will conservatively hold 219g of regolith, and a linear actuator trap door system can then be employed to deposit the regolith in a controlled manner.<br><br>\n    This excavation mechanism seamlessly integrates with the Trailblazer rover, weighing a mere 1.75kg and occupying only approximately 11% of the available volume. Overall, ROMEO's unique design ensures lunar stability, marking a paradigm shift in regolith acquisition technology.<br><br>\n    As ROMEO progresses through the active design phase at Technology Readiness Level 3, it emerges as a creative and efficient solution, blending electromagnetism and cutting-edge engineering to address the lunar regolith collection challenge with unparalleled ingenuity.\n  </p>\n</div>\n\n<!-- Video on its Own Row -->\n<div class=\"summary-video\">\n  <div class=\"video-container\">\n    <iframe width=\"100%\" height=\"200\" src=\"https://www.youtube.com/embed/ge_Zm3iXU3M\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n</div>"
-            }
-          ]
-        },        
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"documents/mechanical/Big_Dipper_Challenge/ROMEO_Concept_Written_Responses.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> ROMEO Concept Written Responses (PDF)\n</a>\n<a href=\"documents/mechanical/Big_Dipper_Challenge/ROMEO_CAD_V11.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> ROMEO CAD V11 (ZIP)\n</a>\n<a href=\"https://www.freelancer.com/contest/ELO-Big-Dipper-Lunar-Regolith-Acquisition-Challenge-2323850/details\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> ELO Big Dipper Challenge (Freelancer)\n</a>\n<a href=\"https://www.elo2.au/news-big-dipper-challenge\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> ELO2 Big Dipper Challenge News\n</a>\n<a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7152519817961295872/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post 1\n</a>\n<a href=\"https://www.linkedin.com/posts/elo2au_gdaymoon-elo2-space-activity-7155688150084784129-7by8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post 2\n</a>"
+              "text": "<a href=\"documents/mechanical/Big_Dipper_Challenge/ROMEO_Concept_Written_Responses.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> ROMEO Concept Written Responses (PDF)\n</a>\n\n<a href=\"https://www.freelancer.com/contest/ELO-Big-Dipper-Lunar-Regolith-Acquisition-Challenge-2323850/details\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> ELO Big Dipper Challenge (Freelancer)\n</a>\n<a href=\"https://www.elo2.au/news-big-dipper-challenge\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-globe\"></i> ELO2 Big Dipper Challenge News\n</a>\n<a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7152519817961295872/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post 1\n</a>\n<a href=\"https://www.linkedin.com/posts/elo2au_gdaymoon-elo2-space-activity-7155688150084784129-7by8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Post 2\n</a>"
             }
           ]
         }
       ]
     },
     {
-      "title": "3D Printer Hotend Challenge | Lead Mechanical Engineer",
+      "name": "3D Printer Hotend Challenge",
+      "title": "Lead Mechanical Engineer",
+      "tldr": "<div class='text-container'><ul><li>Increased Modix 3D printer flowrate by 127%, reaching 166mm³/s.</li><li>Benchmarked E3D V6 hotend using ANSYS simulations, hand calculations, and physical tests.</li><li>Designed a new hotend to enhance thermal efficiency and flowrate.</li></ul></div>",
+      "summary": "<div class=\"summary-container\"><div class=\"summary-text\"><p>The goal of this project was to increase the flowrate performance of the Modix 3D Printer by at least 20%. As the Lead Engineering and Thermal Mechanical Engineer, I managed a team of five engineers, overseeing project scope, timelines, and the collaborative design process.<br><br>My team's first task was to evaluate the performance of the current hotend, the E3D V6, using thermal benchmarking methods such as hand calculations, ANSYS simulations, and physical testing with a heat gun. Based on these findings, we moved forward with designing our own hotend, focusing on improving thermal efficiency and overall flowrate.<br><br>I contributed to solution generation and the final design, ensuring the hotend met the performance requirements. I also managed material selection and sourcing, and performed extensive thermal analysis on the final design.<br><br>The project culminated in machining the final hotend on an Okuma 5-axis CNC, and the results were impressive: physical testing showed a 127% increase in flowrate, with the new hotend achieving a flowrate of 166mm³/s, well above the target. CFD simulations of the fan ducts also looked promising, further validating the design.<br><br>This experience allowed me to develop my leadership skills, perform in-depth thermal and fluid analysis, and deliver a high-performance design that exceeded expectations.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Hotend_Project/Manufactured_Hotend.png\" alt=\"Manufactured Hotend\"><img src=\"images/mechanical/Hotend_Project/Load_Cases.png\" alt=\"Load Cases\"></div><div class=\"summary-row\"><img src=\"images/mechanical/Hotend_Project/Thermal_Analysis.png\" alt=\"Thermal Analysis\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging.png\" alt=\"Thermal Imaging\"></div> <div class=\"summary-row\"><img src=\"images/mechanical/Hotend_Project/Heat_Break_Performance_Plot.png\" alt=\"Heat Break Performance Plot\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging_Plot.png\" alt=\"Thermal Imaging Plot\" ></div></div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Increased Modix 3D printer flowrate by 127%, reaching 166mm³/s.</li><li>Benchmarked E3D V6 hotend using ANSYS simulations, hand calculations, and physical tests.</li><li>Designed a new hotend to enhance thermal efficiency and flowrate.</li></ul></div>"
-            }
-          ]
-        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -156,16 +116,6 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\"><div class=\"summary-text\"><p>The goal of this project was to increase the flowrate performance of the Modix 3D Printer by at least 20%. As the Lead Engineering and Thermal Mechanical Engineer, I managed a team of five engineers, overseeing project scope, timelines, and the collaborative design process.<br><br>My team's first task was to evaluate the performance of the current hotend, the E3D V6, using thermal benchmarking methods such as hand calculations, ANSYS simulations, and physical testing with a heat gun. Based on these findings, we moved forward with designing our own hotend, focusing on improving thermal efficiency and overall flowrate.<br><br>I contributed to solution generation and the final design, ensuring the hotend met the performance requirements. I also managed material selection and sourcing, and performed extensive thermal analysis on the final design.<br><br>The project culminated in machining the final hotend on an Okuma 5-axis CNC, and the results were impressive: physical testing showed a 127% increase in flowrate, with the new hotend achieving a flowrate of 166mm³/s, well above the target. CFD simulations of the fan ducts also looked promising, further validating the design.<br><br>This experience allowed me to develop my leadership skills, perform in-depth thermal and fluid analysis, and deliver a high-performance design that exceeded expectations.</p></div><div class=\"summary-media\"><img src=\"images/mechanical/Hotend_Project/Manufactured_Hotend.png\" alt=\"Manufactured Hotend\"><img src=\"images/mechanical/Hotend_Project/Load_Cases.png\" alt=\"Load Cases\"><img src=\"images/mechanical/Hotend_Project/Thermal_Analysis.png\" alt=\"Thermal Analysis\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging.png\" alt=\"Thermal Imaging\"></div><div class=\"summary-row\"><img src=\"images/mechanical/Hotend_Project/Heat_Break_Performance_Plot.png\" alt=\"Heat Break Performance Plot\"><img src=\"images/mechanical/Hotend_Project/Thermal_Imaging_Plot.png\" alt=\"Thermal Imaging Plot\" ></div></div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -178,18 +128,11 @@
       ]
     },
     {
-      "title": "Engineering Innovation Challenge 2023 | Lead Mechatronics Engineer",
+      "name": "Engineering Innovation Challenge 2023",
+      "title": "Lead Mechatronics Engineer",
+      "tldr": "<div class='text-container'><ul><li>Led a three-person team to 1st place ($10,000) in a global competition, surpassing 137 teams.</li><li>Developed a 1:32 scale flood-proof road prototype through research, procurement, manufacturing, and testing.</li><li>Delivered detailed reports and a compelling presentation on methodology and outcomes.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      In 2023, I assembled and led a dedicated team of three engineers to partake in the prestigious global competition, known as the Engineering Innovation Challenge (EIC), hosted in Singapore. The focal point of the 2023 challenge revolved around 'Engineering for Resilient City Living.' Over an intensive five-month period, my team and I directed unwavering attention to tackle the complex issue of flash flooding, culminating in the innovative concept of flood-proof roads.<br><br>\n      With the submission of a comprehensive concept report, our remarkable journey did not end there, as we advanced to the highly competitive final round. For the final round, we secured crucial prototype funding, propelling us toward the realisation of a 1:32 small-scale proof of concept. Overall, our dedication to the challenge resulted in the creation of a prototype, a well-written final report, and an engaging 10-minute presentation to esteemed judges based in Singapore.<br><br>\n      What makes our achievement truly exceptional is the fact that this marked our debut in the competition, and we triumphed over 137 teams from around the world, securing the coveted 1st place in the highest category. Our victory etched a significant milestone in EIC's 14-year history as the first international team to claim the top spot. The distinguished announcement came during the grand award ceremony on August 26th, with the Deputy Prime Minister of Singapore, Mr. Heng Swee Keat, bestowing us with this historic honor.\n <br><br>   </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n <img src=\"images/mechanical/Engineering_Innovation_Challenge/EIC_Certificate.png\" alt=\"EIC Certificate\">\n </div></div> <div class=\"summary-row\">\n  <img src=\"images/mechanical/Engineering_Innovation_Challenge/EIC_Prototype.jpg\" alt=\"EIC Prototype\">\n <img src=\"images/mechanical/Engineering_Innovation_Challenge/EIC_Award_Ceremony.jpg\" alt=\"EIC Award Ceremony\">\n </div>\n\n<br><!-- Video on Its Own Row -->\n<div class=\"summary-video\">\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jHwlZt_nb30\" title=\"EIC Project Video\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Led a three-person team to 1st place ($10,000) in a global competition, surpassing 137 teams.</li><li>Developed a 1:32 scale flood-proof road prototype through research, procurement, manufacturing, and testing.</li><li>Delivered detailed reports and a compelling presentation on methodology and outcomes.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -207,16 +150,6 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      In 2023, I assembled and led a dedicated team of three engineers to partake in the prestigious global competition, known as the Engineering Innovation Challenge (EIC), hosted in Singapore. The focal point of the 2023 challenge revolved around 'Engineering for Resilient City Living.' Over an intensive five-month period, my team and I directed unwavering attention to tackle the complex issue of flash flooding, culminating in the innovative concept of flood-proof roads.<br><br>\n      With the submission of a comprehensive concept report, our remarkable journey did not end there, as we advanced to the highly competitive final round. For the final round, we secured crucial prototype funding, propelling us toward the realisation of a 1:32 small-scale proof of concept. Overall, our dedication to the challenge resulted in the creation of a prototype, a well-written final report, and an engaging 10-minute presentation to esteemed judges based in Singapore.<br><br>\n      What makes our achievement truly exceptional is the fact that this marked our debut in the competition, and we triumphed over 137 teams from around the world, securing the coveted 1st place in the highest category. Our victory etched a significant milestone in EIC's 14-year history as the first international team to claim the top spot. The distinguished announcement came during the grand award ceremony on August 26th, with the Deputy Prime Minister of Singapore, Mr. Heng Swee Keat, bestowing us with this historic honor.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Engineering_Innovation_Challenge/EIC_Prototype.jpg\" alt=\"EIC Prototype\">\n    <img src=\"images/mechanical/Engineering_Innovation_Challenge/EIC_Certificate.png\" alt=\"EIC Certificate\">\n    <img src=\"images/mechanical/Engineering_Innovation_Challenge/EIC_Award_Ceremony.jpg\" alt=\"EIC Award Ceremony\">\n  </div>\n</div>\n\n<!-- Video on Its Own Row -->\n<div class=\"summary-video\">\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jHwlZt_nb30\" title=\"EIC Project Video\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n</div>"
-            }
-          ]
-        },        
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -225,22 +158,15 @@
               "text": "<a href=\"documents/mechanical/Engineering_Innovation_Challenge/Preliminary_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Engineering Innovation Challenge Preliminary Report (PDF)\n</a>\n<a href=\"documents/mechanical/Engineering_Innovation_Challenge/Final_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Engineering Innovation Challenge Final Report (PDF)\n</a>\n<a href=\"documents/mechanical/Engineering_Innovation_Challenge/Final_Presentation.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Engineering Innovation Challenge Final Presentation (PDF)\n</a>\n<a href=\"documents/mechanical/Engineering_Innovation_Challenge/Declaration_Form.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Engineering Innovation Challenge Declaration Form (PDF)\n</a>\n<a href=\"https://www.linkedin.com/feed/update/urn:li:activity:7103609993697927169?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> LinkedIn Acknowledgement on Engineering Innovation Challenge\n</a>\n<a href=\"https://www.youtube.com/watch?v=gNisp_4oZSE\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-youtube\"></i> Engineering Innovation Challenge Video (Jump to 1hr:07min)\n</a>"
             }
           ]
-        }               
+        }
       ]
     },
     {
-      "title": "Monash Nova Rover | Mechanical Engineer",
+      "name": "Monash Nova Rover",
+      "title": "Mechanical Engineer",
+      "tldr": "<div class='text-container'><ul><li>Led design, prototyping, and assembly of payload housings, science platform, and excavation mechanism, achieving efficient life detection and excavation of 54kg regolith in 20 minutes, securing 1st place in Australia and 2nd globally in 2022 and 2023.</li><li>Designed a four-wheel suspension linkage, reducing rover weight by 33% and costs by 60%, with pivot steering, contributing to global competition success.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Column 1: Text Content + Images -->\n  <div class=\"summary-text\">\n    <p>\n      I joined Monash Nova Rover in 2021, driven by my passion for space technology and a deep eagerness to learn. My contributions in the Science sub-team were pivotal, where I played a major role in the design, prototyping, and assembly of two science payload housings, including platform, PCB mount, tube gantry, battery mount, snoop, and more. I quickly became proficient in SolidWorks, Cura, and FDM 3D printing, while gaining hands-on experience with various fabrication tools.<br><br>\n      Within days of joining, I was fully immersed in the team's projects, and our efforts paid off at the Australian Rover Challenge (ARC), where Nova Rover secured 1st place in Australia. Shortly after, we competed in the University Rover Challenge (URC) in Utah, focused on Mars exploration. Despite my short tenure on the team, I was honored to be one of the 23 members representing Nova Rover in Utah. We placed 2nd globally in 2022, missing 1st by only 8.42 points.\n    </p>\n  </div>\n\n  <!-- First 2 Images (Next to Text) -->\n </div> <div class=\"summary-row\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/ARC_Payload.png\" alt=\"ARC Payload\" style = \"height: 300px;\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/Science_Platform.png\" alt=\"Science Platform\" style = \"height: 300px;\">\n  </div>\n\n  <!-- First 2 Images in One Row (After Text Ending) -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_ARC.png\" alt=\"MNR ARC\" style = \"height: 300px;\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_URC.png\" alt=\"MNR URC\" style = \"height: 300px;\">\n  </div>\n\n  <!-- Column 2: More Text Content + Images -->\n  <div class=\"summary-text\">\n    <p>\n      In the following design cycle, I expanded my involvement beyond Science, contributing to the Chassis sub-team. The Chassis team transitioned from a six-wheel drive to a four-wheel drive system with pivot steering, while the Science team developed new excavation and Martian life detection mechanisms. I collaborated on designing the 4-wheel suspension system and the novel scraper excavation mechanism, applying my prior NASA prototyping experience.<br><br>\n      Our efforts led to back-to-back successes, with Nova Rover securing 1st place in Australia and 2nd place in the world in 2023. Looking back, I am immensely proud of this journey and excited to see Nova Rover continue pushing boundaries in robotics and planetary exploration.\n    </p>\n  </div>\n\n  <!-- Second 2 Images (Next to Text) -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_Pink_Rover.png\" alt=\"MNR Pink Rover\" style = \"height: 300px;\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_URC23.jpg\" alt=\"MNR URC 2023\" style = \"height: 300px;\">\n  </div>\n\n  <!-- Second 2 Images in One Row (After Text Ending) -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_Scraper.jpg\" alt=\"MNR Scraper\" style = \"height: 300px;\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_ARC23.jpg\" alt=\"MNR ARC 2023\" style = \"height: 300px;\">\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Led design, prototyping, and assembly of payload housings, science platform, and excavation mechanism, achieving efficient life detection and excavation of 54kg regolith in 20 minutes, securing 1st place in Australia and 2nd globally in 2022 and 2023.</li><li>Designed a four-wheel suspension linkage, reducing rover weight by 33% and costs by 60%, with pivot steering, contributing to global competition success.</li></ul></div>"
-            }
-          ]
-        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -261,16 +187,7 @@
             { "name": "Mentorship", "color": "#006400" }
           ]
         },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Column 1: Text Content + Images -->\n  <div class=\"summary-text\">\n    <p>\n      I joined Monash Nova Rover in 2021, driven by my passion for space technology and a deep eagerness to learn. My contributions in the Science sub-team were pivotal, where I played a major role in the design, prototyping, and assembly of two science payload housings, including platform, PCB mount, tube gantry, battery mount, snoop, and more. I quickly became proficient in SolidWorks, Cura, and FDM 3D printing, while gaining hands-on experience with various fabrication tools.<br><br>\n      Within days of joining, I was fully immersed in the team's projects, and our efforts paid off at the Australian Rover Challenge (ARC), where Nova Rover secured 1st place in Australia. Shortly after, we competed in the University Rover Challenge (URC) in Utah, focused on Mars exploration. Despite my short tenure on the team, I was honored to be one of the 23 members representing Nova Rover in Utah. We placed 2nd globally in 2022, missing 1st by only 8.42 points.\n    </p>\n  </div>\n\n  <!-- First 2 Images (Next to Text) -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/ARC_Payload.png\" alt=\"ARC Payload\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/Science_Platform.png\" alt=\"Science Platform\">\n  </div>\n\n  <!-- First 2 Images in One Row (After Text Ending) -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_ARC.png\" alt=\"MNR ARC\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_URC.png\" alt=\"MNR URC\">\n  </div>\n\n  <!-- Column 2: More Text Content + Images -->\n  <div class=\"summary-text\">\n    <p>\n      In the following design cycle, I expanded my involvement beyond Science, contributing to the Chassis sub-team. The Chassis team transitioned from a six-wheel drive to a four-wheel drive system with pivot steering, while the Science team developed new excavation and Martian life detection mechanisms. I collaborated on designing the 4-wheel suspension system and the novel scraper excavation mechanism, applying my prior NASA prototyping experience.<br><br>\n      Our efforts led to back-to-back successes, with Nova Rover securing 1st place in Australia and 2nd place in the world in 2023. Looking back, I am immensely proud of this journey and excited to see Nova Rover continue pushing boundaries in robotics and planetary exploration.\n    </p>\n  </div>\n\n  <!-- Second 2 Images (Next to Text) -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_Pink_Rover.png\" alt=\"MNR Pink Rover\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_URC23.jpg\" alt=\"MNR URC 2023\">\n  </div>\n\n  <!-- Second 2 Images in One Row (After Text Ending) -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_Scraper.jpg\" alt=\"MNR Scraper\">\n    <img src=\"images/mechanical/Monash_Nova_Rover/MNR_ARC23.jpg\" alt=\"MNR ARC 2023\">\n  </div>\n</div>"
-            }
-          ]
-        },
+
         {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
@@ -280,22 +197,15 @@
               "text": "<a href=\"https://www.novarover.space/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> Nova Rover Website\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_monashuniversity-spacetechnology-rover-activity-7071059918149074944-9Ou5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> URC 2023 LinkedIn Update\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_engineering-spacetechnology-rover-activity-7048431075999563776-z5s4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> ARC 2023 LinkedIn Update\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_pinkrover-whypinkrover-stemdiversity-activity-7041934310005723137-yTWA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> Pink Rover Launch Night LinkedIn Update\n</a>\n<a href=\"https://www.linkedin.com/posts/jason-abi-chebli_engineering-spaceexploration-activity-6951142021805805568-w3wG?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8ZQzUBxdwnyZAtpFittQ1zicN7BJaGgd8\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-linkedin\"></i> ARC and URC 2022 LinkedIn Update\n</a>\n<a href=\"https://urc.marssociety.org/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> URC Official Website\n</a>\n<a href=\"https://set.adelaide.edu.au/atcsr/australian-rover-challenge/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> Australian Rover Challenge Website\n</a>"
             }
           ]
-        }                                                     
+        }
       ]
     },
     {
-      "title": "Monash Nova Rover x NASA | Mechanical Engineer",
+      "name": "Monash Nova Rover x NASA",
+      "title": "Mechanical Engineer",
+      "tldr": "<div class='text-container'><ul><li>Led design, manufacturing, and testing of a lunar excavation mechanism and thermal insulation rig, tested at NASA's Swamp Works Granular Mechanics and Regolith Site.</li><li>Conducted academic research and developed test-plan proposals, defining objectives, hardware configurations, resources, and timelines for precise execution and budget adherence.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Immediately following the University Rover Challenge (URC) in Utah in 2022, I flew to Florida for a remarkable opportunity with the Nova Rover team. At NASA's Swampworks facility, we had the privilege of performing tests on exploration mission solutions similar to those NASA uses for their own projects.<br><br>\n      During this time, I led the design and manufacturing of the scraper mechanism used for lunar regolith excavation, as well as a thermal insulation testing rig. These systems were put to the test at the NASA facility, which was an unforgettable experience.<br><br>\n      This hands-on collaboration with NASA allowed me to apply my skills in real-world testing environments, pushing the limits of our designs and gaining invaluable insights into space exploration technologies.\n    </p>\n </div> </div>\n\n  <!-- Images Section -->\n   <div class=\"summary-row\">\n      <img src=\"images/mechanical/NASA/Thermal_CAD.png\" alt=\"Thermal CAD\" style = \"height: 300px;\">\n      <img src=\"images/mechanical/NASA/Scraper_CAD.png\" alt=\"Scraper CAD\" style = \"height: 300px;\">\n    </div>\n    <div class=\"summary-row\">\n      <img src=\"images/mechanical/NASA/NASA_Thermal.png\" alt=\"Thermal Testing\" style = \"height: 300px;\">\n      <img src=\"images/mechanical/NASA/NASA_Scraper.png\" alt=\"NASA Scraper\" style = \"height: 300px;\">\n    </div>\n  \n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Led design, manufacturing, and testing of a lunar excavation mechanism and thermal insulation rig, tested at NASA's Swamp Works Granular Mechanics and Regolith Site.</li><li>Conducted academic research and developed test-plan proposals, defining objectives, hardware configurations, resources, and timelines for precise execution and budget adherence.</li></ul></div>"
-            }
-          ]
-        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -314,16 +224,6 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Immediately following the University Rover Challenge (URC) in Utah in 2022, I flew to Florida for a remarkable opportunity with the Nova Rover team. At NASA's Swampworks facility, we had the privilege of performing tests on exploration mission solutions similar to those NASA uses for their own projects.<br><br>\n      During this time, I led the design and manufacturing of the scraper mechanism used for lunar regolith excavation, as well as a thermal insulation testing rig. These systems were put to the test at the NASA facility, which was an unforgettable experience.<br><br>\n      This hands-on collaboration with NASA allowed me to apply my skills in real-world testing environments, pushing the limits of our designs and gaining invaluable insights into space exploration technologies.\n    </p>\n  </div>\n\n  <!-- Images Section -->\n   <div class=\"summary-row\">\n      <img src=\"images/mechanical/NASA/Thermal_CAD.png\" alt=\"Thermal CAD\">\n      <img src=\"images/mechanical/NASA/Scraper_CAD.png\" alt=\"Scraper CAD\">\n    </div>\n    <div class=\"summary-row\">\n      <img src=\"images/mechanical/NASA/NASA_Thermal.png\" alt=\"Thermal Testing\">\n      <img src=\"images/mechanical/NASA/NASA_Scraper.png\" alt=\"NASA Scraper\">\n    </div>\n  \n</div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -333,22 +233,24 @@
             }
           ]
         }
-                
       ]
     },
     {
-      "title": "WARMAN | Lead Mechatronics Engineer",
+      "name": "WARMAN",
+      "title": "Lead Mechatronics Engineer",
+      "tldr": "<div class='text-container'><ul><li>Led a four-person team tasked with designing and building a prototype to address a specified engineering challenge of delivering a payload over across a gorge.</li><li>Successfully managed all phases of the project lifecycle, from initial design to final submission. Demonstrated adept project management skills including expense reconciliation, timeline development using Gantt Chart and Trello, and continuous reflection on progress and design changes. Showcased a proactive approach to learning and adaptation throughout.</li><li>Demonstrated creativity and innovation in the problem-solving process, generating solutions and ideas through detailed hand-drawn drawings.</li></ul></div>",
+      "summary": "<div class=\"summary-container\"> <!-- Left: Text Content --> <div class=\"summary-text\"> <p> I led a team of four engineering students on a project for the 2022 Warman Competition, which challenges teams to design and build a prototype that solves a specific engineering problem. The objective in 2022 was to create a scaled prototype capable of transporting a package over a chasm to the designated delivery region in the fastest time possible while meeting our team's personal learning goals. </p> <p>Our project involved three key stages:</p> <ul> <li><strong>Preliminary Design Submission:</strong> We defined the problem, brainstormed creative solutions, created isometric drawings, and selected the final design.</li> <li><strong>Build Submission:</strong> We built the prototype using a mix of purchased materials, 3D-printed parts, and laser-cut components. The focus here was on rapid prototyping and testing.</li> <li><strong>Final Design Submission:</strong> We reflected on the changes made from start to finish, evaluated the project management process, reconciled expenses, and created engineering drawings for the final design.</li> </ul> <p> Leading this project taught me valuable lessons in teamwork, problem-solving, and prototyping, while also providing practical experience in project management and design iteration. </p> </div> </div> <!-- Right: First Two Images in a Column Next to Text --> <div class=\"summary-row\"> <img src=\"images/mechanical/WARMAN/Warman_v1.png\" alt=\"Warman Prototype Version 1\" style = \"height: 300px;\"> <img src=\"images/mechanical/WARMAN/Warman_v2.png\" alt=\"Warman Prototype Version 2\" style = \"height: 300px;\"> </div> <!-- Below: Next Two Images in a Single Row --> <div class=\"summary-row\"> <img src=\"images/mechanical/WARMAN/Warman_collection.png\" alt=\"Warman Prototype Collection\" style=\"width: 45%; margin: 5px; height: 300px;\" > <img src=\"images/mechanical/WARMAN/Warman_deposition.png\" alt=\"Warman Prototype Deposition\" style=\"width: 45%; margin: 5px; height: 300px;\"> </div> </div>",
       "dropdowns": [
         {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
+          "title": "Challenge Description",
+          "icon": "fa-solid fa-file-alt",
+          "iconColor": "#28B463",
           "items": [
             {
-              "text": "<div class='text-container'><ul><li>Led a four-person team tasked with designing and building a prototype to address a specified engineering challenge of delivering a payload over across a gorge.</li><li>Successfully managed all phases of the project lifecycle, from initial design to final submission. Demonstrated adept project management skills including expense reconciliation, timeline development using Gantt Chart and Trello, and continuous reflection on progress and design changes. Showcased a proactive approach to learning and adaptation throughout.</li><li>Demonstrated creativity and innovation in the problem-solving process, generating solutions and ideas through detailed hand-drawn drawings.</li></ul></div>"
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/WARMAN/WARMAN_Rules.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
             }
           ]
-        },        
+        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -365,50 +267,33 @@
           ]
         },
         {
-          "title": "Challenge Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/WARMAN/WARMAN_Rules.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-            }
-          ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\"> <!-- Left: Text Content --> <div class=\"summary-text\"> <p> I led a team of four engineering students on a project for the 2022 Warman Competition, which challenges teams to design and build a prototype that solves a specific engineering problem. The objective in 2022 was to create a scaled prototype capable of transporting a package over a chasm to the designated delivery region in the fastest time possible while meeting our team's personal learning goals. </p> <p>Our project involved three key stages:</p> <ul> <li><strong>Preliminary Design Submission:</strong> We defined the problem, brainstormed creative solutions, created isometric drawings, and selected the final design.</li> <li><strong>Build Submission:</strong> We built the prototype using a mix of purchased materials, 3D-printed parts, and laser-cut components. The focus here was on rapid prototyping and testing.</li> <li><strong>Final Design Submission:</strong> We reflected on the changes made from start to finish, evaluated the project management process, reconciled expenses, and created engineering drawings for the final design.</li> </ul> <p> Leading this project taught me valuable lessons in teamwork, problem-solving, and prototyping, while also providing practical experience in project management and design iteration. </p> </div> <!-- Right: First Two Images in a Column Next to Text --> <div class=\"summary-media\"> <img src=\"images/mechanical/WARMAN/Warman_v1.png\" alt=\"Warman Prototype Version 1\"> <img src=\"images/mechanical/WARMAN/Warman_v2.png\" alt=\"Warman Prototype Version 2\"> </div> <!-- Below: Next Two Images in a Single Row --> <div class=\"summary-row\"> <img src=\"images/mechanical/WARMAN/Warman_collection.png\" alt=\"Warman Prototype Collection\" style=\"width: 45%; margin: 5px;\"> <img src=\"images/mechanical/WARMAN/Warman_deposition.png\" alt=\"Warman Prototype Deposition\" style=\"width: 45%; margin: 5px;\"> </div> </div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"documents/mechanical/WARMAN/Preliminary_Design_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> WARMAN Preliminary Design Report (PDF)\n</a>\n<a href=\"documents/mechanical/WARMAN/Inital_CAD.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> WARMAN Initial CAD Files (ZIP)\n</a>\n<a href=\"documents/mechanical/WARMAN/Final_Design_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> WARMAN Final Design Report (PDF)\n</a>\n<a href=\"documents/mechanical/WARMAN/Final_CAD.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> WARMAN Final CAD Files (ZIP)\n</a>"
+              "text": "<a href=\"documents/mechanical/WARMAN/Preliminary_Design_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> WARMAN Preliminary Design Report (PDF)\n</a>\n\n<a href=\"documents/mechanical/WARMAN/Final_Design_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> WARMAN Final Design Report (PDF)\n</a>\n"
             }
           ]
-        }        
+        }
       ]
     },
     {
-      "title": "Hoisting Platform | Mechanical Design Engineer",
+      "name": "Hoisting Platform",
+      "title": "Mechanical Design Engineer",
+      "tldr": "<div class='text-container'><ul><li>Led a team of four engineers to design a system for transporting an engineer up a wind turbine, focusing on the hoisting platform, motor, materials, and load calculations.</li><li>Conducted Finite Element Analysis (FEA) and designed shafts, pinions, and racks with a safety factor of 3.</li><li>Gained experience in mechanical design, load analysis, FEA, and project management, culminating in a 93-page report documenting the system's proof of concept.</li></ul></div>",
+      "summary": "<div class=\"summary-container\" style=\"display: flex; flex-wrap: wrap;\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I led a team of four engineers to design a system that would transport an engineer from the base of a wind turbine to the top. In the preliminary design phase, I was responsible for designing the hoisting platform that would safely lift the engineer, contributing to motor selection, material selection, and general load calculations. We compiled our considerations into a comprehensive report.<br><br>\n      During the final design stage, my team and I conducted Finite Element Analysis (FEA) and designed the necessary shafts, pinions, and racks capable of supporting the engineer and the platform with a safety factor of at least 3. This culminated in the completion of a 93-page report detailing the system's proof of concept.<br><br>\n      This project provided me with invaluable hands-on experience in mechanical design, load analysis, and the practical application of FEA, while also refining my skills in team collaboration and project management.\n    </p>\n  </div>\n\n  <!-- Right: First Two Images in a Column Next to Text -->\n </div>  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform.JPG\" alt=\"Hoisting Platform\" style = \"height: 300px;\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Back_View.JPG\" alt=\"Hoisting Platform Back View\" style = \"height: 300px;\">\n  </div>\n\n  <!-- Below: Next Four Images in Two Rows -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Section_View.JPG\" alt=\"Hoisting Platform Section View\" style=\"height: 300px;\">\n      <img src=\"images/mechanical/Hoisting_Platform/Safety_Harness.jpg\" alt=\"Safety Harness\" style=\"height: 300px;\">\n    </div>\n    <div class=\"summary-row\">\n      <img src=\"images/mechanical/Hoisting_Platform/Scissor_Lift.JPG\" alt=\"Scissor Lift\" style=\"height: 300px;\">\n      <img src=\"images/mechanical/Hoisting_Platform/Driving_Gear_Stress.png\" alt=\"Driving Gear Stress\" style=\"margin: 5px; height: 300px;\">\n  </div>\n</div>",
       "dropdowns": [
         {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
+          "title": "Task Description",
+          "icon": "fa-solid fa-file-alt",
+          "iconColor": "#28B463",
           "items": [
             {
-              "text": "<div class='text-container'><ul><li>Led a team of four engineers to design a system for transporting an engineer up a wind turbine, focusing on the hoisting platform, motor, materials, and load calculations.</li><li>Conducted Finite Element Analysis (FEA) and designed shafts, pinions, and racks with a safety factor of 3.</li><li>Gained experience in mechanical design, load analysis, FEA, and project management, culminating in a 93-page report documenting the system's proof of concept.</li></ul></div>"
+              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Hoisting_Platform/Hoisting_Platform_Brief.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
             }
           ]
-        },        
+        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -425,50 +310,23 @@
           ]
         },
         {
-          "title": "Task Description",
-          "icon": "fa-solid fa-file-alt",
-          "iconColor": "#28B463",
-          "items": [
-            {
-              "text": "<div class=\"pdf-container\">\n  <iframe src=\"documents/mechanical/Hoisting_Platform/Hoisting_Platform_Brief.pdf\" width=\"100%\" height=\"600px\"></iframe>\n</div>"
-            }
-          ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\" style=\"display: flex; flex-wrap: wrap;\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I led a team of four engineers to design a system that would transport an engineer from the base of a wind turbine to the top. In the preliminary design phase, I was responsible for designing the hoisting platform that would safely lift the engineer, contributing to motor selection, material selection, and general load calculations. We compiled our considerations into a comprehensive report.<br><br>\n      During the final design stage, my team and I conducted Finite Element Analysis (FEA) and designed the necessary shafts, pinions, and racks capable of supporting the engineer and the platform with a safety factor of at least 3. This culminated in the completion of a 93-page report detailing the system's proof of concept.<br><br>\n      This project provided me with invaluable hands-on experience in mechanical design, load analysis, and the practical application of FEA, while also refining my skills in team collaboration and project management.\n    </p>\n  </div>\n\n  <!-- Right: First Two Images in a Column Next to Text -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform.JPG\" alt=\"Hoisting Platform\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Back_View.JPG\" alt=\"Hoisting Platform Back View\">\n  </div>\n\n  <!-- Below: Next Four Images in Two Rows -->\n  <div class=\"summary-row\">\n    <img src=\"images/mechanical/Hoisting_Platform/Platform_Section_View.JPG\" alt=\"Hoisting Platform Section View\" style=\"width: 45%; margin: 5px;\">\n      <img src=\"images/mechanical/Hoisting_Platform/Safety_Harness.jpg\" alt=\"Safety Harness\" style=\"width: 45%; margin: 5px;\">\n    </div>\n    <div class=\"summary-row\">\n      <img src=\"images/mechanical/Hoisting_Platform/Scissor_Lift.JPG\" alt=\"Scissor Lift\" style=\"width: 45%; margin: 5px;\">\n      <img src=\"images/mechanical/Hoisting_Platform/Driving_Gear_Stress.png\" alt=\"Driving Gear Stress\" style=\"width: 45%; margin: 5px;\">\n  </div>\n</div>"
-            }
-          ]
-        },        
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"documents/mechanical/Hoisting_Platform/Preliminary_Concept.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Hoisting Platform Preliminary Concept (PDF)\n</a>\n<a href=\"documents/mechanical/Hoisting_Platform/Final_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Hoisting Platform Final Report (PDF)\n</a>\n<a href=\"documents/mechanical/Hoisting_Platform/Final_CAD.zip\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-archive\"></i> Hoisting Platform Final CAD Files (ZIP)\n</a>"
+              "text": "<a href=\"documents/mechanical/Hoisting_Platform/Preliminary_Concept.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Hoisting Platform Preliminary Concept (PDF)\n</a>\n<a href=\"documents/mechanical/Hoisting_Platform/Final_Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> Hoisting Platform Final Report (PDF)\n</a>\n"
             }
           ]
         }
       ]
     },
     {
-      "title": "TOM | Mechanical Engineer",
+      "name": "TOM",
+      "title": "Mechanical Engineer",
+      "tldr": "<div class='text-container'><ul><li>Contributed to a project at TOM Melbourne Makeathon to design a custom head support for a woman with Scoliosis and Parkinson's.</li><li>Worked with a team to improve her posture and reduce health risks through a tailored wheelchair solution.</li><li>Applied engineering skills to create a real-world impact and gained valuable insights into inclusive design.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      TOM (Tikkun Olam Makers) is a global movement that designs and creates affordable solutions for neglected challenges faced by people with disabilities, the elderly, and those living in poverty. In 2022, I had the privilege of joining the TOM Melbourne Makeathon, where my team and I worked on a project aimed at improving the life of Joan, a woman living with Scoliosis and Parkinson's.<br><br>\n      Joan's condition causes her to lean excessively to the right without realizing it, which poses a major health risk. Our goal was to enhance her wheelchair to help correct her posture and reduce this risk.<br><br>\n      With only 48 hours to design, prototype, and build a final solution, we worked tirelessly to meet the deadline. My role involved designing and building a head support that attaches to Joan's existing wheelchair headrest. I used a jigsaw to cut the support from aluminum, bent it for ergonomic comfort, sanded the edges to remove sharp points, and added padding for comfort. To finish, I sewed a cover for the headrest to make it aesthetically pleasing.<br><br>\n      By the end of the weekend, our team successfully created four different systems that greatly improved Joan's posture. We also met again a few weeks later to make adjustments and ensure Joan could get the best use out of our design.<br><br>\n      This experience was incredibly rewarding, as it allowed me to apply my engineering skills to make a real difference in someone's life. It also deepened my understanding of inclusive design, a lesson that will stay with me throughout my career.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/TOM/Jason_Recording.JPG\" alt=\"Recording Session\">\n    <img src=\"images/mechanical/TOM/Team_Photo.jpg\" alt=\"TOM Team Photo\">\n    <img src=\"images/mechanical/TOM/Head_Rest_Cushion.png\" alt=\"Head Rest Cushion\">\n </div>\n</div>\n\n  <!-- New Row: Video -->\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5470UGJGIKE?si=VU1URA-eMnoMd4Un\" title=\"Team Joan - Makeathon 2022\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Contributed to a project at TOM Melbourne Makeathon to design a custom head support for a woman with Scoliosis and Parkinson's.</li><li>Worked with a team to improve her posture and reduce health risks through a tailored wheelchair solution.</li><li>Applied engineering skills to create a real-world impact and gained valuable insights into inclusive design.</li></ul></div>"
-            }
-          ]
-        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -482,16 +340,6 @@
             { "name": "Problem Solving", "color": "#006400" }
           ]
         },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      TOM (Tikkun Olam Makers) is a global movement that designs and creates affordable solutions for neglected challenges faced by people with disabilities, the elderly, and those living in poverty. In 2022, I had the privilege of joining the TOM Melbourne Makeathon, where my team and I worked on a project aimed at improving the life of Joan, a woman living with Scoliosis and Parkinson's.<br><br>\n      Joan's condition causes her to lean excessively to the right without realizing it, which poses a major health risk. Our goal was to enhance her wheelchair to help correct her posture and reduce this risk.<br><br>\n      With only 48 hours to design, prototype, and build a final solution, we worked tirelessly to meet the deadline. My role involved designing and building a head support that attaches to Joan's existing wheelchair headrest. I used a jigsaw to cut the support from aluminum, bent it for ergonomic comfort, sanded the edges to remove sharp points, and added padding for comfort. To finish, I sewed a cover for the headrest to make it aesthetically pleasing.<br><br>\n      By the end of the weekend, our team successfully created four different systems that greatly improved Joan's posture. We also met again a few weeks later to make adjustments and ensure Joan could get the best use out of our design.<br><br>\n      This experience was incredibly rewarding, as it allowed me to apply my engineering skills to make a real difference in someone's life. It also deepened my understanding of inclusive design, a lesson that will stay with me throughout my career.\n    </p>\n  </div>\n\n  <!-- Right: Images -->\n  <div class=\"summary-media\">\n    <img src=\"images/mechanical/TOM/Jason_Recording.JPG\" alt=\"Recording Session\">\n    <img src=\"images/mechanical/TOM/Team_Photo.jpg\" alt=\"TOM Team Photo\">\n    <img src=\"images/mechanical/TOM/Head_Rest_Cushion.png\" alt=\"Head Rest Cushion\">\n    <img src=\"images/mechanical/TOM/Joan.png\" alt=\"Joan with Headrest\">\n  </div>\n</div>\n\n  <!-- New Row: Video -->\n  <div class=\"video-container\">\n    <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5470UGJGIKE?si=VU1URA-eMnoMd4Un\" title=\"Team Joan - Makeathon 2022\" frameborder=\"0\" allowfullscreen></iframe>\n  </div>\n"
-            }
-          ]
-        },        
         {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",

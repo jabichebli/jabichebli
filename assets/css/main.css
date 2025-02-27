@@ -7,10 +7,14 @@
 /*
 Colours:
 
-#ccb9a2  -- Hover/Selection
+#5f7f9b  -- Hover/Selection
 #c9c9c9  -- Nav Bar
 #3c3c3c  -- Text Body
 #616161  -- Headers
+
+
+#becad6 -- dark blue
+#dee4ea -- light blue
 
 */
 
@@ -56,10 +60,12 @@ Colours:
 
 .summary-media {
 	flex: 1;
-	min-width: 250px;
-	display: flex;
+	max-width: 250px;
 	flex-direction: column;
 	gap: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .summary-media img {
@@ -73,6 +79,8 @@ Colours:
 	gap: 10px;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding-bottom: 10px;
+	width: 100%;
 }
 
 .summary-row img {
@@ -81,23 +89,23 @@ Colours:
 }
 
 .video-container {
-	position: relative;
-	padding-bottom: 56.25%;
-	height: 0;
-	overflow: hidden;
-	max-width: 100%;
-	background: #000;
-	margin-top: 5px;
-	border-radius: 2px;
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;
+    background: #000;
+    margin-top: 5px;
+    border-radius: 2px;
 }
 
 .video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
 
 
 
@@ -384,14 +392,13 @@ h2 {
 .select-btn {
 	display: flex;
 	height: 55px;
-	background: #fff;
+	background: #becad6;
 	padding: 15px;
 	font-size: 18px;
 	font-weight: 500;
 	border-radius: 8px;
 	align-items: center;
 	justify-content: space-between;
-	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
 }
 
@@ -406,10 +413,9 @@ h2 {
 
 .select-menu .options {
 	display: none;
-	background: #fff;
+	background: #dee4ea;
 	padding: 15px;
 	border-radius: 8px;
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
 }
 
 .select-menu.active .options {
@@ -421,7 +427,7 @@ h2 {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	background: #fff;
+	background: #dee4ea;
 	padding: 15px;
 	border-radius: 8px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -468,7 +474,7 @@ h2 {
 
 #menu a:hover,
 #menu a.active:hover {
-	background: #ccb9a2;
+	background: #5f7f9b;
 }
 
 @media screen and (max-width: 600px) {
@@ -676,13 +682,13 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #ccb9a2;
+	color: #616161;
 	text-decoration: none;
 }
 
 a:hover {
 	border-bottom-color: transparent;
-	color: #ccb9a2 !important;
+	color: #5f7f9b !important;
 	text-decoration: none;
 }
 
@@ -707,11 +713,12 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.sBtn-text {
 	color: #3c3c3c;
 	font-weight: 600;
 	line-height: 1em;
-	margin: 0 0 1em 0;
+	margin: 0 0 0em 0;
 }
 
 h1 a,
@@ -2421,7 +2428,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-	border-color: #ccb9a2;
+	border-color: #5f7f9b;
 }
 
 select {
@@ -2526,7 +2533,7 @@ input[type="radio"]:checked+label:before {
 
 input[type="checkbox"]:focus+label:before,
 input[type="radio"]:focus+label:before {
-	border-color: #ccb9a2;
+	border-color: #5f7f9b;
 }
 
 input[type="checkbox"]+label:before {
@@ -3046,8 +3053,8 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-	border-color: #ccb9a2;
-	color: #ccb9a2 !important;
+	border-color: #5f7f9b;
+	color: #5f7f9b !important;
 }
 
 input[type="submit"]:active,
@@ -3055,8 +3062,8 @@ input[type="reset"]:active,
 input[type="button"]:active,
 .button:active {
 	background-color: rgba(73, 191, 157, 0.1);
-	border-color: #ccb9a2;
-	color: #ccb9a2 !important;
+	border-color: #5f7f9b;
+	color: #5f7f9b !important;
 }
 
 input[type="submit"].icon,
@@ -3099,8 +3106,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-	background-color: #ccb9a2;
-	border-color: #ccb9a2;
+	background-color: #5f7f9b;
+	border-color: #5f7f9b;
 	color: #ffffff !important;
 }
 
@@ -3265,7 +3272,7 @@ input[type="button"]:disabled,
 }
 
 #header>nav ul li a.active {
-	background: #ccb9a2;
+	background: #5f7f9b;
 	color: #000;
 }
 
@@ -3992,6 +3999,7 @@ body.is-touch .poptrox-popup .closer {
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 10px; 
+		padding-bottom: 10px;
 	}
 	
 	.summary-row img,

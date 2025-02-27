@@ -1,18 +1,11 @@
 {
   "projects": [
     {
-      "title": "Monash University | Lead Teaching Associate",
+      "name": "Monash University",
+      "title": "Lead Teaching Associate",
+      "tldr": "<div class='text-container'><ul><li>Teach and guide first-year engineering students through statics, material properties, and structural analysis, while enhancing their technical, communication, and teamwork skills.</li><li>Instruct students on using Prusa FDM printers, SolidWorks, and Cura Slicer, focusing on key printer settings for successful designs and projects.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I am grateful to be a teaching associate for a fundamental first-year unit known as ENG1011: Engineering Methods. In this role, I guide students through the complexities of statics, material properties, and structural analysis. Together, we delve into designing, constructing, and testing structural components like beams, cantilevers, and truss sections. Through collaborative tasks, I help students not only develop technical skills but also enhance their communication and teamwork abilities, preparing them to tackle intricate engineering challenges across disciplines.<br><br>\n      Additionally, I have the privilege of teaching and guiding students in using a Prusa FDM printer (i3 mk3), SolidWorks, and Cura Slicer. We rigorously emphasise and teach students the importance of different printer settings.\n    </p>\n  </div>\n\n  <!-- Right: Image -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Teaching_Associate/Monash_University.png\" alt=\"Monash University\">\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Teach and guide first-year engineering students through statics, material properties, and structural analysis, while enhancing their technical, communication, and teamwork skills.</li><li>Instruct students on using Prusa FDM printers, SolidWorks, and Cura Slicer, focusing on key printer settings for successful designs and projects.</li></ul></div>"
-            }
-          ]
-        },        
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -30,16 +23,6 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I am grateful to be a teaching associate for a fundamental first-year unit known as ENG1011: Engineering Methods. In this role, I guide students through the complexities of statics, material properties, and structural analysis. Together, we delve into designing, constructing, and testing structural components like beams, cantilevers, and truss sections. Through collaborative tasks, I help students not only develop technical skills but also enhance their communication and teamwork abilities, preparing them to tackle intricate engineering challenges across disciplines.<br><br>\n      Additionally, I have the privilege of teaching and guiding students in using a Prusa FDM printer (i3 mk3), SolidWorks, and Cura Slicer. We rigorously emphasise and teach students the importance of different printer settings.\n    </p>\n  </div>\n\n  <!-- Right: Image -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Teaching_Associate/Monash_University.png\" alt=\"Monash University\">\n  </div>\n</div>"
-            }
-          ]
-        },        
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -48,22 +31,15 @@
               "text": "<a href=\"https://handbook.monash.edu/2025/units/ENG1011?year=2025\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> Monash University ENG1011 Unit Handbook (2025)\n</a>"
             }
           ]
-        }        
+        }
       ]
     },
     {
-      "title": "StartMate Student Fellowship 2025",
+      "name": "Startmate",
+      "title": "Student Fellow 2025",
+      "tldr": "<div class='text-container'><ul><li>Participated in the Startmate Student Fellowship Program, a two-week startup bootcamp with students from Australia and New Zealand.</li><li>Collaborated on generating business ideas, validating them with customers, and developing product prototypes.</li><li>Gained valuable mentorship from industry leaders, deepening my understanding of startup dynamics and entrepreneurship.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I am honored to have been selected for the Startmate Student Fellowship Program, a prestigious startup bootcamp. Over two weeks, I delved deep into the startup ecosystem, collaborating with a diverse group of driven students from across Australia and New Zealand. Together, we generated and validated business ideas, engaged directly with potential customers, and developed prototype products. The program provided invaluable mentorship from industry leaders and culminated in pitching our startup concepts to top investors. This experience has equipped me with a comprehensive understanding of startup dynamics and has fueled my passion for entrepreneurship.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n  <img src=\"images/business/StartMate/StartMate_Notion.png\" alt=\"StartMate Fellowship Notion Page\">\n  </div>\n <div class=\"summary-row\">\n <img src=\"images/business/StartMate/Culture_Amp.jpg\" alt=\"Culture Amp\"  style = \"height: 300px;\">\n    <img src=\"images/business/StartMate/Culture_Amp_Speakers.jpg\" alt=\"Culture Amp Speakers\"  style = \"height: 300px;\">\n  </div>  </div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Participated in the Startmate Student Fellowship Program, a two-week startup bootcamp with students from Australia and New Zealand.</li><li>Collaborated on generating business ideas, validating them with customers, and developing product prototypes.</li><li>Gained valuable mentorship from industry leaders, deepening my understanding of startup dynamics and entrepreneurship.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -79,16 +55,6 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I am honored to have been selected for the Startmate Student Fellowship Program, a prestigious startup bootcamp. Over two weeks, I delved deep into the startup ecosystem, collaborating with a diverse group of driven students from across Australia and New Zealand. Together, we generated and validated business ideas, engaged directly with potential customers, and developed prototype products. The program provided invaluable mentorship from industry leaders and culminated in pitching our startup concepts to top investors. This experience has equipped me with a comprehensive understanding of startup dynamics and has fueled my passion for entrepreneurship.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\" style = \"padding-top: 6%;\">\n  <img src=\"images/business/StartMate/StartMate_Notion.png\" alt=\"StartMate Fellowship Notion Page\">\n  </div>\n <div class=\"summary-row\">\n <img src=\"images/business/StartMate/Culture_Amp.jpg\" alt=\"Culture Amp\">\n    <img src=\"images/business/StartMate/Culture_Amp_Speakers.jpg\" alt=\"Culture Amp Speakers\">\n  </div>  </div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -101,18 +67,11 @@
       ]
     },
     {
-      "title": "SunAware | Co-Founder",
+      "name": "SunAware",
+      "title": "Co-Founder",
+      "tldr": "<div class='text-container'><ul><li>Co-founder and CTO of SunAware, a startup that participated in an intensive Berkeley Extension program, accelerating its journey from ideation to pitching to Silicon Valley investors.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      As Co-founder and CTO of SunAware, I led the development of an innovative solution to track and raise awareness about sun exposure, addressing the critical issue of skin cancer risk. Our startup was selected for an intensive Berkeley Extension accelerator program, where we transformed our idea into a validated business model.<br><br>\n      Through rapid prototyping, customer validation, and strategic mentorship, we developed a prototype and refined our market entry strategy. The experience culminated in a high-stakes pitch to Silicon Valley investors, pushing us to navigate the complexities of startup growth within an accelerated two-week timeline.<br><br>\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n </div>  <div class=\"summary-row\">\n    <img src=\"images/business/SunAware/Pitch_Day.jpg\" alt=\"SunAware Pitch Day\" style=\"height: 300px;\">\n    <img src=\"images/business/SunAware/SunAware_Band.png\" alt=\"SunAware Band\" style=\"height: 300px;\">\n  </div>\n",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Co-founder and CTO of SunAware, a startup that participated in an intensive Berkeley Extension program, accelerating its journey from ideation to pitching to Silicon Valley investors.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -129,16 +88,6 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      As Co-founder and CTO of SunAware, I led the development of an innovative solution to track and raise awareness about sun exposure, addressing the critical issue of skin cancer risk. Our startup was selected for an intensive Berkeley Extension accelerator program, where we transformed our idea into a validated business model.<br><br>\n      Through rapid prototyping, customer validation, and strategic mentorship, we developed a prototype and refined our market entry strategy. The experience culminated in a high-stakes pitch to Silicon Valley investors, pushing us to navigate the complexities of startup growth within an accelerated two-week timeline.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/SunAware/Pitch_Day.jpg\" alt=\"SunAware Pitch Day\">\n    <img src=\"images/business/SunAware/SunAware_Band.png\" alt=\"SunAware Band\">\n  </div>\n</div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
@@ -151,18 +100,11 @@
       ]
     },
     {
-      "title": "UBS | Investment Banking Challenge Participant",
+      "name": "UBS",
+      "title": "Investment Banking Challenge Participant",
+      "tldr": "<div class='text-container'><ul><li>Selected as a top participant from 550+ applicants for a two-week intensive program, collaborating with a team to develop an acquisition solution for a private equity client, conducting research, data analysis, DCF and LBO valuations, and presenting findings to UBS executives in Sydney.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Selected as one of the top participants from over 550 applicants, I had the privilege of joining the highly competitive 2023 UBS Investment Banking (IB) Development Challenge. This program provided an immersive experience into the world of investment banking, led by UBS-one of the world's top financial institutions.<br><br>\n      Throughout the challenge, I: <ul>\n        <li>Engaged in intensive workshops, networking panels, and hands-on case studies to develop key industry skills.</li>\n        <li>Worked in a high-performing team to craft an acquisition strategy for a private equity client, conducting financial modeling (DCF & LBO) and market research.</li>\n        <li>Developed and presented a professional pitch deck to senior UBS bankers in Sydney, defending our recommendations in a rigorous Q&A session.</li>\n      </ul> This experience refined my analytical and strategic thinking skills while offering firsthand exposure to the fast-paced world of investment banking.\n <br><br>   </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n</div>  <div class=\"summary-row\">\n    <img src=\"images/business/UBS/UBS_Office.jpg\" alt=\"UBS Office\" style = \"height: 300px;\">\n    <img src=\"images/business/UBS/UBS_Team_Photo.jpg\" alt=\"UBS Team Photo\" style = \"height: 300px;\">\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Selected as a top participant from 550+ applicants for a two-week intensive program, collaborating with a team to develop an acquisition solution for a private equity client, conducting research, data analysis, DCF and LBO valuations, and presenting findings to UBS executives in Sydney.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -180,40 +122,23 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      Selected as one of the top participants from over 550 applicants, I had the privilege of joining the highly competitive 2023 UBS Investment Banking (IB) Development Challenge. This program provided an immersive experience into the world of investment banking, led by UBS-one of the world's top financial institutions.<br><br>\n      Throughout the challenge, I: <ul>\n        <li>Engaged in intensive workshops, networking panels, and hands-on case studies to develop key industry skills.</li>\n        <li>Worked in a high-performing team to craft an acquisition strategy for a private equity client, conducting financial modeling (DCF & LBO) and market research.</li>\n        <li>Developed and presented a professional pitch deck to senior UBS bankers in Sydney, defending our recommendations in a rigorous Q&A session.</li>\n      </ul> This experience refined my analytical and strategic thinking skills while offering firsthand exposure to the fast-paced world of investment banking.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/UBS/UBS_Office.jpg\" alt=\"UBS Office\">\n    <img src=\"images/business/UBS/UBS_Team_Photo.jpg\" alt=\"UBS Team Photo\">\n  </div>\n</div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"documents/business/UBS/UBS IB Challenge Group 3.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> USB Challenge Slide Deck (PDF)\n</a>\n<a href=\"https://www.ubs.com/microsites/ubs-investment-banking-challenge/en/welcome.html\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> UBS Investment Banking Challenge Official Website\n</a>"
+              "text": "<a href=\"#\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-file-pdf\"></i> USB Challenge Slide Deck (PDF) - Available Upon Request\n</a>\n<a href=\"https://www.ubs.com/microsites/ubs-investment-banking-challenge/en/welcome.html\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> UBS Investment Banking Challenge Official Website\n</a>"
             }
           ]
         }
       ]
     },
     {
-      "title": "Monash Business School Industry & Alumni Mentoring Program | Mentee",
+      "name": "Monash Business School Industry & Alumni Mentoring Program",
+      "title": "Mentee",
+      "tldr": "<div class='text-container'><ul><li>Selected for Monash Business School's Industry & Alumni Mentoring Program, paired with a mentor with 30+ years of experience in private and ASX-listed businesses.</li><li>Participated in one-on-one mentoring, personal development workshops, and expanded my industry network.</li><li>Gained valuable insights into business strategy, leadership, and career progression, laying a strong foundation for professional success.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      The Industry & Alumni Mentoring Program is Monash Business School's flagship leadership initiative, connecting students with experienced professionals for career guidance and industry insights.<br><br>\n      In 2022, I was selected for this highly regarded program and paired with a mentor who had over 30 years of experience running private and ASX-listed businesses. Through <strong>weekly mentoring sessions over three months</strong>, I gained invaluable insights into business strategy, leadership, and professional growth.<br><br>\n      My experience included: <ul>\n        <li>Engaging in <strong>one-on-one mentoring</strong> to refine my career trajectory and business acumen.</li>\n        <li>Participating in <strong>personal development workshops</strong> to strengthen my leadership, networking, and communication skills.</li>\n        <li>Expanding my industry network by connecting with alumni and professionals across various sectors.</li>\n      </ul><br>\n      This program provided a strong foundation for professional success, equipping me with the tools to navigate complex business environments and career progression.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Mentor_Program/Participation_Certificate.png\" alt=\"Participation Certificate\">\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Selected for Monash Business School's Industry & Alumni Mentoring Program, paired with a mentor with 30+ years of experience in private and ASX-listed businesses.</li><li>Participated in one-on-one mentoring, personal development workshops, and expanded my industry network.</li><li>Gained valuable insights into business strategy, leadership, and career progression, laying a strong foundation for professional success.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -230,40 +155,23 @@
           ]
         },
         {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      The Industry & Alumni Mentoring Program is Monash Business School's flagship leadership initiative, connecting students with experienced professionals for career guidance and industry insights.<br><br>\n      In 2022, I was selected for this highly regarded program and paired with a mentor who had over 30 years of experience running private and ASX-listed businesses. Through <strong>weekly mentoring sessions over three months</strong>, I gained invaluable insights into business strategy, leadership, and professional growth.<br><br>\n      My experience included: <ul>\n        <li>Engaging in <strong>one-on-one mentoring</strong> to refine my career trajectory and business acumen.</li>\n        <li>Participating in <strong>personal development workshops</strong> to strengthen my leadership, networking, and communication skills.</li>\n        <li>Expanding my industry network by connecting with alumni and professionals across various sectors.</li>\n      </ul><br>\n      This program provided a strong foundation for professional success, equipping me with the tools to navigate complex business environments and career progression.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\" style = \"padding-top: 13%;\">\n    <img src=\"images/business/Mentor_Program/Participation_Certificate.png\" alt=\"Participation Certificate\">\n  </div>\n</div>"
-            }
-          ]
-        },
-        {
           "title": "Links and Resources",
           "icon": "fa-solid fa-link",
           "iconColor": "#9B59B6",
           "items": [
             {
-              "text": "<a href=\"documents/business/Mentor_Program/Participation_Certificate.png\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-image\"></i> Mentor Program Participation Certificate (PNG)\n</a>\n<a href=\"https://www.monash.edu/about/mentoring/business-industry-alumni-mentoring\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> Monash University Business and Industry Alumni Mentoring\n</a>"
+              "text": "<a href=\"documents/business/Mentor_Program/Participation_Certificate.png\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-image\"></i> Mentor Program Participation Certificate\n</a>\n<a href=\"https://www.monash.edu/about/mentoring/business-industry-alumni-mentoring\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-solid fa-link\"></i> Monash University Business and Industry Alumni Mentoring\n</a>"
             }
           ]
         }
       ]
     },
     {
-      "title": "Private Academic Tutor and DW Tuition | Academic Tutor",
+      "name": "Private Academic Tutor and DW Tuition",
+      "title": "Academic Tutor",
+      "tldr": "<div class='text-container'><ul><li>Planned and delivered weekly lessons, managed finances (invoices and payments), and provided actionable study plans, demonstrating strong organizational, financial, and leadership skills.</li><li>Communicated complex ideas clearly with students, maintaining a friendly and energetic approach while ensuring transparency with my employer.</li><li>Fostered a motivating environment for students, helping them achieve academic goals with effective study strategies and consistent support.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      As both a private academic tutor and through DW Tuition, I worked with students of varying ages and skill levels, ranging from primary school to high school. This role required adaptability, clear communication, and the ability to engage students to help them reach their academic goals. I tutored students individually and in group settings, particularly focusing on exam preparation, study strategies, and personalized learning plans. My approach was always focused on motivating students, helping them build confidence, and achieving their academic potential.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Tutoring/DW_Tuition_Logo.jpg\" alt=\"DW Tuition Logo\">\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Planned and delivered weekly lessons, managed finances (invoices and payments), and provided actionable study plans, demonstrating strong organizational, financial, and leadership skills.</li><li>Communicated complex ideas clearly with students, maintaining a friendly and energetic approach while ensuring transparency with my employer.</li><li>Fostered a motivating environment for students, helping them achieve academic goals with effective study strategies and consistent support.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -275,16 +183,6 @@
             { "name": "Academic Coaching", "color": "#006400" },
             { "name": "Time Management", "color": "#006400" },
             { "name": "Student Motivation", "color": "#006400" }
-          ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      As both a private academic tutor and through DW Tuition, I worked with students of varying ages and skill levels, ranging from primary school to high school. This role required adaptability, clear communication, and the ability to engage students to help them reach their academic goals. I tutored students individually and in group settings, particularly focusing on exam preparation, study strategies, and personalized learning plans. My approach was always focused on motivating students, helping them build confidence, and achieving their academic potential.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/Tutoring/DW_Tuition_Logo.jpg\" alt=\"DW Tuition Logo\">\n  </div>\n</div>"
-            }
           ]
         },
         {
@@ -300,18 +198,11 @@
       ]
     },
     {
-      "title": "The Bicycle Corporation Pty. Ltd. | Employee",
+      "name": "The Bicycle Corporation Pty. Ltd.",
+      "title": "Employee",
+      "tldr": "<div class='text-container'><ul><li>Gained valuable experience in various aspects of warehouse operations, including unloading shipping containers, warehouse picking, and packing.</li><li>Developed a keen eye for detail and was able to work effectively both independently and as part of a team.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      During my time at The Bicycle Corporation, I was responsible for unloading shipping containers, picking and packing orders, and ensuring timely and accurate shipping. My role required strong organizational skills and attention to detail, as supervisors relied on me to correctly pick orders and pack them for customers. My work demonstrated reliability and accountability, as mistakes in order fulfillment could lead to financial losses and damage customer relationships. My ability to coordinate with the team and report on progress ensured smooth operations within the warehouse.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/BikeCorp/BikeCorp.png\" alt=\"The Bicycle Corporation\" />\n  </div>\n</div>",
       "dropdowns": [
-        {
-          "title": "TL;DR",
-          "icon": "fa-solid fa-info-circle",
-          "iconColor": "#000000",
-          "items": [
-            {
-              "text": "<div class='text-container'><ul><li>Gained valuable experience in various aspects of warehouse operations, including unloading shipping containers, warehouse picking, and packing.</li><li>Developed a keen eye for detail and was able to work effectively both independently and as part of a team.</li></ul></div>"
-            }
-          ]
-        },
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
@@ -324,16 +215,6 @@
             { "name": "Teamwork", "color": "#006400" },
             { "name": "Communication", "color": "#006400" },
             { "name": "Organizational Skills", "color": "#006400" }
-          ]
-        },
-        {
-          "title": "Summary",
-          "icon": "fa-solid fa-align-left",
-          "iconColor": "#E67E22",
-          "items": [
-            {
-              "text": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      During my time at The Bicycle Corporation, I was responsible for unloading shipping containers, picking and packing orders, and ensuring timely and accurate shipping. My role required strong organizational skills and attention to detail, as supervisors relied on me to correctly pick orders and pack them for customers. My work demonstrated reliability and accountability, as mistakes in order fulfillment could lead to financial losses and damage customer relationships. My ability to coordinate with the team and report on progress ensured smooth operations within the warehouse.\n    </p>\n  </div>\n\n  <!-- Right: Images & Video -->\n  <div class=\"summary-media\">\n    <img src=\"images/business/BikeCorp/BikeCorp.png\" alt=\"The Bicycle Corporation\" />\n  </div>\n</div>"
-            }
           ]
         },
         {

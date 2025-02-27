@@ -131,39 +131,51 @@ $(document).ready(function () {
 
     const project = projectsData[index]; // Get the project object based on index
 
+    // HEADER
     let popupContent = `
-          <h2>${project.title}</h2>
+          <h1 style="text-align: center; margin: 0em;" >${project.name}</h1>
+          <h3 style="text-align: center; margin: 0 0 1em 0;">${project.title}</h3>
           <div class="dropdown-container">
       `;
 
-    // Loop through each dropdown and create HTML content dynamically
-    project.dropdowns.forEach((dropdown) => {
-      popupContent += `
-                <div class="select-menu">
-                  <div class="select-btn">
-                      <i class="${dropdown.icon}" style="color: ${dropdown.iconColor};"></i>
-                      <span class="sBtn-text">${dropdown.title}</span>
-                      <i class="fa-solid fa-chevron-down"></i>
-                  </div>
-                  <div class="${dropdown.title.toLowerCase().includes("skills") ? "skills" : "options"}">
-          `;
+    if (project.tldr){
+      popupContent +=  `<div style = "background-color: #becad6; border: 2px dashed black; border-radius: 10px; padding: 1.5em 1.5em 1.5em 1.5em;" ><h4><strong>TL;DR</strong></h4>${project.tldr}</div>`;
+    }
 
-      // Process dropdown items (either skills or text content)
-      if (dropdown.items) {
-        dropdown.items.forEach((item) => {
-          if (item.name) {
-            popupContent += `<span class="skill-bubble" style="background-color: ${item.color};">${item.name}</span>`; // Handle skills
-          } else if (item.text) {
-            popupContent += item.text; // Handle HTML content (Job Description, Summary, etc.)
-          }
-        });
-      }
+    // SUMMARY
+    popupContent +=  `<br>${project.summary}<br><br>`
 
-      popupContent += `
-                  </div>
-              </div>
-          `;
-    });
+    // DROP DOWNS 
+            // Loop through each dropdown and create HTML content dynamically
+            project.dropdowns.forEach((dropdown) => {
+              popupContent += `
+                        <div class="select-menu">
+                          <div class="select-btn">
+                              <i class="${dropdown.icon}" style="color: ${dropdown.iconColor};"></i>
+                              <span class="sBtn-text">${dropdown.title}</span>
+                              <i class="fa-solid fa-chevron-down"></i>
+                          </div>
+                          <div class="${dropdown.title.toLowerCase().includes("skills") ? "skills" : "options"}">
+                  `;
+        
+              // Process dropdown items (either skills or text content)
+              if (dropdown.items) {
+                dropdown.items.forEach((item) => {
+                  if (item.name) {
+                    popupContent += `<span class="skill-bubble" style="background-color: ${item.color};">${item.name}</span>`; // Handle skills
+                  } else if (item.text) {
+                    popupContent += item.text; // Handle HTML content (Job Description, Summary, etc.)
+                  }
+                });
+              }
+        
+              popupContent += `
+                          </div>
+                      </div>
+                  `;
+            });
+
+
 
     popupContent += `</div>`;
 
