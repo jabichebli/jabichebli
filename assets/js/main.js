@@ -91,13 +91,15 @@ document.querySelectorAll(".select-menu").forEach((menu) => {
 
 // Event listener for highlighting the current page in the main menu
 document.addEventListener("DOMContentLoaded", function () {
-  let links = document.querySelectorAll("#menu a"); // All links in the main menu
-  let currentPage = window.location.pathname.split("/").pop(); // Get the current page's filename
+  let links = document.querySelectorAll("#menu a"); // Select all navbar links
+  let currentPath = window.location.pathname; // Get current URL path (e.g., "/about/", "/mechanical/")
 
-  // Highlight the link corresponding to the current page
   links.forEach((link) => {
-    if (link.getAttribute("href") === currentPage) {
-      link.classList.add("active"); // Add "active" class to the current page link
+    // Ensure trailing slashes are matched properly (normalize paths)
+    let linkPath = new URL(link.href, window.location.origin).pathname;
+
+    if (currentPath === linkPath) {
+      link.classList.add("active"); // Highlight the current page
     } else {
       link.classList.remove("active");
     }
@@ -108,11 +110,19 @@ $(document).ready(function () {
   let currentIndex = 0; // Track the index of the current item in the project list
   let projectsData = []; // Array to store projects data fetched from JSON
 
-  // Get the current page name (e.g., "mechanical", "software")
-  let pageName = window.location.pathname.split("/").pop().split(".")[0]; // Extract page name from URL
+  // Get the current page name based on the pathname
+  let pageName = window.location.pathname;
 
-  // Construct the path to the corresponding JSON file based on the current page
-  let jsonFilePath = `JSON/${pageName}.JSON`;
+  // Check if it's the home page (root)
+  if (pageName === "/" || pageName === "") {
+    pageName = "index"; // Set to index for the home page
+  } else {
+    // Otherwise, extract the last part of the path (folder name)
+    pageName = pageName.split("/").filter(Boolean).pop();
+  }
+
+  // Construct the path to the corresponding JSON file
+  let jsonFilePath = `/JSON/${pageName}.JSON`;
 
   // Fetch the JSON data
   fetch(jsonFilePath)
