@@ -1,21 +1,23 @@
 {
   "projects": [
     {
-      "name": "Mind Control Operation of Kuka Robotic Arm",
-      "title": "ML Engineer",
-      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
-      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "name": "Trackr – Personal Finance App",
+      "title": "Founder & Product Engineer",
+      "tldr": "<div class='text-container'><ul><li>Designed and developed <strong>Trackr</strong>, a modern cross-platform personal finance app built with Flutter.</li><li>Supports budgeting, transaction management, multi-account syncing, and powerful analytics.</li><li>Cloud-based, privacy-conscious architecture with offline functionality and real-time sync.</li><li>Friendly mascot-led onboarding, intelligent features like receipt scanning, and financial goal tracking.</li><li>Currently being prepared for release on app stores with plans for commercial launch.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p><strong>Trackr</strong> is a mobile-first personal finance app that helps users master their finances through smart budgeting, advanced analytics, and seamless cloud sync. Built using Flutter and Firebase, it offers a refined, privacy-respecting alternative to traditional finance apps.</p>\n    <p>Trackr includes intelligent features like OCR receipt scanning, financial goal tracking, and a clean Material 3 UI with dark mode. Offline-first architecture ensures uninterrupted access to finances, while real-time sync keeps data consistent across devices.</p>\n    <p>The product is currently under final development for commercial release, focused on delivering delightful, secure, and intuitive financial management for individuals worldwide.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"/images/software/Trackr/Mascot.png\" alt=\"Trackr mobile app preview\" />\n  </div>\n</div>",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Kuka Robotic Arm", "color": "#00008B" },
-            { "name": "EEG Headset", "color": "#00008B" },
-            { "name": "Machine Learning", "color": "#00008B" },
-            { "name": "Python", "color": "#00008B" },
-            { "name": "Java", "color": "#00008B" }
+            { "name": "Flutter", "color": "#00008B" },
+            { "name": "Firebase", "color": "#00008B" },
+            { "name": "Mobile UX Design", "color": "#00008B" },
+            { "name": "Product Development", "color": "#00008B" },
+            { "name": "Cloud Sync", "color": "#00008B" },
+            { "name": "OCR Integration", "color": "#00008B" },
+            { "name": "Startup Strategy", "color": "#00008B" }
           ]
         }
       ]

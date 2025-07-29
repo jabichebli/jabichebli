@@ -20,44 +20,153 @@
       ]
     },
     {
-      "name": "OpenCV Bin Picking Challenge",
-      "title": "ML Engineer",
-      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
-      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "name": "Trackr – Personal Finance App",
+      "title": "Founder & Product Engineer",
+      "tldr": "<div class='text-container'><ul><li>Designed and developed <strong>Trackr</strong>, a modern cross-platform personal finance app built with Flutter.</li><li>Supports budgeting, transaction management, multi-account syncing, and powerful analytics.</li><li>Cloud-based, privacy-conscious architecture with offline functionality and real-time sync.</li><li>Friendly mascot-led onboarding, intelligent features like receipt scanning, and financial goal tracking.</li><li>Currently being prepared for release on app stores with plans for commercial launch.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p><strong>Trackr</strong> is a mobile-first personal finance app that helps users master their finances through smart budgeting, advanced analytics, and seamless cloud sync. Built using Flutter and Firebase, it offers a refined, privacy-respecting alternative to traditional finance apps.</p>\n    <p>Trackr includes intelligent features like OCR receipt scanning, financial goal tracking, and a clean Material 3 UI with dark mode. Offline-first architecture ensures uninterrupted access to finances, while real-time sync keeps data consistent across devices.</p>\n    <p>The product is currently under final development for commercial release, focused on delivering delightful, secure, and intuitive financial management for individuals worldwide.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"/images/software/Trackr/Mascot.png\" alt=\"Trackr mobile app preview\" />\n  </div>\n</div>",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            {
-              "name": "Convolutional Neural Network (CNN)",
-              "color": "#00008B"
-            },
-            { "name": "Deep Learning", "color": "#00008B" },
-            { "name": "Data Augmentation", "color": "#00008B" },
-            { "name": "Pose Estimation", "color": "#00008B" },
-            { "name": "Reinforcement Learning", "color": "#00008B" }
+            { "name": "Flutter", "color": "#00008B" },
+            { "name": "Firebase", "color": "#00008B" },
+            { "name": "Mobile UX Design", "color": "#00008B" },
+            { "name": "Product Development", "color": "#00008B" },
+            { "name": "Cloud Sync", "color": "#00008B" },
+            { "name": "OCR Integration", "color": "#00008B" },
+            { "name": "Startup Strategy", "color": "#00008B" }
           ]
         }
       ]
     },
     {
-      "name": "Mind Control Operation of Kuka Robotic Arm",
-      "title": "ML Engineer",
-      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
-      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "name": "ICU Mortality Modeling",
+      "title": "ML/Data Science Engineer",
+      "tldr": "<div class='text-container'><ul><li>Predicted ICU patient mortality using MIMIC-III clinical data and advanced machine learning models.</li><li>Preprocessed 37,000+ patient records with 7,000+ features: one-hot encoding, z-score standardisation, and comorbidity encoding via ICD-9 codes.</li><li>Addressed class imbalance with oversampling and validated performance using AUC-ROC on multiple models.</li><li>Compared logistic regression, decision trees, random forests, gradient boosting, and deep neural networks (AUC up to 0.950).</li><li>Visualised data with UMAP and histograms; final model insights and comparisons available on the <a href='https://jabichebli.github.io/MortalityModels'>demo page</a>.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project tackles the task of predicting in-hospital mortality using the MIMIC-III dataset, a rich collection of de-identified ICU patient records. The goal was to model the HOSPITAL_EXPIRE_FLAG using features collected at ICU admission, such as demographics, vitals, diagnostic codes, and comorbidities.</p>\n    <p>After merging and cleaning the dataset, over 7,000 features were engineered, including comorbidity information from secondary ICD-9 codes. Categorical features were one-hot encoded, and numerical features were standardised. To address strong class imbalance, the deceased class was oversampled. Feature distribution visualisations and UMAP projections revealed structural differences between outcome classes.</p>\n    <p>Multiple models were implemented and tuned, including logistic regression, regularised trees, random forests, boosted trees, and neural networks. The deep learning model achieved the highest out-of-sample AUC-ROC of 0.950, outperforming all others. The results highlight the value of ensemble and deep learning approaches when dealing with high-dimensional clinical data.</p>\n  </div>\n  </div>",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Kuka Robotic Arm", "color": "#00008B" },
-            { "name": "EEG Headset", "color": "#00008B" },
             { "name": "Machine Learning", "color": "#00008B" },
-            { "name": "Python", "color": "#00008B" },
-            { "name": "Java", "color": "#00008B" }
+            { "name": "Data Preprocessing", "color": "#00008B" },
+            { "name": "AUC-ROC Evaluation", "color": "#00008B" },
+            { "name": "SMOTE/Oversampling", "color": "#00008B" },
+            { "name": "Neural Networks", "color": "#00008B" },
+            { "name": "UMAP", "color": "#00008B" },
+            { "name": "R Programming", "color": "#00008B" },
+            { "name": "Cross-Validation", "color": "#00008B" },
+            { "name": "MIMIC-III Dataset", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/MortalityModels\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n<a href=\"https://jabichebli.github.io/MortalityModels/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Finance vs Birdsong: Time Series Classification",
+      "title": "ML/Data Science Engineer",
+      "tldr": "<div class='text-container'><ul><li>Developed and compared machine learning models to classify financial vs birdsong time series using extracted statistical features.</li><li>Implemented linear and tree-based classifiers with hyperparameter tuning and ROC-based model evaluation using R's tidymodels framework.</li><li>Visualized feature distributions, decision boundaries, ROC curves, and feature importance to interpret model performance.</li><li>Provided insights into key distinguishing features and model misclassification patterns.</li><li>Explore the full interactive analysis in the <a href='https://jabichebli.github.io/TimeseriesClassificationFinanceVsBirdsong'>demo page</a>.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project builds and evaluates multiple classification models to distinguish between financial and birdsong time series data based on extracted features such as linearity, entropy, and autocorrelation. Using the tidymodels framework in R, various classifiers including LDA, logistic regression, decision trees, random forest, and boosted trees were trained and tuned with cross-validation.</p>\n    <p>Model performance was assessed via accuracy metrics, confusion matrices, and ROC curves. Feature importance charts and decision boundary visualizations provided interpretability and insight into what drives classification differences.</p>\n    <p>This analysis aids understanding of how financial and audio time series differ statistically and how models can leverage these differences for accurate classification.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"/images/software/Finance_vs_Birdsong/ROC_Curve.png\" alt=\"ROC Curves Comparing Classifiers\" />\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Time Series Classification", "color": "#00008B" },
+            { "name": "Machine Learning", "color": "#00008B" },
+            { "name": "tidymodels (R)", "color": "#00008B" },
+            { "name": "Hyperparameter Tuning", "color": "#00008B" },
+            { "name": "ROC Analysis", "color": "#00008B" },
+            { "name": "Feature Importance", "color": "#00008B" },
+            { "name": "Data Visualization", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/TimeseriesClassificationFinanceVsBirdsong.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n<a href=\"https://jabichebli.github.io/TimeseriesClassificationFinanceVsBirdsong\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Retail Forecasting: NT Electronics Turnover",
+      "title": "Data Scienctist",
+      "tldr": "<div class='text-container'><ul><li>Forecasted monthly turnover for Northern Territory’s electrical & electronic goods retail sector using classical time series methods.</li><li>Applied STL decomposition, Box-Cox transformations, and unit root tests to prepare the data.</li><li>Built, validated, and compared ETS and ARIMA models based on AIC and out-of-sample accuracy.</li><li>Assessed forecasts using residual diagnostics and updated real ABS data through to December 2024.</li><li>Interactive results and visualisations available on the <a href='https://jabichebli.github.io/RetailTurnoverForecast'>demo page</a>.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project builds ETS and ARIMA models to forecast monthly turnover in the Northern Territory’s electronics retail industry using data from the Australian Bureau of Statistics (1998–2022). The series is transformed and decomposed using STL, with stationarity tested and differencing applied where appropriate.</p>\n    <p>Model performance is compared through AIC and test-set validation using the last 24 months of data. Residual diagnostics (ACF plots, Ljung-Box test) support model assumptions, while forecasts are validated against new ABS updates through 2024.</p>\n    <p>The analysis is fully reproducible and highlights the balance between model interpretability and forecast accuracy in retail economics.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"/images/software/Retail_Forecasting/ForecastPlot.png\" alt=\"Forecast for NT Retail Turnover\" />\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Time Series Forecasting", "color": "#00008B" },
+            { "name": "ETS Models", "color": "#00008B" },
+            { "name": "ARIMA", "color": "#00008B" },
+            { "name": "Model Diagnostics", "color": "#00008B" },
+            { "name": "Box-Cox & STL Decomposition", "color": "#00008B" },
+            { "name": "AIC & Test-Set Validation", "color": "#00008B" },
+            { "name": "R language", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/RetailTurnoverForecast\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n<a href=\"https://jabichebli.github.io/RetailTurnoverForecast\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cricket Performance PCA Analysis",
+      "title": "ML/Data Science Engineer",
+      "tldr": "<div class='text-container'><ul><li>Performed Principal Component Analysis (PCA) on women’s T20 cricket statistics to identify key performance dimensions in batting and bowling.</li><li>Reduced 19 performance metrics to 4 principal components explaining 84% of variance, revealing insights about player roles and skill levels.</li><li>Used bootstrap resampling and permutation testing to validate the robustness and significance of findings.</li><li>Visualized data clusters and player performance patterns with biplots, enabling nuanced understanding of player strengths.</li><li>For more details and interactive demo, visit the <a href='https://jabichebli.github.io/CricketStatsPCAInference/'>project page</a>.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project applies Principal Component Analysis to a rich dataset of women's T20 cricket statistics to uncover the underlying structure of player performance metrics. By focusing on 19 numerical variables related to batting and bowling, the PCA reduces dimensionality to four key components that explain 84% of the variance. The components represent overall all-round performance, bowling volume, bowling quality, and standout individual achievements.</p>\n    <p>Robustness of the PCA results was assessed through bootstrap resampling, providing confidence intervals for the contributions of each metric. Permutation testing was used to validate correlations between key performance variables. Visual biplots help illustrate relationships and clusters among performance metrics and player profiles.</p>\n    <p>This analysis offers actionable insights for cricket statisticians and enthusiasts interested in advanced performance evaluation techniques.</p>\n  </div>\n  <div class=\"summary-media\">\n    <img src=\"/images/software/Cricket_Performance_PCA/Biplot.png\" alt=\"PCA Biplot of Women's T20 Cricket Stats\" />\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Principal Component Analysis (PCA)", "color": "#00008B" },
+            { "name": "Statistical Data Analysis", "color": "#00008B" },
+            { "name": "Bootstrap Resampling", "color": "#00008B" },
+            { "name": "Permutation Testing", "color": "#00008B" },
+            { "name": "Data Visualization", "color": "#00008B" },
+            { "name": "R Programming", "color": "#00008B" },
+            { "name": "Exploratory Data Analysis", "color": "#00008B" }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/CricketStatsPCAInference.git\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Repository\n</a>\n<a href=\"https://jabichebli.github.io/CricketStatsPCAInference/\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\">\n  <i class=\"fa-brands fa-github\"></i> Github Page (Demo)\n</a>"
+            }
           ]
         }
       ]
