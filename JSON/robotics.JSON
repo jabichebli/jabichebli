@@ -1,6 +1,81 @@
 {
   "projects": [
     {
+      "name": "Motion Control (MPC and RL) of Go2",
+      "title": "Robotics Engineer",
+      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cassie Project (RL)",
+      "title": "Robotics Engineer",
+      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jumping Leg",
+      "title": "Controls Engineer",
+      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Autonomous Plant Watering with Mars Robot",
+      "title": "Robotics Engineer",
+      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Three Link Walker",
+      "title": "Controls Engineer",
+      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+          ]
+        }
+      ]
+    },
+    {
       "name": "Teleoperation of Kuka Robotic Arm",
       "title": "Software Engineer",
       "tldr": "<div class='text-container'><ul><li>Led a team of three in developing a VR system for teleoperating a KUKA robotic arm with hand-tracking and a two-finger haptic feedback glove, improving user control and precision.</li><li>Designed, manufactured and tested the haptic glove, developed electrical schematics, and wrote Python scripts for two-way communication with the robotic arm.</li><li>Developed software for real-time robotic arm control, integrating the Robotiq Gripper 2F-140, Unity-based control system, and OPC UA communication.</li><li>Sourced and implemented cameras (Zed, RealSense, and LogiCamera) to enhance immersive teleoperation with a Xavier Jetson.</li><li>Led project administration, including team formation, ethics approval, risk assessments, and project planning.</li></ul></div>",
