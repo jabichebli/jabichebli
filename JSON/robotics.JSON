@@ -10,8 +10,7 @@
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
-          "items": [
-          ]
+          "items": []
         }
       ]
     },
@@ -25,8 +24,7 @@
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
-          "items": [
-          ]
+          "items": []
         }
       ]
     },
@@ -40,8 +38,7 @@
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
-          "items": [
-          ]
+          "items": []
         }
       ]
     },
@@ -55,16 +52,15 @@
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
-          "items": [
-          ]
+          "items": []
         }
       ]
     },
     {
       "name": "Analysis, Control, and Optimization of a Three-Link Bipedal Walker",
       "title": "Robotics & Controls Developer",
-      "tldr": "<div class='text-container'><ul><li>Derived the complete Lagrangian dynamics and built a high-fidelity hybrid simulation (swing/impact) for a three-link bipedal walker from first principles in MATLAB.</li><li>Modeled and validated real-world physical constraints, including ground reaction forces and friction cone limits, to successfully simulate passive dynamic walking.</li><li>Designed and implemented two distinct feedback control strategies—a PI velocity controller and a bio-inspired event-based state machine—to achieve stable walking on level ground.</li><li>Solved a complex nonlinear optimization problem using `fmincon` to find a mathematically-proven, stable, and periodic walking gait.</li></ul></div>",
-      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project was a comprehensive, first-principles investigation into bipedal locomotion. I individually developed the complete simulation and control pipeline for a three-link planar walker. Starting with only the robot's physical parameters, I derived its equations of motion, built a hybrid dynamics simulation, implemented feedback controllers, and ultimately solved for a stable, periodic walking gait using nonlinear optimization. All modeling, analysis, and simulation were conducted in MATLAB.<br><br></p>\n\n    <h3>Dynamic Modeling & Simulation</h3>\n    <p>I began by deriving the complete equations of motion from first principles using Lagrangian dynamics. This involved symbolically computing the Mass-Inertia Matrix ($D(q)$), Coriolis & Centripetal Matrix ($C(q, \\dot{q})$), and Gravity Vector ($G(q)$). I then developed a hybrid dynamics model to accurately simulate walking, which accounted for both the continuous 'swing' phase and the instantaneous 'impact' event. This core simulation, built in MATLAB, served as the testbed for all subsequent control and optimization.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/walker_diagram.png\" alt=\"3-Link Walker Dynamic Model Diagram\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Physics-Based Validation</h3>\n    <p>To validate the physical accuracy of my model, I first simulated passive dynamic walking (letting the robot walk down a slope powered only by gravity). This required implementing real-world constraints. I wrote checks to ensure the stance foot would not slip (by monitoring the friction cone limits, $|F_{st,x}| \\le \\mu F_{st,y}$) and would not 'jump' (by ensuring positive vertical ground reaction force, $F_{st,y} > 0$). The successful passive simulation confirmed the model's fidelity.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/physics_validation_plots.png\" alt=\"Friction Cone and Ground Reaction Force Plots\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Feedback Control Design</h3>\n    <p>With a validated model, I developed two distinct feedback controllers to achieve stable walking on level ground. First, I designed and tuned a <strong>PI controller</strong> to regulate the robot's average forward hip velocity to a target 0.5 m/s, demonstrating convergence over several steps. Second, I implemented a more complex, bio-inspired <strong>event-based state machine</strong> (based on the SLIP model) that applied different control laws based on the phase of the walk (e.g., 'in_air', 'on_ground_going_down'), resulting in a robust and dynamic gait.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/control_convergence_plot.png\" alt=\"PI Controller Velocity Convergence Plot\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Trajectory Optimization</h3>\n    <p>The final phase of the project was to find a mathematically 'perfect' stride. I formulated this as a nonlinear constrained optimization problem, seeking a stable, periodic orbit where the robot's state at the end of a step perfectly matched the beginning. Using MATLAB's `fmincon` solver, I defined the cost function and constraints to solve for the optimal set of initial states and control parameters. The successful convergence of the optimizer yielded a stable, efficient, and repeatable walking gait, completing the project's journey from first principles to a fully optimized solution.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/periodic_orbit_plot.png\" alt=\"Stable Periodic Orbit (Limit Cycle) Plot\" style = \"height: 300px; \"/></div> <br><br>\n\n  </div>\n</div>",
+      "tldr": "<div class='text-container'><ul><li>Derived the complete Lagrangian dynamics and built a high-fidelity hybrid simulation (swing/impact) for a three-link bipedal walker from first principles in MATLAB.</li><li>Modeled and validated real-world physical constraints, including ground reaction forces and friction cone limits, to successfully simulate passive dynamic walking.</li><li>Designed and implemented two distinct feedback control strategies—a PI velocity controller and a bio-inspired event-based state machine—to achieve stable walking on level ground.</li><li>Solved a complex nonlinear optimization problem using <code>fmincon</code> to find a mathematically-proven, stable, and periodic walking gait.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project was a comprehensive, first-principles investigation into bipedal locomotion. I individually developed the complete simulation and control pipeline for a three-link planar walker. Starting with only the robot's physical parameters, I derived its equations of motion, built a hybrid dynamics simulation, implemented feedback controllers, and ultimately solved for a stable, periodic walking gait using nonlinear optimization. All modeling, analysis, and simulation were conducted in MATLAB.<br><br></p>\n\n    <h3>Dynamic Modeling & Simulation</h3>\n    <p>I began by deriving the complete equations of motion from first principles using Lagrangian dynamics. This involved symbolically computing the Mass-Inertia Matrix <i>D</i>(<i>q</i>), Coriolis & Centripetal Matrix <i>C</i>(<i>q</i>, <i>q&#775;</i>), and Gravity Vector <i>G</i>(<i>q</i>). I then developed a hybrid dynamics model to accurately simulate walking, which accounted for both the continuous 'swing' phase and the instantaneous 'impact' event. This core simulation, built in MATLAB, served as the testbed for all subsequent control and optimization.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Three_Link_Walker/walker_diagram.png\" alt=\"3-Link Walker Dynamic Model Diagram\" style = \"height: 200px; \"/></div> <br><br>\n\n    <h3>Physics-Based Validation</h3>\n    <p>To validate the physical accuracy of my model, I first simulated passive dynamic walking (letting the robot walk down a slope powered only by gravity). This required implementing real-world constraints. I wrote checks to ensure the stance foot would not slip (by monitoring the friction cone limits, |<i>F</i><sub>st,x</sub>| &le; &mu;<i>F</i><sub>st,y</sub>) and would not 'jump' (by ensuring positive vertical ground reaction force, <i>F</i><sub>st,y</sub> > 0). The successful passive simulation confirmed the model's fidelity.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Three_Link_Walker/Phase_Portrait.png\" alt=\"Passive Walking Phase Portrait\" style = \"height: 300px; \"/><img src=\"/images/robotics/Three_Link_Walker/Control_Input.png\" alt=\"Passive Walking Control Input\" style = \"height: 300px; \"/><img src=\"/images/robotics/Three_Link_Walker/No_Liftoff_Condition.png\" alt=\"No Liftoff Condition (GRF)\" style = \"height: 300px; \"/><img src=\"/images/robotics/Three_Link_Walker/No_Slip_Condition.png\" alt=\"No Slip Condition (Friction Cone)\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Feedback Control Design</h3>\n    <p>With a validated model, I developed two distinct feedback controllers to achieve stable walking on level groundI designed and tuned a <strong>PI controller</strong> to regulate the robot's average forward hip velocity to a target 0.5 m/s, demonstrating convergence over several steps.<br><br></p>\n\n   <div class=\"summary-row\"><img src=\"/images/robotics/Three_Link_Walker/PI_Controller_Convergence_Plot.png\" alt=\"PI Controller Velocity Convergence Plot\" style = \"height: 300px; \"/></div> <div class=\"summary-row\"><img src=\"/images/robotics/Three_Link_Walker/PI_Controller_No_Liftoff_Condition.png\" alt=\"PI Controller No Liftoff Plot\" style = \"height: 300px; \"/><img src=\"/images/robotics/Three_Link_Walker/PI_Controller_No_Slip_Condition.png\" alt=\"PI Controller No Slip Condition Plot\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Trajectory Optimization</h3>\n    <p>The final phase of the project was to find a mathematically 'perfect' stride. I formulated this as a nonlinear constrained optimization problem to find a stable, periodic gait, solved using MATLAB's <code>fmincon</code> with an input-output linearizing controller. The <strong>objective function</strong> was to minimize the motor energy per distance traveled: <i>J</i> := (1 / <i>x</i>(<i>T</i><sub>I</sub>)) &int;<sub>0</sub><sup><i>T</i><sub>I</sub></sup> ||<i>u</i>(<i>t</i>)||<sup>2</sup> d<i>t</i>. This was solved subject to crucial physical <strong>constraints</strong>, including periodicity (the step state must repeat), a minimum average speed (<i>x</i>(<i>T</i><sub>I</sub>) / <i>T</i><sub>I</sub> &ge; <i>v</i><sub>d</sub>), no-liftoff (<i>F</i><sub>st,y</sub> &ge; 0), and no-slip friction cone limits (|<i>F</i><sub>st,x</sub>| &le; &mu;<i>F</i><sub>st,y</sub>). The successful convergence of the optimizer yielded a stable, efficient, and repeatable walking gait, completing the project's journey from first principles to a fully optimized solution.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Three_Link_Walker/Optimized_Phase_Portrait.png\" alt=\"Optimized Phase Portrait\" style = \"height: 300px; \"/><img src=\"/images/robotics/Three_Link_Walker/three_link_walker.gif\" alt=\"Three Link Walker\" style = \"height: 300px; \"/></div><div class=\"summary-row\"><img src=\"/images/robotics/Three_Link_Walker/Optimized_Control_Input.png\" alt=\"Optimized Control Input\" style = \"height: 300px; \"/><img src=\"/images/robotics/Three_Link_Walker/Optimized_No_Liftoff_Condition.png\" alt=\"Optimized No Liftoff Condition\" style = \"height: 300px; \"/></div> <br><br>\n\n  </div>\n</div>",
       "dropdowns": [
         {
           "title": "Skills",
@@ -87,6 +83,30 @@
             { "name": "Constrained Optimization", "color": "#FF7300" },
             { "name": "MATLAB fmincon", "color": "#00008B" },
             { "name": "Algorithm Development", "color": "#00008B" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Passive Dynamic Two-Link Walker Simulation",
+      "title": "Robotics & Controls Analyst",
+      "tldr": "<div class='text-container'><ul><li>Developed a complete MATLAB simulation for a two-link passive walker ('compass gait') using <code>ode45</code> to solve the continuous-time dynamics.</li><li>Modeled the hybrid nature of walking by implementing a discrete impact map to calculate the state change during the foot-strike event.</li><li>Chained the continuous and discrete dynamics together to simulate 10 complete, continuous steps of the walker descending a slope.</li><li>Analyzed the gait's stability by numerically computing the Poincaré map and linearizing it to find the eigenvalues of the gait's fixed point.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project was a foundational study in passive dynamic locomotion. I built a hybrid simulation from the ground up in MATLAB to model a two-link walker (the 'compass gait' walker) descending a gentle slope, powered only by gravity. This involved deriving and implementing both the continuous 'swing' dynamics and the discrete 'impact' event. The project culminated in a formal stability analysis of the resulting gait using a Poincaré map.<br><br></p>\n\n    <h3>Hybrid Dynamics Simulation</h3>\n    <p>The core of the project was building a robust hybrid simulation. I first implemented the continuous dynamics in a <code>two_link_dynamics.m</code> function, which provided the time-derivative of the state (using the given equations of motion) to be solved by MATLAB's <code>ode45</code>. Next, I created a <code>two_link_impact.m</code> function to model the inelastic collision of the swing foot with the ground, which algebraically calculates the post-impact state from the pre-impact state. Finally, I combined these into a <code>two_link_step.m</code> function that simulates one full step and successfully chained 10 steps together, as seen in the animation.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Passive_Walker/passive_walker.gif\" alt=\"Passive Walker Animation\" style = \"height: 300px; \"/><img src=\"/images/robotics/Passive_Walker/Joint_Angles.png\" alt=\"Joint Angle Plots\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Gait Stability Analysis (Poincaré Map)</h3>\n    <p>To formally analyze the stability of the passive gait, I implemented a Poincaré map. I wrote a MATLAB function <code>TwoLinkPoincare.m</code> that takes a state on the Poincaré section (defined by the foot-strike event) and simulates one full step, returning the state at the next foot-strike. By linearizing this map around its fixed point, I computed the Jacobian (<i>A</i>) of the map. The eigenvalues of <i>A</i> determine the local stability of the periodic orbit, completing the analysis of the passive walker's gait.<br><br></p>\n\n  </div>\n</div>",
+      "dropdowns": [
+        {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "MATLAB", "color": "#00008B" },
+            { "name": "Physics-Based Simulation", "color": "#00008B" },
+            { "name": "Hybrid Systems", "color": "#8B0000" },
+            { "name": "Impact Modeling", "color": "#8B0000" },
+            { "name": "Bipedal Locomotion", "color": "#8B0000" },
+            { "name": "Stability Analysis", "color": "#006400" },
+            { "name": "Poincaré Maps", "color": "#006400" },
+            { "name": "Linearization", "color": "#006400" },
+            { "name": "Rigid Body Dynamics", "color": "#8B0000" }
           ]
         }
       ]
