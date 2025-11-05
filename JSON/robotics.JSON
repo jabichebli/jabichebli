@@ -61,16 +61,32 @@
       ]
     },
     {
-      "name": "Three Link Walker",
-      "title": "Controls Engineer",
-      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
-      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
+      "name": "Analysis, Control, and Optimization of a Three-Link Bipedal Walker",
+      "title": "Robotics & Controls Developer",
+      "tldr": "<div class='text-container'><ul><li>Derived the complete Lagrangian dynamics and built a high-fidelity hybrid simulation (swing/impact) for a three-link bipedal walker from first principles in MATLAB.</li><li>Modeled and validated real-world physical constraints, including ground reaction forces and friction cone limits, to successfully simulate passive dynamic walking.</li><li>Designed and implemented two distinct feedback control strategies—a PI velocity controller and a bio-inspired event-based state machine—to achieve stable walking on level ground.</li><li>Solved a complex nonlinear optimization problem using `fmincon` to find a mathematically-proven, stable, and periodic walking gait.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project was a comprehensive, first-principles investigation into bipedal locomotion. I individually developed the complete simulation and control pipeline for a three-link planar walker. Starting with only the robot's physical parameters, I derived its equations of motion, built a hybrid dynamics simulation, implemented feedback controllers, and ultimately solved for a stable, periodic walking gait using nonlinear optimization. All modeling, analysis, and simulation were conducted in MATLAB.<br><br></p>\n\n    <h3>Dynamic Modeling & Simulation</h3>\n    <p>I began by deriving the complete equations of motion from first principles using Lagrangian dynamics. This involved symbolically computing the Mass-Inertia Matrix ($D(q)$), Coriolis & Centripetal Matrix ($C(q, \\dot{q})$), and Gravity Vector ($G(q)$). I then developed a hybrid dynamics model to accurately simulate walking, which accounted for both the continuous 'swing' phase and the instantaneous 'impact' event. This core simulation, built in MATLAB, served as the testbed for all subsequent control and optimization.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/walker_diagram.png\" alt=\"3-Link Walker Dynamic Model Diagram\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Physics-Based Validation</h3>\n    <p>To validate the physical accuracy of my model, I first simulated passive dynamic walking (letting the robot walk down a slope powered only by gravity). This required implementing real-world constraints. I wrote checks to ensure the stance foot would not slip (by monitoring the friction cone limits, $|F_{st,x}| \\le \\mu F_{st,y}$) and would not 'jump' (by ensuring positive vertical ground reaction force, $F_{st,y} > 0$). The successful passive simulation confirmed the model's fidelity.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/physics_validation_plots.png\" alt=\"Friction Cone and Ground Reaction Force Plots\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Feedback Control Design</h3>\n    <p>With a validated model, I developed two distinct feedback controllers to achieve stable walking on level ground. First, I designed and tuned a <strong>PI controller</strong> to regulate the robot's average forward hip velocity to a target 0.5 m/s, demonstrating convergence over several steps. Second, I implemented a more complex, bio-inspired <strong>event-based state machine</strong> (based on the SLIP model) that applied different control laws based on the phase of the walk (e.g., 'in_air', 'on_ground_going_down'), resulting in a robust and dynamic gait.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/control_convergence_plot.png\" alt=\"PI Controller Velocity Convergence Plot\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Trajectory Optimization</h3>\n    <p>The final phase of the project was to find a mathematically 'perfect' stride. I formulated this as a nonlinear constrained optimization problem, seeking a stable, periodic orbit where the robot's state at the end of a step perfectly matched the beginning. Using MATLAB's `fmincon` solver, I defined the cost function and constraints to solve for the optimal set of initial states and control parameters. The successful convergence of the optimizer yielded a stable, efficient, and repeatable walking gait, completing the project's journey from first principles to a fully optimized solution.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/walker/periodic_orbit_plot.png\" alt=\"Stable Periodic Orbit (Limit Cycle) Plot\" style = \"height: 300px; \"/></div> <br><br>\n\n  </div>\n</div>",
       "dropdowns": [
         {
           "title": "Skills",
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
+            { "name": "MATLAB", "color": "#00008B" },
+            { "name": "Physics-Based Simulation", "color": "#00008B" },
+            { "name": "Lagrangian Dynamics", "color": "#8B0000" },
+            { "name": "Rigid Body Dynamics", "color": "#8B0000" },
+            { "name": "Hybrid Systems", "color": "#8B0000" },
+            { "name": "Impact Modeling", "color": "#8B0000" },
+            { "name": "Bipedal Locomotion", "color": "#8B0000" },
+            { "name": "Feedback Control", "color": "#006400" },
+            { "name": "PI Control", "color": "#006400" },
+            { "name": "Event-Based State Machines", "color": "#006400" },
+            { "name": "Control Theory", "color": "#006400" },
+            { "name": "Nonlinear Optimization", "color": "#FF7300" },
+            { "name": "Trajectory Optimization", "color": "#FF7300" },
+            { "name": "Constrained Optimization", "color": "#FF7300" },
+            { "name": "MATLAB fmincon", "color": "#00008B" },
+            { "name": "Algorithm Development", "color": "#00008B" }
           ]
         }
       ]
