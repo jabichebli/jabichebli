@@ -28,20 +28,34 @@
         }
       ]
     },
+{
+  "name": "Dynamic Simulation and Control of a Jumping Leg",
+  "title": "Robotics & Controls Developer",
+  "tldr": "<div class='text-container'><ul><li>Built a complete MATLAB hybrid simulation for a 3-DOF robotic leg, modeling stance, flight, and impact dynamics.</li><li>Symbolically derived the complete Lagrangian dynamics and implemented event functions for takeoff (<code>event_takeoff.m</code>) and touchdown.</li><li>Designed a virtual constraint-based controller (<code>dynamics_stabilize.m</code>) to stabilize the leg's posture and reject external forces.</li><li>Generated smooth 5th-order polynomial trajectories (<code>desired_jump_trajectory.m</code>) for the Center of Mass (COM) to achieve stable vertical jumps.</li><li>Extended the COM tracking controller to simulate dynamic forward and backward leaps, preparing the code for hardware implementation.</li></ul></div>",
+  "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project involved developing the complete dynamic simulation and control stack for a 3-DOF robotic leg. The goal was to build a controller that could first stabilize the leg, then execute a controlled vertical jump, and finally perform a dynamic leap. I used MATLAB's Symbolic Toolbox to derive the system's dynamics (<code>generate_files.m</code>), built a hybrid event-driven simulation (<code>simulate_jumping_leg.m</code>), and designed multiple controllers to achieve this behavior.<br><br></p>\n\n    <h3>Hybrid Dynamic Modeling</h3>\n    <p>I began by symbolically deriving the full Lagrangian dynamics (<i>D</i>, <i>C</i>, <i>G</i> matrices) and kinematics. The system was modeled as a hybrid system with three distinct phases: <strong>Flight</strong> (standard ballistic dynamics, <code>dynamics_flight.m</code>), <strong>Impact</strong> (a discrete, inelastic collision map, <code>dynamics_impact.m</code>), and <strong>Stance</strong> (a constrained system, <code>dynamics_stance.m</code>). Event functions for takeoff and touchdown were written to manage the transitions between these states.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Jumping_Leg/Free_Body_Diagram.png\" alt=\"Jumping Leg Free Body Diagram\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Stabilization & Force Rejection</h3>\n    <p>Before jumping, the leg needed to be able to stand. I implemented a virtual constraint-based controller (<code>dynamics_stabilize.m</code>) to enforce a desired standing posture. This controller proved robust, as it could actively reject external forces and reliably return the leg to its stable configuration while adhering to physical constraints like no-liftoff and no-slip.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Jumping_Leg/animation_Vertical_Pushes.gif\" alt=\"Stabilization Vertical Push\" style = \"height: 300px; \"/><img src=\"/images/robotics/Jumping_Leg/animation_Horizontal_Pushes.gif\" alt=\"Stabilization Horizontal push\" style = \"height: 300px; \"/><img src=\"/images/robotics/Jumping_Leg/animation_Combination_Pushes.gif\" alt=\"Stabilization Combo Pushes\" style = \"height: 300px; \"/></div> <div class=\"summary-row\"><img src=\"/images/robotics/Jumping_Leg/Vertical_Push.png\" alt=\"No Liftoff Condition (GRF)\" style = \"height: 300px; \"/><img src=\"/images/robotics/Jumping_Leg/Horizontal_Push.png\" alt=\"Horizontal Push\" style = \"height: 300px; \"/><img src=\"/images/robotics/Jumping_Leg/Combo_Push.png\" alt=\"Combo Push\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Vertical Jump & COM Trajectory</h3>\n    <p>To achieve a jump, I designed a desired trajectory for the leg's Center of Mass (COM) using 5th-order quintic polynomials in <code>desired_jump_trajectory.m</code>. This ensures a smooth path with continuous position, velocity, and acceleration. I then implemented a COM tracking controller in the stance phase (<code>dynamics_stance.m</code>) to follow this path, squatting to build potential energy and then extending to execute a stable vertical jump and controlled landing.<br><br></p>\n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Jumping_Leg/jumping_leg.gif\" alt=\"Vertical Jump Animation\" style = \"height: 300px; \"/><img src=\"/images/robotics/Jumping_Leg/COM_Trajectory.png\" alt=\"Desired COM Trajectory Plot\" style = \"height: 300px; \"/></div> <div class=\"summary-row\"><img src=\"/images/robotics/Jumping_Leg/Hip_States_Position_During_Jump.png\" alt=\"Joint Angle Plots during Jump\" style = \"height: 300px; \"/></div> <br><br>\n\n    <h3>Dynamic Leaping & Hardware Prep</h3>\n    <p>The final step was to generalize the COM tracking. By defining a 2D trajectory for the COM (e.g., moving forward *while* squatting and jumping), the same stance controller could be used to execute dynamic leaps. The <code>simulate_jumping_leg.m</code> script allows setting these horizontal takeoff parameters to simulate forward and backward leaps, validating the controller that is now ready for hardware implementation.<br><br></Example of a forward leap: \n\n    <div class=\"summary-row\"><img src=\"/images/robotics/Jumping_Leg/leg_leaping_animation_forward_leap.gif\" alt=\"Forward Leap Animation\" style = \"height: 300px; \"/><img src=\"/images/robotics/Jumping_Leg/leg_leaping_animation_backwards_leap.gif\" alt=\"Backward Leap Animation\" style = \"height: 300px; \"/></div> <br><br>\n\n  </div>\n</div>",
+  "dropdowns": [
     {
-      "name": "Jumping Leg",
-      "title": "Controls Engineer",
-      "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
-      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
-      "dropdowns": [
-        {
-          "title": "Skills",
-          "icon": "fa-solid fa-lightbulb",
-          "iconColor": "#F4D03F",
-          "items": []
-        }
+      "title": "Skills",
+      "icon": "fa-solid fa-lightbulb",
+      "iconColor": "#F4D03F",
+      "items": [
+        { "name": "MATLAB", "color": "#00008B" },
+        { "name": "MATLAB Symbolic Toolbox", "color": "#00008B" },
+        { "name": "Physics-Based Simulation", "color": "#00008B" },
+        { "name": "Lagrangian Dynamics", "color": "#8B0000" },
+        { "name": "Rigid Body Dynamics", "color": "#8B0000" },
+        { "name": "Hybrid Systems", "color": "#8B0000" },
+        { "name": "Impact Modeling", "color": "#8B0000" },
+        { "name": "Event-Based Simulation", "color": "#00008B" },
+        { "name": "Control Theory", "color": "#006400" },
+        { "name": "Virtual Constraints", "color": "#006400" },
+        { "name": "Nonlinear Control", "color": "#006400" },
+        { "name": "Trajectory Generation", "color": "#FF7300" },
+        { "name": "COM Tracking", "color": "#FF7300" }
       ]
-    },
+    }
+  ]
+},
     {
       "name": "Autonomous Plant Watering with Mars Robot",
       "title": "Robotics Engineer",
