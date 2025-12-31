@@ -15,7 +15,7 @@
       ]
     },
     {
-      "name": "Autonomous Plant Watering with Mars Robot",
+      "name": "Go2 Search and Rescue with Frontier Path Planning",
       "title": "Robotics Engineer",
       "tldr": "<div class='text-container'><ul><li>Coming Soon!</li></ul></div>",
       "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>You're going to have to wait...  &#129323  &#129323  &#129323 </p>\n  </div>\n</div>",
@@ -29,39 +29,72 @@
       ]
     },
     {
-  "name": "Cassie Bipedal Robot Balance Control",
-  "title": "Controls Engineer",
-  "tldr": "<div class='text-container'><ul><li>Implemented a force-control strategy with a PD fallback for the 20-DOF Cassie bipedal robot to maintain balance under external perturbations.</li><li>Formulated a Quadratic Programming (QP) optimization problem to track a desired COM wrench while respecting frictional and unilateral contact constraints.</li><li>Achieved a top leaderboard score of 239.96 by implementing a dynamic downward Center of Mass (COM) trajectory to enhance rotational stability.</li><li>Analyzed the performance trade-offs of real-time solvers like <code>fmincon</code> and the impact of state rotation conventions on system stability.</li><li>Iteratively tuned the controller to reject significant external force/torque pushes and manage transition phases where contact points were not fully grounded.</li></ul></div>",
-  "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project focused on developing robust balance control strategies for CASSIE, a bird-inspired 3D bipedal robot with a 20-DOF floating base model. The objective was to design a feedback controller for 10 actuated joint torques to maintain a standing posture while rejecting external pushes and torques.<br><br></p>\n\n    <h3>Force-Control & QP Optimization</h3>\n    <p>The core of the winning submission was a whole-body force-control strategy. Instead of commanding joint positions, I formulated a Quadratic Programming (QP) problem to find the optimal ground reaction forces ($f$) that would generate a desired wrench on the Center of Mass (COM). This involved mapping contact forces to joint torques using the transpose of the Jacobian ($J^T$). To ensure physical feasibility, the optimizer enforced frictional cone constraints (no-slip) and unilateral constraints (no-pulling) at the feet. To ensure reliability, a PD fallback was implemented to take over whenever the solver (<code>fmincon</code>) failed to find a feasible solution within real-time limits.<br><br></p>\n\n    <div class=\"summary-row\"></div> <br><br>\n\n    <h3>Dynamic COM Stabilization</h3>\n    <p>To enhance stability under heavy perturbations, I implemented a strategy to dynamically lower the desired Center of Mass. By commanding a downward trajectory, we effectively lowered the robot's profile and changed its effective rotational inertia, which proved crucial for rejecting larger external torques. This lowered configuration allowed the force-controller to more effectively distribute weight across the contact points, leading to a much higher survival time against random pushes and reaching our top score.<br><br></p>\n\n    <div class=\"summary-row\"></div> <br><br>\n\n    <h3>Performance Analysis & Results</h3>\n    <p>Through iterative testing, our team, \"Gain of Thrones,\" achieved a competitive score of 239.96. We explored the trade-offs between different solver configurations and discovered that small modeling choices, such as the convention used for state rotations, had a massive impact on the controller's ability to interpret the robot's orientation correctly. We also analyzed the impact of \"ghost\" contact points, adjusting force-control gains algorithmically when feet were not fully grounded to prevent unstable oscillations.<br><br></p>\n\n    <div class=\"summary-row\">\n      <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7VkbnPQlUvo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    <p style=\"text-align: center;\"><i>Demonstration of the control stack achieving stable stepping.</i></p>\n\n  </div>\n</div>",
-  "dropdowns": [
-    {
-      "title": "Skills",
-      "icon": "fa-solid fa-lightbulb",
-      "iconColor": "#F4D03F",
-      "items": [
-        { "name": "MATLAB", "color": "#00008B" },
-        { "name": "Quadratic Programming (QP)", "color": "#8B0000" },
-        { "name": "Force Control", "color": "#006400" },
-        { "name": "Friction Constraints", "color": "#8B0000" },
-        { "name": "Wrench Tracking", "color": "#006400" },
-        { "name": "Bipedal Robotics", "color": "#8B0000" },
-        { "name": "Trajectory Planning", "color": "#FF7300" },
-        { "name": "Optimization (fmincon)", "color": "#00008B" },
-        { "name": "Rigid Body Dynamics", "color": "#8B0000" }
+      "name": "Dynamic Handstand Robot: Classical vs. Learning-Based Control",
+      "title": "Reinforcement Learning Engineer",
+      "tldr": "<div class='text-container'><ul><li>Engineered a high-fidelity expert trajectory for a 7-link humanoid, bridging the gap between kinematic keyframing and physically realizable MuJoCo motion.</li><li>Developed a synthesis pipeline using \"privileged DOFs\" (root position and torso pitch) to sketch the global motion before correcting for dynamics.</li><li>Implemented a physics-validation loop to ensure the reference motion respected ground contact and gravity constraints.</li><li>Built a custom Gymnasium environment to facilitate state-tracking rewards based on the validated expert qpos and qvel data.</li><li>Trained a robust neural network policy using PPO, benchmarking it against brittle classical controllers and difficult-to-tune pure RL.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project benchmarked three control paradigms—Classical, Reinforcement Learning (RL), and Imitation Learning (IL)—for a dynamic handstand task on a 7-link humanoid. While my team explored classical linearization and pure RL, I took ownership of the <b>Imitation Learning</b> pipeline. I identified that for complex, multi-phase robotics tasks, the primary bottleneck is not the learning algorithm itself, but the synthesis of a physically consistent expert trajectory for the agent to follow.<br><br></p>\n\n    <div class=\"summary-row\">\n        <img src=\"/images/robotics/Dynamic_Handstand_Robot/classical_controls.gif\" alt=\"Classical Control Baseline\" style=\"height: 220px; border-radius: 8px; margin: 5px;\"/>\n        <img src=\"/images/robotics/Dynamic_Handstand_Robot/rl_policy.gif\" alt=\"Pure RL Comparison\" style=\"height: 220px; border-radius: 8px; margin: 5px;\"/>\n        <img src=\"/images/robotics/Dynamic_Handstand_Robot/7 Link Planar Humanoid.png\" alt=\"7-Link Humanoid Model\" style=\"height: 220px; border-radius: 8px; margin: 5px;\"/>\n    </div>\n    <p style=\"display: flex; justify-content: space-around; padding: 0 20px;\"><i>Classical Control</i><i>Pure RL</i><i>7-Link Model</i></p><br><br>\n\n    <h3>Phase 1: Kinematic Sketching (No Physics)</h3>\n    <p>Generating a handstand trajectory is difficult due to the non-linear transition between walking and planting. I began by creating a \"ghost\" trajectory in a gravity-free kinematic space. By using <b>privileged degrees of freedom</b>—directly commanding the torso's global position and rotation—I was able to sketch the ideal sequence of walking, crouching, and swinging without the initial struggle of balancing dynamics. This allowed me to prioritize the visual timing and reachability of the motion.<br><br></p>\n\n    <div class=\"summary-row\">\n      <img src=\"/images/robotics/Dynamic_Handstand_Robot/trajectory_no_physics.gif\" alt=\"Kinematic Synthesis No Physics\" style=\"width: 100%; border-radius: 8px;\"/>\n    </div>\n    <p style=\"text-align: center;\"><i>Kinematic trajectory synthesis using privileged DOFs (No Physics)</i></p><br><br>\n\n    <h3>Phase 2: Physics Validation & Refinement</h3>\n    <p>The core engineering challenge was converting the kinematic \"ghost\" motion into a physically realizable trajectory. I implemented an iterative validation loop in <code>generate_handstand.py</code>. This involved simulating the trajectory with gravity and collisions enabled to detect ground clipping and momentum mismatches. I developed a <code>fix_ground_clipping</code> algorithm that adjusted the root Z-height and joint angles to ensure the hands and feet made contact correctly, resulting in a validated expert dataset ready for imitation.<br><br></p>\n\n    <div class=\"summary-row\">\n      <img src=\"/images/robotics/Dynamic_Handstand_Robot/trajectory_physics.gif\" alt=\"Physics Validated Trajectory\" style=\"width: 100%; border-radius: 8px;\"/>\n    </div>\n    <p style=\"text-align: center;\"><i>Physics-corrected reference motion with gravity and ground contact</i></p><br><br>\n\n    <h3>Phase 3: Learning & Policy Deployment</h3>\n    <p>With the expert trajectory finalized, training the policy became a matter of robust tracking. I built a custom Gymnasium environment where the agent was rewarded for minimizing the error between its state and the expert's qpos and qvel. Using PPO, the policy learned to generate the necessary joint torques to follow the reference path. This Imitation Learning approach provided a controller that was far smoother than pure RL and much less numerically brittle than the classical controller.<br><br></p>\n\n    <div class=\"summary-row\">\n      <img src=\"/images/robotics/Dynamic_Handstand_Robot/il_policy.gif\" alt=\"Final IL Policy Success\" style=\"height: 300px; border-radius: 8px; margin: 5px;\"/>\n      <img src=\"/images/robotics/Dynamic_Handstand_Robot/reward_curves.png\" alt=\"PPO Training Reward Curves\" style=\"height: 300px; border-radius: 8px; margin: 5px;\"/>\n    </div>\n    <p style=\"display: flex; justify-content: space-around; padding: 0 60px;\"><i>Final IL Policy</i><i>PPO Training Reward Convergence</i></p>\n\n  </div>\n</div>",
+      "dropdowns": [
+         {
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "Python", "color": "#00008B" },
+            { "name": "MuJoCo", "color": "#00008B" },
+            { "name": "Imitation Learning", "color": "#006400" },
+            { "name": "PPO (Stable Baselines3)", "color": "#006400" },
+            { "name": "Trajectory Synthesis", "color": "#FF7300" },
+            { "name": "Reinforcement Learning", "color": "#006400" },
+            { "name": "Gymnasium API", "color": "#00008B" },
+            { "name": "Physics-Based Simulation", "color": "#8B0000" }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/ericbreh/handstand-robot\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-brands fa-github\"></i> Github Repository</a><a href=\"https://drive.google.com/file/d/1RQeJsstmqBlEQI-6jjTsvvfYh0AoOU4s/view?usp=sharing\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-video\"></i> Presentation Recording</a><a href=\"https://docs.google.com/presentation/d/1B3uP4uKcnzf9SnvBrp7t58_tTqL2XWj7G8gvMLzNsJM/edit?usp=sharing\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-file-powerpoint\"></i> Presentation Slides</a>"
+            }
+          ]
+        }
       ]
     },
     {
-      "title": "Links",
-      "icon": "fa-solid fa-link",
-      "iconColor": "#9B59B6",
-      "items": [
+      "name": "Cassie Bipedal Robot Balance Control",
+      "title": "Controls Engineer",
+      "tldr": "<div class='text-container'><ul><li>Implemented a force-control strategy with a PD fallback for the 20-DOF Cassie bipedal robot to maintain balance under external perturbations.</li><li>Formulated a Quadratic Programming (QP) optimization problem to track a desired COM wrench while respecting frictional and unilateral contact constraints.</li><li>Achieved a top leaderboard score of 239.96 by implementing a dynamic downward Center of Mass (COM) trajectory to enhance rotational stability.</li><li>Analyzed the performance trade-offs of real-time solvers like <code>fmincon</code> and the impact of state rotation conventions on system stability.</li><li>Iteratively tuned the controller to reject significant external force/torque pushes and manage transition phases where contact points were not fully grounded.</li></ul></div>",
+      "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project focused on developing robust balance control strategies for CASSIE, a bird-inspired 3D bipedal robot with a 20-DOF floating base model. The objective was to design a feedback controller for 10 actuated joint torques to maintain a standing posture while rejecting external pushes and torques.<br><br></p>\n\n    <h3>Force-Control & QP Optimization</h3>\n    <p>The core of the winning submission was a whole-body force-control strategy. Instead of commanding joint positions, I formulated a Quadratic Programming (QP) problem to find the optimal ground reaction forces ($f$) that would generate a desired wrench on the Center of Mass (COM). This involved mapping contact forces to joint torques using the transpose of the Jacobian ($J^T$). To ensure physical feasibility, the optimizer enforced frictional cone constraints (no-slip) and unilateral constraints (no-pulling) at the feet. To ensure reliability, a PD fallback was implemented to take over whenever the solver (<code>fmincon</code>) failed to find a feasible solution within real-time limits.<br><br></p>\n\n    <div class=\"summary-row\"></div> <br><br>\n\n    <h3>Dynamic COM Stabilization</h3>\n    <p>To enhance stability under heavy perturbations, I implemented a strategy to dynamically lower the desired Center of Mass. By commanding a downward trajectory, we effectively lowered the robot's profile and changed its effective rotational inertia, which proved crucial for rejecting larger external torques. This lowered configuration allowed the force-controller to more effectively distribute weight across the contact points, leading to a much higher survival time against random pushes and reaching our top score.<br><br></p>\n\n    <div class=\"summary-row\"></div> <br><br>\n\n    <h3>Performance Analysis & Results</h3>\n    <p>Through iterative testing, our team, \"Gain of Thrones,\" achieved a competitive score of 239.96. We explored the trade-offs between different solver configurations and discovered that small modeling choices, such as the convention used for state rotations, had a massive impact on the controller's ability to interpret the robot's orientation correctly. We also analyzed the impact of \"ghost\" contact points, adjusting force-control gains algorithmically when feet were not fully grounded to prevent unstable oscillations.<br><br></p>\n\n    <div class=\"summary-row\">\n      <iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/7VkbnPQlUvo\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n    </div>\n    <p style=\"text-align: center;\"><i>Demonstration of the control stack achieving stable stepping.</i></p>\n\n  </div>\n</div>",
+      "dropdowns": [
         {
-          "text": "<a href=\"https://github.com/jabichebli/cassie_balancing\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-brands fa-github\"></i> Github Repository</a><a href=\"https://youtu.be/7VkbnPQlUvo?si=ijMVahk0X2vaYCIT\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-brands fa-youtube\"></i> Project Demo (Step)</a><a href=\"/documents/robotics/Cassie_Project/Cassie Mini-Project Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-file-pdf\"></i> Project Report</a><a href=\"/documents/robotics/Cassie_Project/Cassie Mini-Project Brief.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-file-pdf\"></i> Project Brief</a>"
+          "title": "Skills",
+          "icon": "fa-solid fa-lightbulb",
+          "iconColor": "#F4D03F",
+          "items": [
+            { "name": "MATLAB", "color": "#00008B" },
+            { "name": "Quadratic Programming (QP)", "color": "#8B0000" },
+            { "name": "Force Control", "color": "#006400" },
+            { "name": "Friction Constraints", "color": "#8B0000" },
+            { "name": "Wrench Tracking", "color": "#006400" },
+            { "name": "Bipedal Robotics", "color": "#8B0000" },
+            { "name": "Trajectory Planning", "color": "#FF7300" },
+            { "name": "Optimization (fmincon)", "color": "#00008B" },
+            { "name": "Rigid Body Dynamics", "color": "#8B0000" }
+          ]
+        },
+        {
+          "title": "Links",
+          "icon": "fa-solid fa-link",
+          "iconColor": "#9B59B6",
+          "items": [
+            {
+              "text": "<a href=\"https://github.com/jabichebli/cassie_balancing\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-brands fa-github\"></i> Github Repository</a><a href=\"https://youtu.be/7VkbnPQlUvo?si=ijMVahk0X2vaYCIT\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-brands fa-youtube\"></i> Project Demo (Step)</a><a href=\"/documents/robotics/Cassie_Project/Cassie Mini-Project Report.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-file-pdf\"></i> Project Report</a><a href=\"/documents/robotics/Cassie_Project/Cassie Mini-Project Brief.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-file-pdf\"></i> Project Brief</a>"
+            }
+          ]
         }
       ]
-    }
-  ]
-},
+    },
     {
       "name": "Dynamic Simulation and Control of a Jumping Leg",
       "title": "Robotics & Controls Developer",
