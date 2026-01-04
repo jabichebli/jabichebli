@@ -150,7 +150,10 @@
           "icon": "fa-solid fa-lightbulb",
           "iconColor": "#F4D03F",
           "items": [
-            { "name": "Principal Component Analysis (PCA)", "color": "#00008B" },
+            {
+              "name": "Principal Component Analysis (PCA)",
+              "color": "#00008B"
+            },
             { "name": "Statistical Data Analysis", "color": "#00008B" },
             { "name": "Bootstrap Resampling", "color": "#00008B" },
             { "name": "Permutation Testing", "color": "#00008B" },
