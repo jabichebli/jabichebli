@@ -369,7 +369,7 @@
       ]
     },
     {
-      "name": "Organisation Web App",
+      "name": "Organization Web App",
       "title": "Full Stack Engineer",
       "tldr": "<div class='text-container'><ul><li>Developed WeeklyPlanner, a web app for task organization and time management, allowing users to create lists, set deadlines, and track overdue tasks.</li><li>Designed an intuitive UI with drag-and-drop functionality and real-time updates, ensuring seamless weekly planning and productivity.</li><li>Stored all user data locally to ensure privacy and optimize performance.</li><li>For more information, visit the <a href='https://jabichebli.github.io/weeklyPlanner/'>GitHub page</a>.</li></ul></div>",
       "summary": "<div class=\"summary-container\">\n  <!-- Left: Text Content -->\n  <div class=\"summary-text\">\n    <p>\n      I built a web app to help users stay organized, allowing them to create lists, set deadlines, and plan their week. The app aims to simplify time management and task scheduling with an intuitive, user-friendly interface.<br><br>\n    </p>\n  </div>\n</div>\n  <!--Images -->\n <div class=\"summary-row\">\n    <img src=\"/images/software/Organisation_Web_App/Home.png\" alt=\"Home Page\">\n    <img src=\"/images/software/Organisation_Web_App/Weekly_Planner.png\" alt=\"Weekly Planner\">\n  </div>  <div class=\"summary-row\">\n  <img src=\"/images/software/Organisation_Web_App/Upcoming_Tasks.png\" alt=\"Upcoming Tasks\">\n    <img src=\"/images/software/Organisation_Web_App/Adding_Task.png\" alt=\"Adding Task\">\n \n</div>",
