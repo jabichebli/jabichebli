@@ -356,7 +356,7 @@ body.popup-open {
 @media (max-width: 768px) {
 	.container {
 		flex-direction: column;
-		text-align: center;
+		text-align: justify;
 	}
 
 	.image-container img {
