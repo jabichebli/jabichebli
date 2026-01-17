@@ -26,13 +26,13 @@
           "iconColor": "#F4D03F",
           "items": [
             { "name": "ROS2 (Humble)", "color": "#00008B" },
-            { "name": "Navigation2 (Nav2)", "color": "#006400" },
+            { "name": "Navigation2 (Nav2)", "color": "#00008B" },
             { "name": "Python / C++", "color": "#00008B" },
-            { "name": "3D LiDAR Sensing", "color": "#8B0000" },
-            { "name": "Frontier Exploration", "color": "#FF7300" },
-            { "name": "MPPI Control", "color": "#006400" },
-            { "name": "Unitree Go2 API", "color": "#8B0000" },
-            { "name": "Bayesian Log-Odds Mapping", "color": "#006400" }
+            { "name": "3D LiDAR Sensing", "color": "#00008B" },
+            { "name": "Frontier Exploration", "color": "#00008B" },
+            { "name": "MPPI Control", "color": "#00008B" },
+            { "name": "Unitree Go2 API", "color": "#00008B" },
+            { "name": "Bayesian Log-Odds Mapping", "color": "#00008B" }
           ]
         },
         {
@@ -60,12 +60,12 @@
           "items": [
             { "name": "Python", "color": "#00008B" },
             { "name": "MuJoCo", "color": "#00008B" },
-            { "name": "Imitation Learning", "color": "#006400" },
-            { "name": "PPO (Stable Baselines3)", "color": "#006400" },
-            { "name": "Trajectory Synthesis", "color": "#FF7300" },
-            { "name": "Reinforcement Learning", "color": "#006400" },
+            { "name": "Imitation Learning", "color": "#00008B" },
+            { "name": "PPO (Stable Baselines3)", "color": "#00008B" },
+            { "name": "Trajectory Synthesis", "color": "#00008B" },
+            { "name": "Reinforcement Learning", "color": "#00008B" },
             { "name": "Gymnasium API", "color": "#00008B" },
-            { "name": "Physics-Based Simulation", "color": "#8B0000" }
+            { "name": "Physics-Based Simulation", "color": "#00008B" }
           ]
         },
         {
@@ -80,6 +80,39 @@
         }
       ]
     },
+{
+  "name": "Deep Reinforcement Learning for Quadruped Locomotion (Unitree Go1)",
+  "title": "Reinforcement Learning Engineer",
+  "tldr": "<div class='text-container'><ul><li>Trained a robust velocity-tracking PPO policy for the Unitree Go1 in MuJoCo, parallelized across 4,096 environments for rapid convergence.</li><li>Implemented an Asymmetric Actor-Critic architecture, leveraging privileged simulator states (ground-truth contact forces and foot height) to guide a proprioception-only actor.</li><li>Engineered gait-shaping rewards to solve foot-dragging issues, achieving distinct 0.06m parabolic swing trajectories and stable stance phases.</li><li>Modeled high-fidelity actuator dynamics, including reflected inertia (6:1 gear ratios) and motor limits, to ensure physically realistic behavior without hardware deployment.</li><li>Conducted comparative analysis on the impact of privileged information, demonstrating significantly reduced tracking error spikes and improved traction.</li></ul></div>",
+  "summary": "<div class=\"summary-container\">\n  <div class=\"summary-text\">\n    <p>This project focused on training a high-performance locomotion controller for the Unitree Go1 quadruped using Deep Reinforcement Learning (PPO). The primary challenge was not just making the robot walk, but ensuring the gait was robust, natural, and physically plausible. By utilizing an Asymmetric Actor-Critic architecture and meticulous reward engineering, I developed a policy capable of tracking omnidirectional velocity commands with high precision.<br><br></p>\n\n    <div class=\"summary-row\">\n        <img src=\"/images/robotics/Locomotion_Go1/Go1 Trained Policy Walking (After Gait Shaped).gif\" alt=\"Final Robust Policy\" style=\"height: 220px; border-radius: 8px; margin: 5px;\"/>\n        <img src=\"/images/robotics/Locomotion_Go1/Command Tracking.png\" alt=\"Velocity Tracking Performance\" style=\"height: 220px; border-radius: 8px; margin: 5px;\"/>\n    </div>\n    <p style=\"display: flex; justify-content: space-around; padding: 0 20px;\"><i>Final Policy (Gait Shaped)</i><i>Test-Time Velocity Tracking</i></p><br><br>\n\n    <h3>Phase 1: Asymmetric Actor-Critic Architecture</h3>\n    <p>To improve training stability, I implemented an Asymmetric Actor-Critic structure. In this setup, the Critic has access to \"privileged\" simulation data—such as ground-truth foot contact forces, exact foot heights, and friction coefficients—that the Actor (the robot's controller) cannot see. This allows the Critic to learn a more accurate value function, which in turn guides the Actor to learn robust behaviors using only noisy proprioceptive sensors.<br><br><b>Analysis:</b> The inclusion of privileged information significantly reduced the magnitude and frequency of tracking error spikes. As shown below, while both models exhibit similar slip patterns, the improved model exhibits lower peak slip velocities and fewer oscillations. The critic’s access to ground-truth contact data enabled the policy to maintain a more stable, rhythmic gait with better overall traction.<br><br></p>\n\n    <div class=\"summary-row\">\n      <img src=\"/images/robotics/Locomotion_Go1/Effect of privileged critic observations.png\" alt=\"Effect of Privileged Critic\" style=\"width: 100%; border-radius: 8px;\"/>\n    </div>\n    <p style=\"text-align: center;\"><i>Impact of Privileged Information on Slip Velocity and Tracking Error</i></p><br><br>\n\n    <h3>Phase 2: Gait Shaping & Trajectory Optimization</h3>\n    <p>Initial policies, while functional, exhibited \"shuffling\" behavior where the feet barely cleared the ground. To correct this, I engineered specific gait-shaping rewards targeting foot clearance, swing height consistency, and slip penalization.<br><br><b>Analysis:</b> Without gait-shaping rewards, the trajectory was shallow and irregular (approx 0.01m), indicating dragging. In contrast, the improved model produced distinct parabolic arcs reaching approximately 0.06m. This demonstrates a clean lift-off and consistent landing that clearly differentiates between the swing and stance phases.<br><br></p>\n\n    \n    <div class=\"summary-row\">\n      <img src=\"/images/robotics/Locomotion_Go1/Go1 Trained Policy Walking (Before Gait Shaped).gif\" alt=\"Shuffling Gait (Before)\" style=\"height: 200px; border-radius: 8px; margin: 5px;\"/>\n      <img src=\"/images/robotics/Locomotion_Go1/Go1 Trained Policy Walking (After Gait Shaped).gif\" alt=\"Clean Gait (After)\" style=\"height: 200px; border-radius: 8px; margin: 5px;\"/>\n    </div>\n    <p style=\"display: flex; justify-content: space-around; padding: 0 40px;\"><i>Before Gait Shaping (Shuffling)</i><i>After Gait Shaping (Parabolic Arcs)</i></p><br>\n\n    \n    <div class=\"summary-row\">\n       <img src=\"/images/robotics/Locomotion_Go1/Effects of Gait Shaping Rewards.png\" alt=\"Foot Trajectory Analysis\" style=\"width: 90%; max-width: 600px; border-radius: 8px; margin: 10px auto; display: block;\"/>\n    </div>\n    <p style=\"text-align: center;\"><i>Foot Trajectory Analysis: Shallow vs. Parabolic Clearance</i></p><br><br>\n\n    <h3>Phase 3: Training Dynamics & Convergence</h3>\n    <p>The policy was trained across 4,096 parallel environments using MuJoCo's EGL rendering on a T4 GPU. The reward function was designed to prioritize velocity tracking (linear/angular) while regularizing joint torques and action rates to ensure smoothness. The training curves show rapid convergence, with the mean episode length stabilizing quickly, indicating the agent learned to balance and walk without falling early in the training process.<br><br></p>\n\n    <div class=\"summary-row\">\n      <img src=\"/images/robotics/Locomotion_Go1/mean reward.png\" alt=\"Mean Reward Curve\" style=\"height: 250px; border-radius: 8px; margin: 5px;\"/>\n      <img src=\"/images/robotics/Locomotion_Go1/mean episode length.png\" alt=\"Episode Length Convergence\" style=\"height: 250px; border-radius: 8px; margin: 5px;\"/>\n    </div>\n    <p style=\"display: flex; justify-content: space-around; padding: 0 60px;\"><i>Total Reward Convergence</i><i>Mean Episode Length</i></p>\n\n  </div>\n</div>",
+  "dropdowns": [
+    {
+      "title": "Skills",
+      "icon": "fa-solid fa-lightbulb",
+      "iconColor": "#F4D03F",
+      "items": [
+        { "name": "Python", "color": "#00008B" },
+        { "name": "MuJoCo", "color": "#00008B" },
+        { "name": "Reinforcement Learning (PPO)", "color": "#00008B" },
+        { "name": "Asymmetric Actor-Critic", "color": "#00008B" },
+        { "name": "Gait Analysis", "color": "#00008B" },
+        { "name": "Actuator Dynamics Modeling", "color": "#00008B" },
+        { "name": "Gymnasium API", "color": "#00008B" },
+        { "name": "Reward Engineering", "color": "#00008B" }
+      ]
+    },
+    {
+      "title": "Links",
+      "icon": "fa-solid fa-link",
+      "iconColor": "#9B59B6",
+      "items": [
+        {
+          "text": "<a href=\"https://github.com/jabichebli/RL_Training_MiniProject\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-brands fa-github\"></i> Github Repository</a><a href=\"documents/robotics/Locomotion_Go1/RL_Training_Project_Assignment.pdf\" target=\"_blank\" style=\"display: block; margin-bottom: 10px;\"><i class=\"fa-solid fa-file-pdf\"></i> Project Assignment PDF</a>"
+        }
+      ]
+    }
+  ]
+},
     {
       "name": "Cassie Bipedal Robot Balance Control",
       "title": "Controls Engineer",
@@ -92,14 +125,14 @@
           "iconColor": "#F4D03F",
           "items": [
             { "name": "MATLAB", "color": "#00008B" },
-            { "name": "Quadratic Programming (QP)", "color": "#8B0000" },
-            { "name": "Force Control", "color": "#006400" },
-            { "name": "Friction Constraints", "color": "#8B0000" },
-            { "name": "Wrench Tracking", "color": "#006400" },
-            { "name": "Bipedal Robotics", "color": "#8B0000" },
-            { "name": "Trajectory Planning", "color": "#FF7300" },
+            { "name": "Quadratic Programming (QP)", "color": "#00008B" },
+            { "name": "Force Control", "color": "#00008B" },
+            { "name": "Friction Constraints", "color": "#00008B" },
+            { "name": "Wrench Tracking", "color": "#00008B" },
+            { "name": "Bipedal Robotics", "color": "#00008B" },
+            { "name": "Trajectory Planning", "color": "#00008B" },
             { "name": "Optimization (fmincon)", "color": "#00008B" },
-            { "name": "Rigid Body Dynamics", "color": "#8B0000" }
+            { "name": "Rigid Body Dynamics", "color": "#00008B" }
           ]
         },
         {
@@ -128,16 +161,16 @@
             { "name": "MATLAB", "color": "#00008B" },
             { "name": "MATLAB Symbolic Toolbox", "color": "#00008B" },
             { "name": "Physics-Based Simulation", "color": "#00008B" },
-            { "name": "Lagrangian Dynamics", "color": "#8B0000" },
-            { "name": "Rigid Body Dynamics", "color": "#8B0000" },
-            { "name": "Hybrid Systems", "color": "#8B0000" },
-            { "name": "Impact Modeling", "color": "#8B0000" },
+            { "name": "Lagrangian Dynamics", "color": "#00008B" },
+            { "name": "Rigid Body Dynamics", "color": "#00008B" },
+            { "name": "Hybrid Systems", "color": "#00008B" },
+            { "name": "Impact Modeling", "color": "#00008B" },
             { "name": "Event-Based Simulation", "color": "#00008B" },
-            { "name": "Control Theory", "color": "#006400" },
-            { "name": "Virtual Constraints", "color": "#006400" },
-            { "name": "Nonlinear Control", "color": "#006400" },
-            { "name": "Trajectory Generation", "color": "#FF7300" },
-            { "name": "COM Tracking", "color": "#FF7300" }
+            { "name": "Control Theory", "color": "#00008B" },
+            { "name": "Virtual Constraints", "color": "#00008B" },
+            { "name": "Nonlinear Control", "color": "#00008B" },
+            { "name": "Trajectory Generation", "color": "#00008B" },
+            { "name": "COM Tracking", "color": "#00008B" }
           ]
         },
         {
@@ -165,18 +198,18 @@
           "items": [
             { "name": "MATLAB", "color": "#00008B" },
             { "name": "Physics-Based Simulation", "color": "#00008B" },
-            { "name": "Lagrangian Dynamics", "color": "#8B0000" },
-            { "name": "Rigid Body Dynamics", "color": "#8B0000" },
-            { "name": "Hybrid Systems", "color": "#8B0000" },
-            { "name": "Impact Modeling", "color": "#8B0000" },
-            { "name": "Bipedal Locomotion", "color": "#8B0000" },
-            { "name": "Feedback Control", "color": "#006400" },
-            { "name": "PI Control", "color": "#006400" },
-            { "name": "Event-Based State Machines", "color": "#006400" },
-            { "name": "Control Theory", "color": "#006400" },
-            { "name": "Nonlinear Optimization", "color": "#FF7300" },
-            { "name": "Trajectory Optimization", "color": "#FF7300" },
-            { "name": "Constrained Optimization", "color": "#FF7300" },
+            { "name": "Lagrangian Dynamics", "color": "#00008B" },
+            { "name": "Rigid Body Dynamics", "color": "#00008B" },
+            { "name": "Hybrid Systems", "color": "#00008B" },
+            { "name": "Impact Modeling", "color": "#00008B" },
+            { "name": "Bipedal Locomotion", "color": "#00008B" },
+            { "name": "Feedback Control", "color": "#00008B" },
+            { "name": "PI Control", "color": "#00008B" },
+            { "name": "Event-Based State Machines", "color": "#00008B" },
+            { "name": "Control Theory", "color": "#00008B" },
+            { "name": "Nonlinear Optimization", "color": "#00008B" },
+            { "name": "Trajectory Optimization", "color": "#00008B" },
+            { "name": "Constrained Optimization", "color": "#00008B" },
             { "name": "MATLAB fmincon", "color": "#00008B" },
             { "name": "Algorithm Development", "color": "#00008B" }
           ]
@@ -196,13 +229,13 @@
           "items": [
             { "name": "MATLAB", "color": "#00008B" },
             { "name": "Physics-Based Simulation", "color": "#00008B" },
-            { "name": "Hybrid Systems", "color": "#8B0000" },
-            { "name": "Impact Modeling", "color": "#8B0000" },
-            { "name": "Bipedal Locomotion", "color": "#8B0000" },
-            { "name": "Stability Analysis", "color": "#006400" },
-            { "name": "Poincaré Maps", "color": "#006400" },
-            { "name": "Linearization", "color": "#006400" },
-            { "name": "Rigid Body Dynamics", "color": "#8B0000" }
+            { "name": "Hybrid Systems", "color": "#00008B" },
+            { "name": "Impact Modeling", "color": "#00008B" },
+            { "name": "Bipedal Locomotion", "color": "#00008B" },
+            { "name": "Stability Analysis", "color": "#00008B" },
+            { "name": "Poincaré Maps", "color": "#00008B" },
+            { "name": "Linearization", "color": "#00008B" },
+            { "name": "Rigid Body Dynamics", "color": "#00008B" }
           ]
         }
       ]
