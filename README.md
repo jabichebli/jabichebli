@@ -1,11 +1,8 @@
 <p align="center"><img src="https://github.com/user-attachments/assets/944e2796-5f57-424f-a2aa-37e038ec4126" alt="image"/></p>
 
 <h1 align="center"> Hi, I'm Jason 👋 and Welcome to my Github! 🚀</h1>
-<h3 align="center">I dabble in a bit of code.... 😉</h3>
 
-- 🔭 I’m currently working on **mind control operation** and an **AI-integrated mobile app**
-
-- 🌱 I’m currently learning **Flutter**
+- 🔭 I’m currently working on **multi-agent collaboration** and a **cool mobile app**
 
 - 👨‍💻 All of my projects are available [here](https://jabichebli.github.io/jabichebli/)
 
